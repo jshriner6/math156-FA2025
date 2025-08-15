@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template based on a syllabus by Mitch Keller -->
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <article xml:id="syllabus">
+    <title>Mathematics for Computational Science 1: Fall 2025</title>
+    <subtitle>Math 156</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include chapters -->
+    <section xml:id="sec-course-details">
+      <title>Course Details</title>
+
+      <paragraphs>
+        <title>Course Meetings</title>
+
+        <p>
+          <dl>
+            <li>
+              <title>Time:</title>
+              <p>
+                M/T/W/F, 9:00am -- 9:50pm
+              </p>
+            </li>
+            <li>
+              <title>Place:</title>
+              <p>
+                Engineering E105
+              </p>
+            </li>
+          </dl>       
+        </p>
+      </paragraphs>  
+
+      <paragraphs>
+        <title>Course Instructor</title>
+        <p>
+          <dl>
+            <li>
+              <title>Instructor:</title>
+              <p>
+                Dr. Jeff Shriner
+              </p>
+            </li>
+            <li>
+              <title>Email:</title>
+              <p>
+                jeffrey.shriner@colostate.edu
+              </p>
+            </li>
+            <li>
+              <title>Phone:</title>
+              <p>
+                970.491.6695
+              </p>
+            </li>
+            <li>
+              <title>Office:</title>
+              <p>
+                Weber 236
+              </p>
+            </li>
+            <li xml:id="item-office-hour">
+              <title>Office Hours:</title>
+              <p>
+                M/W 10:00am -- 10:50am, or by appointment
+              </p>
+            </li>
+          </dl>       
+        </p>
+      </paragraphs>
+
+      <paragraphs>
+          <title>Course Communication</title>
+          <p>
+          E-mail is the best way to contact me for personal requests. You can expect a response within 24 hours on 
+          weekdays which either answers your question, or to set up a further meeting to discuss your request. 
+          You, in turn, are also expected to check your university email and our Canvas course regularly and respond in a 
+          timely manner.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Course Prerequisites</title>
+          <p>
+          MATH 124 with a B (or better); MATH 126 with a B (or better) or MATH 127 with a B (or better)
+          </p>
+      </paragraphs>
+
+      <paragraphs>
+          <title>Course Materials</title>
+          <dl>
+            <li>
+              <title>Textbook</title>
+              <p>
+              We will use the free open-access text
+              <url href="https://hdl.handle.net/10217/234999">Mathematics for Computational Science: lecture notes for MATH 156</url> 
+              by Dr. Alexander Hulpke, et al. There is also an <url href="https://htmlpreview.github.io/?https://github.com/hulpke/csbook/blob/main/mathforcs.html">HTML version of the text</url>.
+              The HTML version provides the most accessible experience.
+              </p>
+            </li>
+            <li>
+              <title>Canvas</title>
+              <p>
+              We will use <url href="https://canvas.colostate.edu/">Canvas</url> to organize grades and resources and to send
+              whole class announcements. Canvas can be accessed using your Colorado State University email, and should be 
+              checked for communications at least once each week day.
+              </p>
+            </li>
+            <li>
+              <title>myOpenMath (MOM)</title>
+              <p>
+                <url href="https://www.myopenmath.com/index.php">myOpenMath </url> is a (free) online homework system that you will use regularly to complete assignments that 
+                provide an opportunity for you to practice important skills required for success in this course.  myOpenMath provides immediate feedback on your work as well as the chance to attempt problems multiple times and with multiple versions. 
+              </p> 
+            </li>
+          </dl>
+        
+          <p>
+              We are invested in making all course materials as accessible as possible, and are committed to
+              the University's <url href="https://www.colostate.edu/accessibility-statement/">
+                  accessibility statement</url>. 
+              If you experience any barriers to access,
+              please communicate with me (email, call, or stop by in person) so that we can make improvements.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Course Content and Structure</title>
+          <p>
+            According to the course catalog, this course covers <q>Sets; relations; number systems; functions; sequences and series; concepts of differential and integral calculus as relevant to computational science</q>. 
+            These topics may sound abstract
+              (and can certainly be presented that way), but also have deep and meaningful applications to the world around
+              us. Our goal will be to understand these topics as mathematical objects, but also give proper attention to 
+              their usefulness around us. 
+          </p>
+          <p>
+              Our daily course meetings will emphasize active learning and a collaborative work environment. Please come to each meeting
+              prepared with any preparatory work, a device to access our course textbook and activities, and a willingness to actively
+              participate. You will be encouraged to use technology to explore and make sense of course topics, but this will 
+              not be the emphasis of in-class assessments. Therefore, you may not use a calculator, cell phone, computer, or tablet on any quiz or test.
+          </p>
+          
+      </paragraphs>
+
+
+    </section>
+
+    <section xml:id="sec-grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <title>Assignments, Assessments, and Grades</title>
+      
+
+      <paragraphs>
+        <title>Online Practice</title>
+        <p> You will have roughly bi-weekly online practice assignments on
+          <url href="https://www.myopenmath.com/index.php">myOpenMath </url>.
+          They will typically be due on Fridays by 11:59 pm MT. Online practice assignments are an opportunity to make mistakes and learn from them. 
+          You can attempt a problem multiple times before the due date. Your allowed attempts are finite, so please 
+          start assignments early and ask questions when you get a problem incorrect on your initial attempts. 
+          I will likely not be available for communication the evening of the due date, 
+          so please start early and plan to use help resources when they are available!
+        </p>
+      
+        <p>
+        You will need to create a (free) MyOpenMath account in order to access the homework. Use the following
+        information to enroll in our course. If you have issues with enrolling, please let me know as soon
+        as possible so you do not fall behind.
+        <ul>
+          <li>
+            <p>
+              The course ID: 287913
+            </p>
+          </li>
+          <li>
+            <p>
+              The enrollment key: M@4h!S6
+            </p>
+          </li>
+        </ul>
+        </p>
+        <p>
+          Note that your homework scores do not automatically transfer to the Canvas gradebook. They will be transferred shortly
+          after the due date of each homework set. You should always reference the Canvas gradebook for an accurate representation of your
+          homework grades and percentages (not the gradebook in myOpenMath).
+        </p>
+      </paragraphs>
+
+      <paragraphs>
+        <title>Quizzes</title>
+        <p>
+          Roughly every other Friday, we will have an in-class quiz that assesses topics we have covered in recent class meetings, which will be announced in advance.
+          These will typically correspond with the due dates of the online practice covering similar material. 
+          Quizzes will be comprised of questions similar to those in myOpenMath, as well as the Exercises in the supplemental
+          <q>Notes</q> section of myOpenMath. If you exhibit appropriate effort in preparing for quizzes, there will also 
+          be a corrections opportunity offered to earn points back on your quiz. Details of <q>appropriate effort</q> and 
+          how to complete corrections will be shared in class. In general there are no makeup quizzes, but 
+          your lowest quiz grade will be dropped at the end of the semester.
+          
+        </p>
+        <p>
+          This is a very important component of our course for the following reasons:
+          <ul>
+            <li>
+              <p>
+                Learning is a process. You will be given multiple opportunities to master a concept, but you are expected to do so eventually.
+              </p>
+            </li>
+            <li>
+              <p>
+                Frequent assessment is good for learning.  Think of these quizzes as a tool for learning rather than just assessment. 
+              </p>
+            </li>
+            <li>
+              <p>
+                Keeping up with course material is important.  These quizzes will be one way of informing both you and me about your progress in the course.
+              </p>
+            </li>
+          </ul>  
+        </p>
+
+      </paragraphs>
+
+      <paragraphs>
+        <title>Exams</title>
+        <p>
+          We will have two in-class midterms, and one cumulative final exam
+          during finals week.
+        </p>
+        <dl>
+          <li>
+            <title>Midterm</title>
+            <p>
+              The midterms are tentatively scheduled for Tuesday, October 14 (week 8) and Tuesday, November 18 (week 13), 
+              in class.
+            </p>
+          </li>
+          <li>
+            <title>Final</title>
+            <p>
+              The final exam is scheduled for Wednesday, December 17 from 4:10pm -- 6:10pm, in our normal classroom. 
+            </p>
+            <p>
+              The final will be cumulative, split into three sections corresponding to content covered on each midterm and content not yet covered on the midterms.
+              We know that it can take time to learn new concepts. Therefore, if your percentage score in the first two sections exceeds your score on the corresponding midterms, we will replace your midterm scores with your section scores from the final. 
+            </p>
+            <p>
+            <em>In general, makeup midterms will be administered during the final exam, unless you have a University excused absence. We will also consider requests from student case management.</em>
+            </p>
+          </li>
+        </dl>
+        
+      </paragraphs>
+      <paragraphs>
+        <title>Grades</title>
+        <p> Overall grade percentages will be calculated based on the following weighting:
+          <ul>
+              <li> myOpenMath (<m>20\%</m>) </li>
+              <li> Quizzes (<m>20\%</m>) </li>
+              <li> Midterms (2) (<m>40\%</m>) </li>
+              <li> Final Exam (<m>20\%</m>) </li>
+          </ul>
+        </p>
+      
+        <p>Letter grades will be assigned according to a scale no stricter than the following:
+          <dl>
+            <li> <title>A </title> <p><m> [90,100]</m> </p></li>
+            <li> <title>B </title> <p><m> [80,90)</m> </p></li>
+            <li> <title>C </title> <p><m> [70,80)</m> </p></li>
+            <li> <title>D </title> <p><m> [60,70)</m> </p></li>
+            <li> <title>F </title> <p><m> [0,60)</m> </p></li>
+          </dl>
+        </p>
+      </paragraphs>
+
+    </section>
+
+    <section xml:id="sec-schedule">
+      <title>Tentative Schedule</title>
+      <p>
+        Below is a tentative schedule for what topics will be covered when.
+        <dl>
+          <li>
+            <title>Week 1</title>
+            <p>
+              Introduction and Expectations, Sets and Logic (<m>\S I.1, \S I.2, \S I.3, \S I.4, \S I.6 </m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 2</title>
+            <p>
+              Logic, Connecting Elements (<m>\S I.5, \S II.1, \S II.2</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 3</title>
+            <p>
+              Properties of Relations, Equivalence Relations, Integers and Rationals, Remainders and Modulo  (<m>\S II.3 - \S II.6 </m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 4</title>
+            <p>
+              Remainders and Modulo, Functions (<m>\S II.6 - \S III.3</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 5</title>
+            <p>
+              Functions, Bijections and Inverses, Counting and Cardinality, Sequences (<m>\S III.4 - \S IV.1</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 6</title>
+            <p>
+              Recursion, Monoton and Bounded Sequences, Convergence, Limits, Bounds and <m>\mathbb{R}</m> (<m>\S IV.2 - \S IV.5</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 7</title>
+            <p>
+              Series, Review (<m>\S IV.6 - \S IV.8</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 8</title>
+            <p>
+              Review, Midterm 1, Limits and Continuity (<m>\S V.1, \S V.2</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 9</title>
+            <p>
+              Derivatives (<m>\S V.5 - \S V.8</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 10</title>
+            <p>
+              Derivative Rules, Higher Derivatives, Describing Functions (<m>\S V.9 - \S VI.2</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 11</title>
+            <p>
+              Optimization, Newton's Method, Indefinite Limits, Complexity (<m>\S VI.3 - VI.6</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 12</title>
+            <p>
+              Taylor Polynomials and Series, Solving Recursions, Review (<m>\S VII.1 - \S VII.3</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 13</title>
+            <p>
+              Review, Midterm 2, Integration, Antiderivatives (<m>\S VIII.1, \S VIII.2</m>)
+            </p>
+          </li>
+          <li>
+            <title>Fall Recess</title>
+          </li>
+          <li>
+            <title>Week 14</title>
+            <p>
+              Review, Integration Techniques, Definite Integrals(<m>\S VIII.3 - \S VIII.5</m>)
+            </p>
+          </li>
+          <li>
+            <title>Week 15</title>
+            <p>
+              The Fundamental Theorem of Calculus, Cumulative Review (<m>\S VIII.6</m>)
+            </p>
+          </li>
+          <li>
+            <title>Finals Week</title>
+          </li>
+
+        </dl>
+      </p>
+      
+    </section>
+
+    <section xml:id="sec-policies">
+      <title>Course and University Policies</title>
+      <paragraphs>
+        <title>Basic Needs Security</title>
+        <p>
+        Any student who faces challenges securing their food or housing can receive support from the 
+        <url href="https://lsc.colostate.edu/slice/community-engagement/rams-against-hunger/">Rams Against Hunger program</url>. 
+        Services include a food pantry, a meal-swipe program, pocket pantries, and in-person assistance with navigating 
+        federal aid eligibility. The RAH page includes numerous resources as well as county, state and federal programs which 
+        are described and linked. Furthermore, please notify the instructor if you are comfortable in doing so.
+        </p>
+        
+      </paragraphs>
+
+      <paragraphs>
+          <title>Classroom Behavior, Respect for Diversity and Inclusion</title>
+          <p>
+              Students and faculty each have responsibility for maintaining an appropriate learning environment. 
+              Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and 
+              sensitivity are especially important with respect to individuals and topics dealing with differences of race, 
+              color, culture, religion, creed, politics, veteran's status, sexual orientation, gender, gender identity and 
+              gender expression, age, disability, and nationalities. Class rosters are provided to the instructor with the 
+              student's legal name. I will gladly honor your request to address you by an alternate name or gender pronoun. 
+              Please advise me of this preference early in the semester so that I may make appropriate changes to my records. 
+              For more information, see the policies on classroom behavior and the student code at 
+              <url href="https://catalog.colostate.edu/general-catalog/policies/students-responsibilities/">the catalog</url> 
+              and at <url href="https://resolutioncenter.colostate.edu/conduct/">the SRC</url>.
+          </p>
+          <p>
+              We acknowledge that many students have had experiences that have left them feeling excluded from the field of 
+              mathematics. We also acknowledge that students from minority groups have been disproportionately impacted. 
+              We are making this explicit statement because this unfortunate reality is inconsistent with the truth that you 
+              can be successful in mathematics, regardless of your race, ethnicity, gender, or sexual orientation. We are 
+              committed to decolonizing mathematics into a field where every student feels supported in accomplishing the 
+              hard work necessary to become better problem solvers. We learn more by listening to diverse perspectives, 
+              and we hope you will be ready and willing to share yours in this course.
+          </p>
+          <p>
+              Here are several resources that highlight the past and current contributions to the mathematics community from 
+              underrepresented groups:
+          
+              <ol>
+                  <li>
+                      <url href="https://sites.google.com/view/meetamathematician/home">Meet A Mathematician</url>
+                  </li>
+                  <li>
+                      <url href="https://mathematicallygiftedandblack.com/">Mathematically Gifted and Black</url>
+                  </li>
+                  <li>
+                      <url href="https://www.lathisms.org/">Lathisms</url>
+                  </li>
+                  <li>
+                      <url href="https://indigenousmathematicians.org/">Indigenous Mathematicians</url>
+                  </li>
+                  <li>
+                      <url href="https://www.lgbtmath.org/">Spectra</url>
+                  </li>
+                  <li>
+                      <url href="https://awm-math.org/">Association for Women in Mathematics</url>
+                  </li>
+                  <li>
+                      <url href="https://www.mathad.com/home">Mathematicians of the African Diaspora</url>
+                  </li>
+              </ol>
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Accommodation for Disabilities</title>
+          <p>
+              If you are a student who will need accommodations in this class due to a disability or chronic health condition, 
+              I will need an accommodation letter from the Student Disability Center (SDC) before they are implemented. 
+              Please meet with me during my office hours to give me the letter and/or to further discuss your needs.
+          </p>
+          <p>
+              If you do not already have these letters, please contact the SDC as soon as possible to initiate the 
+              accommodation process. The SDC is located in room 121 of the TILT building. Contact them at 970-491-6385 or visit 
+              <url href="https://disabilitycenter.colostate.edu/">the SDC website</url>.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Student Parents/Guardians/Caregivers</title>
+          <p>
+              I realize that student parents/guardians and caregivers face distinctive challenges in succeeding academically, 
+              and I'm committed to supporting those of you who are parents to achieve our course's learning outcomes. If you 
+              encounter challenges in meeting course expectations, please contact me as soon as possible. We'll develop a plan 
+              together so you can be successful in the course.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Student Case Management</title>
+          <p>
+          <url href="https://studentcasemanagement.colostate.edu/">Student case management</url> is available to help students 
+          with extenuating life circumstances and connect them with resources. In some cases, after you and I discuss your 
+          situation, I may request verifiable documentation for class absences from the SCM office if you request considerations 
+          for absences or missed coursework.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Mental Health and Wellness</title>
+          <p>
+          CSU is a community that cares. You are not alone. CSU Health Network Counseling Services has trained professionals 
+          who can help. Your student fees provide access to a wide range of support services. Call Counseling Services at 
+          (970) 491-6053, and they will work together with you to find out which services are right for you. Visit 
+          <url href="https://health.colostate.edu/about-hn-mental-health-services/">counseling services</url> to learn more and 
+          <url href="https://health.colostate.edu/mental-health-resources/">mental health resources</url> for additional 
+          student mental health and well-being resources. If you are concerned about a friend or peer, use Tell Someone by c
+          alling (970) 491-1350 or visiting <url href="https://supportandsafety.colostate.edu/tell-someone/">Tell Someone</url> 
+          to share your concerns with a professional who can discreetly connect the distressed individual with the proper 
+          resources. Rams Take Care of Rams. Reach out and ask for help if you or someone you know is having a difficult time.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Religious Observances and Class Attendance</title>
+          <p>
+          CSU has a legal obligation to accommodate students' absences due to religious observances. For such an accommodation, 
+          it is the student's responsibility to complete the Religious Accommodation Request Form at the beginning of each 
+          semester and submit the request via the Office of the Vice President for Student Affairs website. The Dean of Students 
+          will communicate with the instructor regarding the student's absence and the student is instructed to discuss how 
+          best to ensure an accommodation related to class conflicts. For religious observances that cannot reasonably be 
+          anticipated at the beginning of the semester, students must follow the procedure above as soon as possible after the 
+          course conflict is identified. If a student knows that a particular course or section of the course will have multiple 
+          conflicts with his or her religious obligations, the student is advised to locate another course section or defer 
+          taking the course to a different semester. In the event of a conflict in regards to this policy, individuals may 
+          appeal using established CSU procedures. Instructors are advised to provide reasonable accommodations to ensure 
+          compliance with CSU's obligations. See more details regarding attendance policies at 
+          <url href="https://catalog.colostate.edu/general-catalog/academic-standards/academic-policies/">the catalog</url>.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Discrimination and Harassment</title>
+          <p>
+              CSU is committed to providing an environment that respects the dignity and worth of every member of its community. 
+              CSU strives to create and maintain a work and study environment that is fair, inclusive, and responsible so that 
+              each member of the CSU community is treated with dignity and respect and is rewarded for relevant considerations 
+              such as ability and performance. CSU has adopted a comprehensive policy to define the types of conduct that are 
+              prohibited and to prevent harm arising from discrimination, harassment, sexual harassment, sexual misconduct, 
+              domestic violence, dating violence, stalking, and retaliation. Conduct that is discriminatory or harmful under 
+              the policy inhibits the achievement of the stated goals. All students, faculty, staff, and other persons having 
+              business with CSU are expected to know and follow this policy.
+          </p>
+          <p>
+              Details regarding what is involved in bringing a complaint and the procedures for informal and formal resolution 
+              are available from the Office of Support and Safety Assessment for student-to-student behavior and the Office of 
+              Equal Opportunity for matters involving non-students such as faculty, staff, affiliates, or visitors and matters 
+              involving a student and non-student person. See more details at 
+              <url href="https://catalog.colostate.edu/general-catalog/policies/discrimination-harassment/">the catalog</url>.
+          </p>
+          
+      </paragraphs>
+
+      <paragraphs>
+          <title>Academic Integrity and the Honor Code</title>
+          <p>
+              We learn best together, which is why there is a large amount of collaboration built into our course structure. 
+              However, there is a difference between learning together and using someone else's work. If you are wondering if 
+              you crossed the line, ask yourself "Could I start over and redo this on my own, and would it basically look 
+              like this?" If not, then you are submitting someone else's work (plagiarism). Copying solutions or statements 
+              from the internet wihthout citing your source also constitutes plagiarism. We take academic integrity seriously,
+              so all cases of plagiarized work or cheating will receive a 0 and will be submitted to the SRC.
+          </p>
+          <p>
+              This course will adhere to the CSU Academic Integrity Policy as found in the Colorado State University General 
+              Catalog and the Student Conduct Code. At a minimum, violations will result in a grading penalty in this course 
+              and a report to the Office of Conflict Resolution and Student Conduct Services. See more details at 
+              <url href="https://catalog.colostate.edu/general-catalog/policies/students-responsibilities/#academic-integrity">the catalog</url> 
+              and <url href="https://tilt.colostate.edu/Integrity/Pledge/">TILT</url>.
+          </p>
+          
+      </paragraphs>
+      <paragraphs>
+        <title>Syllabus Disclaimer</title>
+        <p>
+            Please be aware that this syllabus is a guideline and is subject to change. The instructor reserves the 
+            right to make adjustments to the course schedule, assignments, and grading policies as deemed necessary. 
+            Students will be notified of any changes in a timely manner.
+        </p>
+        
+      </paragraphs>
+      
+    </section>
+  </article>
+</pretext>
