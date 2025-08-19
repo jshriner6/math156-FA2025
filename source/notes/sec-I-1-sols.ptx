@@ -2,28 +2,58 @@
 
 <pretext>
     <article xml:id="notes">
-        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-I-1">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-I-1-sols">
         <title>Introduction and <m>\S I.1</m>: Sets and Elements</title>
         <page>
             
-                <exercise workspace="0.5in" xml:id="xr-why">
+                <exercise workspace="0.5in" xml:id="xr-why-sols">
                 <title>Why? Traditional Calculus vs. Math 156</title>
+                <statement>
+                    
+                </statement>
+                <solution>
+                    <p>
+                        Traditional calculus courses typically emphasize algebra/trigonometry, an introduction to 
+                        limits (infinity and infinitesimals), and derivatives and integrals (tools for measuring change). Ultimately the goal is 
+                        to be able to approach differential equations, which help us model physical applications.
+                    </p>
+                    <p>
+                        In math 156, we emphasize logic/relations, functions, derivatives and integrals (with applications), and 
+                        sequences/series. The goal is to emphasize tools that help us program and compute.
+                    </p>
+                </solution>
             
                 </exercise>
 
-                <exercise workspace="0.5in" xml:id="xr-motivation">
+                <exercise workspace="0.5in" xml:id="xr-motivation-sols">
                 <title>Motivation: Sets and Elements</title>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Sets are one of the most basic structures that we use in mathematics, and they're used often in building 
+                        other objects and in writing algorithms. 
+                    </p>
+                </solution>
                     
                 </exercise>
         
 
-                <exercise workspace="0.55in" xml:id="xr-def-set">
+                <exercise workspace="0.55in" xml:id="xr-def-set-sols">
                 <title>Definition: Set</title>
                     <statement>
                         <p>
                         A <term>set</term> is
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            a collection of objects, called <term>elements</term>.
+                        </p>
+                    </solution>
                 </exercise>
             </page>
 
@@ -32,7 +62,7 @@
                     The following exercises will introduce the important notation (i.e., symbols) used to to communicate
                         sets, and the various ways we can build them.
                 </p>
-                <exercise xml:id="xr-act1">
+                <exercise xml:id="xr-act1-sols">
                 <title>Activity: Sets and Elements</title>
                 <introduction>
                     <p>
@@ -78,6 +108,12 @@
                             Do you think any sets are the same? Explain your reasoning.
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            Sets <m>A</m> and <m>D</m> are the same, and sets <m>B</m> and <m>E</m> are the same. Two sets 
+                            are equal if they contain the same elements (order and repetition are disregarded).
+                        </p>
+                    </solution>
                 </task>
                 <task workspace="5in">
                     <statement>
@@ -108,6 +144,32 @@
                             </ol>
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        The number <m>3</m> is an element of the set <m>A</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The number <m>3</m> is not an element of the set <m>B</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The number of elements (or <term>cardinality</term>) of sets <m>C</m> and <m>F</m> is <m>5</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The set <m>A</m> is an element of the set <m>F</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
                 </task>
                 <task workspace="2in">
                     <statement>
@@ -167,6 +229,14 @@
                             notation for <m>S_1</m>.
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            The set <m>S_1</m> is all elements <m>x</m> in <m>A</m> such that <m>x</m> is greater than two. The 
+                            symbol "<m>|</m>" reads "such that". It is also common to use a colon ()"<m>:</m>") to indicate the
+                            same thing. The left hand side of set builder notation indicates a variable  for elements in the set, while the right
+                            hand side (called the <term>predicate</term>) indicates a condition that must be met to be in the set.
+                        </p>
+                    </solution>
                 </task>
                 <task workspace="2in">
                     <statement>
@@ -175,6 +245,32 @@
                             in more common language. Are any sets equal?
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>S_2= \{\text{CO}\}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>S_3</m> is the set of all positive even integers.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>S_4</m> is also the set of all positive even integers.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>S_5= \{4, 16, 36\}</m> 
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
                 </task>
                 <task workspace="1in">
                     <statement>
@@ -194,6 +290,23 @@
                             </ol>
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        TRUE
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        FALSE. The left hand side indicate the cardinality of a set, which should be a number, not a set.
+                                        To make this true, replace <m>\{3\}</m> with <m>3</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
                 </task>
                     
                 </exercise>
@@ -209,27 +322,53 @@
                         <ol>
                             <li>
                                 <p>
-                                    <m>\Z=</m>
+                                    <m>\Z= </m> 
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>\N = </m>
+                                    <m>\N=</m> 
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>\Q = </m>
+                                    <m>\Q= </m> 
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>\R =</m>
+                                    <m>\R= </m> 
                                 </p>
                             </li>
                         </ol>
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                            <li>
+                                <p>
+                                    <m>\Z= \{...-3,-2,-1,0,1,2,3,...\}</m> (Integers)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\N=\{n \in \Z | n \gt 0\}</m> (Natural Numbers)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\Q= \{\frac{a}{b} | a,b \in \Z, b \neq 0 \}</m> (Rational Numbers)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\R=\{x | x \text{ is on the number line}\}</m> (Real Numbers)
+                                </p>
+                            </li>
+                        </ol>
+                        </p>
+                    </solution>
                     
                 </exercise>
 
@@ -271,7 +410,42 @@
                             </ol>
                         </p>
                     </statement>
-                    
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        FALSE
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        TRUE  
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        FALSE
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        TRUE  
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        TRUE
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        FALSE  
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
                     
                     
                 </exercise>
