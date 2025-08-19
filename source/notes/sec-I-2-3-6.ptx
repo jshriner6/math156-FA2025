@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-I-2-3-6">
+        <title><m>\S I.2,3,6</m>: Sets From Sets</title>
+            <page>
+                <exercise workspace=".5in">
+                    <title>Motivation: Sets from Sets</title>
+                    <statement>
+                        <p>
+                            There are many useful ways to obtain sets from other sets. Intuitively, we may want to:
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Definition: Subset</title>
+                    <p>
+                        Let <m>A</m> and <m>B</m> be sets. <m>A</m> is a <term>subset</term> of <m>B</m> if 
+                    </p>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Example: Subsets</title>
+                    <p>
+                        Let <m>B=\{1,2,3\}</m>. What are all of the subsets of <m>B</m>?
+                    </p>
+                    
+                </exercise>
+                <exercise workspace=".5in">
+                    <title>Useful Fact: Subsets and Equality</title>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="2in">
+                    <title>Activity: Subsets</title>
+                    <statement>
+                        <p>
+                            Let <m>S=\{1,2,3,\{1,2\}, \{1,2,3\} \}</m>. Determine if the following are TRUE or FALSE.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\{1\} \in S</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\{1,2,3\} \in S</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\{1,2,3\} \subset S</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m> \{\{1,2,3\} \} \subset S</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\{2,3\} \subset S</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\{2,3\} \in S</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\R \subset \Q \subset \Z \subset \N </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Definition: Power Set</title>
+                    <statement>
+                        <p>
+                            Let <m>S</m> be a set. The <term>power set of <m>S</m></term> is
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace=".5in">
+                    <title>Example: Power Set</title>
+                    <statement>
+                        <p>
+                            <m>P(\{0,1\}) = </m>
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise workspace=".25in">
+                    <title>Activity: Power Set Cardinality</title>
+                    <statement>
+                        <p>
+                            <m>|P(S)| = </m>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace=".25in">
+                    <statement>
+                        
+                        <image source="venn.jpeg" width="50%">
+                            <shortdescription>A venn diagram. Two overlapping circles, one labeled A and one labeled B.</shortdescription>
+                        </image>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>A \cup B = </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>A \setminus B = </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>A \cap B = </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace=".25in">
+                    <title>Activity: Union, Difference and Intersection</title>
+                    
+                    <task>
+                    <statement>
+                        <p>
+                            Let <m>A=\{-1,0,1,2,3\}</m> and <m>B= \{1,2,3,5,7,8 \}</m>. Compute
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>A \cap B</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>A \cup B</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>A \setminus B</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>B \setminus A</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Let <m>A</m> and <m>B</m> be sets. Determine if the following are TRUE or FALSE.
+                            
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>A \cap B = B \cap A </m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>A \cup B = B \cup A </m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>A \cap B \subset A </m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>A \subset A \cup B </m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>A \setminus B \subset A </m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(A \setminus B) \cup (A \cap B) = A </m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(A \setminus B) \cap (A \cap B) = \emptyset </m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Example: Distributive Properties</title>
+                    <statement>
+                        <p>
+                            <m>A \cap (B \cup C) = </m>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace=".5in">
+                    <title>Activity: Distributive Properties</title>
+                    <statement>
+                        <p>
+                            <m>A \cup (B \cap C) = </m>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace=".5in">
+                    <title>Note: Universal Sets and Complements</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise workspace=".25in">
+                    <title>Example: DeMorgan's Laws</title>
+                    <statement>
+                        <p>
+                            Let <m>A</m> and <m>B</m> be subsets of a universal set <m>U</m>. 
+                            <me>
+                                (A \cup B)^C = 
+                            </me>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace=".5in">
+                    <title>Activity: DeMorgan's Laws</title>
+                    <statement>
+                        <p>
+                            <m>(A \cap B)^C = </m>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="1in">
+                    <title>Ordered Pairs</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Definition: Cartesian Product</title>
+                    <statement>
+                        <p>
+                            Given sets <m>A</m> and <m>B</m>, the <term>Cartesian product</term> of <m>A</m> and <m>B</m> is
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Example: Cartesian Product</title>
+                    <statement>
+                        <p>
+                            Let <m>A = \{1,2,3\}</m> and <m>B= \{4,5\}</m>. Then
+                            <me>
+                                A \times B = 
+                            </me>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace=".25in">
+                    <title>Activity: Cardinality of Cartesian Products</title>
+                    
+                    <statement>
+                        <p>
+                            <m>|A \times B| = </m>
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+
+
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Tuples and Index sets</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Multisets</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

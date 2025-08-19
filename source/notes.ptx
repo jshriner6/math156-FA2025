@@ -13,6 +13,7 @@
 
     <xi:include href="./notes/sec-I-1.ptx" xpointer="sec-I-1" />
     <!-- <xi:include href="./notes/sec-I-1-sols.ptx" xpointer="sec-I-1-sols" /> -->
+     <xi:include href="./notes/sec-I-2-3-6.ptx" xpointer="sec-I-2-3-6" />
 
 
     <!-- SAMPLES
