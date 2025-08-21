@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-I-4">
+        <title><m>\S I.4</m>: Connections to (classical) Logic</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Logic </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace=".5in">
+                    <title>Propositions and Operations</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Truth Tables</title>
+                    <statement>
+                        <p>
+                            Operations on propositions result in new propositions. To keep track of the resulting truth 
+                            values, we can use <term>truth tables</term>.
+                        </p>
+                        <sidebyside>
+                            <tabular>
+                                <row header="yes" bottom="major">
+                                    <cell><m>p</m></cell>
+                                    <cell><m>\neg p</m></cell>
+                                </row>
+                                <row>
+                                    <cell>T</cell>
+                                    <cell></cell>
+                                </row>
+                                <row>
+                                    <cell>F</cell>
+                                    <cell></cell>
+                                </row>
+                            </tabular>
+
+                            <tabular>
+                                <row header="yes" bottom="major">
+                                    <cell><m>p</m></cell>
+                                    <cell><m>q</m></cell>
+                                    <cell><m>p \wedge q</m></cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                            </tabular>
+
+                            <tabular>
+                                <row header="yes" bottom="major">
+                                    <cell><m>p</m></cell>
+                                    <cell><m>q</m></cell>
+                                    <cell><m>p \vee q</m></cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                            </tabular>
+                        </sidebyside>
+                    </statement>
+                    
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace=".25in">
+                    <title>Logic and Sets</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Conditional Statements</title>
+                    <statement>
+                        <p>
+                            We can combine propositions in two more important ways:
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Example: Determining truth values of complicated propositions</title>
+                    <statement>
+                        <p>
+                            Determine the truth table for the proposition 
+                            <me>
+                                p \to q \to \neg p \vee q
+                            </me>.
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="1in">
+                    <title>Important Conditional Statements</title>
+                    <statement>
+                        <p>
+                            For the conditional statement <m>p \to q</m>, we can form three other (related) conditional
+                            statements:
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise>
+                    <title>Practice</title>
+                    <task workspace="1.5in">
+                    
+                        <statement>
+                            <p>
+                               
+                            Let <m>p</m> be the proposition "It is snowing" and <m>q</m> be the proposition
+                            "CSU is closed for the day". Translate the following to English sentences.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>q \to p</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\neg p \to \neg q</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>p \wedge q</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>p \longleftrightarrow q</m>
+                                    </p>
+                                </li>
+                            </ol>
+                            
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1.5in">
+                        <statement>
+                            <p>
+                                Use truth tables to show that <m>p \to q</m> is logically equivalent (i.e., has the same truth
+                                table) to <m>\neg q \to \neg p</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1.5in">
+                        <statement>
+                            <p>
+                                Without using truth tables, explain why the inverse and converse of <m>p \to q</m> are
+                                logically equivalent.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+
+    </article>
+</pretext>
