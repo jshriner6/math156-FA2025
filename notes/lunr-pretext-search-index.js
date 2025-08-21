@@ -269,6 +269,87 @@ var ptx_lunr_docs = [
   "number": "21",
   "title": "Multisets.",
   "body": " Multisets      "
+},
+{
+  "id": "sec-I-4",
+  "level": "1",
+  "url": "sec-I-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S I.4\\text{:}\\)<\/span> Connections to (classical) Logic",
+  "body": " : Connections to (classical) Logic    Motivation: Logic        Propositions and Operations        Truth Tables   Operations on propositions result in new propositions. To keep track of the resulting truth values, we can use truth tables .         T     F                                             Logic and Sets        Conditional Statements   We can combine propositions in two more important ways:     Example: Determining truth values of complicated propositions   Determine the truth table for the proposition .       Important Conditional Statements   For the conditional statement , we can form three other (related) conditional statements:     Practice    Let be the proposition \"It is snowing\" and be the proposition \"CSU is closed for the day\". Translate the following to English sentences.                            Use truth tables to show that is logically equivalent (i.e., has the same truth table) to .      Without using truth tables, explain why the inverse and converse of are logically equivalent.      "
+},
+{
+  "id": "sec-I-4-2-1",
+  "level": "2",
+  "url": "sec-I-4.html#sec-I-4-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Logic.",
+  "body": " Motivation: Logic      "
+},
+{
+  "id": "sec-I-4-2-2",
+  "level": "2",
+  "url": "sec-I-4.html#sec-I-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Propositions and Operations.",
+  "body": " Propositions and Operations      "
+},
+{
+  "id": "sec-I-4-2-3",
+  "level": "2",
+  "url": "sec-I-4.html#sec-I-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Truth Tables.",
+  "body": " Truth Tables   Operations on propositions result in new propositions. To keep track of the resulting truth values, we can use truth tables .         T     F                                         "
+},
+{
+  "id": "sec-I-4-3-1",
+  "level": "2",
+  "url": "sec-I-4.html#sec-I-4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Logic and Sets.",
+  "body": " Logic and Sets      "
+},
+{
+  "id": "sec-I-4-3-2",
+  "level": "2",
+  "url": "sec-I-4.html#sec-I-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Conditional Statements.",
+  "body": " Conditional Statements   We can combine propositions in two more important ways:   "
+},
+{
+  "id": "sec-I-4-3-3",
+  "level": "2",
+  "url": "sec-I-4.html#sec-I-4-3-3",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: Determining truth values of complicated propositions.",
+  "body": " Example: Determining truth values of complicated propositions   Determine the truth table for the proposition .   "
+},
+{
+  "id": "sec-I-4-4-1",
+  "level": "2",
+  "url": "sec-I-4.html#sec-I-4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Important Conditional Statements.",
+  "body": " Important Conditional Statements   For the conditional statement , we can form three other (related) conditional statements:   "
+},
+{
+  "id": "sec-I-4-4-2",
+  "level": "2",
+  "url": "sec-I-4.html#sec-I-4-4-2",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Practice.",
+  "body": " Practice    Let be the proposition \"It is snowing\" and be the proposition \"CSU is closed for the day\". Translate the following to English sentences.                            Use truth tables to show that is logically equivalent (i.e., has the same truth table) to .      Without using truth tables, explain why the inverse and converse of are logically equivalent.    "
 }
 ]
 
