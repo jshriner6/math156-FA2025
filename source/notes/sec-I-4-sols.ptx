@@ -266,6 +266,46 @@ https://jshriner6.github.io/math156-FA2025/notes/sec-I-2-3-6.html#sec-I-2-3-6-5-
                                 </li>
                             </ol>
                         </p>
+                        <p>
+                            The two propositions above have the following truth table:
+                            <tabular>
+                                <row header="yes" bottom="major">
+                                    <cell><m>p</m></cell>
+                                    <cell><m>q</m></cell>
+                                    <cell><m>p \to q</m></cell>
+                                    <cell><m>q \to p</m></cell>
+                                    <cell><m>p \longleftrightarrow q</m></cell>
+                                </row>
+                                <row>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                </row>
+                                <row>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                </row>
+                                <row>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                </row>
+                                <row>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                </row>
+                            </tabular>
+                        </p>
                     </solution>
                     
                 </exercise>
@@ -281,6 +321,52 @@ https://jshriner6.github.io/math156-FA2025/notes/sec-I-2-3-6.html#sec-I-2-3-6-5-
                             
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <tabular>
+                                <row header="yes" bottom="major">
+                                    <cell><m>p</m></cell>
+                                    <cell><m>q</m></cell>
+                                    <cell><m>p \to q</m></cell>
+                                    <cell><m>\neg p</m></cell>
+                                    <cell><m>\neg p \vee q</m></cell>
+                                    <cell><m>(p \to q) \to (\neg p \vee q)</m></cell>
+                                </row>
+                                <row>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                </row>
+                                <row>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                </row>
+                                <row>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                </row>
+                                <row>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                </row>
+                            </tabular>
+                        </p>
+                    </solution>
                     
                 </exercise>
             </page>
@@ -293,7 +379,27 @@ https://jshriner6.github.io/math156-FA2025/notes/sec-I-2-3-6.html#sec-I-2-3-6-5-
                             statements:
                         </p>
                     </statement>
-                    
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\neg p \to \neg q</m>, called the <term>inverse statement</term>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>q \to p</m>, called the <term>converse statement</term>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\neg q \to \neg p</m>, called the <term>contrapositive statement</term>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
                     
                 </exercise>
                 <exercise>
@@ -330,6 +436,34 @@ https://jshriner6.github.io/math156-FA2025/notes/sec-I-2-3-6.html#sec-I-2-3-6-5-
                             
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <ol>
+                                    <li>
+                                        <p>
+                                            If CSU is closed for the day, then it is snowing.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            If it is not snowing, then CSU is not closed for the day.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            It is snowing and CSU is closed for the day.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            It is snowing if and only if CSU is closed for the day. (Equivalently,
+                                            If it is snowing then CSU is closed for the day, and if CSU is closed
+                                            for the day then it is snowing.)
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="1.5in">
                         <statement>
@@ -338,6 +472,52 @@ https://jshriner6.github.io/math156-FA2025/notes/sec-I-2-3-6.html#sec-I-2-3-6-5-
                                 table) to <m>\neg q \to \neg p</m>.
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <tabular>
+                                <row header="yes" bottom="major">
+                                    <cell><m>p</m></cell>
+                                    <cell><m>q</m></cell>
+                                    <cell><m>p \to q</m></cell>
+                                    <cell><m>\neg p</m></cell>
+                                    <cell><m>\neg q</m></cell>
+                                    <cell><m>\neg q \to \neg p</m></cell>
+                                </row>
+                                <row>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                </row>
+                                <row>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                </row>
+                                <row>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                </row>
+                                <row>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>T</cell>
+                                    <cell>F</cell>
+                                    <cell>T</cell>
+                                </row>
+                            </tabular>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="1.5in">
                         <statement>
@@ -346,6 +526,13 @@ https://jshriner6.github.io/math156-FA2025/notes/sec-I-2-3-6.html#sec-I-2-3-6-5-
                                 logically equivalent.
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                The inverse statement is the contrapositive of the converse statement. By the result of the previous
+                                question, these are logically equivalent. 
+            
+                            </p>
+                        </solution>
                     </task>
                     
                     
