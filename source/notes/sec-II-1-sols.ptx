@@ -1,0 +1,80 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-1-sols">
+        <title><m>\S II.1</m>: Connecting Elements</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Relations </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Definition and Example: Relation</title>
+                    <statement>
+                        <p>
+                            A <term>relation</term> between sets <m>A</m> and <m>B</m> is
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Familiar Relations</title>
+                    <statement>
+                        <p>
+                            The following are all relations on <m>\R \times \R</m>. Write at least three elements in each
+                            relation as elements of <m>\R \times \R</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="5in">
+                    <title>Representations of Relations</title>
+                    <statement>
+                        <p>
+                            We can represent relations in multiple ways. Let <m>A= \{1, 2, 3, 4\}</m>, and 
+                            <m>R \subset A \times A</m> be the relation defined by "<m>\lt</m>".
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="3in">
+                    <title>Definitions: Source, target, domain, and range</title>
+                    <statement>
+                        <p>
+                            Let <m>R \subset A \times B</m> be a relation.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Practice: Domain and Range</title>
+                    <statement>
+                        <p>
+                            Let <m>S=\{1,2,3,4,5\}</m>, and <m>R \subset S \times S</m> be the relation 
+                            <m>\{(a,b) \in S \times S | b \lt a\}</m>. What is the domain? What is the range?
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            
+        </worksheet>
+    </article>
+</pretext>
