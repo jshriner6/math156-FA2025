@@ -232,7 +232,7 @@
                     <solution>
                         <p>
                             The set <m>S_1</m> is all elements <m>x</m> in <m>A</m> such that <m>x</m> is greater than two. The 
-                            symbol "<m>|</m>" reads "such that". It is also common to use a colon ()"<m>:</m>") to indicate the
+                            symbol "<m>|</m>" reads "such that". It is also common to use a colon ("<m>:</m>") to indicate the
                             same thing. The left hand side of set builder notation indicates a variable  for elements in the set, while the right
                             hand side (called the <term>predicate</term>) indicates a condition that must be met to be in the set.
                         </p>
