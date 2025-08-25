@@ -350,6 +350,69 @@ var ptx_lunr_docs = [
   "number": "8",
   "title": "Practice.",
   "body": " Practice    Let be the proposition \"It is snowing\" and be the proposition \"CSU is closed for the day\". Translate the following to English sentences.                            Use truth tables to show that is logically equivalent (i.e., has the same truth table) to .      Without using truth tables, explain why the inverse and converse of are logically equivalent.    "
+},
+{
+  "id": "sec-I-5",
+  "level": "1",
+  "url": "sec-I-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S I.5\\text{:}\\)<\/span> Predicate Logic and Quantifiers",
+  "body": " : Predicate Logic and Quantifiers    Motivation: Quantifiers        Definition: Quantifiers and Predicates        Using Quantifiers with Predicates   Many mathematical statements are formed by attaching quantifiers to predicates.  As an example, consider the sets Write down the meaning of the following logical statements:                        Exercise: Order Matters!   Pick the single true statement below:                 Negating Quantifiers   If a quantified statement is false, its negation is true. How do we negate quantifiers? Let's consider the following examples:   \"Every integer is even.\"    \"There is a real number such that .\"        Practice: Negating Quantifiers   Negate the following statements:                 "
+},
+{
+  "id": "sec-I-5-2-1",
+  "level": "2",
+  "url": "sec-I-5.html#sec-I-5-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Quantifiers.",
+  "body": " Motivation: Quantifiers      "
+},
+{
+  "id": "sec-I-5-2-2",
+  "level": "2",
+  "url": "sec-I-5.html#sec-I-5-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Quantifiers and Predicates.",
+  "body": " Definition: Quantifiers and Predicates      "
+},
+{
+  "id": "sec-I-5-2-3",
+  "level": "2",
+  "url": "sec-I-5.html#sec-I-5-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Using Quantifiers with Predicates.",
+  "body": " Using Quantifiers with Predicates   Many mathematical statements are formed by attaching quantifiers to predicates.  As an example, consider the sets Write down the meaning of the following logical statements:                    "
+},
+{
+  "id": "sec-I-5-3-1",
+  "level": "2",
+  "url": "sec-I-5.html#sec-I-5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Exercise: Order Matters!",
+  "body": " Exercise: Order Matters!   Pick the single true statement below:               "
+},
+{
+  "id": "sec-I-5-3-2",
+  "level": "2",
+  "url": "sec-I-5.html#sec-I-5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Negating Quantifiers.",
+  "body": " Negating Quantifiers   If a quantified statement is false, its negation is true. How do we negate quantifiers? Let's consider the following examples:   \"Every integer is even.\"    \"There is a real number such that .\"      "
+},
+{
+  "id": "sec-I-5-3-3",
+  "level": "2",
+  "url": "sec-I-5.html#sec-I-5-3-3",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Negating Quantifiers.",
+  "body": " Practice: Negating Quantifiers   Negate the following statements:               "
 }
 ]
 
