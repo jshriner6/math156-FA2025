@@ -1,0 +1,149 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-I-5">
+        <title><m>\S I.5</m>: Predicate Logic and Quantifiers</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Quantifiers </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Definition: Quantifiers and Predicates</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace=".5in">
+                    <title>Using Quantifiers with Predicates</title>
+                    <statement>
+                        <p>
+                            Many mathematical statements are formed by attaching quantifiers to predicates.
+                        </p>
+                        <p>
+                            As an example, consider the sets
+                            <me>
+                                E=\{ x \in \N | x \text{ is even}\} \,\, D= \{ x \in \N | x \text{ is odd}\}
+                            </me>
+                            Write down the meaning of the following logical statements:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\forall x \in E : (x+1) \in D</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\forall x,y \in D : x+y \in E</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\forall x \in E \exists y \in \Z : x= -y </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+
+            <page>
+                <exercise workspace=".5in">
+                    <title>Exercise: Order Matters!</title>
+                    <statement>
+                        <p>
+                            Pick the single true statement below:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>
+                                            \forall x \in \Z \exists y \in \Z : y = x+1
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                           \exists y \in \Z \forall x \in \Z  : y = x+1
+                                        </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Negating Quantifiers</title>
+                    <statement>
+                        <p>
+                            If a quantified statement is false, its negation is true. How do we negate quantifiers?
+                            Let's consider the following examples:
+                            <ol>
+                                <li>
+                                    <p>
+                                        "Every integer is even."
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        "There is a real number <m>x</m> such that <m>x^2 \lt 0</m>."
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                        
+                        
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Practice: Negating Quantifiers</title>
+                    <statement>
+                        <p> Negate the following statements:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\exists x : (\neg p(x) \vee q(x))</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\exists x \forall y : (p(x) \wedge q(y))</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+
+
+        </worksheet>
+
+
+
+    </article>
+</pretext>
