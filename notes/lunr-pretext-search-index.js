@@ -413,6 +413,69 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Practice: Negating Quantifiers.",
   "body": " Practice: Negating Quantifiers   Negate the following statements:               "
+},
+{
+  "id": "sec-II-1",
+  "level": "1",
+  "url": "sec-II-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S II.1\\text{:}\\)<\/span> Connecting Elements",
+  "body": " : Connecting Elements    Motivation: Relations        Definition and Example: Relation   A relation between sets and is     Familiar Relations   The following are all relations on . Write at least three elements in each relation as elements of .       Representations of Relations   We can represent relations in multiple ways. Let , and be the relation defined by \" \".       Definitions: Source, target, domain, and range   Let be a relation.     Practice: Domain and Range   Let , and be the relation . What is the domain? What is the range?     "
+},
+{
+  "id": "sec-II-1-2-1",
+  "level": "2",
+  "url": "sec-II-1.html#sec-II-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Relations.",
+  "body": " Motivation: Relations      "
+},
+{
+  "id": "sec-II-1-2-2",
+  "level": "2",
+  "url": "sec-II-1.html#sec-II-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition and Example: Relation.",
+  "body": " Definition and Example: Relation   A relation between sets and is   "
+},
+{
+  "id": "sec-II-1-2-3",
+  "level": "2",
+  "url": "sec-II-1.html#sec-II-1-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Familiar Relations.",
+  "body": " Familiar Relations   The following are all relations on . Write at least three elements in each relation as elements of .   "
+},
+{
+  "id": "sec-II-1-3-1",
+  "level": "2",
+  "url": "sec-II-1.html#sec-II-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Representations of Relations.",
+  "body": " Representations of Relations   We can represent relations in multiple ways. Let , and be the relation defined by \" \".   "
+},
+{
+  "id": "sec-II-1-4-1",
+  "level": "2",
+  "url": "sec-II-1.html#sec-II-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Definitions: Source, target, domain, and range.",
+  "body": " Definitions: Source, target, domain, and range   Let be a relation.   "
+},
+{
+  "id": "sec-II-1-4-2",
+  "level": "2",
+  "url": "sec-II-1.html#sec-II-1-4-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Domain and Range.",
+  "body": " Practice: Domain and Range   Let , and be the relation . What is the domain? What is the range?   "
 }
 ]
 
