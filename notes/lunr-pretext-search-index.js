@@ -73,202 +73,202 @@ var ptx_lunr_docs = [
   "body": " Practice: True or False?                                          FALSE    TRUE    FALSE    TRUE    TRUE    FALSE      "
 },
 {
-  "id": "sec-I-2-3-6",
+  "id": "sec-I-2-3-6-sols",
   "level": "1",
-  "url": "sec-I-2-3-6.html",
+  "url": "sec-I-2-3-6-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S I.2,3,6\\text{:}\\)<\/span> Sets From Sets",
-  "body": " : Sets From Sets    Motivation: Sets from Sets   There are many useful ways to obtain sets from other sets. Intuitively, we may want to:     Definition: Subset  Let and be sets. is a subset of if    Example: Subsets  Let . What are all of the subsets of ?    Useful Fact: Subsets and Equality      Activity: Subsets   Let . Determine if the following are TRUE or FALSE.                                          Definition: Power Set   Let be a set. The power set of is     Example: Power Set         Activity: Power Set Cardinality             A venn diagram. Two overlapping circles, one labeled A and one labeled B.                         Activity: Union, Difference and Intersection    Let and . Compute                            Let and be sets. Determine if the following are TRUE or FALSE.                                             Example: Distributive Properties         Activity: Distributive Properties         Note: Universal Sets and Complements        Example: DeMorgan's Laws   Let and be subsets of a universal set .      Activity: DeMorgan's Laws           Ordered Pairs        Definition: Cartesian Product   Given sets and , the Cartesian product of and is     Example: Cartesian Product   Let and . Then      Activity: Cardinality of Cartesian Products           Tuples and Index sets          Multisets        "
+  "body": " : Sets From Sets    Motivation: Sets from Sets   There are many useful ways to obtain sets from other sets. Intuitively, we may want to:       consider only part of a set (subset).    \"add\", \"subtract\", or find common elements of two sets (union, difference, intersection).    specify an ordering in a set, which is useful in \"for\" loops, or specify multiplicities of elements in a set (Cartesian product, multiset).        Definition: Subset   Let and be sets. is a subset of if    every element of is also an element of . We write .     Example: Subsets   Let . What are all of the subsets of ?    All of the subsets are , , , , , , , (also written and called the empty set ). Note that the full set and the empty set are always subsets. See the text for the Hasse diagram illustrating all subsets of .     Useful Fact: Subsets and Equality       Subsets can be useful to show equality. exactly when and .       Activity: Subsets   Let . Determine if the following are TRUE or FALSE.                                            FALSE    TRUE    TRUE    TRUE    TRUE    FALSE    FALSE        Definition: Power Set   Let be a set. The power set of is    the set .     Example: Power Set              Activity: Power Set Cardinality                  A venn diagram. Two overlapping circles, one labeled A and one labeled B.                            ( union )     ( difference )     ( intersection )        Activity: Union, Difference and Intersection    Let and . Compute                                                      Let and be sets. Determine if the following are TRUE or FALSE.                                         These are all true properties. Make sure you can justify them with pictures!        Example: Distributive Properties         . See the textbook for justification using a venn diagram.     Activity: Distributive Properties         . See the textbook for justification using a venn diagram.     Note: Universal Sets and Complements     If , the difference is more commonly written as (read \" complement\"). is called a universal set , which is an ambient space that all of our sets are understood to live in.  For example, suppose our universal set is . Then .     Example: DeMorgan's Laws   Let and be subsets of a universal set .      . See the textbook for justification using a venn diagram.     Activity: DeMorgan's Laws         . See the textbook for justification using a venn diagram.       Ordered Pairs       We can specify an ordering with sets using ordered pairs . Recall . If we actually want to communicate \"1 in the first position and 2 in the second position\", we can write as a set, which is more commonly written as the ordered pair . Parentheses imply order (e.g., in the Cartesian plane).     Definition: Cartesian Product   Given sets and , the Cartesian product of and is     .     Example: Cartesian Product   Let and . Then      .     Activity: Cardinality of Cartesian Products         .       Tuples and Index sets       The concept of ordered pairs can be extended to tuples , which is can be an ordering of more than two things. For example, is a -tuple. This could represent a point in 3-dimensional space, where the first coordinate specifies a position in the x-direction, the second coordinate specifies a position in the y-direction, and the third coordinate specifies a position in the z-direction.  In programming, we refer to specific elements of a tuple with an index set . For example, in the tuple , we can specify elements as for in the index set . More specifically, , , , , and .  Index sets can also be tuples. If we write that for , then is more commonly visualized as the matrix         Multisets       We can specify multiplicities with a multiset . Recall that . We would capture the multiplicities in the left side by defining , which is the reduced set and will be used as an index set, and defining the counting set . Note that in our example, . The pair is considered a multiset .     "
 },
 {
-  "id": "sec-I-2-3-6-2-1",
+  "id": "sec-I-2-3-6-sols-2-1",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-2-1",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Sets from Sets.",
-  "body": " Motivation: Sets from Sets   There are many useful ways to obtain sets from other sets. Intuitively, we may want to:   "
+  "body": " Motivation: Sets from Sets   There are many useful ways to obtain sets from other sets. Intuitively, we may want to:       consider only part of a set (subset).    \"add\", \"subtract\", or find common elements of two sets (union, difference, intersection).    specify an ordering in a set, which is useful in \"for\" loops, or specify multiplicities of elements in a set (Cartesian product, multiset).      "
 },
 {
-  "id": "sec-I-2-3-6-2-2",
+  "id": "sec-I-2-3-6-sols-2-2",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-2-2",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Subset.",
-  "body": " Definition: Subset  Let and be sets. is a subset of if  "
+  "body": " Definition: Subset   Let and be sets. is a subset of if    every element of is also an element of . We write .   "
 },
 {
-  "id": "sec-I-2-3-6-2-3",
+  "id": "sec-I-2-3-6-sols-2-3",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-2-3",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Subsets.",
-  "body": " Example: Subsets  Let . What are all of the subsets of ?  "
+  "body": " Example: Subsets   Let . What are all of the subsets of ?    All of the subsets are , , , , , , , (also written and called the empty set ). Note that the full set and the empty set are always subsets. See the text for the Hasse diagram illustrating all subsets of .   "
 },
 {
-  "id": "sec-I-2-3-6-2-4",
+  "id": "sec-I-2-3-6-sols-2-4",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-2-4",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-2-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Useful Fact: Subsets and Equality.",
-  "body": " Useful Fact: Subsets and Equality  "
+  "body": " Useful Fact: Subsets and Equality       Subsets can be useful to show equality. exactly when and .   "
 },
 {
-  "id": "sec-I-2-3-6-3-1",
+  "id": "sec-I-2-3-6-sols-3-1",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-3-1",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Activity: Subsets.",
-  "body": " Activity: Subsets   Let . Determine if the following are TRUE or FALSE.                                        "
+  "body": " Activity: Subsets   Let . Determine if the following are TRUE or FALSE.                                            FALSE    TRUE    TRUE    TRUE    TRUE    FALSE    FALSE      "
 },
 {
-  "id": "sec-I-2-3-6-3-2",
+  "id": "sec-I-2-3-6-sols-3-2",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-3-2",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Definition: Power Set.",
-  "body": " Definition: Power Set   Let be a set. The power set of is   "
+  "body": " Definition: Power Set   Let be a set. The power set of is    the set .   "
 },
 {
-  "id": "sec-I-2-3-6-3-3",
+  "id": "sec-I-2-3-6-sols-3-3",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-3-3",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-3-3",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Example: Power Set.",
-  "body": " Example: Power Set       "
+  "body": " Example: Power Set            "
 },
 {
-  "id": "sec-I-2-3-6-3-4",
+  "id": "sec-I-2-3-6-sols-3-4",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-3-4",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-3-4",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "Activity: Power Set Cardinality.",
-  "body": " Activity: Power Set Cardinality       "
+  "body": " Activity: Power Set Cardinality            "
 },
 {
-  "id": "sec-I-2-3-6-4-1",
+  "id": "sec-I-2-3-6-sols-4-1",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-4-1",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "9",
   "title": "",
-  "body": "   A venn diagram. Two overlapping circles, one labeled A and one labeled B.                       "
+  "body": "   A venn diagram. Two overlapping circles, one labeled A and one labeled B.                            ( union )     ( difference )     ( intersection )      "
 },
 {
-  "id": "sec-I-2-3-6-4-2",
+  "id": "sec-I-2-3-6-sols-4-2",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-4-2",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "10",
   "title": "Activity: Union, Difference and Intersection.",
-  "body": " Activity: Union, Difference and Intersection    Let and . Compute                            Let and be sets. Determine if the following are TRUE or FALSE.                                         "
+  "body": " Activity: Union, Difference and Intersection    Let and . Compute                                                      Let and be sets. Determine if the following are TRUE or FALSE.                                         These are all true properties. Make sure you can justify them with pictures!    "
 },
 {
-  "id": "sec-I-2-3-6-5-1",
+  "id": "sec-I-2-3-6-sols-5-1",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-5-1",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-5-1",
   "type": "Worksheet Exercise",
   "number": "11",
   "title": "Example: Distributive Properties.",
-  "body": " Example: Distributive Properties       "
+  "body": " Example: Distributive Properties         . See the textbook for justification using a venn diagram.   "
 },
 {
-  "id": "sec-I-2-3-6-5-2",
+  "id": "sec-I-2-3-6-sols-5-2",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-5-2",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-5-2",
   "type": "Worksheet Exercise",
   "number": "12",
   "title": "Activity: Distributive Properties.",
-  "body": " Activity: Distributive Properties       "
+  "body": " Activity: Distributive Properties         . See the textbook for justification using a venn diagram.   "
 },
 {
-  "id": "sec-I-2-3-6-5-3",
+  "id": "sec-I-2-3-6-sols-5-3",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-5-3",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-5-3",
   "type": "Worksheet Exercise",
   "number": "13",
   "title": "Note: Universal Sets and Complements.",
-  "body": " Note: Universal Sets and Complements      "
+  "body": " Note: Universal Sets and Complements     If , the difference is more commonly written as (read \" complement\"). is called a universal set , which is an ambient space that all of our sets are understood to live in.  For example, suppose our universal set is . Then .   "
 },
 {
-  "id": "sec-I-2-3-6-5-4",
+  "id": "sec-I-2-3-6-sols-5-4",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-5-4",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-5-4",
   "type": "Worksheet Exercise",
   "number": "14",
   "title": "Example: DeMorgan’s Laws.",
-  "body": " Example: DeMorgan's Laws   Let and be subsets of a universal set .    "
+  "body": " Example: DeMorgan's Laws   Let and be subsets of a universal set .      . See the textbook for justification using a venn diagram.   "
 },
 {
-  "id": "sec-I-2-3-6-5-5",
+  "id": "sec-I-2-3-6-sols-5-5",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-5-5",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-5-5",
   "type": "Worksheet Exercise",
   "number": "15",
   "title": "Activity: DeMorgan’s Laws.",
-  "body": " Activity: DeMorgan's Laws       "
+  "body": " Activity: DeMorgan's Laws         . See the textbook for justification using a venn diagram.   "
 },
 {
-  "id": "sec-I-2-3-6-6-1",
+  "id": "sec-I-2-3-6-sols-6-1",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-6-1",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-6-1",
   "type": "Worksheet Exercise",
   "number": "16",
   "title": "Ordered Pairs.",
-  "body": " Ordered Pairs      "
+  "body": " Ordered Pairs       We can specify an ordering with sets using ordered pairs . Recall . If we actually want to communicate \"1 in the first position and 2 in the second position\", we can write as a set, which is more commonly written as the ordered pair . Parentheses imply order (e.g., in the Cartesian plane).   "
 },
 {
-  "id": "sec-I-2-3-6-6-2",
+  "id": "sec-I-2-3-6-sols-6-2",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-6-2",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-6-2",
   "type": "Worksheet Exercise",
   "number": "17",
   "title": "Definition: Cartesian Product.",
-  "body": " Definition: Cartesian Product   Given sets and , the Cartesian product of and is   "
+  "body": " Definition: Cartesian Product   Given sets and , the Cartesian product of and is     .   "
 },
 {
-  "id": "sec-I-2-3-6-6-3",
+  "id": "sec-I-2-3-6-sols-6-3",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-6-3",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-6-3",
   "type": "Worksheet Exercise",
   "number": "18",
   "title": "Example: Cartesian Product.",
-  "body": " Example: Cartesian Product   Let and . Then    "
+  "body": " Example: Cartesian Product   Let and . Then      .   "
 },
 {
-  "id": "sec-I-2-3-6-6-4",
+  "id": "sec-I-2-3-6-sols-6-4",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-6-4",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-6-4",
   "type": "Worksheet Exercise",
   "number": "19",
   "title": "Activity: Cardinality of Cartesian Products.",
-  "body": " Activity: Cardinality of Cartesian Products       "
+  "body": " Activity: Cardinality of Cartesian Products         .   "
 },
 {
-  "id": "sec-I-2-3-6-7-1",
+  "id": "sec-I-2-3-6-sols-7-1",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-7-1",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-7-1",
   "type": "Worksheet Exercise",
   "number": "20",
   "title": "Tuples and Index sets.",
-  "body": " Tuples and Index sets      "
+  "body": " Tuples and Index sets       The concept of ordered pairs can be extended to tuples , which is can be an ordering of more than two things. For example, is a -tuple. This could represent a point in 3-dimensional space, where the first coordinate specifies a position in the x-direction, the second coordinate specifies a position in the y-direction, and the third coordinate specifies a position in the z-direction.  In programming, we refer to specific elements of a tuple with an index set . For example, in the tuple , we can specify elements as for in the index set . More specifically, , , , , and .  Index sets can also be tuples. If we write that for , then is more commonly visualized as the matrix     "
 },
 {
-  "id": "sec-I-2-3-6-8-1",
+  "id": "sec-I-2-3-6-sols-8-1",
   "level": "2",
-  "url": "sec-I-2-3-6.html#sec-I-2-3-6-8-1",
+  "url": "sec-I-2-3-6-sols.html#sec-I-2-3-6-sols-8-1",
   "type": "Worksheet Exercise",
   "number": "21",
   "title": "Multisets.",
-  "body": " Multisets      "
+  "body": " Multisets       We can specify multiplicities with a multiset . Recall that . We would capture the multiplicities in the left side by defining , which is the reduced set and will be used as an index set, and defining the counting set . Note that in our example, . The pair is considered a multiset .   "
 },
 {
   "id": "sec-I-4",
