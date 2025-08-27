@@ -416,7 +416,7 @@
                     </statement>
                     <solution>
                         <p>
-                            If <m>A \subset U</m>, the difference <m>A \setminus U</m> is more commonly written as 
+                            If <m>A \subset U</m>, the difference <m>U \setminus A</m> is more commonly written as 
                             <m>A^C</m> (read "<m>A</m> complement"). <m>U</m> is called a <term>universal set</term>, which
                             is an ambient space that all of our sets are understood to live in.
 
