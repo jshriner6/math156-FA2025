@@ -1,0 +1,209 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-2-sols">
+        <title><m>\S II.2</m>: Complements, Converse, and Composition</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Relations from Relations </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Given a relation <m>R</m>, there can be other meaningful relations that are implied.
+                            There are some natural operations on <m>R</m> that allow us to express these implied 
+                            relations explicitly.
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>First Examples</title>
+                    <statement>
+                        <p>
+                            Let <m>S= \{\text{all people}\}</m>. We can define a relation <m>R</m> on <m>S_1 \times S_2</m>
+                            (these are both copies of the set <m>S</m>, we are just using subscripts to distinguish copies
+                            for convenience later) by the rule "is a parent of". Let's explore some implied relations 
+                            in this example and how we can construct them explicitly.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        "Is not a parent of" is the <term>complement</term> of <m>R</m>, written
+                                        <m>R^C</m>. It is defined as the set
+                                        <me>
+                                            R^C = \{(a,b) \in S_1 \times S_2 | (a,b) \not \in R\} \subset S_1 \times S_2
+                                        </me>.
+                                        
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        "Is a child of" is the <term>converse</term> of <m>R</m>, which we will write as
+                                        <m>R^T</m>. It is defined as the set
+                                        <me>
+                                            R^T = \{(b,a) \in S_2 \times S_1 | (a,b) \in R\} \subset S_2 \times S_1
+                                        </me>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        "Is a grandparent of" is the <term>composition</term> of two copies of the relation 
+                                        <m>R</m>, which we will write as <m>R_1 \subset S_1 \times S_2</m> and 
+                                        <m>R_2 \subset S_2 \times S_3</m>.
+                                         It is defined as the set
+                                        <me>
+                                            R_2 \circ R_1 = \{(a,c) \in S_1 \times S_3 | \exists b, (a,b) \in R_1 \text{ and } (b,c) \in R_2\} 
+                                        </me>.
+                                        Note <m>R_2 \circ R_1  \subset S_1 \times S_3</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Complement and Converse</title>
+                        
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                            Let <m>A=\{1,2,3,4,5\}</m> and <m>B=\{1, 4, 5\}</m>. Let <m>R</m> be the relation on
+                            <m>A \times B</m> defined by "<m>\lt</m>".
+                        </p>
+                            <p>
+                                Without building <m>R^C</m>, describe what you think <m>R^C</m> is.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               Write out all elements of <m>R^C</m> to either confirm or refine your previous answer.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <me>R= \{(1,4), (1,5), (2,4), (2,5), (3,4), (3,5), (4,5)\}</me>, so 
+                                <me>
+                                    R^C = \{(1,1), (2,1), (3,1), (4,1), (4,4), (5,1), (5,4), (5,5)\}
+                                </me>.
+                                This is the relation "<m>\geq</m>".
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Without building <m>R^T</m>, describe what you think <m>R^T</m> is.
+                            </p>
+                        </statement>
+                    </task>
+                     <task workspace="2in">
+                        <statement>
+                            <p>
+                               Write out all elements of <m>R^T</m> to either confirm or refine your previous answer.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Using the relation <m>R</m> written out above, we can see that
+                                <me>
+                                    R^T = \{(4,1), (5,1), (4,2), (5,2), (4,3), (5,3), (5,4)\}
+                                </me>.
+                                This is the "<m>\gt</m>" relation on <m>B \times A</m>.
+                                
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                True or False: <m>(R^C)^T = (R^T)^C</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                This is true. Take <m>R^T</m> computed above and write down the complement in <m>B \times A</m>,
+                                then verify this is the same as the set obtained by swapping all the coordinates in <m>R^C</m>
+                                computed above.
+                            </p>
+                        </solution>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Composition</title>
+                    
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>A = \{1,2,3\}</m>, <m>B = \{0,3,5\}</m>, <m>C = \{-1,2,3,7\}</m>.
+                        </p>
+                            <p>
+                                Let <m>R</m> bethe relation "<m>\lt</m>" on <m>A \times B</m>. Represent <m>R</m>
+                                as a digraph.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                See notes from class, or a similar example in <url href="https://htmlpreview.github.io/?https://github.com/hulpke/csbook/blob/main/mathforcs.html#Ch2.S2">Figure 4 of section II.2</url>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Let <m>S</m> bethe relation "<m>\gt</m>" on <m>B \times C</m>. Represent <m>S</m>
+                                as a digraph.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                See notes from class, or a similar example in <url href="https://htmlpreview.github.io/?https://github.com/hulpke/csbook/blob/main/mathforcs.html#Ch2.S2">Figure 4 of section II.2</url>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Only one of the relations <m>R \circ S</m> or <m>S \circ R</m> makes sense. Explain 
+                                why one does not, and then write the elements of the other. 
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>R \subset A \times B</m> and <m>S \subset B \times C</m>. Therefore, <m>R \circ S</m> does
+                                not make sense because we'd be trying to take elements of <m>B \times C</m> and "connect"
+                                them with elements in <m>A \times B</m>, but <m>C</m> and <m>A</m> are different sets.
+                            </p>
+                            <p>
+                                <m>S \circ R </m> does make sense and its elements are
+                                <me>
+                                    S \circ R = \{(1,-1), (1,2), (1,3), (2,-1), (2,2), (2,3), (3,-1), (3,2), (3,3)\}
+                                </me>.
+                                
+                            </p>
+                        </solution>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>

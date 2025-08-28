@@ -1,0 +1,116 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-2">
+        <title><m>\S II.2</m>: Complements, Converse, and Composition</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Relations from Relations </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>First Examples</title>
+                    <statement>
+                        <p>
+                            Let <m>S= \{\text{all people}\}</m>. We can define a relation <m>R</m> on <m>S_1 \times S_2</m>
+                            (these are both copies of the set <m>S</m>, we are just using subscripts to distinguish copies
+                            for convenience later) by the rule "is a parent of". Let's explore some implied relations 
+                            in this example and how we can construct them explicitly.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Complement and Converse</title>
+                        
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                            Let <m>A=\{1,2,3,4,5\}</m> and <m>B=\{1, 4, 5\}</m>. Let <m>R</m> be the relation on
+                            <m>A \times B</m> defined by "<m>\lt</m>".
+                        </p>
+                            <p>
+                                Without building <m>R^C</m>, describe what you think <m>R^C</m> is.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               Write out all elements of <m>R^C</m> to either confirm or refine your previous answer.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Without building <m>R^T</m>, describe what you think <m>R^T</m> is.
+                            </p>
+                        </statement>
+                    </task>
+                     <task workspace="2in">
+                        <statement>
+                            <p>
+                               Write out all elements of <m>R^T</m> to either confirm or refine your previous answer.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                True or False: <m>(R^C)^T = (R^T)^C</m>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Composition</title>
+                    
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>A = \{1,2,3\}</m>, <m>B = \{0,3,5\}</m>, <m>C = \{-1,2,3,7\}</m>.
+                        </p>
+                            <p>
+                                Let <m>R</m> bethe relation "<m>\lt</m>" on <m>A \times B</m>. Represent <m>R</m>
+                                as a digraph.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Let <m>S</m> bethe relation "<m>\gt</m>" on <m>B \times C</m>. Represent <m>S</m>
+                                as a digraph.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Only one of the relations <m>R \circ S</m> or <m>S \circ R</m> makes sense. Explain 
+                                why one does not, and then write the elements of the other. 
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>
