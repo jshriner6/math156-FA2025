@@ -476,6 +476,51 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Practice: Domain and Range.",
   "body": " Practice: Domain and Range   Let , and be the relation . What is the domain? What is the range?   "
+},
+{
+  "id": "sec-II-2",
+  "level": "1",
+  "url": "sec-II-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S II.2\\text{:}\\)<\/span> Complements, Converse, and Composition",
+  "body": " : Complements, Converse, and Composition    Motivation: Relations from Relations        First Examples   Let . We can define a relation on (these are both copies of the set , we are just using subscripts to distinguish copies for convenience later) by the rule \"is a parent of\". Let's explore some implied relations in this example and how we can construct them explicitly.       Practice: Complement and Converse    Let and . Let be the relation on defined by \" \".  Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      True or False:         Practice: Composition    Let , , .  Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.      "
+},
+{
+  "id": "sec-II-2-2-1",
+  "level": "2",
+  "url": "sec-II-2.html#sec-II-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Relations from Relations.",
+  "body": " Motivation: Relations from Relations      "
+},
+{
+  "id": "sec-II-2-2-2",
+  "level": "2",
+  "url": "sec-II-2.html#sec-II-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "First Examples.",
+  "body": " First Examples   Let . We can define a relation on (these are both copies of the set , we are just using subscripts to distinguish copies for convenience later) by the rule \"is a parent of\". Let's explore some implied relations in this example and how we can construct them explicitly.   "
+},
+{
+  "id": "sec-II-2-3-1",
+  "level": "2",
+  "url": "sec-II-2.html#sec-II-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Practice: Complement and Converse.",
+  "body": " Practice: Complement and Converse    Let and . Let be the relation on defined by \" \".  Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      True or False:     "
+},
+{
+  "id": "sec-II-2-4-1",
+  "level": "2",
+  "url": "sec-II-2.html#sec-II-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Composition.",
+  "body": " Practice: Composition    Let , , .  Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.    "
 }
 ]
 
