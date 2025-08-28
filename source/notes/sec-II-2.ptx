@@ -30,13 +30,19 @@
             <page>
                 <exercise>
                     <title>Practice: Complement and Converse</title>
-                        
-                    <task workspace="1in">
-                        <statement>
+                    <introduction>
+                      
                             <p>
                             Let <m>A=\{1,2,3,4,5\}</m> and <m>B=\{1, 4, 5\}</m>. Let <m>R</m> be the relation on
                             <m>A \times B</m> defined by "<m>\lt</m>".
                         </p>
+                            
+
+                    </introduction>
+                        
+                    <task workspace="1in">
+                        <statement>
+                            
                             <p>
                                 Without building <m>R^C</m>, describe what you think <m>R^C</m> is.
                             </p>
@@ -77,12 +83,15 @@
             <page>
                 <exercise>
                     <title>Practice: Composition</title>
+                    <introduction>
+                        <p>
+                            Let <m>A = \{1,2,3\}</m>, <m>B = \{0,3,5\}</m>, <m>C = \{-1,2,3,7\}</m>.
+                        </p>
+                    </introduction>
                     
                     <task workspace="2in">
                         <statement>
-                            <p>
-                            Let <m>A = \{1,2,3\}</m>, <m>B = \{0,3,5\}</m>, <m>C = \{-1,2,3,7\}</m>.
-                        </p>
+                            
                             <p>
                                 Let <m>R</m> bethe relation "<m>\lt</m>" on <m>A \times B</m>. Represent <m>R</m>
                                 as a digraph.
