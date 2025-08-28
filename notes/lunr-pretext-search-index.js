@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S II.2\\text{:}\\)<\/span> Complements, Converse, and Composition",
-  "body": " : Complements, Converse, and Composition    Motivation: Relations from Relations        First Examples   Let . We can define a relation on (these are both copies of the set , we are just using subscripts to distinguish copies for convenience later) by the rule \"is a parent of\". Let's explore some implied relations in this example and how we can construct them explicitly.       Practice: Complement and Converse    Let and . Let be the relation on defined by \" \".  Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      True or False:         Practice: Composition    Let , , .  Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.      "
+  "body": " : Complements, Converse, and Composition    Motivation: Relations from Relations        First Examples   Let . We can define a relation on (these are both copies of the set , we are just using subscripts to distinguish copies for convenience later) by the rule \"is a parent of\". Let's explore some implied relations in this example and how we can construct them explicitly.       Practice: Complement and Converse   Let and . Let be the relation on defined by \" \".     Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      True or False:         Practice: Composition   Let , , .     Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.      "
 },
 {
   "id": "sec-II-2-2-1",
@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Practice: Complement and Converse.",
-  "body": " Practice: Complement and Converse    Let and . Let be the relation on defined by \" \".  Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      True or False:     "
+  "body": " Practice: Complement and Converse   Let and . Let be the relation on defined by \" \".     Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      True or False:     "
 },
 {
   "id": "sec-II-2-4-1",
@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Composition.",
-  "body": " Practice: Composition    Let , , .  Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.    "
+  "body": " Practice: Composition   Let , , .     Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.    "
 },
 {
   "id": "sec-II-3",
