@@ -1,0 +1,129 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-3">
+        <title><m>\S II.3</m>: Properties of Relations</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Properties of Binary Relations </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Example: Equals</title>
+                    <statement>
+                        <p>
+                            We likely don't think twice about writing
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>5=5</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>a+b=x</m> if we know that <m>x=a+b</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>a+b = c+d</m> if we also know that <m>x=c+d</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                            Let <m>R</m> be a binary relation on <m>A \times A</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Exercise: Non-examples</title>
+                    <statement>
+                        <p>
+                            For each property defined above, think of a familiar relation (it doesn't have to 
+                            be a mathematical operation!) which does <em>not</em> satisfy that property.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise>
+                    <introduction>
+                        <p>
+                            For each of the following binary relations, determine which of the four properties we've defined
+                            are true.
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\{ (a,b) \in \Z \times \Z | a \lt b\}</m>
+                            </p>
+                        </statement>
+                        
+                    </task>
+
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\{ (a,b) \in \Z \times \Z | a \leq b\}</m>
+                            </p>
+                        </statement>
+                        
+                    </task>
+
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\{ (A,B) \in P(S) \times P(S) | A \subset B \}</m>
+                            </p>
+                        </statement>
+                        
+                    </task>
+
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\{ (a,b) \in \Z \times \Z |  a + b \text{ is a multiple of } 3\}</m>
+                            </p>
+                        </statement>
+                        
+                    </task>
+
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\{ (x,y) \in \R \times \R | x^2 + y^3 = 1\}</m>
+                            </p>
+                        </statement>
+                        
+                    </task>
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>
