@@ -521,6 +521,60 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "Practice: Composition.",
   "body": " Practice: Composition    Let , , .  Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.    "
+},
+{
+  "id": "sec-II-3",
+  "level": "1",
+  "url": "sec-II-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S II.3\\text{:}\\)<\/span> Properties of Relations",
+  "body": " : Properties of Relations    Motivation: Properties of Binary Relations        Example: Equals   We likely don't think twice about writing    .     if we know that .     if we also know that .        Definitions   Let be a binary relation on .     Exercise: Non-examples   For each property defined above, think of a familiar relation (it doesn't have to be a mathematical operation!) which does not satisfy that property.        For each of the following binary relations, determine which of the four properties we've defined are true.                                        "
+},
+{
+  "id": "sec-II-3-2-1",
+  "level": "2",
+  "url": "sec-II-3.html#sec-II-3-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Properties of Binary Relations.",
+  "body": " Motivation: Properties of Binary Relations      "
+},
+{
+  "id": "sec-II-3-2-2",
+  "level": "2",
+  "url": "sec-II-3.html#sec-II-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Example: Equals.",
+  "body": " Example: Equals   We likely don't think twice about writing    .     if we know that .     if we also know that .      "
+},
+{
+  "id": "sec-II-3-2-3",
+  "level": "2",
+  "url": "sec-II-3.html#sec-II-3-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definitions.",
+  "body": " Definitions   Let be a binary relation on .   "
+},
+{
+  "id": "sec-II-3-2-4",
+  "level": "2",
+  "url": "sec-II-3.html#sec-II-3-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Exercise: Non-examples.",
+  "body": " Exercise: Non-examples   For each property defined above, think of a familiar relation (it doesn't have to be a mathematical operation!) which does not satisfy that property.   "
+},
+{
+  "id": "sec-II-3-3-1",
+  "level": "2",
+  "url": "sec-II-3.html#sec-II-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  For each of the following binary relations, determine which of the four properties we've defined are true.                                      "
 }
 ]
 
