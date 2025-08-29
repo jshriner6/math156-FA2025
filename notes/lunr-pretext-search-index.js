@@ -271,85 +271,85 @@ var ptx_lunr_docs = [
   "body": " Multisets       We can specify multiplicities with a multiset . Recall that . We would capture the multiplicities in the left side by defining , which is the reduced set and will be used as an index set, and defining the counting set . Note that in our example, . The pair is considered a multiset .   "
 },
 {
-  "id": "sec-I-4",
+  "id": "sec-I-4-sols",
   "level": "1",
-  "url": "sec-I-4.html",
+  "url": "sec-I-4-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S I.4\\text{:}\\)<\/span> Connections to (classical) Logic",
-  "body": " : Connections to (classical) Logic    Motivation: Logic        Propositions and Operations        Truth Tables   Operations on propositions result in new propositions. To keep track of the resulting truth values, we can use truth tables .         T     F                                             Logic and Sets        Conditional Statements   We can combine propositions in two more important ways:     Example: Determining truth values of complicated propositions   Determine the truth table for the proposition .       Important Conditional Statements   For the conditional statement , we can form three other (related) conditional statements:     Practice    Let be the proposition \"It is snowing\" and be the proposition \"CSU is closed for the day\". Translate the following to English sentences.                            Use truth tables to show that is logically equivalent (i.e., has the same truth table) to .      Without using truth tables, explain why the inverse and converse of are logically equivalent.      "
+  "body": " : Connections to (classical) Logic    Motivation: Logic       Determining whether something is true or false (or telling a computer how to do so) is fundamental in computing. This requires logic . We'll introduce some basic concepts and notation, as well as connections to sets.     Propositions and Operations       In classical logic, we deal with statements called propositions : statements that are unambiguously true or false.  \"My name is Jeff\" is a proposition because it is unambiguously true. \"It is too hot today\" is not proposition. \" \" is a proposition because it is unambiguously false.  There are a few basic operations we can perform on the propositions and :    : \"not \", called the negation of      : \" and \", called the conjunction of and      : \" or \", called the disjunction of and         Truth Tables   Operations on propositions result in new propositions. To keep track of the resulting truth values, we can use truth tables .         T     F                                                 T  F    F  T           T  T  T    F  F  F    T  F  F    F  T  F           T  T  T    F  F  F    T  F  T    F  T  T          Logic and Sets      Propositions are connected to sets because given a predicate (a proposition with a variable), we can build a corresponding set such that is true exactly when . Under this correspondence,    corresponds to      corresponds to      corresponds to      Another important consequence is that we inherit all of the properties of sets (like distributive laws and DeMorgan's Laws ).      Conditional Statements   We can combine propositions in two more important ways:        : \"If then \", called a conditional statement      : \"If if and only if \", called a biconditional statement      The two propositions above have the following truth table:          T  T  T  T  T    F  F  T  T  T    T  F  F  T  F    F  T  T  F  F        Example: Determining truth values of complicated propositions   Determine the truth table for the proposition .               T  T  T  F  T  T    F  F  T  T  T  T    T  F  F  F  F  T    F  T  T  T  T  T          Important Conditional Statements   For the conditional statement , we can form three other (related) conditional statements:        , called the inverse statement      , called the converse statement      , called the contrapositive statement         Practice    Let be the proposition \"It is snowing\" and be the proposition \"CSU is closed for the day\". Translate the following to English sentences.                             If CSU is closed for the day, then it is snowing.    If it is not snowing, then CSU is not closed for the day.    It is snowing and CSU is closed for the day.    It is snowing if and only if CSU is closed for the day. (Equivalently, If it is snowing then CSU is closed for the day, and if CSU is closed for the day then it is snowing.)         Use truth tables to show that is logically equivalent (i.e., has the same truth table) to .               T  T  T  F  F  T    F  F  T  T  T  T    T  F  F  F  T  F    F  T  T  T  F  T         Without using truth tables, explain why the inverse and converse of are logically equivalent.    The inverse statement is the contrapositive of the converse statement. By the result of the previous question, these are logically equivalent.      "
 },
 {
-  "id": "sec-I-4-2-1",
+  "id": "sec-I-4-sols-2-1",
   "level": "2",
-  "url": "sec-I-4.html#sec-I-4-2-1",
+  "url": "sec-I-4-sols.html#sec-I-4-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Logic.",
-  "body": " Motivation: Logic      "
+  "body": " Motivation: Logic       Determining whether something is true or false (or telling a computer how to do so) is fundamental in computing. This requires logic . We'll introduce some basic concepts and notation, as well as connections to sets.   "
 },
 {
-  "id": "sec-I-4-2-2",
+  "id": "sec-I-4-sols-2-2",
   "level": "2",
-  "url": "sec-I-4.html#sec-I-4-2-2",
+  "url": "sec-I-4-sols.html#sec-I-4-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Propositions and Operations.",
-  "body": " Propositions and Operations      "
+  "body": " Propositions and Operations       In classical logic, we deal with statements called propositions : statements that are unambiguously true or false.  \"My name is Jeff\" is a proposition because it is unambiguously true. \"It is too hot today\" is not proposition. \" \" is a proposition because it is unambiguously false.  There are a few basic operations we can perform on the propositions and :    : \"not \", called the negation of      : \" and \", called the conjunction of and      : \" or \", called the disjunction of and       "
 },
 {
-  "id": "sec-I-4-2-3",
+  "id": "sec-I-4-sols-2-3",
   "level": "2",
-  "url": "sec-I-4.html#sec-I-4-2-3",
+  "url": "sec-I-4-sols.html#sec-I-4-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Truth Tables.",
-  "body": " Truth Tables   Operations on propositions result in new propositions. To keep track of the resulting truth values, we can use truth tables .         T     F                                         "
+  "body": " Truth Tables   Operations on propositions result in new propositions. To keep track of the resulting truth values, we can use truth tables .         T     F                                                 T  F    F  T           T  T  T    F  F  F    T  F  F    F  T  F           T  T  T    F  F  F    T  F  T    F  T  T      "
 },
 {
-  "id": "sec-I-4-3-1",
+  "id": "sec-I-4-sols-3-1",
   "level": "2",
-  "url": "sec-I-4.html#sec-I-4-3-1",
+  "url": "sec-I-4-sols.html#sec-I-4-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Logic and Sets.",
-  "body": " Logic and Sets      "
+  "body": " Logic and Sets      Propositions are connected to sets because given a predicate (a proposition with a variable), we can build a corresponding set such that is true exactly when . Under this correspondence,    corresponds to      corresponds to      corresponds to      Another important consequence is that we inherit all of the properties of sets (like distributive laws and DeMorgan's Laws ).    "
 },
 {
-  "id": "sec-I-4-3-2",
+  "id": "sec-I-4-sols-3-2",
   "level": "2",
-  "url": "sec-I-4.html#sec-I-4-3-2",
+  "url": "sec-I-4-sols.html#sec-I-4-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Conditional Statements.",
-  "body": " Conditional Statements   We can combine propositions in two more important ways:   "
+  "body": " Conditional Statements   We can combine propositions in two more important ways:        : \"If then \", called a conditional statement      : \"If if and only if \", called a biconditional statement      The two propositions above have the following truth table:          T  T  T  T  T    F  F  T  T  T    T  F  F  T  F    F  T  T  F  F      "
 },
 {
-  "id": "sec-I-4-3-3",
+  "id": "sec-I-4-sols-3-3",
   "level": "2",
-  "url": "sec-I-4.html#sec-I-4-3-3",
+  "url": "sec-I-4-sols.html#sec-I-4-sols-3-3",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Example: Determining truth values of complicated propositions.",
-  "body": " Example: Determining truth values of complicated propositions   Determine the truth table for the proposition .   "
+  "body": " Example: Determining truth values of complicated propositions   Determine the truth table for the proposition .               T  T  T  F  T  T    F  F  T  T  T  T    T  F  F  F  F  T    F  T  T  T  T  T      "
 },
 {
-  "id": "sec-I-4-4-1",
+  "id": "sec-I-4-sols-4-1",
   "level": "2",
-  "url": "sec-I-4.html#sec-I-4-4-1",
+  "url": "sec-I-4-sols.html#sec-I-4-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Important Conditional Statements.",
-  "body": " Important Conditional Statements   For the conditional statement , we can form three other (related) conditional statements:   "
+  "body": " Important Conditional Statements   For the conditional statement , we can form three other (related) conditional statements:        , called the inverse statement      , called the converse statement      , called the contrapositive statement       "
 },
 {
-  "id": "sec-I-4-4-2",
+  "id": "sec-I-4-sols-4-2",
   "level": "2",
-  "url": "sec-I-4.html#sec-I-4-4-2",
+  "url": "sec-I-4-sols.html#sec-I-4-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "Practice.",
-  "body": " Practice    Let be the proposition \"It is snowing\" and be the proposition \"CSU is closed for the day\". Translate the following to English sentences.                            Use truth tables to show that is logically equivalent (i.e., has the same truth table) to .      Without using truth tables, explain why the inverse and converse of are logically equivalent.    "
+  "body": " Practice    Let be the proposition \"It is snowing\" and be the proposition \"CSU is closed for the day\". Translate the following to English sentences.                             If CSU is closed for the day, then it is snowing.    If it is not snowing, then CSU is not closed for the day.    It is snowing and CSU is closed for the day.    It is snowing if and only if CSU is closed for the day. (Equivalently, If it is snowing then CSU is closed for the day, and if CSU is closed for the day then it is snowing.)         Use truth tables to show that is logically equivalent (i.e., has the same truth table) to .               T  T  T  F  F  T    F  F  T  T  T  T    T  F  F  F  T  F    F  T  T  T  F  T         Without using truth tables, explain why the inverse and converse of are logically equivalent.    The inverse statement is the contrapositive of the converse statement. By the result of the previous question, these are logically equivalent.    "
 },
 {
   "id": "sec-I-5",
