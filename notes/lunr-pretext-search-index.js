@@ -575,6 +575,69 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "",
   "body": "  For each of the following binary relations, determine which of the four properties we've defined are true.                                      "
+},
+{
+  "id": "sec-II-4",
+  "level": "1",
+  "url": "sec-II-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S II.4\\text{:}\\)<\/span> Equivalence Relations and Partitions",
+  "body": " : Equivalence Relations and Partitions    Motivation: Equivalence Relations        Definition: Equivalence Relation   A binary relation on is an equivalence relation if     Example: Equivalence Relations   Let be the relation on defined by if and only if is even.       Observations: Equivalence Relations        Partitions   Let and the partition of given by .       Practice: Equivalence Relations    Let be the relation on given by if and only if divides .   Verify is an equivalence relation.    How many equivalence classes are there? Give a representative for each.         Let be a set, and the relation on given by if and only if . Is an equivalence relation?      A graph is a set of vertices (or nodes) along with a set of edges between those vertices. For example, the following are two graphs with vertices and edge.  Two graphs with three vertices and one edge. In one graph the edge is between vertex 1 and 2. In the other the edge is between vertex 1 and 3.  We'd like to consider two graphs equal if we can re-label the vertices of one graph to get the other. For example, this can be done with the two graphs shown above. Determine the equivalence classes for this equivalence relation on the set of all graphs with vertices.      "
+},
+{
+  "id": "sec-II-4-2-1",
+  "level": "2",
+  "url": "sec-II-4.html#sec-II-4-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Equivalence Relations.",
+  "body": " Motivation: Equivalence Relations      "
+},
+{
+  "id": "sec-II-4-2-2",
+  "level": "2",
+  "url": "sec-II-4.html#sec-II-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Equivalence Relation.",
+  "body": " Definition: Equivalence Relation   A binary relation on is an equivalence relation if   "
+},
+{
+  "id": "sec-II-4-2-3",
+  "level": "2",
+  "url": "sec-II-4.html#sec-II-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Equivalence Relations.",
+  "body": " Example: Equivalence Relations   Let be the relation on defined by if and only if is even.   "
+},
+{
+  "id": "sec-II-4-3-1",
+  "level": "2",
+  "url": "sec-II-4.html#sec-II-4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Observations: Equivalence Relations.",
+  "body": " Observations: Equivalence Relations      "
+},
+{
+  "id": "sec-II-4-3-2",
+  "level": "2",
+  "url": "sec-II-4.html#sec-II-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Partitions.",
+  "body": " Partitions   Let and the partition of given by .   "
+},
+{
+  "id": "sec-II-4-4-1",
+  "level": "2",
+  "url": "sec-II-4.html#sec-II-4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Equivalence Relations.",
+  "body": " Practice: Equivalence Relations    Let be the relation on given by if and only if divides .   Verify is an equivalence relation.    How many equivalence classes are there? Give a representative for each.         Let be a set, and the relation on given by if and only if . Is an equivalence relation?      A graph is a set of vertices (or nodes) along with a set of edges between those vertices. For example, the following are two graphs with vertices and edge.  Two graphs with three vertices and one edge. In one graph the edge is between vertex 1 and 2. In the other the edge is between vertex 1 and 3.  We'd like to consider two graphs equal if we can re-label the vertices of one graph to get the other. For example, this can be done with the two graphs shown above. Determine the equivalence classes for this equivalence relation on the set of all graphs with vertices.    "
 }
 ]
 
