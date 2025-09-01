@@ -1,0 +1,247 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-4-sols">
+        <title><m>\S II.4</m>: Equivalence Relations and Partitions</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Equivalence Relations </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            There are many cases when it's desirable to "loosen" our concept of equality. For example,
+                            in most contexts we accept the equality
+                            <me>
+                                2+3 = 5
+                            </me>
+                            even though the two sides of the equality contain different looking symbols. This is captured
+                            in the concept of an <term>equivalence relation</term>.
+                        </p>
+                    </solution>
+                    
+                
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Definition: Equivalence Relation</title>
+                    <statement>
+                        <p>
+                            A binary relation <m>R</m> on <m>S \times S</m> is an <term>equivalence relation</term> if
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            it is relexive, symmetric, and transitive.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Example: Equivalence Relations</title>
+                    <statement>
+                        <p>
+                            Let <m>R</m> be the relation on <m>\Z \times \Z</m> defined by <m>aRb</m> if and only if
+                            <m>a-b</m> is even.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This is an equivalence relation because
+                            <ol>
+                                <li>
+                                    <p>
+                                        It is reflexive: <m>a-a = 0</m>, which is even.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        It is symmetric: If <m>a-b</m> is even, then <m>b-a = -(a-b)</m> is even.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        It is transitive: If <m>a-b</m> and <m>b-c</m> are even, then 
+                                        <m>a-c = (a-b)+(b-a)</m> is even.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+            </page>
+            
+            <page>
+                <exercise workspace="4in">
+                    <title>Observations: Equivalence Relations</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        Given <m>a \in \Z</m>, we can define the <term>equivalence class</term> containing 
+                                        <m>a</m>: 
+                                        <me>
+                                            [a]= \{b \in \Z | aRb\} 
+                                        </me>.
+                                        We call <m>a</m> a <term>representative</term> for the equivalence class.
+                                    </p>
+                                    <p>
+                                        In our previous example, there are two equivalence classes:
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    <m>[0]</m>, which is the set of even integers.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <m>[1]</m>, which is the set of odd integers.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Every integer is in an equivalence class, and the intersection of different
+                                        equivalence classes is empty. This is called a <term>partition</term> of the 
+                                        integers.
+                                    </p>
+                                    <p>
+                                        In some sense, equivalence relations on a set are exactly partitions of that set:
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    Given an equivalence relation, the equivalence classes form a partition
+                                                    (as in the integer example).
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Given a partition, we can define an equivalence relation (see the next example).
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Partitions</title>
+                    <statement>
+                        <p>
+                            Let <m>S = \{ 1, 2, 3, 4, 5, 6\}</m> and <m>P</m> the partition of <m>S</m> given by
+                            <m>P= \{ \{1\}, \{2,3\}, \{4,5,6\} \}</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Define <m>R</m> on <m>S \times S</m> as <m>aRb</m> if and only if <m>a</m> and <m>b</m>
+                            are in the same subset in the partition <m>P</m>. Then verify that <m>R</m> is reflexive,
+                            symmetric, and transitive (and thus an equivalence relation).
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Practice: Equivalence Relations</title>
+                    
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Let <m>R</m> be the relation on <m>\Z \times \Z</m> given by <m>aRb</m> if and only if
+                                <m>3</m> divides <m>a-b</m>.
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Verify <m>R</m> is an equivalence relation.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            How many equivalence classes are there? Give a representative for each.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>R</m> is reflexive because <m>3</m> divides <m>0</m>. <m>R</m> is symmetric because
+                                if <m>3</m> divides <m>a-b</m>, then <m>3</m> divides <m>b-a = -(a-b)</m>. <m>R</m> is
+                                transitive because if <m>3</m> divides <m>a-b</m> and <m>b-c</m>, then <m>3</m> divides
+                                <m>a-c = (a-b)+(b-c)</m>.
+                            </p>
+                            <p>
+                                There are three equivalence classes: <m>[0], [1], [2]</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Let <m>S</m> be a set, and <m>R</m> the relation on <m>P(S) \times P(S)</m> given by
+                                <m>A \sim_R B</m> if and only if <m>|A| = |B|</m>. Is <m>R</m> an equivalence relation?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Yes, this is an equivalence relation. 
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                A <term>graph</term> is a set of vertices (or nodes) along with a set of edges between those
+                                vertices. For example, the following are two graphs with <m>3</m> vertices and <m>1</m> edge.
+
+                                <image source="graphs_3.jpeg" width="50%">
+                                    <shortdescription>Two graphs with three vertices and one edge. In one graph
+                                        the edge is between vertex 1 and 2. In the other the edge is between vertex
+                                        1 and 3.
+                                    </shortdescription>
+                                </image>
+
+                                We'd like to consider two graphs equal if we can re-label the vertices of one graph to get
+                                the other. For example, this can be done with the two graphs shown above. Determine
+                                the equivalence classes for this equivalence relation on the set of all graphs with <m>3</m>
+                                vertices.
+                            </p>
+    
+                        </statement>
+                        <solution>
+                            <p>
+                                See the <url href="https://htmlpreview.github.io/?https://github.com/hulpke/csbook/blob/main/mathforcs.html#Ch2.S4">example in the textbook at the end of section II.4</url>.
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
+

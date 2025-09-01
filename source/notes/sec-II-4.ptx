@@ -1,0 +1,129 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-4">
+        <title><m>\S II.4</m>: Equivalence Relations and Partitions</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Equivalence Relations </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace=".5in">
+                    <title>Definition: Equivalence Relation</title>
+                    <statement>
+                        <p>
+                            A binary relation <m>R</m> on <m>S \times S</m> is an <term>equivalence relation</term> if
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Example: Equivalence Relations</title>
+                    <statement>
+                        <p>
+                            Let <m>R</m> be the relation on <m>\Z \times \Z</m> defined by <m>aRb</m> if and only if
+                            <m>a-b</m> is even.
+                        </p>
+                    </statement>
+                    
+                    
+                    
+                </exercise>
+
+            </page>
+            
+            <page>
+                <exercise workspace="4in">
+                    <title>Observations: Equivalence Relations</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Partitions</title>
+                    <statement>
+                        <p>
+                            Let <m>S = \{ 1, 2, 3, 4, 5, 6\}</m> and <m>P</m> the partition of <m>S</m> given by
+                            <m>P= \{ \{1\}, \{2,3\}, \{4,5,6\} \}</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Practice: Equivalence Relations</title>
+                    
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Let <m>R</m> be the relation on <m>\Z \times \Z</m> given by <m>aRb</m> if and only if
+                                <m>3</m> divides <m>a-b</m>.
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Verify <m>R</m> is an equivalence relation.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            How many equivalence classes are there? Give a representative for each.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Let <m>S</m> be a set, and <m>R</m> the relation on <m>P(S) \times P(S)</m> given by
+                                <m>A \sim_R B</m> if and only if <m>|A| = |B|</m>. Is <m>R</m> an equivalence relation?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                A <term>graph</term> is a set of vertices (or nodes) along with a set of edges between those
+                                vertices. For example, the following are two graphs with <m>3</m> vertices and <m>1</m> edge.
+
+                                <image source="graphs_3.jpeg" width="50%">
+                                    <shortdescription>Two graphs with three vertices and one edge. In one graph
+                                        the edge is between vertex 1 and 2. In the other the edge is between vertex
+                                        1 and 3.
+                                    </shortdescription>
+                                </image>
+
+                                We'd like to consider two graphs equal if we can re-label the vertices of one graph to get
+                                the other. For example, this can be done with the two graphs shown above. Determine
+                                the equivalence classes for this equivalence relation on the set of all graphs with <m>3</m>
+                                vertices.
+                            </p>
+    
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
+
