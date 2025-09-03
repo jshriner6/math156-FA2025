@@ -1,0 +1,137 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-5">
+        <title><m>\S II.5</m>: Constructing <m>\Z</m> and <m>\Q</m></title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Constructing Common Sets </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise>
+                    <title>Constructing <m>\Z</m></title>
+                    <introduction>
+                        <p>
+                            Define <m>\N_0 = \N \cup \{0\}</m>, and let <m>Z</m> be the relation on 
+                            <m>(\N_0 \times \N_0) \times (\N_0 \times \N_0)</m> defined by 
+                            <me>
+                                (a,b) Z (c,d) \text{ iff } b+c = a+d
+                            </me>.
+                            
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                What element(s) are related to <m>(0,0)</m>?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Write down at least <m>3</m> other elements of <m>Z</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                What integer do you think <m>(a,b) \in \N_0 \times \N_0</m> is meant to represent?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                               Explain why you think the relation <m>Z</m> was defined the way that it was.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Verify that <m>Z</m> is an equivalence relation.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                How can we use the equivalence relation <m>Z</m> to define elements of <m>\Z</m>?
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+
+            <page>
+                <exercise>
+                    <title>Constructing <m>\Q</m></title>
+                    <introduction>
+                        <p>
+                            Let <m>Q</m> be the relation on 
+                            <m>(\Z \times \Z \setminus \{0\}) \times (\Z \times \Z \setminus \{0\})</m> defined by 
+                            <me>
+                                (a,b) Q (c,d) \text{ iff } ad = bc
+                            </me>.
+                            
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                What element(s) are related to <m>(1,1)</m>?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Write down at least <m>3</m> other elements of <m>Q</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                What rational number do you think <m>(a,b) \in \Z \times \Z \setminus \{0\}</m> is meant to represent?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                               Explain why you think the relation <m>Q</m> was defined the way that it was.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Verify that <m>Q</m> is an equivalence relation.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                How can we use the equivalence relation <m>Q</m> to define elements of <m>\Q</m>?
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>

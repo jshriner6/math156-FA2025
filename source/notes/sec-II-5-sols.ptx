@@ -1,0 +1,224 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-5-sols">
+        <title><m>\S II.5</m>: Constructing <m>\Z</m> and <m>\Q</m></title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Constructing Common Sets </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Equivalence relations play a large role in constructing many sets that we take for granted.
+                            This section will give us an illustration of how the integers and rational numbers can be constructed
+                            from the natural numbers using equivalence relations.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise>
+                    <title>Constructing <m>\Z</m></title>
+                    <introduction>
+                        <p>
+                            Define <m>\N_0 = \N \cup \{0\}</m>, and let <m>Z</m> be the relation on 
+                            <m>(\N_0 \times \N_0) \times (\N_0 \times \N_0)</m> defined by 
+                            <me>
+                                (a,b) Z (c,d) \text{ iff } b+c = a+d
+                            </me>.
+                            
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                What element(s) are related to <m>(0,0)</m>?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>(0,0) Z (c,c)</m> for all <m>c \in \N_0</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Write down at least <m>3</m> other elements of <m>Z</m>.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Examples includes <m>((0,2), (3,5))</m>, <m>((2,0), (6,4))</m>, and <m>((6,3), (3,0))</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                What integer do you think <m>(a,b) \in \N_0 \times \N_0</m> is meant to represent?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                It represents the integer <m>b-a</m>. 
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                               Explain why you think the relation <m>Z</m> was defined the way that it was.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                The relation <m>Z</m> forces <m>b-a = d-c</m>, so that writing the same integer in 
+                                two different ways would still be considered the same (<m>0-2 = 4-6</m>).
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Verify that <m>Z</m> is an equivalence relation.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>(a,b) Z (a,b)</m> since <m>b+a = a + b</m>.
+                            </p>
+                            <p>
+                                If <m>(a,b) Z (c,d)</m>, then <m>b+c = a + d</m>. Then it is also true that 
+                                <m>d+ a = c +b</m>, so <m>(c,d) Z (a,b)</m>.
+                            </p>
+                            <p>
+                                If <m>(a,b) Z (c,d)</m> and <m>(c,d) Z (e,f)</m>, then <m>b+c = a +d</m> and <m>d+e = c+f</m>.
+                                Then it is also true that <m>d+e + b+c= a+d+ c+f</m>, or <m>b + e = a + f</m>, so 
+                                <m>(a,b) Z (e,f)</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                How can we use the equivalence relation <m>Z</m> to define elements of <m>\Z</m>?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Elements of <m>\Z</m> are equivalence classes of the equivalence relation <m>Z</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+
+            <page>
+                <exercise>
+                    <title>Constructing <m>\Q</m></title>
+                    <introduction>
+                        <p>
+                            Let <m>Q</m> be the relation on 
+                            <m>(\Z \times \Z \setminus \{0\}) \times (\Z \times \Z \setminus \{0\})</m> defined by 
+                            <me>
+                                (a,b) Q (c,d) \text{ iff } ad = bc
+                            </me>.
+                            
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                What element(s) are related to <m>(1,1)</m>?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>(1,1) Q (c,c)</m> for all <m>c \in \Z \setminus \{0\}</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Write down at least <m>3</m> other elements of <m>Q</m>.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Examples include <m>((0,2), (0,5))</m>, <m>((2,4), (1,2))</m>, and <m>((-2,1), (-6,3))</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                What rational number do you think <m>(a,b) \in \Z \times \Z \setminus \{0\}</m> is meant to represent?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>\frac{a}{b}</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                               Explain why you think the relation <m>Q</m> was defined the way that it was.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                The relation <m>Q</m> forces <m>\frac{a}{b}= \frac{c}{d}</m>, so that writing the same rational number in 
+                                two different ways would still be considered the same (<m>\frac{2}{4} = \frac{1}{2} </m>).
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Verify that <m>Q</m> is an equivalence relation.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>(a,b) Q (a,b)</m> since <m>ab = ba</m>.
+                            </p>
+                            <p>
+                                If <m>(a,b) Q (c,d)</m> then <m>ad = bc</m>. Then it is also true that <m>cb = da</m>, so
+                                <m>(c,d) Q (a,b)</m>.
+                            </p>
+                            <p>
+                                If <m>(a,b) Q (c,d)</m> and <m>(c,d) Q (e,f)</m>, then <m>ad = bc</m> and <m>cf = de</m>. Then 
+                                it is also true that <m>adcf= bcde</m>, and that <m>acf=bce</m> (since we know <m>d \neq 0</m>). If <m>c=0</m>,
+                                then <m>a = e =0</m>, so <m>af=be</m>. If <m>c\neq0</m>, then we can divide <m>acf=bce</m> by <m>c</m> to get
+                                <m>af = be</m>. So <m>(a,b) Q (e,f)</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                How can we use the equivalence relation <m>Q</m> to define elements of <m>\Q</m>?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Elements of <m>\Q</m> are equivalence classes of the equivalence relation <m>Q</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>
