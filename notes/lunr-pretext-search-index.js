@@ -352,67 +352,67 @@ var ptx_lunr_docs = [
   "body": " Practice    Let be the proposition \"It is snowing\" and be the proposition \"CSU is closed for the day\". Translate the following to English sentences.                             If CSU is closed for the day, then it is snowing.    If it is not snowing, then CSU is not closed for the day.    It is snowing and CSU is closed for the day.    It is snowing if and only if CSU is closed for the day. (Equivalently, If it is snowing then CSU is closed for the day, and if CSU is closed for the day then it is snowing.)         Use truth tables to show that is logically equivalent (i.e., has the same truth table) to .               T  T  T  F  F  T    F  F  T  T  T  T    T  F  F  F  T  F    F  T  T  T  F  T         Without using truth tables, explain why the inverse and converse of are logically equivalent.    The inverse statement is the contrapositive of the converse statement. By the result of the previous question, these are logically equivalent.    "
 },
 {
-  "id": "sec-I-5",
+  "id": "sec-I-5-sols",
   "level": "1",
-  "url": "sec-I-5.html",
+  "url": "sec-I-5-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S I.5\\text{:}\\)<\/span> Predicate Logic and Quantifiers",
-  "body": " : Predicate Logic and Quantifiers    Motivation: Quantifiers        Definition: Quantifiers and Predicates        Using Quantifiers with Predicates   Many mathematical statements are formed by attaching quantifiers to predicates.  As an example, consider the sets Write down the meaning of the following logical statements:                        Exercise: Order Matters!   Pick the single true statement below:                 Negating Quantifiers   If a quantified statement is false, its negation is true. How do we negate quantifiers? Let's consider the following examples:   \"Every integer is even.\"    \"There is a real number such that .\"        Practice: Negating Quantifiers   Negate the following statements:                 "
+  "body": " : Predicate Logic and Quantifiers    Motivation: Quantifiers       We have symbols to write down useful logical statements that have truth values: We're missing symbols that help us quantify elements in a statement. For example, we need logical symbols to help us say true\/false statements like:  \"Every integer is even.\"  \"There is an integer that is even.\"     Definition: Quantifiers and Predicates       The symbol \" \" reads \"for all\". The symbol \" \" reads \"there exists\". These symbols are called quantifiers .  A predicate for a universal set is a sentence including a variable such that if we replace with an element of , we get a proposition (a statement that is unambiguously true or false).  An example is that if is the predicate , then is true for but false otherwise.  Predicates can also have multiple variables. For example, could be the predicate .     Using Quantifiers with Predicates   Many mathematical statements are formed by attaching quantifiers to predicates.  As an example, consider the sets Write down the meaning of the following logical statements:                        Every even number plus one is an odd number.    The sum of any two odd numbers is an even number.    For every positive even number there is an integer whose negation is .          Exercise: Order Matters!   Pick the single true statement below:                   This says \"for every integer, there is another integer that is one more\". This is true.    This says \"there is an integer which is one more than every other integer\". This is false.        Negating Quantifiers   If a quantified statement is false, its negation is true. How do we negate quantifiers? Let's consider the following examples:   \"Every integer is even.\"    \"There is a real number such that .\"          Negating this statement is \"There is an integer that is not even.\"    Negating this statement is \"Every real number satisfies .\"     The general negation rules for quantifiers are                 Practice: Negating Quantifiers   Negate the following statements:                                 "
 },
 {
-  "id": "sec-I-5-2-1",
+  "id": "sec-I-5-sols-2-1",
   "level": "2",
-  "url": "sec-I-5.html#sec-I-5-2-1",
+  "url": "sec-I-5-sols.html#sec-I-5-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Quantifiers.",
-  "body": " Motivation: Quantifiers      "
+  "body": " Motivation: Quantifiers       We have symbols to write down useful logical statements that have truth values: We're missing symbols that help us quantify elements in a statement. For example, we need logical symbols to help us say true\/false statements like:  \"Every integer is even.\"  \"There is an integer that is even.\"   "
 },
 {
-  "id": "sec-I-5-2-2",
+  "id": "sec-I-5-sols-2-2",
   "level": "2",
-  "url": "sec-I-5.html#sec-I-5-2-2",
+  "url": "sec-I-5-sols.html#sec-I-5-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Quantifiers and Predicates.",
-  "body": " Definition: Quantifiers and Predicates      "
+  "body": " Definition: Quantifiers and Predicates       The symbol \" \" reads \"for all\". The symbol \" \" reads \"there exists\". These symbols are called quantifiers .  A predicate for a universal set is a sentence including a variable such that if we replace with an element of , we get a proposition (a statement that is unambiguously true or false).  An example is that if is the predicate , then is true for but false otherwise.  Predicates can also have multiple variables. For example, could be the predicate .   "
 },
 {
-  "id": "sec-I-5-2-3",
+  "id": "sec-I-5-sols-2-3",
   "level": "2",
-  "url": "sec-I-5.html#sec-I-5-2-3",
+  "url": "sec-I-5-sols.html#sec-I-5-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Using Quantifiers with Predicates.",
-  "body": " Using Quantifiers with Predicates   Many mathematical statements are formed by attaching quantifiers to predicates.  As an example, consider the sets Write down the meaning of the following logical statements:                    "
+  "body": " Using Quantifiers with Predicates   Many mathematical statements are formed by attaching quantifiers to predicates.  As an example, consider the sets Write down the meaning of the following logical statements:                        Every even number plus one is an odd number.    The sum of any two odd numbers is an even number.    For every positive even number there is an integer whose negation is .      "
 },
 {
-  "id": "sec-I-5-3-1",
+  "id": "sec-I-5-sols-3-1",
   "level": "2",
-  "url": "sec-I-5.html#sec-I-5-3-1",
+  "url": "sec-I-5-sols.html#sec-I-5-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Exercise: Order Matters!",
-  "body": " Exercise: Order Matters!   Pick the single true statement below:               "
+  "body": " Exercise: Order Matters!   Pick the single true statement below:                   This says \"for every integer, there is another integer that is one more\". This is true.    This says \"there is an integer which is one more than every other integer\". This is false.      "
 },
 {
-  "id": "sec-I-5-3-2",
+  "id": "sec-I-5-sols-3-2",
   "level": "2",
-  "url": "sec-I-5.html#sec-I-5-3-2",
+  "url": "sec-I-5-sols.html#sec-I-5-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Negating Quantifiers.",
-  "body": " Negating Quantifiers   If a quantified statement is false, its negation is true. How do we negate quantifiers? Let's consider the following examples:   \"Every integer is even.\"    \"There is a real number such that .\"      "
+  "body": " Negating Quantifiers   If a quantified statement is false, its negation is true. How do we negate quantifiers? Let's consider the following examples:   \"Every integer is even.\"    \"There is a real number such that .\"          Negating this statement is \"There is an integer that is not even.\"    Negating this statement is \"Every real number satisfies .\"     The general negation rules for quantifiers are               "
 },
 {
-  "id": "sec-I-5-3-3",
+  "id": "sec-I-5-sols-3-3",
   "level": "2",
-  "url": "sec-I-5.html#sec-I-5-3-3",
+  "url": "sec-I-5-sols.html#sec-I-5-sols-3-3",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Practice: Negating Quantifiers.",
-  "body": " Practice: Negating Quantifiers   Negate the following statements:               "
+  "body": " Practice: Negating Quantifiers   Negate the following statements:                               "
 },
 {
   "id": "sec-II-1",
