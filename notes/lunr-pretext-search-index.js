@@ -638,6 +638,42 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Practice: Equivalence Relations.",
   "body": " Practice: Equivalence Relations    Let be the relation on given by if and only if divides .   Verify is an equivalence relation.    How many equivalence classes are there? Give a representative for each.         Let be a set, and the relation on given by if and only if . Is an equivalence relation?      A graph is a set of vertices (or nodes) along with a set of edges between those vertices. For example, the following are two graphs with vertices and edge.  Two graphs with three vertices and one edge. In one graph the edge is between vertex 1 and 2. In the other the edge is between vertex 1 and 3.  We'd like to consider two graphs equal if we can re-label the vertices of one graph to get the other. For example, this can be done with the two graphs shown above. Determine the equivalence classes for this equivalence relation on the set of all graphs with vertices.    "
+},
+{
+  "id": "sec-II-5",
+  "level": "1",
+  "url": "sec-II-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S II.5\\text{:}\\)<\/span> Constructing <span class=\"process-math\">\\(\\Z\\)<\/span> and <span class=\"process-math\">\\(\\Q\\)<\/span>",
+  "body": " : Constructing and    Motivation: Constructing Common Sets        Constructing   Define , and let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What integer do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?        Constructing   Let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What rational number do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?      "
+},
+{
+  "id": "sec-II-5-2-1",
+  "level": "2",
+  "url": "sec-II-5.html#sec-II-5-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Constructing Common Sets.",
+  "body": " Motivation: Constructing Common Sets      "
+},
+{
+  "id": "sec-II-5-2-2",
+  "level": "2",
+  "url": "sec-II-5.html#sec-II-5-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Constructing <span class=\"process-math\">\\(\\Z\\)<\/span>.",
+  "body": " Constructing   Define , and let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What integer do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?    "
+},
+{
+  "id": "sec-II-5-3-1",
+  "level": "2",
+  "url": "sec-II-5.html#sec-II-5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Constructing <span class=\"process-math\">\\(\\Q\\)<\/span>.",
+  "body": " Constructing   Let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What rational number do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?    "
 }
 ]
 
