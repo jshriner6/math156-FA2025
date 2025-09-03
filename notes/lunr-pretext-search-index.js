@@ -415,67 +415,67 @@ var ptx_lunr_docs = [
   "body": " Practice: Negating Quantifiers   Negate the following statements:                               "
 },
 {
-  "id": "sec-II-1",
+  "id": "sec-II-1-sols",
   "level": "1",
-  "url": "sec-II-1.html",
+  "url": "sec-II-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S II.1\\text{:}\\)<\/span> Connecting Elements",
-  "body": " : Connecting Elements    Motivation: Relations        Definition and Example: Relation   A relation between sets and is     Familiar Relations   The following are all relations on . Write at least three elements in each relation as elements of .       Representations of Relations   We can represent relations in multiple ways. Let , and be the relation defined by \" \".       Definitions: Source, target, domain, and range   Let be a relation.     Practice: Domain and Range   Let , and be the relation . What is the domain? What is the range?     "
+  "body": " : Connecting Elements    Motivation: Relations       Now that we know a lot about sets and set notation, we can talk about how sets can interact in meaningful ways. A fundamental interaction is called a relation .     Definition and Example: Relation   A relation between sets and is    is a subset . We often indicate elements by or .  Consider the sets and of prime numbers. We'll define a relation on by saying if divides . Then we can note that         ( does not divide )     ( does not divide )     ( )        Familiar Relations   The following are all relations on . Write at least three elements in each relation as elements of .        . Examples are .     . Examples are .     . Examples are .          Representations of Relations   We can represent relations in multiple ways. Let , and be the relation defined by \" \".    We can represent as   a subset of .     a table. We can represent as                                  directed graphs. You can see directed graphs being used in a similar example in Figure 1 of section II.1 .     If our relation is on , there is another familiar representation as a graph in the coordinate plane.  For example, the relation is just the equation . We can view this relation as the graph of .  A similar example is the relation . This relation is viewed as the graph of a circle of radius one .       Definitions: Source, target, domain, and range       Let be a relation.  The set is called the source of , and the set is called the target of .  The set is the domain of .  The set is the range of .     Practice: Domain and Range   Let , and be the relation . What is the domain? What is the range?    The domain of is , while the range of is .     "
 },
 {
-  "id": "sec-II-1-2-1",
+  "id": "sec-II-1-sols-2-1",
   "level": "2",
-  "url": "sec-II-1.html#sec-II-1-2-1",
+  "url": "sec-II-1-sols.html#sec-II-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Relations.",
-  "body": " Motivation: Relations      "
+  "body": " Motivation: Relations       Now that we know a lot about sets and set notation, we can talk about how sets can interact in meaningful ways. A fundamental interaction is called a relation .   "
 },
 {
-  "id": "sec-II-1-2-2",
+  "id": "sec-II-1-sols-2-2",
   "level": "2",
-  "url": "sec-II-1.html#sec-II-1-2-2",
+  "url": "sec-II-1-sols.html#sec-II-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition and Example: Relation.",
-  "body": " Definition and Example: Relation   A relation between sets and is   "
+  "body": " Definition and Example: Relation   A relation between sets and is    is a subset . We often indicate elements by or .  Consider the sets and of prime numbers. We'll define a relation on by saying if divides . Then we can note that         ( does not divide )     ( does not divide )     ( )      "
 },
 {
-  "id": "sec-II-1-2-3",
+  "id": "sec-II-1-sols-2-3",
   "level": "2",
-  "url": "sec-II-1.html#sec-II-1-2-3",
+  "url": "sec-II-1-sols.html#sec-II-1-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Familiar Relations.",
-  "body": " Familiar Relations   The following are all relations on . Write at least three elements in each relation as elements of .   "
+  "body": " Familiar Relations   The following are all relations on . Write at least three elements in each relation as elements of .        . Examples are .     . Examples are .     . Examples are .      "
 },
 {
-  "id": "sec-II-1-3-1",
+  "id": "sec-II-1-sols-3-1",
   "level": "2",
-  "url": "sec-II-1.html#sec-II-1-3-1",
+  "url": "sec-II-1-sols.html#sec-II-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Representations of Relations.",
-  "body": " Representations of Relations   We can represent relations in multiple ways. Let , and be the relation defined by \" \".   "
+  "body": " Representations of Relations   We can represent relations in multiple ways. Let , and be the relation defined by \" \".    We can represent as   a subset of .     a table. We can represent as                                  directed graphs. You can see directed graphs being used in a similar example in Figure 1 of section II.1 .     If our relation is on , there is another familiar representation as a graph in the coordinate plane.  For example, the relation is just the equation . We can view this relation as the graph of .  A similar example is the relation . This relation is viewed as the graph of a circle of radius one .   "
 },
 {
-  "id": "sec-II-1-4-1",
+  "id": "sec-II-1-sols-4-1",
   "level": "2",
-  "url": "sec-II-1.html#sec-II-1-4-1",
+  "url": "sec-II-1-sols.html#sec-II-1-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Definitions: Source, target, domain, and range.",
-  "body": " Definitions: Source, target, domain, and range   Let be a relation.   "
+  "body": " Definitions: Source, target, domain, and range       Let be a relation.  The set is called the source of , and the set is called the target of .  The set is the domain of .  The set is the range of .   "
 },
 {
-  "id": "sec-II-1-4-2",
+  "id": "sec-II-1-sols-4-2",
   "level": "2",
-  "url": "sec-II-1.html#sec-II-1-4-2",
+  "url": "sec-II-1-sols.html#sec-II-1-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Practice: Domain and Range.",
-  "body": " Practice: Domain and Range   Let , and be the relation . What is the domain? What is the range?   "
+  "body": " Practice: Domain and Range   Let , and be the relation . What is the domain? What is the range?    The domain of is , while the range of is .   "
 },
 {
   "id": "sec-II-2",
