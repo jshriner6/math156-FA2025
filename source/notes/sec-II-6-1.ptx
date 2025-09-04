@@ -1,0 +1,114 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-6-1">
+        <title><m>\S II.6</m>: Remainders and Modulo</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Modulo </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Fact: Euclid's Division Lemma</title>
+                    <statement>
+                        <p>
+                            For <m>a,m \in \Z</m> with <m>m \neq 0</m> (we will take <m>m \gt 1</m>), there is a unique
+                            <m>q,r \in \Z</m> with <m>0 \leq r \lt m</m> such that 
+                            <me>
+                                a = qm +r
+                            </me>.
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Definition: Modulo Equivalence Relation</title>
+                    <statement>
+                        <p>
+                             Fix <m>m \in \Z</m> with <m>m \gt 1</m>. The relation <m>R_m</m> on <m>\Z \times \Z </m> is defined as
+                        </p>
+                    </statement>
+                   
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="3in">
+                    <title>Notation: Modulo Relation</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Example: Congruence Modulo <m>3</m></title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Congruence Classes</title>
+                    <introduction>
+                        <p>
+                            For each value of <m>m</m> below, separate the integers 
+                            <m>\{-5, -4,-3,-2,-1,0,1,2,3,4,5\}</m> into congruence classes mod <m>m</m>. Then determine
+                            all the elements of <m>\Z / m \Z</m>.
+                        </p>
+                    </introduction>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>m=2</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>m=4</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>m=7</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>m=8</m>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

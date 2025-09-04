@@ -1,0 +1,212 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-II-6-1-sols">
+        <title><m>\S II.6</m>: Remainders and Modulo</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Modulo </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Another important application of equivalence relations is to form <term>congruence classes</term>
+                            of the integers for a fixed integer <m>m\neq 0</m>. Intuitively, think about how we use numbers
+                            to keep time.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Fact: Euclid's Division Lemma</title>
+                    <statement>
+                        <p>
+                            For <m>a,m \in \Z</m> with <m>m \neq 0</m> (we will take <m>m \gt 1</m>), there is a unique
+                            <m>q,r \in \Z</m> with <m>0 \leq r \lt m</m> such that 
+                            <me>
+                                a = qm +r
+                            </me>.
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            The intuition is if we divide <m>a</m> by <m>m</m>, there is a unique quotient <m>q</m>
+                            and remainder <m>r</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Definition: Modulo Equivalence Relation</title>
+                    <statement>
+                        <p>
+                             Fix <m>m \in \Z</m> with <m>m \gt 1</m>. The relation <m>R_m</m> on <m>\Z \times \Z </m> is defined as
+                        </p>
+                    </statement>
+                   <solution>
+                    <p>
+                        <m>aR_m b</m> if and only if <m>a</m> and <m>b</m> have the same remainder <m>r</m> when divided by <m>m</m>.
+                    </p>
+                    <p>
+                        An equivalent (and many times useful) way to rephrase this is that <m>aR_m b</m> if and only if
+                        <m>m</m> divides <m>a-b</m>.
+                    </p>
+                    <p>
+                        Using the definition by remainders it is straightforward to verify that <m>R_m</m> is reflexive, symmetric,
+                        and transitive, and therefore an equivalence relation. Equivalence classes in this context are typically
+                        referred to as <term>congruence classes</term>. If <m>a</m> and <m>b</m> are in the same congruence class
+                        we say that <m>a</m> and <m>b</m> are congruent modulo <m>m</m> (or congruent mod <m>m</m> for short).
+                    </p>
+                   </solution>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="3in">
+                    <title>Notation: Modulo Relation</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>aR_m b</m> is typically written <m>a \equiv b</m> (mod <m>m</m>).
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The equivalence class <m>[a]</m> is typically written <m>\overline{a}</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The set of congruence classes mod <m>m</m> is denoted <m>\Z / m \Z</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Example: Congruence Modulo <m>3</m></title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>-3 \equiv 0 \equiv 3 \equiv 6 \equiv 9</m> (mod <m>3</m>). Also, <m>\overline{0} = \overline{3}</m>.
+                        </p>
+                        <p>
+                            <m>-2 \equiv 1 \equiv 4 \equiv 7 \equiv 10</m> (mod <m>3</m>). Also, <m>\overline{1} = \overline{7}</m>.
+                        </p>
+                        <p>
+                            <m>-1 \equiv 2 \equiv 5 \equiv 8 \equiv 11</m> (mod <m>3</m>). Also, <m>\overline{2} = \overline{-1}</m>.
+                        </p>
+                        <p>
+                            The set of all congruence classes mod <m>3</m> is <m>\Z / 3\Z = \{\overline{0}, \overline{1}, \overline{2}\}</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Congruence Classes</title>
+                    <introduction>
+                        <p>
+                            For each value of <m>m</m> below, separate the integers 
+                            <m>\{-5, -4,-3,-2,-1,0,1,2,3,4,5\}</m> into congruence classes mod <m>m</m>. Then determine
+                            all the elements of <m>\Z / m \Z</m>.
+                        </p>
+                    </introduction>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>m=2</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                We have the congruence classes
+                                <me>
+                                    \{-5,-3,-1,1,3,5 \}, \{-4,-2,0,2,4 \}
+                                </me>.
+                                <m>\Z / 2\Z = \{\overline{0}, \overline{1} \}</m>
+                                
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>m=4</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                We have the congruence classes
+                                <me>
+                                    \{-5,-1,3 \}, \{-4,0,4 \}, \{-3,1,5 \}, \{-2,2 \}
+                                </me>.
+                                <m>\Z / 4\Z = \{\overline{0}, \overline{1}, \overline{2}, \overline{3} \}</m>
+                                
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>m=7</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                We have the congruence classes
+                                <me>
+                                    \{-5,2 \}, \{-4,3 \}, \{-3,4 \}, \{-2,5 \}, \{-1 \},  \{0 \}, \{1\}
+                                </me>.
+                                <m>\Z / 7\Z = \{\overline{0}, \overline{1}, \overline{2}, \overline{3}, \overline{4}, \overline{5}, \overline{6} \}</m>
+                                
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>m=8</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                We have the congruence classes
+                                <me>
+                                    \{-5,3 \}, \{-4,4 \}, \{-3,5 \}, \{-2 \}, \{-1 \}, \{0 \}, \{1 \}, \{2 \}
+                                </me>.
+                                <m>\Z / 8\Z = \{\overline{0}, \overline{1}, \overline{2}, \overline{3}, \overline{4}, \overline{5}, \overline{6}, \overline{7} \}</m>
+                                
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
