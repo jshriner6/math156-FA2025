@@ -674,6 +674,69 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "Constructing <span class=\"process-math\">\\(\\Q\\)<\/span>.",
   "body": " Constructing   Let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What rational number do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?    "
+},
+{
+  "id": "sec-II-6-1",
+  "level": "1",
+  "url": "sec-II-6-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S II.6\\text{:}\\)<\/span> Remainders and Modulo",
+  "body": " : Remainders and Modulo    Motivation: Modulo        Fact: Euclid's Division Lemma   For with (we will take ), there is a unique with such that .     Definition: Modulo Equivalence Relation   Fix with . The relation on is defined as       Notation: Modulo Relation        Example: Congruence Modulo          Practice: Congruence Classes   For each value of below, separate the integers into congruence classes mod . Then determine all the elements of .                                 "
+},
+{
+  "id": "sec-II-6-1-2-1",
+  "level": "2",
+  "url": "sec-II-6-1.html#sec-II-6-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Modulo.",
+  "body": " Motivation: Modulo      "
+},
+{
+  "id": "sec-II-6-1-2-2",
+  "level": "2",
+  "url": "sec-II-6-1.html#sec-II-6-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Fact: Euclid’s Division Lemma.",
+  "body": " Fact: Euclid's Division Lemma   For with (we will take ), there is a unique with such that .   "
+},
+{
+  "id": "sec-II-6-1-2-3",
+  "level": "2",
+  "url": "sec-II-6-1.html#sec-II-6-1-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definition: Modulo Equivalence Relation.",
+  "body": " Definition: Modulo Equivalence Relation   Fix with . The relation on is defined as   "
+},
+{
+  "id": "sec-II-6-1-3-1",
+  "level": "2",
+  "url": "sec-II-6-1.html#sec-II-6-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Notation: Modulo Relation.",
+  "body": " Notation: Modulo Relation      "
+},
+{
+  "id": "sec-II-6-1-3-2",
+  "level": "2",
+  "url": "sec-II-6-1.html#sec-II-6-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Congruence Modulo <span class=\"process-math\">\\(3\\)<\/span>.",
+  "body": " Example: Congruence Modulo      "
+},
+{
+  "id": "sec-II-6-1-4-1",
+  "level": "2",
+  "url": "sec-II-6-1.html#sec-II-6-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Congruence Classes.",
+  "body": " Practice: Congruence Classes   For each value of below, separate the integers into congruence classes mod . Then determine all the elements of .                               "
 }
 ]
 
