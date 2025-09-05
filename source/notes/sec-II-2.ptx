@@ -93,7 +93,7 @@
                         <statement>
                             
                             <p>
-                                Let <m>R</m> bethe relation "<m>\lt</m>" on <m>A \times B</m>. Represent <m>R</m>
+                                Let <m>R</m> be the relation "<m>\lt</m>" on <m>A \times B</m>. Represent <m>R</m>
                                 as a digraph.
                             </p>
                         </statement>
@@ -101,7 +101,7 @@
                     <task workspace="2in">
                         <statement>
                             <p>
-                                Let <m>S</m> bethe relation "<m>\gt</m>" on <m>B \times C</m>. Represent <m>S</m>
+                                Let <m>S</m> be the relation "<m>\gt</m>" on <m>B \times C</m>. Represent <m>S</m>
                                 as a digraph.
                             </p>
                         </statement>
