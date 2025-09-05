@@ -55,13 +55,13 @@
                                 <li>
                                     <p>
                                         "Is a grandparent of" is the <term>composition</term> of two copies of the relation 
-                                        <m>R</m>, which we will write as <m>R_1 \subset S_1 \times S_2</m> and 
-                                        <m>R_2 \subset S_2 \times S_3</m>.
+                                        <m>R</m>, which we will write as <m>R_2 \subset S_3 \times S_1</m> and 
+                                        <m>R_1 \subset S_1 \times S_2</m>.
                                          It is defined as the set
                                         <me>
-                                            R_2 \circ R_1 = \{(a,c) \in S_1 \times S_3 | \exists b, (a,b) \in R_1 \text{ and } (b,c) \in R_2\} 
+                                            R_1 \circ R_2 = \{(a,c) \in S_3 \times S_2 | \exists b, (a,b) \in R_2 \text{ and } (b,c) \in R_1\} 
                                         </me>.
-                                        Note <m>R_2 \circ R_1  \subset S_1 \times S_3</m>.
+                                        Note <m>R_1 \circ R_2  \subset S_3 \times S_2</m>.
                                     </p>
                                 </li>
                             </ol>
