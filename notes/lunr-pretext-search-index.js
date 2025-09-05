@@ -478,49 +478,49 @@ var ptx_lunr_docs = [
   "body": " Practice: Domain and Range   Let , and be the relation . What is the domain? What is the range?    The domain of is , while the range of is .   "
 },
 {
-  "id": "sec-II-2",
+  "id": "sec-II-2-sols",
   "level": "1",
-  "url": "sec-II-2.html",
+  "url": "sec-II-2-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S II.2\\text{:}\\)<\/span> Complements, Converse, and Composition",
-  "body": " : Complements, Converse, and Composition    Motivation: Relations from Relations        First Examples   Let . We can define a relation on (these are both copies of the set , we are just using subscripts to distinguish copies for convenience later) by the rule \"is a parent of\". Let's explore some implied relations in this example and how we can construct them explicitly.       Practice: Complement and Converse   Let and . Let be the relation on defined by \" \".     Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      True or False:         Practice: Composition   Let , , .     Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.      "
+  "body": " : Complements, Converse, and Composition    Motivation: Relations from Relations       Given a relation , there can be other meaningful relations that are implied. There are some natural operations on that allow us to express these implied relations explicitly.     First Examples   Let . We can define a relation on (these are both copies of the set , we are just using subscripts to distinguish copies for convenience later) by the rule \"is a parent of\". Let's explore some implied relations in this example and how we can construct them explicitly.       \"Is not a parent of\" is the complement of , written . It is defined as the set .    \"Is a child of\" is the converse of , which we will write as . It is defined as the set .    \"Is a grandparent of\" is the composition of two copies of the relation , which we will write as and . It is defined as the set . Note .          Practice: Complement and Converse   Let and . Let be the relation on defined by \" \".     Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.     , so . This is the relation \" \".      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.    Using the relation written out above, we can see that . This is the \" \" relation on .      True or False:     This is true. Take computed above and write down the complement in , then verify this is the same as the set obtained by swapping all the coordinates in computed above.        Practice: Composition   Let , , .     Let be the relation \" \" on . Represent as a digraph.    See notes from class, or a similar example in Figure 4 of section II.2 .      Let be the relation \" \" on . Represent as a digraph.    See notes from class, or a similar example in Figure 4 of section II.2 .      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.     and . Therefore, does not make sense because we'd be trying to take elements of and \"connect\" them with elements in , but and are different sets.   does make sense and its elements are .      "
 },
 {
-  "id": "sec-II-2-2-1",
+  "id": "sec-II-2-sols-2-1",
   "level": "2",
-  "url": "sec-II-2.html#sec-II-2-2-1",
+  "url": "sec-II-2-sols.html#sec-II-2-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Relations from Relations.",
-  "body": " Motivation: Relations from Relations      "
+  "body": " Motivation: Relations from Relations       Given a relation , there can be other meaningful relations that are implied. There are some natural operations on that allow us to express these implied relations explicitly.   "
 },
 {
-  "id": "sec-II-2-2-2",
+  "id": "sec-II-2-sols-2-2",
   "level": "2",
-  "url": "sec-II-2.html#sec-II-2-2-2",
+  "url": "sec-II-2-sols.html#sec-II-2-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "First Examples.",
-  "body": " First Examples   Let . We can define a relation on (these are both copies of the set , we are just using subscripts to distinguish copies for convenience later) by the rule \"is a parent of\". Let's explore some implied relations in this example and how we can construct them explicitly.   "
+  "body": " First Examples   Let . We can define a relation on (these are both copies of the set , we are just using subscripts to distinguish copies for convenience later) by the rule \"is a parent of\". Let's explore some implied relations in this example and how we can construct them explicitly.       \"Is not a parent of\" is the complement of , written . It is defined as the set .    \"Is a child of\" is the converse of , which we will write as . It is defined as the set .    \"Is a grandparent of\" is the composition of two copies of the relation , which we will write as and . It is defined as the set . Note .      "
 },
 {
-  "id": "sec-II-2-3-1",
+  "id": "sec-II-2-sols-3-1",
   "level": "2",
-  "url": "sec-II-2.html#sec-II-2-3-1",
+  "url": "sec-II-2-sols.html#sec-II-2-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Practice: Complement and Converse.",
-  "body": " Practice: Complement and Converse   Let and . Let be the relation on defined by \" \".     Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.      True or False:     "
+  "body": " Practice: Complement and Converse   Let and . Let be the relation on defined by \" \".     Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.     , so . This is the relation \" \".      Without building , describe what you think is.      Write out all elements of to either confirm or refine your previous answer.    Using the relation written out above, we can see that . This is the \" \" relation on .      True or False:     This is true. Take computed above and write down the complement in , then verify this is the same as the set obtained by swapping all the coordinates in computed above.    "
 },
 {
-  "id": "sec-II-2-4-1",
+  "id": "sec-II-2-sols-4-1",
   "level": "2",
-  "url": "sec-II-2.html#sec-II-2-4-1",
+  "url": "sec-II-2-sols.html#sec-II-2-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Composition.",
-  "body": " Practice: Composition   Let , , .     Let bethe relation \" \" on . Represent as a digraph.      Let bethe relation \" \" on . Represent as a digraph.      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.    "
+  "body": " Practice: Composition   Let , , .     Let be the relation \" \" on . Represent as a digraph.    See notes from class, or a similar example in Figure 4 of section II.2 .      Let be the relation \" \" on . Represent as a digraph.    See notes from class, or a similar example in Figure 4 of section II.2 .      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.     and . Therefore, does not make sense because we'd be trying to take elements of and \"connect\" them with elements in , but and are different sets.   does make sense and its elements are .    "
 },
 {
   "id": "sec-II-3",
