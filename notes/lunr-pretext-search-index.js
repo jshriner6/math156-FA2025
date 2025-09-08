@@ -523,58 +523,58 @@ var ptx_lunr_docs = [
   "body": " Practice: Composition   Let , , .     Let be the relation \" \" on . Represent as a digraph.    See notes from class, or a similar example in Figure 4 of section II.2 .      Let be the relation \" \" on . Represent as a digraph.    See notes from class, or a similar example in Figure 4 of section II.2 .      Only one of the relations or makes sense. Explain why one does not, and then write the elements of the other.     and . Therefore, does not make sense because we'd be trying to take elements of and \"connect\" them with elements in , but and are different sets.   does make sense and its elements are .    "
 },
 {
-  "id": "sec-II-3",
+  "id": "sec-II-3-sols",
   "level": "1",
-  "url": "sec-II-3.html",
+  "url": "sec-II-3-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S II.3\\text{:}\\)<\/span> Properties of Relations",
-  "body": " : Properties of Relations    Motivation: Properties of Binary Relations        Example: Equals   We likely don't think twice about writing    .     if we know that .     if we also know that .        Definitions   Let be a binary relation on .     Exercise: Non-examples   For each property defined above, think of a familiar relation (it doesn't have to be a mathematical operation!) which does not satisfy that property.        For each of the following binary relations, determine which of the four properties we've defined are true.                                        "
+  "body": " : Properties of Relations    Motivation: Properties of Binary Relations       Relations from sets to themselves are very common (think ) and are called binary relations . There are many properties we can use to describe how these relations behave, and we will identify some the most common in this section.     Example: Equals   We likely don't think twice about writing    .     if we know that .     if we also know that .       These are examples of three important properties that relations may (or may not) have:   Reflexive (every element is related to itself)    Symmetric (if is related to then is related to )    Transitive (if is related to and is related to , then is related to )        Definitions   Let be a binary relation on .        is reflexive if .     is symmetric if .     is antisymmetric if .     is transitive if .        Exercise: Non-examples   For each property defined above, think of a familiar relation (it doesn't have to be a mathematical operation!) which does not satisfy that property.                 \"Is a brother of\" for the set of all people    \"Is perpendicular to\" for the set of all lines in the coordinate plane           For each of the following binary relations, determine which of the four properties we've defined are true.          Antisymmetric, Transitive           Reflexive, Antisymmetric, Transitive           Reflexive, Antisymmetric, Transitive           Symmetric           This relation does not satisfy any of the properties.      "
 },
 {
-  "id": "sec-II-3-2-1",
+  "id": "sec-II-3-sols-2-1",
   "level": "2",
-  "url": "sec-II-3.html#sec-II-3-2-1",
+  "url": "sec-II-3-sols.html#sec-II-3-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Properties of Binary Relations.",
-  "body": " Motivation: Properties of Binary Relations      "
+  "body": " Motivation: Properties of Binary Relations       Relations from sets to themselves are very common (think ) and are called binary relations . There are many properties we can use to describe how these relations behave, and we will identify some the most common in this section.   "
 },
 {
-  "id": "sec-II-3-2-2",
+  "id": "sec-II-3-sols-2-2",
   "level": "2",
-  "url": "sec-II-3.html#sec-II-3-2-2",
+  "url": "sec-II-3-sols.html#sec-II-3-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Example: Equals.",
-  "body": " Example: Equals   We likely don't think twice about writing    .     if we know that .     if we also know that .      "
+  "body": " Example: Equals   We likely don't think twice about writing    .     if we know that .     if we also know that .       These are examples of three important properties that relations may (or may not) have:   Reflexive (every element is related to itself)    Symmetric (if is related to then is related to )    Transitive (if is related to and is related to , then is related to )      "
 },
 {
-  "id": "sec-II-3-2-3",
+  "id": "sec-II-3-sols-2-3",
   "level": "2",
-  "url": "sec-II-3.html#sec-II-3-2-3",
+  "url": "sec-II-3-sols.html#sec-II-3-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Definitions.",
-  "body": " Definitions   Let be a binary relation on .   "
+  "body": " Definitions   Let be a binary relation on .        is reflexive if .     is symmetric if .     is antisymmetric if .     is transitive if .      "
 },
 {
-  "id": "sec-II-3-2-4",
+  "id": "sec-II-3-sols-2-4",
   "level": "2",
-  "url": "sec-II-3.html#sec-II-3-2-4",
+  "url": "sec-II-3-sols.html#sec-II-3-sols-2-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Exercise: Non-examples.",
-  "body": " Exercise: Non-examples   For each property defined above, think of a familiar relation (it doesn't have to be a mathematical operation!) which does not satisfy that property.   "
+  "body": " Exercise: Non-examples   For each property defined above, think of a familiar relation (it doesn't have to be a mathematical operation!) which does not satisfy that property.                 \"Is a brother of\" for the set of all people    \"Is perpendicular to\" for the set of all lines in the coordinate plane      "
 },
 {
-  "id": "sec-II-3-3-1",
+  "id": "sec-II-3-sols-3-1",
   "level": "2",
-  "url": "sec-II-3.html#sec-II-3-3-1",
+  "url": "sec-II-3-sols.html#sec-II-3-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  For each of the following binary relations, determine which of the four properties we've defined are true.                                      "
+  "body": "  For each of the following binary relations, determine which of the four properties we've defined are true.          Antisymmetric, Transitive           Reflexive, Antisymmetric, Transitive           Reflexive, Antisymmetric, Transitive           Symmetric           This relation does not satisfy any of the properties.    "
 },
 {
   "id": "sec-II-4",
