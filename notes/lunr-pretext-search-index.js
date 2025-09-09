@@ -577,6 +577,69 @@ var ptx_lunr_docs = [
   "body": "  For each of the following binary relations, determine which of the four properties we've defined are true.          Antisymmetric, Transitive           Reflexive, Antisymmetric, Transitive           Reflexive, Antisymmetric, Transitive           Symmetric           This relation does not satisfy any of the properties.    "
 },
 {
+  "id": "sec-II-4-sols",
+  "level": "1",
+  "url": "sec-II-4-sols.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S II.4\\text{:}\\)<\/span> Equivalence Relations and Partitions",
+  "body": " : Equivalence Relations and Partitions    Motivation: Equivalence Relations       There are many cases when it's desirable to \"loosen\" our concept of equality. For example, in most contexts we accept the equality even though the two sides of the equality contain different looking symbols. This is captured in the concept of an equivalence relation .     Definition: Equivalence Relation   A binary relation on is an equivalence relation if    it is relexive, symmetric, and transitive.     Example: Equivalence Relations   Let be the relation on defined by if and only if is even.    This is an equivalence relation because   It is reflexive: , which is even.    It is symmetric: If is even, then is even.    It is transitive: If and are even, then is even.          Observations: Equivalence Relations          Given , we can define the equivalence class containing : . We call a representative for the equivalence class.  In our previous example, there are two equivalence classes:    , which is the set of even integers.     , which is the set of odd integers.       Every integer is in an equivalence class, and the intersection of different equivalence classes is empty. This is called a partition of the integers.  In some sense, equivalence relations on a set are exactly partitions of that set:   Given an equivalence relation, the equivalence classes form a partition (as in the integer example).    Given a partition, we can define an equivalence relation (see the next example).           Partitions   Let and the partition of given by .    Define on as if and only if and are in the same subset in the partition . Then verify that is reflexive, symmetric, and transitive (and thus an equivalence relation).       Practice: Equivalence Relations    Let be the relation on given by if and only if divides .   Verify is an equivalence relation.    How many equivalence classes are there? Give a representative for each.        is reflexive because divides . is symmetric because if divides , then divides . is transitive because if divides and , then divides .  There are three equivalence classes: .      Let be a set, and the relation on given by if and only if . Is an equivalence relation?    Yes, this is an equivalence relation.      A graph is a set of vertices (or nodes) along with a set of edges between those vertices. For example, the following are two graphs with vertices and edge.  Two graphs with three vertices and one edge. In one graph the edge is between vertex 1 and 2. In the other the edge is between vertex 1 and 3.  We'd like to consider two graphs equal if we can re-label the vertices of one graph to get the other. For example, this can be done with the two graphs shown above. Determine the equivalence classes for this equivalence relation on the set of all graphs with vertices.    See the example in the textbook at the end of section II.4 .      "
+},
+{
+  "id": "sec-II-4-sols-2-1",
+  "level": "2",
+  "url": "sec-II-4-sols.html#sec-II-4-sols-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Equivalence Relations.",
+  "body": " Motivation: Equivalence Relations       There are many cases when it's desirable to \"loosen\" our concept of equality. For example, in most contexts we accept the equality even though the two sides of the equality contain different looking symbols. This is captured in the concept of an equivalence relation .   "
+},
+{
+  "id": "sec-II-4-sols-2-2",
+  "level": "2",
+  "url": "sec-II-4-sols.html#sec-II-4-sols-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Equivalence Relation.",
+  "body": " Definition: Equivalence Relation   A binary relation on is an equivalence relation if    it is relexive, symmetric, and transitive.   "
+},
+{
+  "id": "sec-II-4-sols-2-3",
+  "level": "2",
+  "url": "sec-II-4-sols.html#sec-II-4-sols-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Equivalence Relations.",
+  "body": " Example: Equivalence Relations   Let be the relation on defined by if and only if is even.    This is an equivalence relation because   It is reflexive: , which is even.    It is symmetric: If is even, then is even.    It is transitive: If and are even, then is even.      "
+},
+{
+  "id": "sec-II-4-sols-3-1",
+  "level": "2",
+  "url": "sec-II-4-sols.html#sec-II-4-sols-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Observations: Equivalence Relations.",
+  "body": " Observations: Equivalence Relations          Given , we can define the equivalence class containing : . We call a representative for the equivalence class.  In our previous example, there are two equivalence classes:    , which is the set of even integers.     , which is the set of odd integers.       Every integer is in an equivalence class, and the intersection of different equivalence classes is empty. This is called a partition of the integers.  In some sense, equivalence relations on a set are exactly partitions of that set:   Given an equivalence relation, the equivalence classes form a partition (as in the integer example).    Given a partition, we can define an equivalence relation (see the next example).         "
+},
+{
+  "id": "sec-II-4-sols-3-2",
+  "level": "2",
+  "url": "sec-II-4-sols.html#sec-II-4-sols-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Partitions.",
+  "body": " Partitions   Let and the partition of given by .    Define on as if and only if and are in the same subset in the partition . Then verify that is reflexive, symmetric, and transitive (and thus an equivalence relation).   "
+},
+{
+  "id": "sec-II-4-sols-4-1",
+  "level": "2",
+  "url": "sec-II-4-sols.html#sec-II-4-sols-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Equivalence Relations.",
+  "body": " Practice: Equivalence Relations    Let be the relation on given by if and only if divides .   Verify is an equivalence relation.    How many equivalence classes are there? Give a representative for each.        is reflexive because divides . is symmetric because if divides , then divides . is transitive because if divides and , then divides .  There are three equivalence classes: .      Let be a set, and the relation on given by if and only if . Is an equivalence relation?    Yes, this is an equivalence relation.      A graph is a set of vertices (or nodes) along with a set of edges between those vertices. For example, the following are two graphs with vertices and edge.  Two graphs with three vertices and one edge. In one graph the edge is between vertex 1 and 2. In the other the edge is between vertex 1 and 3.  We'd like to consider two graphs equal if we can re-label the vertices of one graph to get the other. For example, this can be done with the two graphs shown above. Determine the equivalence classes for this equivalence relation on the set of all graphs with vertices.    See the example in the textbook at the end of section II.4 .    "
+},
+{
   "id": "sec-II-5",
   "level": "1",
   "url": "sec-II-5.html",
