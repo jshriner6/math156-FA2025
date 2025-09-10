@@ -640,40 +640,40 @@ var ptx_lunr_docs = [
   "body": " Practice: Equivalence Relations    Let be the relation on given by if and only if divides .   Verify is an equivalence relation.    How many equivalence classes are there? Give a representative for each.        is reflexive because divides . is symmetric because if divides , then divides . is transitive because if divides and , then divides .  There are three equivalence classes: .      Let be a set, and the relation on given by if and only if . Is an equivalence relation?    Yes, this is an equivalence relation.      A graph is a set of vertices (or nodes) along with a set of edges between those vertices. For example, the following are two graphs with vertices and edge.  Two graphs with three vertices and one edge. In one graph the edge is between vertex 1 and 2. In the other the edge is between vertex 1 and 3.  We'd like to consider two graphs equal if we can re-label the vertices of one graph to get the other. For example, this can be done with the two graphs shown above. Determine the equivalence classes for this equivalence relation on the set of all graphs with vertices.    See the example in the textbook at the end of section II.4 .    "
 },
 {
-  "id": "sec-II-5",
+  "id": "sec-II-5-sols",
   "level": "1",
-  "url": "sec-II-5.html",
+  "url": "sec-II-5-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S II.5\\text{:}\\)<\/span> Constructing <span class=\"process-math\">\\(\\Z\\)<\/span> and <span class=\"process-math\">\\(\\Q\\)<\/span>",
-  "body": " : Constructing and    Motivation: Constructing Common Sets        Constructing   Define , and let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What integer do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?        Constructing   Let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What rational number do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?      "
+  "body": " : Constructing and    Motivation: Constructing Common Sets       Equivalence relations play a large role in constructing many sets that we take for granted. This section will give us an illustration of how the integers and rational numbers can be constructed from the natural numbers using equivalence relations.     Constructing   Define , and let be the relation on defined by .     What element(s) are related to ?     for all .      Write down at least other elements of .    Examples includes , , and .      What integer do you think is meant to represent?    It represents the integer .      Explain why you think the relation was defined the way that it was.    The relation forces , so that writing the same integer in two different ways would still be considered the same ( ).      Verify that is an equivalence relation.     since .  If , then . Then it is also true that , so .  If and , then and . Then it is also true that , or , so .      How can we use the equivalence relation to define elements of ?    Elements of are equivalence classes of the equivalence relation .        Constructing   Let be the relation on defined by .     What element(s) are related to ?     for all       Write down at least other elements of .    Examples include , , and .      What rational number do you think is meant to represent?           Explain why you think the relation was defined the way that it was.    The relation forces , so that writing the same rational number in two different ways would still be considered the same ( ).      Verify that is an equivalence relation.     since .  If then . Then it is also true that , so .  If and , then and . Then it is also true that , and that (since we know ). If , then , so . If , then we can divide by to get . So .      How can we use the equivalence relation to define elements of ?    Elements of are equivalence classes of the equivalence relation .      "
 },
 {
-  "id": "sec-II-5-2-1",
+  "id": "sec-II-5-sols-2-1",
   "level": "2",
-  "url": "sec-II-5.html#sec-II-5-2-1",
+  "url": "sec-II-5-sols.html#sec-II-5-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Constructing Common Sets.",
-  "body": " Motivation: Constructing Common Sets      "
+  "body": " Motivation: Constructing Common Sets       Equivalence relations play a large role in constructing many sets that we take for granted. This section will give us an illustration of how the integers and rational numbers can be constructed from the natural numbers using equivalence relations.   "
 },
 {
-  "id": "sec-II-5-2-2",
+  "id": "sec-II-5-sols-2-2",
   "level": "2",
-  "url": "sec-II-5.html#sec-II-5-2-2",
+  "url": "sec-II-5-sols.html#sec-II-5-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Constructing <span class=\"process-math\">\\(\\Z\\)<\/span>.",
-  "body": " Constructing   Define , and let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What integer do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?    "
+  "body": " Constructing   Define , and let be the relation on defined by .     What element(s) are related to ?     for all .      Write down at least other elements of .    Examples includes , , and .      What integer do you think is meant to represent?    It represents the integer .      Explain why you think the relation was defined the way that it was.    The relation forces , so that writing the same integer in two different ways would still be considered the same ( ).      Verify that is an equivalence relation.     since .  If , then . Then it is also true that , so .  If and , then and . Then it is also true that , or , so .      How can we use the equivalence relation to define elements of ?    Elements of are equivalence classes of the equivalence relation .    "
 },
 {
-  "id": "sec-II-5-3-1",
+  "id": "sec-II-5-sols-3-1",
   "level": "2",
-  "url": "sec-II-5.html#sec-II-5-3-1",
+  "url": "sec-II-5-sols.html#sec-II-5-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Constructing <span class=\"process-math\">\\(\\Q\\)<\/span>.",
-  "body": " Constructing   Let be the relation on defined by .     What element(s) are related to ?      Write down at least other elements of .      What rational number do you think is meant to represent?      Explain why you think the relation was defined the way that it was.      Verify that is an equivalence relation.      How can we use the equivalence relation to define elements of ?    "
+  "body": " Constructing   Let be the relation on defined by .     What element(s) are related to ?     for all       Write down at least other elements of .    Examples include , , and .      What rational number do you think is meant to represent?           Explain why you think the relation was defined the way that it was.    The relation forces , so that writing the same rational number in two different ways would still be considered the same ( ).      Verify that is an equivalence relation.     since .  If then . Then it is also true that , so .  If and , then and . Then it is also true that , and that (since we know ). If , then , so . If , then we can divide by to get . So .      How can we use the equivalence relation to define elements of ?    Elements of are equivalence classes of the equivalence relation .    "
 },
 {
   "id": "sec-II-6-1",
