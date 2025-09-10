@@ -13,6 +13,259 @@
                     
                 
                 </exercise>
+
+                <exercise workspace="4in">
+                    <title>Definition: Addition and Multiplication</title>
+                    <statement>
+                        <p>
+                            <me>\overline{a} + \overline{b} := </me>
+                        </p>
+                        <p>
+                            <me>\overline{a} \cdot \overline{b} := </me>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Exercise: Addition and Multiplication</title>
+                    <introduction>
+                        <p>
+                            Complete the addition and multiplication tables in the indicated modulus.
+                        </p>
+                    </introduction>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                In <m>\Z / 3\Z</m>:
+                              <sidebyside>
+                                <tabular row-headers="yes">
+                                    <col right="major"/>
+                                    <col/>
+                                    <col/>
+                                    <col/>
+                                    
+                                    <row header="yes" bottom="major">
+                                        <cell><m>+</m></cell>
+                                        <cell><m>\overline{0}</m></cell>
+                                        <cell><m>\overline{1}</m></cell>
+                                        <cell><m>\overline{2}</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{0}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{1}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{2}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                </tabular>
+
+                                <tabular row-headers="yes">
+                                    <col right="major"/>
+                                    <col/>
+                                    <col/>
+                                    <col/>
+                               
+                                    <row header="yes" bottom="major">
+                                        <cell><m>\cdot</m></cell>
+                                        <cell><m>\overline{0}</m></cell>
+                                        <cell><m>\overline{1}</m></cell>
+                                        <cell><m>\overline{2}</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{0}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{1}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{2}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                </tabular>
+                              </sidebyside>  
+                            </p>
+                        </statement>
+                    </task>
+                    
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                In <m>\Z / 4\Z</m>:
+                              <sidebyside>
+                                <tabular row-headers="yes">
+                                    <col right="major"/>
+                                    <col/>
+                                    <col/>
+                                    <col/>
+                                    <col/>
+                                    <row header="yes" bottom="major">
+                                        <cell><m>+</m></cell>
+                                        <cell><m>\overline{0}</m></cell>
+                                        <cell><m>\overline{1}</m></cell>
+                                        <cell><m>\overline{2}</m></cell>
+                                        <cell><m>\overline{3}</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{0}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{1}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{2}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+
+                                    <row>
+                                        <cell><m>\overline{3}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                </tabular>
+
+                                <tabular row-headers="yes">
+                                    <col right="major"/>
+                                    <col/>
+                                    <col/>
+                                    <col/>
+                                    <col/>
+                                    <row header="yes" bottom="major">
+                                        <cell><m>\cdot</m></cell>
+                                        <cell><m>\overline{0}</m></cell>
+                                        <cell><m>\overline{1}</m></cell>
+                                        <cell><m>\overline{2}</m></cell>
+                                        <cell><m>\overline{3}</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{0}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{1}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{2}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell><m>\overline{3}</m></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                        <cell></cell>
+                                    </row>
+                                </tabular>
+                              </sidebyside>  
+                            </p>
+                        </statement>
+                    </task>
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Observations: Modular Arithmetic</title>
+                    
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="2in">
+                    <title>Example: Solving an Equation</title>
+                    <statement>
+                        <p>
+                            Solve <m>\overline{5}x + \overline{3} = \overline{1}</m> in <m>\Z / 8\Z</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Solving an Equation</title>
+                    <statement>
+                        <p>
+                            Solve <m>\overline{4}x + \overline{3} = \overline{3}</m> in <m>\Z / 8\Z</m>, then in <m>\Z / 7\Z</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="4in">
+                    <title>Example: Solving a System of Equations</title>
+                    <statement>
+                        <p>
+                            Solve the system
+                            <me>
+                                \begin{alignedat}{3}
+                                \overline{3}x \amp {} + {} \amp \overline{5}y \amp {}={} \amp \overline{11} \\
+                                \overline{4}x \amp {} + {} \amp \overline{23}y \amp {}={} \amp \overline{16} \\
+                                \end{alignedat}
+                                
+                        
+                            </me>
+                            in <m>\Z / 11\Z</m>.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Solving a System of Equations</title>
+                    <statement>
+                        <p>
+                            Solve the system
+                            <me>
+                                \begin{alignedat}{3}
+                                \overline{3}x \amp {} + {} \amp \overline{5}y \amp {}={} \amp \overline{11} \\
+                                \overline{4}x \amp {} + {} \amp \overline{23}y \amp {}={} \amp \overline{16} \\
+                                \end{alignedat}
+                                
+                        
+                            </me>
+                            in <m>\Z / 17\Z</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
             </page>
 
 

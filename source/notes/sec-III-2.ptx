@@ -1,0 +1,146 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-III-2">
+        <title><m>\S III.2</m>: Common Functions</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Common Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Defintions: Identity, Constant, and Characteristic Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Identity, Constant, and Characteristic Functions</title>
+                    <introduction>
+                        <p>
+                            First attempt each question without technology. Then use technology (such as 
+                            <url href="https://www.desmos.com/calculator">Desmos</url>) to confirm or change your 
+                            response when possible.
+                        </p>
+                    </introduction>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Write the identity function <m>\iota</m> defined previously using function notation.
+                            </p>
+                            <p>
+                                Then sketch the graphs of the two identity functions
+                                <me>
+                                    \iota_1 : \R \to \R, \text{ and } \iota_2: \Z \to \Z
+                                </me>.
+                                
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Write the constant function <m>C_1: \R \to \R</m>, 
+                                <m>x \mapsto -1</m>, using function notation.
+                            </p>
+                            <p>
+                                Then sketch the graph of <m>C_1</m>. How will the graph of <m>C_2: \N \to \R</m>,
+                                <m>x \mapsto -1</m>, differ from the graph of <m>C_1</m>?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                               Sketch graphs of the functions
+                               <me>
+                                \chi_{\N}: \R \to \{0,1\} \text{ and } \chi_{\Z}: \R \to \{0,1\}
+                               </me>.
+                                
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Definitions: Power, Polynomial, and Rational Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise>
+                    <title>Practice: Power, Polynomials, and Rational Functions</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Use technology to graph the power functions
+                                <me>
+                                    x^2, x^3, x^4, x^5, x^{50}, x^{51}
+                                </me>.
+                                Make observations about the shapes of these graphs and how they compare to one another.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="5in">
+                        <statement>
+                            
+                            <p>
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Write <m>p(x) = \sum_{i=0}^4 c_ix^i</m> in expanded form.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Graph <m>p(x)</m> if <m>c_0=2, c_1=3, c_2= -1, c_3=5, c_4=2</m>. What is
+                                            the degree of <m>p(x)</m>? How do you think the graph of <m>p(x)</m> is
+                                            related to power functions?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Graph <m>p(x)</m> if <m>c_0=2, c_1=3, c_2= -1, c_3=5, c_4=0</m>. What is
+                                            the degree of <m>p(x)</m>? How do you think the graph of <m>p(x)</m> is
+                                            related to power functions?
+                                        </p>
+                                    </li>
+                                </ol>
+                                
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Graph <m>f(x) = 2x^2+2x-4</m>, <m>g(x)=x^2-x-2</m>, and <m>q(x)= \frac{f(x)}{g(x)}</m>.
+                                Make observations about how the properties of <m>f</m> and <m>g</m> relate to the properties of
+                                <m>q</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

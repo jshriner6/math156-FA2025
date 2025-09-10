@@ -1,0 +1,91 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-III-3">
+        <title><m>\S III.3</m>: Functions From Functions</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Functions from Functions </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Function Arithmetic</title>
+                    <statement>
+                        <p>
+                            Let <m>f:\R \to \R</m> and <m>g: \R \to \R</m> be given by <m>f(x)=x^2+x+1</m>
+                            and <m>g(x)= 2x</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="2in">
+                    <title>Practice: Function Composition</title>
+                    <statement>
+                        <p>
+                            Let <m>k: \R \to \R</m> and <m>h: \N \to \R</m> be given by <m>k(x)= 2^x + x^3</m>
+                            and <m>h(x)= 2+\sqrt{x}</m>. Determine which composition makes sense (<m>k \circ h</m> or <m>h \circ k</m>),
+                            then compute it.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Function Transformations</title>
+                    <statement>
+                        <p>
+                            Given the graph of a function <m>f(x)</m>, we can "transform" it to a new function:
+                            <tabular row-headers="yes">
+                                <col right="major"/>
+                                <col/>
+                                <col/>
+                                <row header="yes" bottom="major">
+                                    <cell>Type</cell>
+                                    <cell>Vertical</cell>
+                                    <cell>Horizontal</cell>
+                                </row>
+                                <row>
+                                    <cell>Shift</cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                                <row>
+                                    <cell>Scale</cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                                <row>
+                                    <cell>Reflection</cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                            </tabular>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise>
+                    <title>Practice: Transformations</title>
+                    <statement>
+                        <p>
+                            Access the <url href="https://student.amplify.com/join/#/HC42HY">Transformations Desmos Activity</url> for practice.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+
+
+        </worksheet>
+    </article>
+</pretext>

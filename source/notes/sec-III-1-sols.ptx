@@ -1,0 +1,229 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-III-1-sols">
+        <title><m>\S III.1</m>: Functions</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Functions </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Our last chapter introduced us to relations between sets. There is a common type of relation
+                            that is used widely, which we'll explore in this chapter.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Definition: Function</title>
+                    <statement>
+                        <p>
+                            A <term>function <m>f</m> from set <m>A</m> to set <m>B</m></term> is a 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            is a relation <m>R \subset A \times B</m> such that for every <m>a \in A</m>, there is 
+                            exactly one pair <m>(a,b) \in R</m>.
+                        </p>
+                        <p>
+                            Note that the source <m>A</m> in this context is equal to the domain.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Notation: Functions</title>
+                    <statement>
+                        <p>
+                            <m>(a,b) \in R</m> is written as 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>f(a) = b</m>. This is called <term>function notation</term>. We may just write
+                            <m>f</m> or <m>f(x)</m> to reference the function relation, <m>a</m> to reference an element
+                            of the domain, and <m>f(a)</m> to reference the element in the range associated with the element
+                            <m>a</m> from the domain.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="3in">
+                    <title>Equal Functions</title>
+                    <statement>
+                        <p>
+                            Since functions are relations, the domain and target are part of their definition. 
+                            So two functions are equal only when
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        They have the same domain and target.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        They assign the same value to every element in the domain.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            For example, if <m>f: \R \to \R</m> is given by <m>f(x)=x^2</m> and <m>g: \N \to \R</m> is 
+                            given by <m>g(x) = x^2</m>, <m>f(x) \neq g(x)</m> because they do not have the same
+                            domain.
+                        </p>
+                        <p>
+                            Likewise, it's possible that two functions are equal even if their rules aren't written in
+                            exactly the same way. See the textbook or our notes from class for an example.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Function Representations</title>
+                    <statement>
+                        <p>
+                            Since functions are relations, we can represent them in many useful ways.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can represent functions as equations, tables, graphs, and with words. It is useful
+                            practicing converting from one representation to another, as the best representation will
+                            depend on the question you are trying to answer.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Functions</title>
+                    <introduction>
+                        <p>
+                            Are the following relations examples of functions? Explain why or why not.
+                        </p>
+                    </introduction>
+                        <task workspace="1in">
+                            <statement>
+                                <p>
+                                    Let <m>A = \{\text{CSU Students}\}</m>, and <m>f: A \to \Q</m> be given by 
+                                    <me>a \mapsto \text{height of } a \text{ in inches}</me>.
+                                </p>
+                            </statement>
+                            <solution>
+                                <p>
+                                    This is a function since every student has exactly one height.
+                                </p>
+                            </solution>
+                        </task>
+                        <task workspace="1in">
+                            <statement>
+                                <p>
+                                    Let <m>A = \{\text{CSU Students}\}</m>, and <m>g: \Q \to A</m> be given by 
+                                    <me>q \mapsto \text{students who are } q \text{ inches tall}</me>.
+                                </p>
+                            </statement>
+                            <solution>
+                                <p>
+                                    This is not a function, since there may be multiple students with the same height. There
+                                    are also rational numbers for which no student will have that height.
+                                </p>
+                            </solution>
+                        </task>
+                        <task workspace="1in">
+                            <statement>
+                                <p>
+                                    <m>f: \R \to \R</m> is given by
+                                    <me>
+                                        f(x) = \frac{1}{x-1}
+                                    </me>.
+                                    
+                                </p>
+                            </statement>
+                            <solution>
+                                <p>
+                                    This is not a function because the input <m>1 \in \R</m> has no associated output.
+                                </p>
+                            </solution>
+                        </task>
+                        <task workspace="1in">
+                            <statement>
+                                <p>
+                                    <m>h: \R \to \R</m> is given by
+                                    <me>
+                                        h(x) = \frac{1}{x^2+1}
+                                    </me>.
+                                    
+                                </p>
+                            </statement>
+                            <solution>
+                                <p>
+                                    This is a function.
+                                </p>
+                            </solution>
+                        </task>
+                        <task workspace="1in">
+                            <statement>
+                                <p>
+                                    <m>k: \R \to \R</m> is given by
+                                    <me>
+                                        k(x) = \begin{cases}
+                                                    \sin(x) \amp \text{if } x \lt 0 \\
+                                                    1 \amp \text{if } x = 0 \\
+                                                    x^2 \amp \text{if } x \gt 0
+                                                \end{cases}
+                                    </me>.
+                                    
+                                </p>
+                            </statement>
+                            <solution>
+                                <p>
+                                    This is a function.
+                                </p>
+                            </solution>
+                        </task>
+
+                        <task workspace="1in">
+                            <statement>
+                                <p>
+                                    <m>j: \R \to \R</m> is given by
+                                    <me>
+                                        j(x) = \begin{cases}
+                                                    \sin(x) \amp \text{if } x \leq 0 \\
+                                                    1 \amp \text{if } x = 0 \\
+                                                    x^2 \amp \text{if } x \geq 0
+                                                \end{cases}
+                                    </me>.
+                                    
+                                </p>
+                            </statement>
+                            <solution>
+                                <p>
+                                    This is not a function because the input <m>x=0</m> is associated with more than one
+                                    output value.
+                                </p>
+                            </solution>
+                        </task>
+                    
+                    
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>

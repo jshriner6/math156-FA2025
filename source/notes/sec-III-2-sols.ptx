@@ -1,0 +1,281 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-III-2-sols">
+        <title><m>\S III.2</m>: Common Functions</title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Common Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Some functions are particularly important and show up often in application. We'll 
+                            describe these, and also focus on visualization.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Defintions: Identity, Constant, and Characteristic Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        A function <m>\iota: A \to A</m>, <m>a \mapsto a</m>, is called an
+                                        <term>identity function</term>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        A function <m>c: A \to B</m>, <m>a \mapsto b</m> for some fixed <m>b \in B</m>,
+                                        is called a <term>constant function</term>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Let <m>S \subset A</m>. The function <m>\chi_S: A \to \{0,1\}</m>, 
+                                        <me>
+                                            a \mapsto \begin{cases}
+                                                        0 \amp \text{ if } \amp a \not\in S \\
+                                                        1 \amp \text{ if } \amp a \in S
+                                                        \end{cases}
+                                        </me>
+                                        is called the <term>characteristic function for <m>S</m></term>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Identity, Constant, and Characteristic Functions</title>
+                    <introduction>
+                        <p>
+                            First attempt each question without technology. Then use technology (such as 
+                            <url href="https://www.desmos.com/calculator">Desmos</url>) to confirm or change your 
+                            response when possible.
+                        </p>
+                    </introduction>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Write the identity function <m>\iota</m> defined previously using function notation.
+                            </p>
+                            <p>
+                                Then sketch the graphs of the two identity functions
+                                <me>
+                                    \iota_1 : \R \to \R, \text{ and } \iota_2: \Z \to \Z
+                                </me>.
+                                
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                We write the identity function using function notation as <m>\iota(a) = a</m>.
+                            </p>
+                            <p>
+                                The <url href="https://www.desmos.com/calculator/hm2jypqm14">graph of <m>\iota_1</m></url> is a continuous line. The graph of <m>\iota_2</m> is 
+                                discrete points at integer pairs <m>(a,a)</m> on the line of <m>\iota_1</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Write the constant function <m>C_1: \R \to \R</m>, 
+                                <m>x \mapsto -1</m>, using function notation.
+                            </p>
+                            <p>
+                                Then sketch the graph of <m>C_1</m>. How will the graph of <m>C_2: \N \to \R</m>,
+                                <m>x \mapsto -1</m>, differ from the graph of <m>C_1</m>?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                We write <m>C_1</m> using function notation as <m>C_1(x) = -1</m>.
+                            </p>
+                            <p>
+                                The <url href="https://www.desmos.com/calculator/sly3zf5egv">graph of <m>C_1</m></url> is a continuous horizontal line. The graph of <m>C_2</m> is discrete points
+                                on the line of <m>C_1</m> only for input values which are positive integers.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                               Sketch graphs of the functions
+                               <me>
+                                \chi_{\N}: \R \to \{0,1\} \text{ and } \chi_{\Z}: \R \to \{0,1\}
+                               </me>.
+                                
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                The graph of <m>\chi_{\N}</m> is discrete points of the form <m>(n,1)</m> for <m>n \in \N</m>,
+                                and points at <m>(x,0)</m> for all <m>x \not \in \N</m>.
+                            </p>
+                            <p>
+                                The graph of <m>\chi_{\Z}</m> is discrete points of the form <m>(z,1)</m> for <m>z \in \Z</m>,
+                                and points at <m>(x,0)</m> for all <m>x \not \in \Z</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Definitions: Power, Polynomial, and Rational Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        A <term>power function</term> is a function which has the form
+                                        <m>f(x) = x^p</m> for some <m>p \in \R</m>. <m>p</m> is called the <term>power</term>.
+                                        Note that we did not specify the domain as this may change depending on <m>p</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        A <term>polynomial function</term> is a sum of constant multiples of power functions
+                                        with non-negative integer powers. That is, they are functions <m>p: \R \to \R</m> 
+                                        where
+                                        <me>
+                                            p(x)= c_0 + c_1x + c_2x^2+ \dots + c_nx^n = \sum_{i=0}^n c_i x^i
+                                        </me>.
+                                        The power <m>n</m> is called the <term>degree</term> of <m>p(x)</m>.
+                                        
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>p,q</m> are polynomials and <m>A \subset \R</m> such that <m>q(a) \neq 0</m>
+                                        for all <m>a \in A</m>, then the function <m>\frac{p}{q}: A \to \R</m>, <m>x \mapsto \frac{p(x)}{q(x)}</m>
+                                        is called a <term>rational function</term>.
+                                    </p> 
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise>
+                    <title>Practice: Power, Polynomials, and Rational Functions</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Use technology to graph the power functions
+                                <me>
+                                    x^2, x^3, x^4, x^5, x^{50}, x^{51}
+                                </me>.
+                                Make observations about the shapes of these graphs and how they compare to one another.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                We can observe by <url href="https://www.desmos.com/calculator/htximcet8v">looking at the graphs</url>
+                                that the general shapes of power functions with positive integer powers depend on whether the power
+                                is even or odd. Even powered functions have a "U" shape, while, odd powered functions have a "chair" shape.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="5in">
+                        <statement>
+                            
+                            <p>
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Write <m>p(x) = \sum_{i=0}^4 c_ix^i</m> in expanded form.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Graph <m>p(x)</m> if <m>c_0=2, c_1=3, c_2= -1, c_3=5, c_4=2</m>. What is
+                                            the degree of <m>p(x)</m>? How do you think the graph of <m>p(x)</m> is
+                                            related to power functions?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Graph <m>p(x)</m> if <m>c_0=2, c_1=3, c_2= -1, c_3=5, c_4=0</m>. What is
+                                            the degree of <m>p(x)</m>? How do you think the graph of <m>p(x)</m> is
+                                            related to power functions?
+                                        </p>
+                                    </li>
+                                </ol>
+                                
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>p(x) = \sum_{i=0}^4 c_ix^i = c_0 + c_1x + c_2x^2+ c_3x^3+ c_4x^4</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            In this case <m>p(x)</m> has degree <m>4</m>, and by 
+                                            <url href="https://www.desmos.com/calculator/gem6qlinwq">looking at the graph of <m>p</m></url>,
+                                            we can see that the "ends" of the graphs behave similarly to that of <m>2x^4</m>.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            In this case <m>p(x)</m> has degree <m>3</m>, and by 
+                                            <url href="https://www.desmos.com/calculator/my9iojlgbz">looking at the graph of <m>p</m></url>,
+                                            we can see that the "ends" of the graphs behave similarly to that of <m>5x^3</m>.
+                                        </p>
+                                    </li>
+                            
+                                </ol>
+                                
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Graph <m>f(x) = 2x^2+2x-4</m>, <m>g(x)=x^2-x-2</m>, and <m>q(x)= \frac{f(x)}{g(x)}</m>.
+                                Make observations about how the properties of <m>f</m> and <m>g</m> relate to the properties of
+                                <m>q</m>.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Looking at the <url href="https://www.desmos.com/calculator/sy6nxafxks">graphs of <m>f</m>, <m>g</m>, and <m>q</m></url>, we can observe that <m>q(x)=0</m> exactly
+                                where <m>f(x)=0</m>, and <m>q(x)</m> is undefined (more specifically has <term>vertical asymptotes</term>) where
+                                <m>g(x)=0</m>. We can also observe that the "ends" of <m>q(x)</m> looks similar to the ratio of terms
+                                <m>\frac{2x^2}{x^2}=2</m> from <m>f</m> and <m>g</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
