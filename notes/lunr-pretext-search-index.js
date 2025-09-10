@@ -737,6 +737,258 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Practice: Congruence Classes.",
   "body": " Practice: Congruence Classes   For each value of below, separate the integers into congruence classes mod . Then determine all the elements of .                               "
+},
+{
+  "id": "sec-II-6-2",
+  "level": "1",
+  "url": "sec-II-6-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S II.6\\text{:}\\)<\/span> Modular Arithmetic",
+  "body": " : Modular Arithmetic    Motivation: Modular Arithmetic        Definition: Addition and Multiplication              Exercise: Addition and Multiplication   Complete the addition and multiplication tables in the indicated modulus.     In :                                                                    In :                                                                                    Observations: Modular Arithmetic      Example: Solving an Equation   Solve in .     Practice: Solving an Equation   Solve in , then in .       Example: Solving a System of Equations   Solve the system in .     Practice: Solving a System of Equations   Solve the system in .     "
+},
+{
+  "id": "sec-II-6-2-2-1",
+  "level": "2",
+  "url": "sec-II-6-2.html#sec-II-6-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Modular Arithmetic.",
+  "body": " Motivation: Modular Arithmetic      "
+},
+{
+  "id": "sec-II-6-2-2-2",
+  "level": "2",
+  "url": "sec-II-6-2.html#sec-II-6-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Addition and Multiplication.",
+  "body": " Definition: Addition and Multiplication          "
+},
+{
+  "id": "sec-II-6-2-3-1",
+  "level": "2",
+  "url": "sec-II-6-2.html#sec-II-6-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Exercise: Addition and Multiplication.",
+  "body": " Exercise: Addition and Multiplication   Complete the addition and multiplication tables in the indicated modulus.     In :                                                                    In :                                                                                  "
+},
+{
+  "id": "sec-II-6-2-3-2",
+  "level": "2",
+  "url": "sec-II-6-2.html#sec-II-6-2-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Observations: Modular Arithmetic.",
+  "body": " Observations: Modular Arithmetic  "
+},
+{
+  "id": "sec-II-6-2-4-1",
+  "level": "2",
+  "url": "sec-II-6-2.html#sec-II-6-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Solving an Equation.",
+  "body": " Example: Solving an Equation   Solve in .   "
+},
+{
+  "id": "sec-II-6-2-4-2",
+  "level": "2",
+  "url": "sec-II-6-2.html#sec-II-6-2-4-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Solving an Equation.",
+  "body": " Practice: Solving an Equation   Solve in , then in .   "
+},
+{
+  "id": "sec-II-6-2-5-1",
+  "level": "2",
+  "url": "sec-II-6-2.html#sec-II-6-2-5-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Example: Solving a System of Equations.",
+  "body": " Example: Solving a System of Equations   Solve the system in .   "
+},
+{
+  "id": "sec-II-6-2-5-2",
+  "level": "2",
+  "url": "sec-II-6-2.html#sec-II-6-2-5-2",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Practice: Solving a System of Equations.",
+  "body": " Practice: Solving a System of Equations   Solve the system in .   "
+},
+{
+  "id": "sec-III-1",
+  "level": "1",
+  "url": "sec-III-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S III.1\\text{:}\\)<\/span> Functions",
+  "body": " : Functions    Motivation: Functions        Definition: Function   A function from set to set is a     Notation: Functions    is written as       Equal Functions   Since functions are relations, the domain and target are part of their definition. So two functions are equal only when     Function Representations   Since functions are relations, we can represent them in many useful ways.       Practice: Functions   Are the following relations examples of functions? Explain why or why not.     Let , and be given by .      Let , and be given by .       is given by .       is given by .       is given by .       is given by .      "
+},
+{
+  "id": "sec-III-1-2-1",
+  "level": "2",
+  "url": "sec-III-1.html#sec-III-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Functions.",
+  "body": " Motivation: Functions      "
+},
+{
+  "id": "sec-III-1-2-2",
+  "level": "2",
+  "url": "sec-III-1.html#sec-III-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Function.",
+  "body": " Definition: Function   A function from set to set is a   "
+},
+{
+  "id": "sec-III-1-2-3",
+  "level": "2",
+  "url": "sec-III-1.html#sec-III-1-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Notation: Functions.",
+  "body": " Notation: Functions    is written as   "
+},
+{
+  "id": "sec-III-1-3-1",
+  "level": "2",
+  "url": "sec-III-1.html#sec-III-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Equal Functions.",
+  "body": " Equal Functions   Since functions are relations, the domain and target are part of their definition. So two functions are equal only when   "
+},
+{
+  "id": "sec-III-1-3-2",
+  "level": "2",
+  "url": "sec-III-1.html#sec-III-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Function Representations.",
+  "body": " Function Representations   Since functions are relations, we can represent them in many useful ways.   "
+},
+{
+  "id": "sec-III-1-4-1",
+  "level": "2",
+  "url": "sec-III-1.html#sec-III-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Functions.",
+  "body": " Practice: Functions   Are the following relations examples of functions? Explain why or why not.     Let , and be given by .      Let , and be given by .       is given by .       is given by .       is given by .       is given by .    "
+},
+{
+  "id": "sec-III-2",
+  "level": "1",
+  "url": "sec-III-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S III.2\\text{:}\\)<\/span> Common Functions",
+  "body": " : Common Functions    Motivation: Common Functions        Defintions: Identity, Constant, and Characteristic Functions          Practice: Identity, Constant, and Characteristic Functions   First attempt each question without technology. Then use technology (such as Desmos ) to confirm or change your response when possible.     Write the identity function defined previously using function notation.  Then sketch the graphs of the two identity functions .      Write the constant function , , using function notation.  Then sketch the graph of . How will the graph of , , differ from the graph of ?      Sketch graphs of the functions .        Definitions: Power, Polynomial, and Rational Functions        Practice: Power, Polynomials, and Rational Functions    Use technology to graph the power functions . Make observations about the shapes of these graphs and how they compare to one another.         Write in expanded form.    Graph if . What is the degree of ? How do you think the graph of is related to power functions?    Graph if . What is the degree of ? How do you think the graph of is related to power functions?         Graph , , and . Make observations about how the properties of and relate to the properties of .      "
+},
+{
+  "id": "sec-III-2-2-1",
+  "level": "2",
+  "url": "sec-III-2.html#sec-III-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Common Functions.",
+  "body": " Motivation: Common Functions      "
+},
+{
+  "id": "sec-III-2-2-2",
+  "level": "2",
+  "url": "sec-III-2.html#sec-III-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Defintions: Identity, Constant, and Characteristic Functions.",
+  "body": " Defintions: Identity, Constant, and Characteristic Functions      "
+},
+{
+  "id": "sec-III-2-3-1",
+  "level": "2",
+  "url": "sec-III-2.html#sec-III-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Practice: Identity, Constant, and Characteristic Functions.",
+  "body": " Practice: Identity, Constant, and Characteristic Functions   First attempt each question without technology. Then use technology (such as Desmos ) to confirm or change your response when possible.     Write the identity function defined previously using function notation.  Then sketch the graphs of the two identity functions .      Write the constant function , , using function notation.  Then sketch the graph of . How will the graph of , , differ from the graph of ?      Sketch graphs of the functions .    "
+},
+{
+  "id": "sec-III-2-4-1",
+  "level": "2",
+  "url": "sec-III-2.html#sec-III-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Definitions: Power, Polynomial, and Rational Functions.",
+  "body": " Definitions: Power, Polynomial, and Rational Functions      "
+},
+{
+  "id": "sec-III-2-4-2",
+  "level": "2",
+  "url": "sec-III-2.html#sec-III-2-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Power, Polynomials, and Rational Functions.",
+  "body": " Practice: Power, Polynomials, and Rational Functions    Use technology to graph the power functions . Make observations about the shapes of these graphs and how they compare to one another.         Write in expanded form.    Graph if . What is the degree of ? How do you think the graph of is related to power functions?    Graph if . What is the degree of ? How do you think the graph of is related to power functions?         Graph , , and . Make observations about how the properties of and relate to the properties of .    "
+},
+{
+  "id": "sec-III-3",
+  "level": "1",
+  "url": "sec-III-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S III.3\\text{:}\\)<\/span> Functions From Functions",
+  "body": " : Functions From Functions    Motivation: Functions from Functions        Function Arithmetic   Let and be given by and .       Practice: Function Composition   Let and be given by and . Determine which composition makes sense ( or ), then compute it.     Function Transformations   Given the graph of a function , we can \"transform\" it to a new function:      Type  Vertical  Horizontal    Shift      Scale      Reflection          Practice: Transformations   Access the Transformations Desmos Activity for practice.     "
+},
+{
+  "id": "sec-III-3-2-1",
+  "level": "2",
+  "url": "sec-III-3.html#sec-III-3-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Functions from Functions.",
+  "body": " Motivation: Functions from Functions      "
+},
+{
+  "id": "sec-III-3-2-2",
+  "level": "2",
+  "url": "sec-III-3.html#sec-III-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Function Arithmetic.",
+  "body": " Function Arithmetic   Let and be given by and .   "
+},
+{
+  "id": "sec-III-3-3-1",
+  "level": "2",
+  "url": "sec-III-3.html#sec-III-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Practice: Function Composition.",
+  "body": " Practice: Function Composition   Let and be given by and . Determine which composition makes sense ( or ), then compute it.   "
+},
+{
+  "id": "sec-III-3-3-2",
+  "level": "2",
+  "url": "sec-III-3.html#sec-III-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Function Transformations.",
+  "body": " Function Transformations   Given the graph of a function , we can \"transform\" it to a new function:      Type  Vertical  Horizontal    Shift      Scale      Reflection        "
+},
+{
+  "id": "sec-III-3-3-3",
+  "level": "2",
+  "url": "sec-III-3.html#sec-III-3-3-3",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Transformations.",
+  "body": " Practice: Transformations   Access the Transformations Desmos Activity for practice.   "
 }
 ]
 
