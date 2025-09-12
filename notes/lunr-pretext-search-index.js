@@ -676,67 +676,67 @@ var ptx_lunr_docs = [
   "body": " Constructing   Let be the relation on defined by .     What element(s) are related to ?     for all       Write down at least other elements of .    Examples include , , and .      What rational number do you think is meant to represent?           Explain why you think the relation was defined the way that it was.    The relation forces , so that writing the same rational number in two different ways would still be considered the same ( ).      Verify that is an equivalence relation.     since .  If then . Then it is also true that , so .  If and , then and . Then it is also true that , and that (since we know ). If , then , so . If , then we can divide by to get . So .      How can we use the equivalence relation to define elements of ?    Elements of are equivalence classes of the equivalence relation .    "
 },
 {
-  "id": "sec-II-6-1",
+  "id": "sec-II-6-1-sols",
   "level": "1",
-  "url": "sec-II-6-1.html",
+  "url": "sec-II-6-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S II.6\\text{:}\\)<\/span> Remainders and Modulo",
-  "body": " : Remainders and Modulo    Motivation: Modulo        Fact: Euclid's Division Lemma   For with (we will take ), there is a unique with such that .     Definition: Modulo Equivalence Relation   Fix with . The relation on is defined as       Notation: Modulo Relation        Example: Congruence Modulo          Practice: Congruence Classes   For each value of below, separate the integers into congruence classes mod . Then determine all the elements of .                                 "
+  "body": " : Remainders and Modulo    Motivation: Modulo       Another important application of equivalence relations is to form congruence classes of the integers for a fixed integer . Intuitively, think about how we use numbers to keep time.     Fact: Euclid's Division Lemma   For with (we will take ), there is a unique with such that .    The intuition is if we divide by , there is a unique quotient and remainder .     Definition: Modulo Equivalence Relation   Fix with . The relation on is defined as     if and only if and have the same remainder when divided by .  An equivalent (and many times useful) way to rephrase this is that if and only if divides .  Using the definition by remainders it is straightforward to verify that is reflexive, symmetric, and transitive, and therefore an equivalence relation. Equivalence classes in this context are typically referred to as congruence classes . If and are in the same congruence class we say that and are congruent modulo (or congruent mod for short).       Notation: Modulo Relation           is typically written (mod ).    The equivalence class is typically written .    The set of congruence classes mod is denoted .        Example: Congruence Modulo        (mod ). Also, .   (mod ). Also, .   (mod ). Also, .  The set of all congruence classes mod is .       Practice: Congruence Classes   For each value of below, separate the integers into congruence classes mod . Then determine all the elements of .          We have the congruence classes .            We have the congruence classes .            We have the congruence classes .            We have the congruence classes .       "
 },
 {
-  "id": "sec-II-6-1-2-1",
+  "id": "sec-II-6-1-sols-2-1",
   "level": "2",
-  "url": "sec-II-6-1.html#sec-II-6-1-2-1",
+  "url": "sec-II-6-1-sols.html#sec-II-6-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Modulo.",
-  "body": " Motivation: Modulo      "
+  "body": " Motivation: Modulo       Another important application of equivalence relations is to form congruence classes of the integers for a fixed integer . Intuitively, think about how we use numbers to keep time.   "
 },
 {
-  "id": "sec-II-6-1-2-2",
+  "id": "sec-II-6-1-sols-2-2",
   "level": "2",
-  "url": "sec-II-6-1.html#sec-II-6-1-2-2",
+  "url": "sec-II-6-1-sols.html#sec-II-6-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Fact: Euclid’s Division Lemma.",
-  "body": " Fact: Euclid's Division Lemma   For with (we will take ), there is a unique with such that .   "
+  "body": " Fact: Euclid's Division Lemma   For with (we will take ), there is a unique with such that .    The intuition is if we divide by , there is a unique quotient and remainder .   "
 },
 {
-  "id": "sec-II-6-1-2-3",
+  "id": "sec-II-6-1-sols-2-3",
   "level": "2",
-  "url": "sec-II-6-1.html#sec-II-6-1-2-3",
+  "url": "sec-II-6-1-sols.html#sec-II-6-1-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Definition: Modulo Equivalence Relation.",
-  "body": " Definition: Modulo Equivalence Relation   Fix with . The relation on is defined as   "
+  "body": " Definition: Modulo Equivalence Relation   Fix with . The relation on is defined as     if and only if and have the same remainder when divided by .  An equivalent (and many times useful) way to rephrase this is that if and only if divides .  Using the definition by remainders it is straightforward to verify that is reflexive, symmetric, and transitive, and therefore an equivalence relation. Equivalence classes in this context are typically referred to as congruence classes . If and are in the same congruence class we say that and are congruent modulo (or congruent mod for short).   "
 },
 {
-  "id": "sec-II-6-1-3-1",
+  "id": "sec-II-6-1-sols-3-1",
   "level": "2",
-  "url": "sec-II-6-1.html#sec-II-6-1-3-1",
+  "url": "sec-II-6-1-sols.html#sec-II-6-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Notation: Modulo Relation.",
-  "body": " Notation: Modulo Relation      "
+  "body": " Notation: Modulo Relation           is typically written (mod ).    The equivalence class is typically written .    The set of congruence classes mod is denoted .      "
 },
 {
-  "id": "sec-II-6-1-3-2",
+  "id": "sec-II-6-1-sols-3-2",
   "level": "2",
-  "url": "sec-II-6-1.html#sec-II-6-1-3-2",
+  "url": "sec-II-6-1-sols.html#sec-II-6-1-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Congruence Modulo <span class=\"process-math\">\\(3\\)<\/span>.",
-  "body": " Example: Congruence Modulo      "
+  "body": " Example: Congruence Modulo        (mod ). Also, .   (mod ). Also, .   (mod ). Also, .  The set of all congruence classes mod is .   "
 },
 {
-  "id": "sec-II-6-1-4-1",
+  "id": "sec-II-6-1-sols-4-1",
   "level": "2",
-  "url": "sec-II-6-1.html#sec-II-6-1-4-1",
+  "url": "sec-II-6-1-sols.html#sec-II-6-1-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Practice: Congruence Classes.",
-  "body": " Practice: Congruence Classes   For each value of below, separate the integers into congruence classes mod . Then determine all the elements of .                               "
+  "body": " Practice: Congruence Classes   For each value of below, separate the integers into congruence classes mod . Then determine all the elements of .          We have the congruence classes .            We have the congruence classes .            We have the congruence classes .            We have the congruence classes .     "
 },
 {
   "id": "sec-II-6-2",
