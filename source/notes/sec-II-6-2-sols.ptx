@@ -441,7 +441,7 @@
                         <p>
                             <m>\overline{4}</m> has no multiplicative inverse in <m>\Z / 8\Z</m>, which means there are either
                             no solutions or multiple solutions. In this case we can check all elements to see that
-                            <m>x=\overline{0}, \overline{2}, \overline{4}</m> are all solutions.
+                            <m>x=\overline{0}, \overline{2}, \overline{4}, \overline{6}</m> are all solutions.
                         </p>
                         <p>
                             In <m>\Z / 7\Z</m>,
