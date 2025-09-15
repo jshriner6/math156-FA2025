@@ -739,85 +739,85 @@ var ptx_lunr_docs = [
   "body": " Practice: Congruence Classes   For each value of below, separate the integers into congruence classes mod . Then determine all the elements of .          We have the congruence classes .            We have the congruence classes .            We have the congruence classes .            We have the congruence classes .     "
 },
 {
-  "id": "sec-II-6-2",
+  "id": "sec-II-6-2-sols",
   "level": "1",
-  "url": "sec-II-6-2.html",
+  "url": "sec-II-6-2-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S II.6\\text{:}\\)<\/span> Modular Arithmetic",
-  "body": " : Modular Arithmetic    Motivation: Modular Arithmetic        Definition: Addition and Multiplication              Exercise: Addition and Multiplication   Complete the addition and multiplication tables in the indicated modulus.     In :                                                                    In :                                                                                    Observations: Modular Arithmetic      Example: Solving an Equation   Solve in .     Practice: Solving an Equation   Solve in , then in .       Example: Solving a System of Equations   Solve the system in .     Practice: Solving a System of Equations   Solve the system in .     "
+  "body": " : Modular Arithmetic    Motivation: Modular Arithmetic       We've seen how we can use equivalence relations to form congruence classes on the integers. How does this impact arithmetic?     Definition: Addition and Multiplication                 This feels intuitive, but it's important to recognize that there is something to check here! See Section II.6 of our text or our notes from class.       Exercise: Addition and Multiplication   Complete the addition and multiplication tables in the indicated modulus.     In :                                                                  In :                                                                    In :                                                          In :                                                                                            Observations: Modular Arithmetic          Every element has an additive inverse . For example, and .    In , every non-zero element also has a multiplicative inverse . For example, .    In , multiplication is strange. For example, has no solution, and , even though is non-zero!  A helpful fact is that has a multiplicative inverse in if and only if the greatest common divisor of and is . This makes , for prime, special!          Example: Solving an Equation   Solve in .          Practice: Solving an Equation   Solve in , then in .    In ,      has no multiplicative inverse in , which means there are either no solutions or multiple solutions. In this case we can check all elements to see that are all solutions.  In ,          Example: Solving a System of Equations   Solve the system in .    The final answer is . See our notes from class, or the textbook or notes in myOpenMath for a similar example.     Practice: Solving a System of Equations   Solve the system in .    The final answer is . See our notes from class, or the textbook or notes in myOpenMath for a similar example.     "
 },
 {
-  "id": "sec-II-6-2-2-1",
+  "id": "sec-II-6-2-sols-2-1",
   "level": "2",
-  "url": "sec-II-6-2.html#sec-II-6-2-2-1",
+  "url": "sec-II-6-2-sols.html#sec-II-6-2-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Modular Arithmetic.",
-  "body": " Motivation: Modular Arithmetic      "
+  "body": " Motivation: Modular Arithmetic       We've seen how we can use equivalence relations to form congruence classes on the integers. How does this impact arithmetic?   "
 },
 {
-  "id": "sec-II-6-2-2-2",
+  "id": "sec-II-6-2-sols-2-2",
   "level": "2",
-  "url": "sec-II-6-2.html#sec-II-6-2-2-2",
+  "url": "sec-II-6-2-sols.html#sec-II-6-2-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Addition and Multiplication.",
-  "body": " Definition: Addition and Multiplication          "
+  "body": " Definition: Addition and Multiplication                 This feels intuitive, but it's important to recognize that there is something to check here! See Section II.6 of our text or our notes from class.   "
 },
 {
-  "id": "sec-II-6-2-3-1",
+  "id": "sec-II-6-2-sols-3-1",
   "level": "2",
-  "url": "sec-II-6-2.html#sec-II-6-2-3-1",
+  "url": "sec-II-6-2-sols.html#sec-II-6-2-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Exercise: Addition and Multiplication.",
-  "body": " Exercise: Addition and Multiplication   Complete the addition and multiplication tables in the indicated modulus.     In :                                                                    In :                                                                                  "
+  "body": " Exercise: Addition and Multiplication   Complete the addition and multiplication tables in the indicated modulus.     In :                                                                  In :                                                                    In :                                                          In :                                                                                          "
 },
 {
-  "id": "sec-II-6-2-3-2",
+  "id": "sec-II-6-2-sols-3-2",
   "level": "2",
-  "url": "sec-II-6-2.html#sec-II-6-2-3-2",
+  "url": "sec-II-6-2-sols.html#sec-II-6-2-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Observations: Modular Arithmetic.",
-  "body": " Observations: Modular Arithmetic  "
+  "body": " Observations: Modular Arithmetic          Every element has an additive inverse . For example, and .    In , every non-zero element also has a multiplicative inverse . For example, .    In , multiplication is strange. For example, has no solution, and , even though is non-zero!  A helpful fact is that has a multiplicative inverse in if and only if the greatest common divisor of and is . This makes , for prime, special!      "
 },
 {
-  "id": "sec-II-6-2-4-1",
+  "id": "sec-II-6-2-sols-4-1",
   "level": "2",
-  "url": "sec-II-6-2.html#sec-II-6-2-4-1",
+  "url": "sec-II-6-2-sols.html#sec-II-6-2-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Solving an Equation.",
-  "body": " Example: Solving an Equation   Solve in .   "
+  "body": " Example: Solving an Equation   Solve in .        "
 },
 {
-  "id": "sec-II-6-2-4-2",
+  "id": "sec-II-6-2-sols-4-2",
   "level": "2",
-  "url": "sec-II-6-2.html#sec-II-6-2-4-2",
+  "url": "sec-II-6-2-sols.html#sec-II-6-2-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Practice: Solving an Equation.",
-  "body": " Practice: Solving an Equation   Solve in , then in .   "
+  "body": " Practice: Solving an Equation   Solve in , then in .    In ,      has no multiplicative inverse in , which means there are either no solutions or multiple solutions. In this case we can check all elements to see that are all solutions.  In ,      "
 },
 {
-  "id": "sec-II-6-2-5-1",
+  "id": "sec-II-6-2-sols-5-1",
   "level": "2",
-  "url": "sec-II-6-2.html#sec-II-6-2-5-1",
+  "url": "sec-II-6-2-sols.html#sec-II-6-2-sols-5-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Example: Solving a System of Equations.",
-  "body": " Example: Solving a System of Equations   Solve the system in .   "
+  "body": " Example: Solving a System of Equations   Solve the system in .    The final answer is . See our notes from class, or the textbook or notes in myOpenMath for a similar example.   "
 },
 {
-  "id": "sec-II-6-2-5-2",
+  "id": "sec-II-6-2-sols-5-2",
   "level": "2",
-  "url": "sec-II-6-2.html#sec-II-6-2-5-2",
+  "url": "sec-II-6-2-sols.html#sec-II-6-2-sols-5-2",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "Practice: Solving a System of Equations.",
-  "body": " Practice: Solving a System of Equations   Solve the system in .   "
+  "body": " Practice: Solving a System of Equations   Solve the system in .    The final answer is . See our notes from class, or the textbook or notes in myOpenMath for a similar example.   "
 },
 {
   "id": "sec-III-1",
