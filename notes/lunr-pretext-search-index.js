@@ -820,67 +820,67 @@ var ptx_lunr_docs = [
   "body": " Practice: Solving a System of Equations   Solve the system in .    The final answer is . See our notes from class, or the textbook or notes in myOpenMath for a similar example.   "
 },
 {
-  "id": "sec-III-1",
+  "id": "sec-III-1-sols",
   "level": "1",
-  "url": "sec-III-1.html",
+  "url": "sec-III-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S III.1\\text{:}\\)<\/span> Functions",
-  "body": " : Functions    Motivation: Functions        Definition: Function   A function from set to set is a     Notation: Functions    is written as       Equal Functions   Since functions are relations, the domain and target are part of their definition. So two functions are equal only when     Function Representations   Since functions are relations, we can represent them in many useful ways.       Practice: Functions   Are the following relations examples of functions? Explain why or why not.     Let , and be given by .      Let , and be given by .       is given by .       is given by .       is given by .       is given by .      "
+  "body": " : Functions    Motivation: Functions       Our last chapter introduced us to relations between sets. There is a common type of relation that is used widely, which we'll explore in this chapter.     Definition: Function   A function from set to set is a    is a relation such that for every , there is exactly one pair .  Note that the source in this context is equal to the domain.     Notation: Functions    is written as     . This is called function notation . We may just write or to reference the function relation, to reference an element of the domain, and to reference the element in the range associated with the element from the domain.       Equal Functions   Since functions are relations, the domain and target are part of their definition. So two functions are equal only when       They have the same domain and target.    They assign the same value to every element in the domain.     For example, if is given by and is given by , because they do not have the same domain.  Likewise, it's possible that two functions are equal even if their rules aren't written in exactly the same way. See the textbook or our notes from class for an example.     Function Representations   Since functions are relations, we can represent them in many useful ways.    We can represent functions as equations, tables, graphs, and with words. It is useful practicing converting from one representation to another, as the best representation will depend on the question you are trying to answer.       Practice: Functions   Are the following relations examples of functions? Explain why or why not.     Let , and be given by .    This is a function since every student has exactly one height.      Let , and be given by .    This is not a function, since there may be multiple students with the same height. There are also rational numbers for which no student will have that height.       is given by .    This is not a function because the input has no associated output.       is given by .    This is a function.       is given by .    This is a function.       is given by .    This is not a function because the input is associated with more than one output value.      "
 },
 {
-  "id": "sec-III-1-2-1",
+  "id": "sec-III-1-sols-2-1",
   "level": "2",
-  "url": "sec-III-1.html#sec-III-1-2-1",
+  "url": "sec-III-1-sols.html#sec-III-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Functions.",
-  "body": " Motivation: Functions      "
+  "body": " Motivation: Functions       Our last chapter introduced us to relations between sets. There is a common type of relation that is used widely, which we'll explore in this chapter.   "
 },
 {
-  "id": "sec-III-1-2-2",
+  "id": "sec-III-1-sols-2-2",
   "level": "2",
-  "url": "sec-III-1.html#sec-III-1-2-2",
+  "url": "sec-III-1-sols.html#sec-III-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Function.",
-  "body": " Definition: Function   A function from set to set is a   "
+  "body": " Definition: Function   A function from set to set is a    is a relation such that for every , there is exactly one pair .  Note that the source in this context is equal to the domain.   "
 },
 {
-  "id": "sec-III-1-2-3",
+  "id": "sec-III-1-sols-2-3",
   "level": "2",
-  "url": "sec-III-1.html#sec-III-1-2-3",
+  "url": "sec-III-1-sols.html#sec-III-1-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Notation: Functions.",
-  "body": " Notation: Functions    is written as   "
+  "body": " Notation: Functions    is written as     . This is called function notation . We may just write or to reference the function relation, to reference an element of the domain, and to reference the element in the range associated with the element from the domain.   "
 },
 {
-  "id": "sec-III-1-3-1",
+  "id": "sec-III-1-sols-3-1",
   "level": "2",
-  "url": "sec-III-1.html#sec-III-1-3-1",
+  "url": "sec-III-1-sols.html#sec-III-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Equal Functions.",
-  "body": " Equal Functions   Since functions are relations, the domain and target are part of their definition. So two functions are equal only when   "
+  "body": " Equal Functions   Since functions are relations, the domain and target are part of their definition. So two functions are equal only when       They have the same domain and target.    They assign the same value to every element in the domain.     For example, if is given by and is given by , because they do not have the same domain.  Likewise, it's possible that two functions are equal even if their rules aren't written in exactly the same way. See the textbook or our notes from class for an example.   "
 },
 {
-  "id": "sec-III-1-3-2",
+  "id": "sec-III-1-sols-3-2",
   "level": "2",
-  "url": "sec-III-1.html#sec-III-1-3-2",
+  "url": "sec-III-1-sols.html#sec-III-1-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Function Representations.",
-  "body": " Function Representations   Since functions are relations, we can represent them in many useful ways.   "
+  "body": " Function Representations   Since functions are relations, we can represent them in many useful ways.    We can represent functions as equations, tables, graphs, and with words. It is useful practicing converting from one representation to another, as the best representation will depend on the question you are trying to answer.   "
 },
 {
-  "id": "sec-III-1-4-1",
+  "id": "sec-III-1-sols-4-1",
   "level": "2",
-  "url": "sec-III-1.html#sec-III-1-4-1",
+  "url": "sec-III-1-sols.html#sec-III-1-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Practice: Functions.",
-  "body": " Practice: Functions   Are the following relations examples of functions? Explain why or why not.     Let , and be given by .      Let , and be given by .       is given by .       is given by .       is given by .       is given by .    "
+  "body": " Practice: Functions   Are the following relations examples of functions? Explain why or why not.     Let , and be given by .    This is a function since every student has exactly one height.      Let , and be given by .    This is not a function, since there may be multiple students with the same height. There are also rational numbers for which no student will have that height.       is given by .    This is not a function because the input has no associated output.       is given by .    This is a function.       is given by .    This is a function.       is given by .    This is not a function because the input is associated with more than one output value.    "
 },
 {
   "id": "sec-III-2",
