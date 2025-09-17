@@ -883,58 +883,58 @@ var ptx_lunr_docs = [
   "body": " Practice: Functions   Are the following relations examples of functions? Explain why or why not.     Let , and be given by .    This is a function since every student has exactly one height.      Let , and be given by .    This is not a function, since there may be multiple students with the same height. There are also rational numbers for which no student will have that height.       is given by .    This is not a function because the input has no associated output.       is given by .    This is a function.       is given by .    This is a function.       is given by .    This is not a function because the input is associated with more than one output value.    "
 },
 {
-  "id": "sec-III-2",
+  "id": "sec-III-2-sols",
   "level": "1",
-  "url": "sec-III-2.html",
+  "url": "sec-III-2-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S III.2\\text{:}\\)<\/span> Common Functions",
-  "body": " : Common Functions    Motivation: Common Functions        Defintions: Identity, Constant, and Characteristic Functions          Practice: Identity, Constant, and Characteristic Functions   First attempt each question without technology. Then use technology (such as Desmos ) to confirm or change your response when possible.     Write the identity function defined previously using function notation.  Then sketch the graphs of the two identity functions .      Write the constant function , , using function notation.  Then sketch the graph of . How will the graph of , , differ from the graph of ?      Sketch graphs of the functions .        Definitions: Power, Polynomial, and Rational Functions        Practice: Power, Polynomials, and Rational Functions    Use technology to graph the power functions . Make observations about the shapes of these graphs and how they compare to one another.         Write in expanded form.    Graph if . What is the degree of ? How do you think the graph of is related to power functions?    Graph if . What is the degree of ? How do you think the graph of is related to power functions?         Graph , , and . Make observations about how the properties of and relate to the properties of .      "
+  "body": " : Common Functions    Motivation: Common Functions       Some functions are particularly important and show up often in application. We'll describe these, and also focus on visualization.     Defintions: Identity, Constant, and Characteristic Functions          A function , , is called an identity function .    A function , for some fixed , is called a constant function .    Let . The function , is called the characteristic function for .          Practice: Identity, Constant, and Characteristic Functions   First attempt each question without technology. Then use technology (such as Desmos ) to confirm or change your response when possible.     Write the identity function defined previously using function notation.  Then sketch the graphs of the two identity functions .    We write the identity function using function notation as .  The graph of is a continuous line. The graph of is discrete points at integer pairs on the line of .      Write the constant function , , using function notation.  Then sketch the graph of . How will the graph of , , differ from the graph of ?    We write using function notation as .  The graph of is a continuous horizontal line. The graph of is discrete points on the line of only for input values which are positive integers.      Sketch graphs of the functions .    The graph of is discrete points of the form for , and points at for all .  The graph of is discrete points of the form for , and points at for all .        Definitions: Power, Polynomial, and Rational Functions          A power function is a function which has the form for some . is called the power . Note that we did not specify the domain as this may change depending on .    A polynomial function is a sum of constant multiples of power functions with non-negative integer powers. That is, they are functions where . The power is called the degree of .    If are polynomials and such that for all , then the function , is called a rational function .        Practice: Power, Polynomials, and Rational Functions    Use technology to graph the power functions . Make observations about the shapes of these graphs and how they compare to one another.    We can observe by looking at the graphs that the general shapes of power functions with positive integer powers depend on whether the power is even or odd. Even powered functions have a \"U\" shape, while, odd powered functions have a \"chair\" shape.         Write in expanded form.    Graph if . What is the degree of ? How do you think the graph of is related to power functions?    Graph if . What is the degree of ? How do you think the graph of is related to power functions?               In this case has degree , and by looking at the graph of , we can see that the \"ends\" of the graphs behave similarly to that of .    In this case has degree , and by looking at the graph of , we can see that the \"ends\" of the graphs behave similarly to that of .         Graph , , and . Make observations about how the properties of and relate to the properties of .    Looking at the graphs of , , and , we can observe that exactly where , and is undefined (more specifically has vertical asymptotes ) where . We can also observe that the \"ends\" of looks similar to the ratio of terms from and .      "
 },
 {
-  "id": "sec-III-2-2-1",
+  "id": "sec-III-2-sols-2-1",
   "level": "2",
-  "url": "sec-III-2.html#sec-III-2-2-1",
+  "url": "sec-III-2-sols.html#sec-III-2-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Common Functions.",
-  "body": " Motivation: Common Functions      "
+  "body": " Motivation: Common Functions       Some functions are particularly important and show up often in application. We'll describe these, and also focus on visualization.   "
 },
 {
-  "id": "sec-III-2-2-2",
+  "id": "sec-III-2-sols-2-2",
   "level": "2",
-  "url": "sec-III-2.html#sec-III-2-2-2",
+  "url": "sec-III-2-sols.html#sec-III-2-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Defintions: Identity, Constant, and Characteristic Functions.",
-  "body": " Defintions: Identity, Constant, and Characteristic Functions      "
+  "body": " Defintions: Identity, Constant, and Characteristic Functions          A function , , is called an identity function .    A function , for some fixed , is called a constant function .    Let . The function , is called the characteristic function for .      "
 },
 {
-  "id": "sec-III-2-3-1",
+  "id": "sec-III-2-sols-3-1",
   "level": "2",
-  "url": "sec-III-2.html#sec-III-2-3-1",
+  "url": "sec-III-2-sols.html#sec-III-2-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Practice: Identity, Constant, and Characteristic Functions.",
-  "body": " Practice: Identity, Constant, and Characteristic Functions   First attempt each question without technology. Then use technology (such as Desmos ) to confirm or change your response when possible.     Write the identity function defined previously using function notation.  Then sketch the graphs of the two identity functions .      Write the constant function , , using function notation.  Then sketch the graph of . How will the graph of , , differ from the graph of ?      Sketch graphs of the functions .    "
+  "body": " Practice: Identity, Constant, and Characteristic Functions   First attempt each question without technology. Then use technology (such as Desmos ) to confirm or change your response when possible.     Write the identity function defined previously using function notation.  Then sketch the graphs of the two identity functions .    We write the identity function using function notation as .  The graph of is a continuous line. The graph of is discrete points at integer pairs on the line of .      Write the constant function , , using function notation.  Then sketch the graph of . How will the graph of , , differ from the graph of ?    We write using function notation as .  The graph of is a continuous horizontal line. The graph of is discrete points on the line of only for input values which are positive integers.      Sketch graphs of the functions .    The graph of is discrete points of the form for , and points at for all .  The graph of is discrete points of the form for , and points at for all .    "
 },
 {
-  "id": "sec-III-2-4-1",
+  "id": "sec-III-2-sols-4-1",
   "level": "2",
-  "url": "sec-III-2.html#sec-III-2-4-1",
+  "url": "sec-III-2-sols.html#sec-III-2-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Definitions: Power, Polynomial, and Rational Functions.",
-  "body": " Definitions: Power, Polynomial, and Rational Functions      "
+  "body": " Definitions: Power, Polynomial, and Rational Functions          A power function is a function which has the form for some . is called the power . Note that we did not specify the domain as this may change depending on .    A polynomial function is a sum of constant multiples of power functions with non-negative integer powers. That is, they are functions where . The power is called the degree of .    If are polynomials and such that for all , then the function , is called a rational function .      "
 },
 {
-  "id": "sec-III-2-4-2",
+  "id": "sec-III-2-sols-4-2",
   "level": "2",
-  "url": "sec-III-2.html#sec-III-2-4-2",
+  "url": "sec-III-2-sols.html#sec-III-2-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Power, Polynomials, and Rational Functions.",
-  "body": " Practice: Power, Polynomials, and Rational Functions    Use technology to graph the power functions . Make observations about the shapes of these graphs and how they compare to one another.         Write in expanded form.    Graph if . What is the degree of ? How do you think the graph of is related to power functions?    Graph if . What is the degree of ? How do you think the graph of is related to power functions?         Graph , , and . Make observations about how the properties of and relate to the properties of .    "
+  "body": " Practice: Power, Polynomials, and Rational Functions    Use technology to graph the power functions . Make observations about the shapes of these graphs and how they compare to one another.    We can observe by looking at the graphs that the general shapes of power functions with positive integer powers depend on whether the power is even or odd. Even powered functions have a \"U\" shape, while, odd powered functions have a \"chair\" shape.         Write in expanded form.    Graph if . What is the degree of ? How do you think the graph of is related to power functions?    Graph if . What is the degree of ? How do you think the graph of is related to power functions?               In this case has degree , and by looking at the graph of , we can see that the \"ends\" of the graphs behave similarly to that of .    In this case has degree , and by looking at the graph of , we can see that the \"ends\" of the graphs behave similarly to that of .         Graph , , and . Make observations about how the properties of and relate to the properties of .    Looking at the graphs of , , and , we can observe that exactly where , and is undefined (more specifically has vertical asymptotes ) where . We can also observe that the \"ends\" of looks similar to the ratio of terms from and .    "
 },
 {
   "id": "sec-III-3",
