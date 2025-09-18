@@ -1,0 +1,132 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-III-4">
+        <title><m>\S III.4</m>: Function Properties </title>
+            <page>
+                <exercise workspace=".25in">
+                    <title>Motivation: Function Properties  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+            </page>
+    
+
+            <page>
+                <exercise workspace="3in">
+                    <title>Definition: Onto (Surjective)</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Why?</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Practice: Onto</title>
+                    <statement>
+                        <p>
+                            Determine if the following functions are surjective:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f: \R \to \R</m>, <m>x \mapsto 2x</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g: \Z \to \Z</m>, <m>n \mapsto 2n</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>h: \Z / 6\Z \to \Z / 6\Z</m>, <m>x \mapsto \overline{3}x</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="3in">
+                    <title>Definition: One-to-one (Injective)</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Why?</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Practice: One-to-one</title>
+                    <statement>
+                        <p>
+                            Determine if the following functions are injective:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f: \Z \to \Z</m>, <m>n \mapsto 2n</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g: \Z / 6\Z \to \Z / 6\Z</m>, <m>x \mapsto \overline{3}x</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                
+                    
+                </exercise>
+                <exercise workspace="1in">
+                    <title>Fact</title>
+                    <statement>
+                        <p>
+                            If <m>A</m> and <m>B</m> are finite with <m>|A| = |B|</m>, then
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>

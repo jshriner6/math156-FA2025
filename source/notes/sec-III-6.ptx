@@ -1,0 +1,143 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-III-6">
+        <title><m>\S III.6</m>: Counting and Cardinality </title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Counting </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="1in">
+                    <title>Definition: Cardinality</title>
+                    
+                    <statement>
+                        <p>
+                            The <term>cardinality of a finite set <m>A</m></term> is <m>n</m> if 
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Example 1: Counting</title>
+                    
+                    
+                    <statement>
+                        <p>
+                            If <m>|A| = m</m> and <m>|B| = n</m>, then <m>|A \times B| = mn</m>.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Example 2: Counting</title>
+                    
+                    
+                    <statement>
+                        <p>
+                            If <m>|A| = n</m>, then <m>|P(A)| = 2^n</m>.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Counting</title>
+                    <introduction>
+                        <p>
+                            Justify the following statements, assuming <m>|A| = n</m> and <m>|B| = m</m>.
+                        </p>
+                    </introduction>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                The number of different relations between <m>A</m> and <m>B</m> is <m>2^{nm}</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                The number of different functions from <m>A</m> to <m>B</m> is <m>m^n</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                The number of different injective functions from <m>A</m> to <m>B</m> is 
+                                <m>m(m-1)(m-2) \cdots (m-n+1)</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                The number of different bijective functions from <m>A</m> to <m>B</m> is <m>n!</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Counting</title>
+                    <introduction>
+                        <p>
+                            Suppose a license plate has <m>4</m> capital letters followed by <m>2</m> digits. For example, 
+                            ABCD12 is a valid license plate.
+                        </p>
+                        <p>
+                            We can imagine a license plate combination being chosen by functions:
+                            <me>
+                                f: \{1,2,3,4\} \to \{A,B, C, \dots, Z\}
+                            </me>
+                            and
+                            <me>
+                                g: \{1,2\} \to \{0,1,2, \dots, 9\}
+                            </me>.
+                            
+                        </p>
+                    </introduction>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                How many different license plate combinations are there?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                How does your answer change if no letters can be repeated?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                How does your answer change if no digits can be repeated?
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                How does your answer change if no letters or digits can be repeated?
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

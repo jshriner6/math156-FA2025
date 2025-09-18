@@ -1,0 +1,110 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-III-5">
+        <title><m>\S III.5</m>: Bijections and Inverse Functions </title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Bijections and Inverse Functions   </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Definition: Bijection</title>
+                    <statement>
+                        <p>
+                            A function is a <term>bijection</term> if 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Bijections</title>
+                    <statement>
+                        <p>
+                            Determine if the following functions are bijections.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f: \R_{\geq 0} \to \R_{\geq 0}</m>, <m>x \mapsto x^2+2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f: \Z / 8\Z \to \Z / 8\Z</m>, <m>n \mapsto \overline{3}n</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="1in">
+                    <title>Definition: Inverse Function</title>
+                    <statement>
+                        <p>
+                            If <m>f</m> is a bijection, we call the converse relation
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Finding <m>f^{-1}</m></title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Fact: Inverses and Composition</title>
+                    
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Finding Inverse Functions</title>
+                    <statement>
+                        <p>
+                            The following functions are bijections. Find their inverse function.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>h(x)= 2 + \sqrt[5]{x+1}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g(t)= \frac{2t +4}{3t + 5}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>k(n)= \overline{4}n + \overline{3}</m>, in <m>\Z / 9\Z</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>

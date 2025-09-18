@@ -1,0 +1,90 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-1">
+        <title><m>\S IV.1</m>: Sequences</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Sequences  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Definition: Sequence</title>
+                    <statement>
+                        <p>
+                            A <term>sequence</term> is a 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Examples: Sequences</title>
+                    <statement>
+                        <p>
+                            There are various ways we can define sequences, but a common way is with an explicit function.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Practice: Sequences</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Write out the first <m>5</m> terms of each sequence below.
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>(a_j), a_j = 2^j + j</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(b_i), b_i = \frac{i+1}{i!}</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                What is a possible rule for the sequence
+                                <me>
+                                    (c_i) = \frac{1}{2}, \frac{2}{3}, \frac{3}{4}, \dots
+                                </me>
+                                
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Observations: Sequences</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

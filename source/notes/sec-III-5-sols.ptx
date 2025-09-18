@@ -1,0 +1,189 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-III-5-sols">
+        <title><m>\S III.5</m>: Bijections and Inverse Functions </title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Bijections and Inverse Functions   </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Last time we introduced the properties of functions necessary for determining
+                            if the converse relation is also a function. We'll get more practice evaluating these
+                            properties, as well as saying more about the converse relation when it is a function.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Definition: Bijection</title>
+                    <statement>
+                        <p>
+                            A function is a <term>bijection</term> if 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            it is both one-to-one and onto.
+                        </p>
+                        <p>
+                            The converse relation of a function <m>f</m> is a function if and only if <m>f</m>
+                            is a bijection.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Bijections</title>
+                    <statement>
+                        <p>
+                            Determine if the following functions are bijections.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f: \R_{\geq 0} \to \R_{\geq 0}</m>, <m>x \mapsto x^2+2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f: \Z / 8\Z \to \Z / 8\Z</m>, <m>n \mapsto \overline{3}n</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f</m> is not a bijection because it is not onto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g</m> is a bijection because it is both one-to-one and onto. Note since the
+                                        source and target are finite sets of equal size, we just need to check one property
+                                        is true, and it will imply the other.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="1in">
+                    <title>Definition: Inverse Function</title>
+                    <statement>
+                        <p>
+                            If <m>f</m> is a bijection, we call the converse relation
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <term>the inverse function of <m>f</m></term>, and write it as <m>f^{-1}</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Finding <m>f^{-1}</m></title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If <m>f(x)= 6x-2</m>, then we can write <m>y=6x-2</m>, swap input and output to write <m>x=6y-2</m>,
+                            and solve for <m>y</m> to get <m>y=\frac{x+2}{6}</m>. Using function notation, we would write
+                            <m>f^{-1}(x) = \frac{x+2}{6}</m>.
+                        </p>
+                        <p>
+                            If <m>g(n)= \overline{3}n</m> in <m>\Z / 8\Z</m>, then we can write <m>y= \overline{3}n</m>, swap input and output to write <m>n= \overline{3}y</m>,
+                            and solve for <m>y</m> to get <m>y= \overline{3}n</m>. Using function notation, we would write
+                            <m>g^{-1}(n) = \overline{3}n</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Fact: Inverses and Composition</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If <m>f</m> is a bijection with inverse function <m>f^{-1}</m>, then
+                            <me>
+                                (f \circ f^{-1})(x) = (f^{-1} \circ f)(x) = x
+                            </me>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Finding Inverse Functions</title>
+                    <statement>
+                        <p>
+                            The following functions are bijections. Find their inverse function.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>h(x)= 2 + \sqrt[5]{x+1}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g(t)= \frac{2t +4}{3t + 5}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>k(n)= \overline{4}n + \overline{3}</m>, in <m>\Z / 9\Z</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>h^{-1}(x) = (x-2)^5 - 1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g^{-1}(t) = \frac{-5t +4}{3t -2}
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>k^{-1}(n) = \overline{7}n -\overline{3} = \overline{7}n +\overline{6}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+    </article>
+</pretext>
