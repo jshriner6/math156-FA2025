@@ -50,8 +50,8 @@
     <!-- <xi:include href="./notes/sec-III-2.ptx" xpointer="sec-III-2" /> -->
     <xi:include href="./notes/sec-III-2-sols.ptx" xpointer="sec-III-2-sols" /> -->
 
-    <xi:include href="./notes/sec-III-3.ptx" xpointer="sec-III-3" /> -->
-    <!-- <xi:include href="./notes/sec-III-3-sols.ptx" xpointer="sec-III-3-sols" /> -->
+    <!--<xi:include href="./notes/sec-III-3.ptx" xpointer="sec-III-3" /> -->
+    <xi:include href="./notes/sec-III-3-sols.ptx" xpointer="sec-III-3-sols" /> -->
 
     <xi:include href="./notes/sec-III-4.ptx" xpointer="sec-III-4" /> -->
     <!-- <xi:include href="./notes/sec-III-4-sols.ptx" xpointer="sec-III-4-sols" /> -->
