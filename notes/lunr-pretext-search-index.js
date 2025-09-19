@@ -937,54 +937,54 @@ var ptx_lunr_docs = [
   "body": " Practice: Power, Polynomials, and Rational Functions    Use technology to graph the power functions . Make observations about the shapes of these graphs and how they compare to one another.    We can observe by looking at the graphs that the general shapes of power functions with positive integer powers depend on whether the power is even or odd. Even powered functions have a \"U\" shape, while, odd powered functions have a \"chair\" shape.         Write in expanded form.    Graph if . What is the degree of ? How do you think the graph of is related to power functions?    Graph if . What is the degree of ? How do you think the graph of is related to power functions?               In this case has degree , and by looking at the graph of , we can see that the \"ends\" of the graphs behave similarly to that of .    In this case has degree , and by looking at the graph of , we can see that the \"ends\" of the graphs behave similarly to that of .         Graph , , and . Make observations about how the properties of and relate to the properties of .    Looking at the graphs of , , and , we can observe that exactly where , and is undefined (more specifically has vertical asymptotes ) where . We can also observe that the \"ends\" of looks similar to the ratio of terms from and .    "
 },
 {
-  "id": "sec-III-3",
+  "id": "sec-III-3-sols",
   "level": "1",
-  "url": "sec-III-3.html",
+  "url": "sec-III-3-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S III.3\\text{:}\\)<\/span> Functions From Functions",
-  "body": " : Functions From Functions    Motivation: Functions from Functions        Function Arithmetic   Let and be given by and .       Practice: Function Composition   Let and be given by and . Determine which composition makes sense ( or ), then compute it.     Function Transformations   Given the graph of a function , we can \"transform\" it to a new function:      Type  Vertical  Horizontal    Shift      Scale      Reflection          Practice: Transformations   Access the Transformations Desmos Activity for practice.     "
+  "body": " : Functions From Functions    Motivation: Functions from Functions       We've seen that we can obtain new sets from old sets, new relations from old relations; what are common ways to obtain new functions from old functions?     Function Arithmetic   Let and be given by and .    We can combine functions in many of the same ways that we combine numbers.   Function addition:     Function subtraction:     Function multiplication:     Function division: . Not that this operation can change the domain.     Because functions are relations, we can also perform function composition , as long as the target of the \"first\" function matches the domain of the \"second\" function.  For example, if we first plugged an input into , we would get an output in . This is also the domain of , so we could plug that output into . This is called composed with : Similarly, we could perform composed with : Notice that in general, the order of the composition matters, and in some cases, one ordering will make sense while another will not because of target\/domain mismatches.       Practice: Function Composition   Let and be given by and . Determine which composition makes sense ( or ), then compute it.    The composition that makes sense is , which is a function with domain and target .     Function Transformations   Given the graph of a function , we can \"transform\" it to a new function:      Type  Vertical  Horizontal    Shift      Scale      Reflection               Type  Vertical  Horizontal    Shift      Scale      Reflection          Practice: Transformations   Access the Transformations Desmos Activity for practice.     "
 },
 {
-  "id": "sec-III-3-2-1",
+  "id": "sec-III-3-sols-2-1",
   "level": "2",
-  "url": "sec-III-3.html#sec-III-3-2-1",
+  "url": "sec-III-3-sols.html#sec-III-3-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Functions from Functions.",
-  "body": " Motivation: Functions from Functions      "
+  "body": " Motivation: Functions from Functions       We've seen that we can obtain new sets from old sets, new relations from old relations; what are common ways to obtain new functions from old functions?   "
 },
 {
-  "id": "sec-III-3-2-2",
+  "id": "sec-III-3-sols-2-2",
   "level": "2",
-  "url": "sec-III-3.html#sec-III-3-2-2",
+  "url": "sec-III-3-sols.html#sec-III-3-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Function Arithmetic.",
-  "body": " Function Arithmetic   Let and be given by and .   "
+  "body": " Function Arithmetic   Let and be given by and .    We can combine functions in many of the same ways that we combine numbers.   Function addition:     Function subtraction:     Function multiplication:     Function division: . Not that this operation can change the domain.     Because functions are relations, we can also perform function composition , as long as the target of the \"first\" function matches the domain of the \"second\" function.  For example, if we first plugged an input into , we would get an output in . This is also the domain of , so we could plug that output into . This is called composed with : Similarly, we could perform composed with : Notice that in general, the order of the composition matters, and in some cases, one ordering will make sense while another will not because of target\/domain mismatches.   "
 },
 {
-  "id": "sec-III-3-3-1",
+  "id": "sec-III-3-sols-3-1",
   "level": "2",
-  "url": "sec-III-3.html#sec-III-3-3-1",
+  "url": "sec-III-3-sols.html#sec-III-3-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Practice: Function Composition.",
-  "body": " Practice: Function Composition   Let and be given by and . Determine which composition makes sense ( or ), then compute it.   "
+  "body": " Practice: Function Composition   Let and be given by and . Determine which composition makes sense ( or ), then compute it.    The composition that makes sense is , which is a function with domain and target .   "
 },
 {
-  "id": "sec-III-3-3-2",
+  "id": "sec-III-3-sols-3-2",
   "level": "2",
-  "url": "sec-III-3.html#sec-III-3-3-2",
+  "url": "sec-III-3-sols.html#sec-III-3-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Function Transformations.",
-  "body": " Function Transformations   Given the graph of a function , we can \"transform\" it to a new function:      Type  Vertical  Horizontal    Shift      Scale      Reflection        "
+  "body": " Function Transformations   Given the graph of a function , we can \"transform\" it to a new function:      Type  Vertical  Horizontal    Shift      Scale      Reflection               Type  Vertical  Horizontal    Shift      Scale      Reflection        "
 },
 {
-  "id": "sec-III-3-3-3",
+  "id": "sec-III-3-sols-3-3",
   "level": "2",
-  "url": "sec-III-3.html#sec-III-3-3-3",
+  "url": "sec-III-3-sols.html#sec-III-3-sols-3-3",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Transformations.",
