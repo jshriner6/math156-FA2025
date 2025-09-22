@@ -991,85 +991,85 @@ var ptx_lunr_docs = [
   "body": " Practice: Transformations   Access the Transformations Desmos Activity for practice.   "
 },
 {
-  "id": "sec-III-4",
+  "id": "sec-III-4-sols",
   "level": "1",
-  "url": "sec-III-4.html",
+  "url": "sec-III-4-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S III.4\\text{:}\\)<\/span> Function Properties",
-  "body": " : Function Properties    Motivation: Function Properties          Definition: Onto (Surjective)        Why?        Practice: Onto   Determine if the following functions are surjective:    ,      ,      ,           Definition: One-to-one (Injective)        Why?        Practice: One-to-one   Determine if the following functions are injective:    ,      ,         Fact   If and are finite with , then     "
+  "body": " : Function Properties    Motivation: Function Properties       When discussing relations, we also defined the complement and converse of a relation. In the context of relations that are functions, the complement relation is rarely a function (why?). However, the converse relation is more interesting. If we start with a function relation, can we swap the domain and range and again obtain a new function relation? To answer this question, we need to discuss two important properties of functions.       Definition: Onto (Surjective)       A function is onto if for all there exists such that .  For example, , is onto, but , is not onto.     Why?       If is onto, we can swap source and target and the domain of the new relation is the whole source, which is a requirement of a function relation.     Practice: Onto   Determine if the following functions are surjective:    ,      ,      ,            is onto. If is an element in the target, then the element in the domain is mapped to . How can you tell visually that is onto?     is not onto. For example, is in the target, but there is no integer in the domain that maps to . How can you tell visually that is not onto?     is not onto. For example, is in the target, but there is no domain element which maps to (i.e, has no multiplicative inverse).          Definition: One-to-one (Injective)       A function is one-to-one if implies . For example, , is one-to-one, but , is not one-to-one.     Why?       If is one-to-one, it guarantees the domain of the converse relation will map to unique elements of the range.  Notice that we need to be both onto and one-to-one in order for its converse relation to also be a function relation!     Practice: One-to-one   Determine if the following functions are injective:    ,      ,            is one-to-one. If , then . How can you tell v isually that is one-to-one?     is not one-to-one. For example, , but .        Fact   If and are finite with , then     is one-to-one if and only if it is onto.     "
 },
 {
-  "id": "sec-III-4-2-1",
+  "id": "sec-III-4-sols-2-1",
   "level": "2",
-  "url": "sec-III-4.html#sec-III-4-2-1",
+  "url": "sec-III-4-sols.html#sec-III-4-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Function Properties.",
-  "body": " Motivation: Function Properties      "
+  "body": " Motivation: Function Properties       When discussing relations, we also defined the complement and converse of a relation. In the context of relations that are functions, the complement relation is rarely a function (why?). However, the converse relation is more interesting. If we start with a function relation, can we swap the domain and range and again obtain a new function relation? To answer this question, we need to discuss two important properties of functions.   "
 },
 {
-  "id": "sec-III-4-3-1",
+  "id": "sec-III-4-sols-3-1",
   "level": "2",
-  "url": "sec-III-4.html#sec-III-4-3-1",
+  "url": "sec-III-4-sols.html#sec-III-4-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Onto (Surjective).",
-  "body": " Definition: Onto (Surjective)      "
+  "body": " Definition: Onto (Surjective)       A function is onto if for all there exists such that .  For example, , is onto, but , is not onto.   "
 },
 {
-  "id": "sec-III-4-3-2",
+  "id": "sec-III-4-sols-3-2",
   "level": "2",
-  "url": "sec-III-4.html#sec-III-4-3-2",
+  "url": "sec-III-4-sols.html#sec-III-4-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Why?",
-  "body": " Why?      "
+  "body": " Why?       If is onto, we can swap source and target and the domain of the new relation is the whole source, which is a requirement of a function relation.   "
 },
 {
-  "id": "sec-III-4-3-3",
+  "id": "sec-III-4-sols-3-3",
   "level": "2",
-  "url": "sec-III-4.html#sec-III-4-3-3",
+  "url": "sec-III-4-sols.html#sec-III-4-sols-3-3",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Onto.",
-  "body": " Practice: Onto   Determine if the following functions are surjective:    ,      ,      ,       "
+  "body": " Practice: Onto   Determine if the following functions are surjective:    ,      ,      ,            is onto. If is an element in the target, then the element in the domain is mapped to . How can you tell visually that is onto?     is not onto. For example, is in the target, but there is no integer in the domain that maps to . How can you tell visually that is not onto?     is not onto. For example, is in the target, but there is no domain element which maps to (i.e, has no multiplicative inverse).      "
 },
 {
-  "id": "sec-III-4-4-1",
+  "id": "sec-III-4-sols-4-1",
   "level": "2",
-  "url": "sec-III-4.html#sec-III-4-4-1",
+  "url": "sec-III-4-sols.html#sec-III-4-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Definition: One-to-one (Injective).",
-  "body": " Definition: One-to-one (Injective)      "
+  "body": " Definition: One-to-one (Injective)       A function is one-to-one if implies . For example, , is one-to-one, but , is not one-to-one.   "
 },
 {
-  "id": "sec-III-4-4-2",
+  "id": "sec-III-4-sols-4-2",
   "level": "2",
-  "url": "sec-III-4.html#sec-III-4-4-2",
+  "url": "sec-III-4-sols.html#sec-III-4-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Why?",
-  "body": " Why?      "
+  "body": " Why?       If is one-to-one, it guarantees the domain of the converse relation will map to unique elements of the range.  Notice that we need to be both onto and one-to-one in order for its converse relation to also be a function relation!   "
 },
 {
-  "id": "sec-III-4-4-3",
+  "id": "sec-III-4-sols-4-3",
   "level": "2",
-  "url": "sec-III-4.html#sec-III-4-4-3",
+  "url": "sec-III-4-sols.html#sec-III-4-sols-4-3",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: One-to-one.",
-  "body": " Practice: One-to-one   Determine if the following functions are injective:    ,      ,       "
+  "body": " Practice: One-to-one   Determine if the following functions are injective:    ,      ,            is one-to-one. If , then . How can you tell v isually that is one-to-one?     is not one-to-one. For example, , but .      "
 },
 {
-  "id": "sec-III-4-4-4",
+  "id": "sec-III-4-sols-4-4",
   "level": "2",
-  "url": "sec-III-4.html#sec-III-4-4-4",
+  "url": "sec-III-4-sols.html#sec-III-4-sols-4-4",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "Fact.",
-  "body": " Fact   If and are finite with , then   "
+  "body": " Fact   If and are finite with , then     is one-to-one if and only if it is onto.   "
 },
 {
   "id": "sec-III-5",
