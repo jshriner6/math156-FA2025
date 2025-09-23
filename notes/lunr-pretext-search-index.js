@@ -1259,6 +1259,276 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Observations: Sequences.",
   "body": " Observations: Sequences      "
+},
+{
+  "id": "sec-IV-2",
+  "level": "1",
+  "url": "sec-IV-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S IV.2\\text{:}\\)<\/span> Recursion",
+  "body": " : Recursion    Motivation: Recursive Sequences        Definition: Recursive Sequence   A recursive sequence is     Example: Recursive Sequence    ,      Practice: Recursive Sequence   Write the first terms of the sequence defined by , .       Example: Multiple Initial Values    ,      Why Recursive Sequences?   Many observable patterns are easiest to write down recursively:        Verify that the sequence , can be written explicitly with the rule .     Practice: Verifying Explicit Formulas   Verify that the sequence , can be written explicitly with the rule .     "
+},
+{
+  "id": "sec-IV-2-2-1",
+  "level": "2",
+  "url": "sec-IV-2.html#sec-IV-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Recursive Sequences.",
+  "body": " Motivation: Recursive Sequences      "
+},
+{
+  "id": "sec-IV-2-2-2",
+  "level": "2",
+  "url": "sec-IV-2.html#sec-IV-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Recursive Sequence.",
+  "body": " Definition: Recursive Sequence   A recursive sequence is   "
+},
+{
+  "id": "sec-IV-2-2-3",
+  "level": "2",
+  "url": "sec-IV-2.html#sec-IV-2-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Recursive Sequence.",
+  "body": " Example: Recursive Sequence    ,    "
+},
+{
+  "id": "sec-IV-2-2-4",
+  "level": "2",
+  "url": "sec-IV-2.html#sec-IV-2-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Recursive Sequence.",
+  "body": " Practice: Recursive Sequence   Write the first terms of the sequence defined by , .   "
+},
+{
+  "id": "sec-IV-2-3-1",
+  "level": "2",
+  "url": "sec-IV-2.html#sec-IV-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Multiple Initial Values.",
+  "body": " Example: Multiple Initial Values    ,    "
+},
+{
+  "id": "sec-IV-2-3-2",
+  "level": "2",
+  "url": "sec-IV-2.html#sec-IV-2-3-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Why Recursive Sequences?",
+  "body": " Why Recursive Sequences?   Many observable patterns are easiest to write down recursively:   "
+},
+{
+  "id": "sec-IV-2-4-1",
+  "level": "2",
+  "url": "sec-IV-2.html#sec-IV-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Verify that the sequence , can be written explicitly with the rule .   "
+},
+{
+  "id": "sec-IV-2-4-2",
+  "level": "2",
+  "url": "sec-IV-2.html#sec-IV-2-4-2",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Practice: Verifying Explicit Formulas.",
+  "body": " Practice: Verifying Explicit Formulas   Verify that the sequence , can be written explicitly with the rule .   "
+},
+{
+  "id": "sec-IV-3",
+  "level": "1",
+  "url": "sec-IV-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S IV.3\\text{:}\\)<\/span> Monotone and Bounded Sequences",
+  "body": " : Monotone and Bounded Sequences    Motivation: Monotone and Bounded Sequences        Desmos: Monotone and Bounded    Desmos visual for monotone and bounded sequences .     Definition: Monotone      Monotone Increasing (Decreasing)  Strictly Increasing (Decreasing)  Monotone             Definition: Bounded      Bounded Above  Bounded Below  Bounded               Analyzing Algebraically   Let's analyze the following sequence rules algebraically:                           Practice: Monotone and Bounded Algebraically   Determine algebraically whether the following sequences are monotone and\/or bounded.                 Practice: Monotone and Bounded Using Technology   Sometimes it can be challenging to determine these properties algebraically. Use technology or compute terms to make an educated guess about whether the following are monotone and\/or bounded.                 "
+},
+{
+  "id": "sec-IV-3-2-1",
+  "level": "2",
+  "url": "sec-IV-3.html#sec-IV-3-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Monotone and Bounded Sequences.",
+  "body": " Motivation: Monotone and Bounded Sequences      "
+},
+{
+  "id": "sec-IV-3-2-2",
+  "level": "2",
+  "url": "sec-IV-3.html#sec-IV-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Desmos: Monotone and Bounded.",
+  "body": " Desmos: Monotone and Bounded    Desmos visual for monotone and bounded sequences .   "
+},
+{
+  "id": "sec-IV-3-2-3",
+  "level": "2",
+  "url": "sec-IV-3.html#sec-IV-3-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definition: Monotone.",
+  "body": " Definition: Monotone      Monotone Increasing (Decreasing)  Strictly Increasing (Decreasing)  Monotone           "
+},
+{
+  "id": "sec-IV-3-2-4",
+  "level": "2",
+  "url": "sec-IV-3.html#sec-IV-3-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Definition: Bounded.",
+  "body": " Definition: Bounded      Bounded Above  Bounded Below  Bounded           "
+},
+{
+  "id": "sec-IV-3-3-1",
+  "level": "2",
+  "url": "sec-IV-3.html#sec-IV-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Analyzing Algebraically.",
+  "body": " Analyzing Algebraically   Let's analyze the following sequence rules algebraically:                         "
+},
+{
+  "id": "sec-IV-3-3-2",
+  "level": "2",
+  "url": "sec-IV-3.html#sec-IV-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Monotone and Bounded Algebraically.",
+  "body": " Practice: Monotone and Bounded Algebraically   Determine algebraically whether the following sequences are monotone and\/or bounded.               "
+},
+{
+  "id": "sec-IV-3-3-3",
+  "level": "2",
+  "url": "sec-IV-3.html#sec-IV-3-3-3",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: Monotone and Bounded Using Technology.",
+  "body": " Practice: Monotone and Bounded Using Technology   Sometimes it can be challenging to determine these properties algebraically. Use technology or compute terms to make an educated guess about whether the following are monotone and\/or bounded.               "
+},
+{
+  "id": "sec-IV-4",
+  "level": "1",
+  "url": "sec-IV-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S IV.4\\text{:}\\)<\/span> Convergence",
+  "body": " : Convergence    Motivation: Convergence        Desmos: Convergence    Desmos visual for convergent sequences .     (Informal) Definition: Convergence   A sequence  converges to if     Limits: Familiar Functions   Define sequences with the following rules:        Properties of Limits   There are several useful properties of limits that can help us compute more limits.  If and converge, then     Example: Properties of Limits           Practice: Properties of Limits   Determine if the sequences defined by the following rules converge or diverge. If that converge, find their limit.                                          "
+},
+{
+  "id": "sec-IV-4-2-1",
+  "level": "2",
+  "url": "sec-IV-4.html#sec-IV-4-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Convergence.",
+  "body": " Motivation: Convergence      "
+},
+{
+  "id": "sec-IV-4-2-2",
+  "level": "2",
+  "url": "sec-IV-4.html#sec-IV-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Desmos: Convergence.",
+  "body": " Desmos: Convergence    Desmos visual for convergent sequences .   "
+},
+{
+  "id": "sec-IV-4-2-3",
+  "level": "2",
+  "url": "sec-IV-4.html#sec-IV-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "(Informal) Definition: Convergence.",
+  "body": " (Informal) Definition: Convergence   A sequence  converges to if   "
+},
+{
+  "id": "sec-IV-4-2-4",
+  "level": "2",
+  "url": "sec-IV-4.html#sec-IV-4-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Limits: Familiar Functions.",
+  "body": " Limits: Familiar Functions   Define sequences with the following rules:    "
+},
+{
+  "id": "sec-IV-4-3-1",
+  "level": "2",
+  "url": "sec-IV-4.html#sec-IV-4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Properties of Limits.",
+  "body": " Properties of Limits   There are several useful properties of limits that can help us compute more limits.  If and converge, then   "
+},
+{
+  "id": "sec-IV-4-3-2",
+  "level": "2",
+  "url": "sec-IV-4.html#sec-IV-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: Properties of Limits.",
+  "body": " Example: Properties of Limits       "
+},
+{
+  "id": "sec-IV-4-4-1",
+  "level": "2",
+  "url": "sec-IV-4.html#sec-IV-4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: Properties of Limits.",
+  "body": " Practice: Properties of Limits   Determine if the sequences defined by the following rules converge or diverge. If that converge, find their limit.                                        "
+},
+{
+  "id": "sec-IV-5",
+  "level": "1",
+  "url": "sec-IV-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S IV.5\\text{:}\\)<\/span> Limits, Bounds, and <span class=\"process-math\">\\(\\R\\)<\/span>",
+  "body": " : Limits, Bounds, and    Motivation: Limits and Bounds        Practice: Monotone, bounded, and convergence   Do you think the following implications are true or false? If false, describe a counter-example.   If converges, then it is bounded.    If is bounded, then it converges.    If converges, then it is monotone.    If is monotone, then it converges.    If is monotone and bounded, then it converges.          Example: Finding Limits   Consider the recursive sequence , .     A note regarding   Recall that we used equivalence relations to construct from , and from .     "
+},
+{
+  "id": "sec-IV-5-2-1",
+  "level": "2",
+  "url": "sec-IV-5.html#sec-IV-5-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Limits and Bounds.",
+  "body": " Motivation: Limits and Bounds      "
+},
+{
+  "id": "sec-IV-5-2-2",
+  "level": "2",
+  "url": "sec-IV-5.html#sec-IV-5-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Practice: Monotone, bounded, and convergence.",
+  "body": " Practice: Monotone, bounded, and convergence   Do you think the following implications are true or false? If false, describe a counter-example.   If converges, then it is bounded.    If is bounded, then it converges.    If converges, then it is monotone.    If is monotone, then it converges.    If is monotone and bounded, then it converges.      "
+},
+{
+  "id": "sec-IV-5-3-1",
+  "level": "2",
+  "url": "sec-IV-5.html#sec-IV-5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Finding Limits.",
+  "body": " Example: Finding Limits   Consider the recursive sequence , .   "
+},
+{
+  "id": "sec-IV-5-3-2",
+  "level": "2",
+  "url": "sec-IV-5.html#sec-IV-5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "A note regarding <span class=\"process-math\">\\(\\R\\)<\/span>.",
+  "body": " A note regarding   Recall that we used equivalence relations to construct from , and from .   "
 }
 ]
 
