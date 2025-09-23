@@ -1,0 +1,128 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-5-sols">
+        <title><m>\S IV.5</m>: Limits, Bounds, and <m>\R</m></title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Limits and Bounds  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Last time we explored different ways that sequences converged. We'll use the concepts
+                            of monotone and bounded to say more about when sequences converge.
+                        </p>
+                    </solution>
+                    
+                
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Practice: Monotone, bounded, and convergence</title>
+                    <statement>
+                        <p>
+                            Do you think the following implications are true or false? If false, describe a counter-example.
+                            <ol>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> converges, then it is bounded.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> is bounded, then it converges.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> converges, then it is monotone.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> is monotone, then it converges.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> is monotone and bounded, then it converges.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        This is true.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        This is false. Consider <m>a_i = (-1)^i</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        This is false. Consider <m>a_i = \frac{(-1)^i}{i}</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        This is false. Consider <m>a_i = 2^i</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        This is true, and can be a very useful fact for analyzing recursive sequences.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="5in">
+                    <title>Example: Finding Limits</title>
+                    <statement>
+                        <p>
+                            Consider the recursive sequence <m>b_1=2</m>, <m>b_{n+1} =0.5(b_n +6)</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            See notes from class, or the supplemental notes for section IV.5 in myOpenMath.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="1in">
+                    <title>A note regarding <m>\R</m></title>
+                    <statement>
+                        <p>
+                            Recall that we used equivalence relations to construct <m>\Z</m> from <m>\N</m>, and <m>\Q</m>
+                            from <m>\Z</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can similarly construct <m>\R</m> as equivalence classes of special sequences of rational numbers.
+                            The details are beyond the scope of our course.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

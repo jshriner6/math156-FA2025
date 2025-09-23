@@ -1,0 +1,159 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-3">
+        <title><m>\S IV.3</m>: Monotone and Bounded Sequences</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Monotone and Bounded Sequences  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Desmos: Monotone and Bounded</title>
+                    <statement>
+                        <p>
+                         <url href="https://www.desmos.com/calculator/umgdapdyzz">Desmos visual for monotone and bounded sequences </url>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Definition: Monotone</title>
+                    <statement>
+                        <p>
+                        
+                            <tabular>
+                                <row header="yes" bottom="major">
+                                    <cell>Monotone Increasing (Decreasing)</cell>
+                                    <cell>Strictly Increasing (Decreasing)</cell>
+                                    <cell>Monotone </cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                                
+                            </tabular>
+                
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Definition: Bounded</title>
+                    <statement>
+                        <p>
+                            <tabular>
+                                <row header="yes" bottom="major">
+                                    <cell>Bounded Above</cell>
+                                    <cell>Bounded Below</cell>
+                                    <cell>Bounded </cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell></cell>
+                                    <cell></cell>
+                                </row>
+                            </tabular>
+                     
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+            
+            <page>
+                <exercise workspace="4in">
+                    <title>Analyzing Algebraically</title>
+                    <statement>
+                        <p>
+                            Let's analyze the following sequence rules algebraically:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>a_i = 5- \frac{1}{i}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>b_i = 5+i</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>c_i = 5+(-1)^i</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>d_i = 5+(-1)^i \cdot i</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Practice: Monotone and Bounded Algebraically</title>
+                    <statement>
+                        <p>
+                            Determine algebraically whether the following sequences are monotone and/or bounded.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>a_i = 7 + \frac{1}{i}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>b_i = \frac{(-1)^i}{i}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Practice: Monotone and Bounded Using Technology</title>
+                    <statement>
+                        <p>
+                            Sometimes it can be challenging to determine these properties algebraically. Use technology or
+                            compute terms to make an educated guess about whether the following are monotone and/or bounded.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>c_i = \frac{i!}{10^i}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>d_i = \left( 1 + \frac{1}{i}\right)^i</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

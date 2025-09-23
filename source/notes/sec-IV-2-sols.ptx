@@ -1,0 +1,225 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-2-sols">
+        <title><m>\S IV.2</m>: Recursion</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Recursive Sequences  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Last time we saw how to define sequences explicitly. We can also define sequences
+                            <term>recursively</term>. This is often done either for convenience or to 
+                            build more interesting sequences.
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Definition: Recursive Sequence</title>
+                    <statement>
+                        <p>
+                            A <term>recursive sequence</term> is
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            a sequence which is defined using previous values of the sequence.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Example: Recursive Sequence</title>
+                    <statement>
+                        <p>
+                            <m>a_0 = 3</m>, <m>a_{i+1} = a_i + 2</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            The sequence is 
+                            <me>
+                                a_0, a_1 = a_0 +2, a_2 = a_1 + 2, \dots
+                            </me>
+                            which can be simplified to 
+                            <me>
+                                3, 5, 7, 9, \dots
+                            </me>
+                            
+                            Note that there is flexibility with the indices. This sequence could also be defined as
+                            <m>a_0=3</m>, <m>a_i = a_{i-1} + 2</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Practice: Recursive Sequence</title>
+                    <statement>
+                        <p>
+                            Write the first <m>5</m> terms of the sequence defined by <m>s_1 = 1</m>, <m>s_{i} = s_{i-1} + i</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>1,3,6,10,15, \dots</m>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>Example: Multiple Initial Values</title>
+                    <statement>
+                        <p>
+                            <m>f_0 = 0, f_1 = 1</m>, <m>f_{i+1} = f_i + f_{i-1}</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            This sequence is 
+                            <me>
+                                0,1,1,2,3,5,8,13, 21,\dots
+                            </me>.
+                            It is a very famous sequence known as the <url href="https://museum.cornell.edu/nature-and-math-the-fibonacci-sequence/">Fibonacci sequence</url>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Why Recursive Sequences?</title>
+                    <statement>
+                        <p>
+                            Many observable patterns are easiest to write down recursively:
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        If we knew the height of a tree was <m>3</m> feet initially and grew <m>2</m> feet 
+                                        each year, we could easily write this pattern recursively as 
+                                        <me>
+                                            h_0 = 3, h_{i+1} = h_i +2
+                                        </me>.
+                                        
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If we knew the height of a tree was <m>3</m> feet initially and doubled in height 
+                                        each year, we could easily write this pattern recursively as 
+                                        <me>
+                                            h_0 = 3, h_{i+1} = 2 \cdot h_i
+                                        </me>.
+                                        
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If we knew that <m>5</m> mg of medication was given initially, and each hour <m>30 \%</m> of the medication gets processed by the body but an additional mg is also given, 
+                                        we could easily write this pattern for the amount of medication left in the body recursively as 
+                                        <me>
+                                            a_0 = 5, a_{i+1} = 0.7 a_i +1
+                                        </me>.
+                                        
+                                    </p>
+                                </li>
+                            </ol>
+                            The drawback of recursively defined sequences is that they can be difficult to analyze or make 
+                            predictions off of. Therefore, it is also often desirable to have a <term>closed form</term>
+                            (explicit function description) for a recursive sequence. This is generally a hard thing to do
+                            (and not always possible). In this course, we'll practice verifying explicit descriptions
+                            for recursive sequences.
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <statement>
+                        <p>
+                            Verify that the sequence <m>a_0=3</m>, <m>a_{i+1} = a_i + 2</m> can be written explicitly with the rule
+                            <m>a_i = 2i + 3</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        Check the initial value: <m>a_0 = 2(0) + 3 = 3</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Assume that the explicit formula is true for a generic <m>i</m>: <m>a_i = 2i+3</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Show the previous assumption implies the explicit formula is true for <m>i+1</m>:
+                                        <me>
+                                            a_{i+1} = a_i + 2 = (2i + 3)+2 = (2i +2) + 3 = 2(i+1)+3
+                                        </me>
+                                        
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Verifying Explicit Formulas</title>
+                    <statement>
+                        <p>
+                             Verify that the sequence <m>s_1=1</m>, <m>s_{i} = s_{i-1} + i</m> can be written explicitly with the rule
+                            <m>s_i = \frac{i(i+1)}{2}</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        Check the initial value: <m>s_1 = \frac{1(1+1)}{2}= 1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Assume that the explicit formula is true for a generic <m>i</m>: <m>s_i = \frac{i(i+1)}{2}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Show the previous assumption implies the explicit formula is true for <m>i+1</m>:
+                                        <me>
+                                            s_{i+1} = s_i + (i+1) = \frac{i(i+1)}{2} + (i+1) = \frac{i(i+1)+ 2(i+1)}{2} = \frac{(i+1)(i+2)}{2}
+                                        </me>
+                                        
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

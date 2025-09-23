@@ -1,0 +1,95 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-2">
+        <title><m>\S IV.2</m>: Recursion</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Recursive Sequences  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Definition: Recursive Sequence</title>
+                    <statement>
+                        <p>
+                            A <term>recursive sequence</term> is
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Example: Recursive Sequence</title>
+                    <statement>
+                        <p>
+                            <m>a_0 = 3</m>, <m>a_{i+1} = a_i + 2</m>
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Practice: Recursive Sequence</title>
+                    <statement>
+                        <p>
+                            Write the first <m>5</m> terms of the sequence defined by <m>s_1 = 1</m>, <m>s_{i} = s_{i-1} + i</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>Example: Multiple Initial Values</title>
+                    <statement>
+                        <p>
+                            <m>f_0 = 0, f_1 = 1</m>, <m>f_{i+1} = f_i + f_{i-1}</m>
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Why Recursive Sequences?</title>
+                    <statement>
+                        <p>
+                            Many observable patterns are easiest to write down recursively:
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <statement>
+                        <p>
+                            Verify that the sequence <m>a_0=3</m>, <m>a_{i+1} = a_i + 2</m> can be written explicitly with the rule
+                            <m>a_i = 2i + 3</m>.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Verifying Explicit Formulas</title>
+                    <statement>
+                        <p>
+                             Verify that the sequence <m>s_1=1</m>, <m>s_{i} = s_{i-1} + i</m> can be written explicitly with the rule
+                            <m>s_i = \frac{i(i+1)}{2}</m>.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

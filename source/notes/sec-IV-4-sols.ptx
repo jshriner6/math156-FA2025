@@ -1,0 +1,239 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-4-sols">
+        <title><m>\S IV.4</m>: Convergence</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Convergence  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Last time we described some general long run behavior of sequences. It can be especially 
+                            important to recognize when sequences "settle down", which we will discuss in this section.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Desmos: Convergence</title>
+                    <statement>
+                        <p>
+                            <url href="https://www.desmos.com/calculator/sm2hj2daie">Desmos visual for convergent sequences </url>.
+                        </p>
+                    </statement>
+                    
+                    
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>(Informal) Definition: Convergence</title>
+                    <statement>
+                        <p>
+                            A sequence <m>(a_n)</m> <term>converges to <m>L</m></term> if 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            we can make the tail of <m>(a_n)</m> as close as we'd like to <m>L</m>. We write
+                            <m>\lim_{n\to \infty} a_n = L</m> (the limit of <m>a_n</m> is <m>L</m>). If <m>(a_n)</m>
+                            does not converge, we say it <term>diverges</term>.
+                        </p>
+                        <p>
+                            This is a vague definition for our intuition. There is a more formal definition given in your
+                            textbook.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Limits: Familiar Functions</title>
+                    
+                    <statement>
+                        <p>
+                            Define sequences with the following rules:
+                            <me>
+                                a_n= - n^2, b_n = n^5, c_n = -n^5+n^2+1, d_n = \frac{c_n}{b_n}
+                            </me>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p> 
+                                        <m>\lim_{n \to \infty} a_n = -\infty</m> (diverges)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p> 
+                                        <m>\lim_{n \to \infty} b_n = \infty</m> (diverges)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p> 
+                                        <m>\lim_{n \to \infty} c_n = -\infty</m> (diverges)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p> 
+                                        <m>\lim_{n \to \infty} d_n = -1</m> (converges)
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="4in">
+                    <title>Properties of Limits</title>
+                    <statement>
+                        <p>
+                            There are several useful properties of limits that can help us compute more limits.
+                        </p>
+                        <p>
+                            If <m>(a_n)</m> and <m>(b_n)</m> converge, then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p> 
+                                        <m>\lim_{n \to \infty}(a_n \pm b_n)=\lim_{n \to \infty}a_n \pm \lim_{n \to \infty} b_n </m> 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p> 
+                                        <m>\lim_{n \to \infty}(a_n \cdot b_n)=\lim_{n \to \infty}a_n \cdot \lim_{n \to \infty} b_n </m> 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p> 
+                                        <m>\lim_{n \to \infty}(\frac{a_n}{b_n})=\frac{\lim_{n \to \infty}a_n}{\lim_{n \to \infty} b_n }</m>, as long
+                                        as  <m>\lim_{n \to \infty} b_n \neq 0</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Example: Properties of Limits</title>
+                    <statement>
+                        <p>
+                            <me>\lim_{n\to \infty} \left( \frac{n+1}{n} + \frac{n^2-2}{2n^2+n}\right) = </me>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\lim_{n \to \infty} \frac{n+1}{n} + \lim_{n \to \infty} \frac{n^2-2}{2n^2+n}= 1 + 0.5 = 1.5</m>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Properties of Limits</title>
+                    <statement>
+                        <p>
+                            Determine if the sequences defined by the following rules converge or diverge. If that converge,
+                            find their limit.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>a_n = \frac{2n^2 + n +1}{3n^2 + 6}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>b_n = \frac{2n^2 + n +1}{3n^3 + 6}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>c_n = \frac{3n^3 + 6}{2n^2 + n +1}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>d_n = \frac{\sin(n)}{n}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>e_n = \frac{2^n}{3^n}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f_n = \frac{3^n}{2^n}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g_n = (-1)^n</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\lim_{n \to \infty} a_n = \frac{2}{3}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{n \to \infty} b_n = 0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{n \to \infty} c_n = \infty</m> (diverges)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{n \to \infty} d_n = 0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{n \to \infty} e_n = 0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{n \to \infty} f_n = \infty</m> (diverges)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>(g_n)</m> diverges
+                                    </p>
+                                </li>
+                            </ol>
+                            You can visualize the last four sequences in the <url href="https://www.desmos.com/calculator/sm2hj2daie">Desmos visual for convergent sequences </url>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

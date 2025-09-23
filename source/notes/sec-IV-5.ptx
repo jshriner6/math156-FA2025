@@ -1,0 +1,82 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-5">
+        <title><m>\S IV.5</m>: Limits, Bounds, and <m>\R</m></title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Limits and Bounds  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Practice: Monotone, bounded, and convergence</title>
+                    <statement>
+                        <p>
+                            Do you think the following implications are true or false? If false, describe a counter-example.
+                            <ol>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> converges, then it is bounded.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> is bounded, then it converges.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> converges, then it is monotone.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> is monotone, then it converges.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>(a_i)</m> is monotone and bounded, then it converges.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="5in">
+                    <title>Example: Finding Limits</title>
+                    <statement>
+                        <p>
+                            Consider the recursive sequence <m>b_1=2</m>, <m>b_{n+1} =0.5(b_n +6)</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="1in">
+                    <title>A note regarding <m>\R</m></title>
+                    <statement>
+                        <p>
+                            Recall that we used equivalence relations to construct <m>\Z</m> from <m>\N</m>, and <m>\Q</m>
+                            from <m>\Z</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
