@@ -1072,76 +1072,76 @@ var ptx_lunr_docs = [
   "body": " Fact   If and are finite with , then     is one-to-one if and only if it is onto.   "
 },
 {
-  "id": "sec-III-5",
+  "id": "sec-III-5-sols",
   "level": "1",
-  "url": "sec-III-5.html",
+  "url": "sec-III-5-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S III.5\\text{:}\\)<\/span> Bijections and Inverse Functions",
-  "body": " : Bijections and Inverse Functions    Motivation: Bijections and Inverse Functions        Definition: Bijection   A function is a bijection if     Practice: Bijections   Determine if the following functions are bijections.    ,      ,           Definition: Inverse Function   If is a bijection, we call the converse relation     Finding        Fact: Inverses and Composition      Practice: Finding Inverse Functions   The following functions are bijections. Find their inverse function.              , in         "
+  "body": " : Bijections and Inverse Functions    Motivation: Bijections and Inverse Functions       Last time we introduced the properties of functions necessary for determining if the converse relation is also a function. We'll get more practice evaluating these properties, as well as saying more about the converse relation when it is a function.     Definition: Bijection   A function is a bijection if    it is both one-to-one and onto.  The converse relation of a function is a function if and only if is a bijection.     Practice: Bijections   Determine if the following functions are bijections.    ,      ,            is not a bijection because it is not onto.     is a bijection because it is both one-to-one and onto. Note since the source and target are finite sets of equal size, we just need to check one property is true, and it will imply the other.          Definition: Inverse Function   If is a bijection, we call the converse relation     the inverse function of , and write it as .     Finding       If , then we can write , swap input and output to write , and solve for to get . Using function notation, we would write .  If in , then we can write , swap input and output to write , and solve for to get . Using function notation, we would write .     Fact: Inverses and Composition       If is a bijection with inverse function , then .       Practice: Finding Inverse Functions   The following functions are bijections. Find their inverse function.              , in                              "
 },
 {
-  "id": "sec-III-5-2-1",
+  "id": "sec-III-5-sols-2-1",
   "level": "2",
-  "url": "sec-III-5.html#sec-III-5-2-1",
+  "url": "sec-III-5-sols.html#sec-III-5-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Bijections and Inverse Functions.",
-  "body": " Motivation: Bijections and Inverse Functions      "
+  "body": " Motivation: Bijections and Inverse Functions       Last time we introduced the properties of functions necessary for determining if the converse relation is also a function. We'll get more practice evaluating these properties, as well as saying more about the converse relation when it is a function.   "
 },
 {
-  "id": "sec-III-5-2-2",
+  "id": "sec-III-5-sols-2-2",
   "level": "2",
-  "url": "sec-III-5.html#sec-III-5-2-2",
+  "url": "sec-III-5-sols.html#sec-III-5-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Bijection.",
-  "body": " Definition: Bijection   A function is a bijection if   "
+  "body": " Definition: Bijection   A function is a bijection if    it is both one-to-one and onto.  The converse relation of a function is a function if and only if is a bijection.   "
 },
 {
-  "id": "sec-III-5-2-3",
+  "id": "sec-III-5-sols-2-3",
   "level": "2",
-  "url": "sec-III-5.html#sec-III-5-2-3",
+  "url": "sec-III-5-sols.html#sec-III-5-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Practice: Bijections.",
-  "body": " Practice: Bijections   Determine if the following functions are bijections.    ,      ,       "
+  "body": " Practice: Bijections   Determine if the following functions are bijections.    ,      ,            is not a bijection because it is not onto.     is a bijection because it is both one-to-one and onto. Note since the source and target are finite sets of equal size, we just need to check one property is true, and it will imply the other.      "
 },
 {
-  "id": "sec-III-5-3-1",
+  "id": "sec-III-5-sols-3-1",
   "level": "2",
-  "url": "sec-III-5.html#sec-III-5-3-1",
+  "url": "sec-III-5-sols.html#sec-III-5-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Definition: Inverse Function.",
-  "body": " Definition: Inverse Function   If is a bijection, we call the converse relation   "
+  "body": " Definition: Inverse Function   If is a bijection, we call the converse relation     the inverse function of , and write it as .   "
 },
 {
-  "id": "sec-III-5-3-2",
+  "id": "sec-III-5-sols-3-2",
   "level": "2",
-  "url": "sec-III-5.html#sec-III-5-3-2",
+  "url": "sec-III-5-sols.html#sec-III-5-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Finding <span class=\"process-math\">\\(f^{-1}\\)<\/span>.",
-  "body": " Finding      "
+  "body": " Finding       If , then we can write , swap input and output to write , and solve for to get . Using function notation, we would write .  If in , then we can write , swap input and output to write , and solve for to get . Using function notation, we would write .   "
 },
 {
-  "id": "sec-III-5-3-3",
+  "id": "sec-III-5-sols-3-3",
   "level": "2",
-  "url": "sec-III-5.html#sec-III-5-3-3",
+  "url": "sec-III-5-sols.html#sec-III-5-sols-3-3",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Fact: Inverses and Composition.",
-  "body": " Fact: Inverses and Composition  "
+  "body": " Fact: Inverses and Composition       If is a bijection with inverse function , then .   "
 },
 {
-  "id": "sec-III-5-4-1",
+  "id": "sec-III-5-sols-4-1",
   "level": "2",
-  "url": "sec-III-5.html#sec-III-5-4-1",
+  "url": "sec-III-5-sols.html#sec-III-5-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: Finding Inverse Functions.",
-  "body": " Practice: Finding Inverse Functions   The following functions are bijections. Find their inverse function.              , in       "
+  "body": " Practice: Finding Inverse Functions   The following functions are bijections. Find their inverse function.              , in                            "
 },
 {
   "id": "sec-III-6",
