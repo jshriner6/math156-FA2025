@@ -1144,67 +1144,67 @@ var ptx_lunr_docs = [
   "body": " Practice: Finding Inverse Functions   The following functions are bijections. Find their inverse function.              , in                            "
 },
 {
-  "id": "sec-III-6",
+  "id": "sec-III-6-sols",
   "level": "1",
-  "url": "sec-III-6.html",
+  "url": "sec-III-6-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S III.6\\text{:}\\)<\/span> Counting and Cardinality",
-  "body": " : Counting and Cardinality    Motivation: Counting        Definition: Cardinality   The cardinality of a finite set is if     Example 1: Counting   If and , then .     Example 2: Counting   If , then .       Practice: Counting   Justify the following statements, assuming and .     The number of different relations between and is .      The number of different functions from to is .      The number of different injective functions from to is .      The number of different bijective functions from to is .        Practice: Counting   Suppose a license plate has capital letters followed by digits. For example, ABCD12 is a valid license plate.  We can imagine a license plate combination being chosen by functions: and .     How many different license plate combinations are there?      How does your answer change if no letters can be repeated?      How does your answer change if no digits can be repeated?      How does your answer change if no letters or digits can be repeated?      "
+  "body": " : Counting and Cardinality    Motivation: Counting       We've used \"cardinality\" to describe the number of elements in a set. This becomes less useful when our sets are infinite. We introduce a better definition of cardinality, and will practice using it to justify some common counting formulas.     Definition: Cardinality   The cardinality of a finite set is if    there is a bijection between the elements of and the set .     Example 1: Counting   If and , then .    This is justified by the bijection .     Example 2: Counting   If , then .    This is justified by the bijection .       Practice: Counting   Justify the following statements, assuming and .     The number of different relations between and is .    This is the number of elements in . Using our previous result, .      The number of different functions from to is .    We can think of a function as and ordered -tuple, where the element in coordinate is . Since there are choices for each of the coordinates, this gives us different functions.      The number of different injective functions from to is .    This is similar to the above, except now we cannot repeat elements, and we must also have for this to be non-zero. This gives different injective functions.      The number of different bijective functions from to is .    To be a bijection, we must have . Using the previous formula, this gives different bijections.        Practice: Counting   Suppose a license plate has capital letters followed by digits. For example, ABCD12 is a valid license plate.  We can imagine a license plate combination being chosen by functions: and .     How many different license plate combinations are there?           How does your answer change if no letters can be repeated?           How does your answer change if no digits can be repeated?           How does your answer change if no letters or digits can be repeated?           "
 },
 {
-  "id": "sec-III-6-2-1",
+  "id": "sec-III-6-sols-2-1",
   "level": "2",
-  "url": "sec-III-6.html#sec-III-6-2-1",
+  "url": "sec-III-6-sols.html#sec-III-6-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Counting.",
-  "body": " Motivation: Counting      "
+  "body": " Motivation: Counting       We've used \"cardinality\" to describe the number of elements in a set. This becomes less useful when our sets are infinite. We introduce a better definition of cardinality, and will practice using it to justify some common counting formulas.   "
 },
 {
-  "id": "sec-III-6-2-2",
+  "id": "sec-III-6-sols-2-2",
   "level": "2",
-  "url": "sec-III-6.html#sec-III-6-2-2",
+  "url": "sec-III-6-sols.html#sec-III-6-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Cardinality.",
-  "body": " Definition: Cardinality   The cardinality of a finite set is if   "
+  "body": " Definition: Cardinality   The cardinality of a finite set is if    there is a bijection between the elements of and the set .   "
 },
 {
-  "id": "sec-III-6-2-3",
+  "id": "sec-III-6-sols-2-3",
   "level": "2",
-  "url": "sec-III-6.html#sec-III-6-2-3",
+  "url": "sec-III-6-sols.html#sec-III-6-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example 1: Counting.",
-  "body": " Example 1: Counting   If and , then .   "
+  "body": " Example 1: Counting   If and , then .    This is justified by the bijection .   "
 },
 {
-  "id": "sec-III-6-2-4",
+  "id": "sec-III-6-sols-2-4",
   "level": "2",
-  "url": "sec-III-6.html#sec-III-6-2-4",
+  "url": "sec-III-6-sols.html#sec-III-6-sols-2-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Example 2: Counting.",
-  "body": " Example 2: Counting   If , then .   "
+  "body": " Example 2: Counting   If , then .    This is justified by the bijection .   "
 },
 {
-  "id": "sec-III-6-3-1",
+  "id": "sec-III-6-sols-3-1",
   "level": "2",
-  "url": "sec-III-6.html#sec-III-6-3-1",
+  "url": "sec-III-6-sols.html#sec-III-6-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Counting.",
-  "body": " Practice: Counting   Justify the following statements, assuming and .     The number of different relations between and is .      The number of different functions from to is .      The number of different injective functions from to is .      The number of different bijective functions from to is .    "
+  "body": " Practice: Counting   Justify the following statements, assuming and .     The number of different relations between and is .    This is the number of elements in . Using our previous result, .      The number of different functions from to is .    We can think of a function as and ordered -tuple, where the element in coordinate is . Since there are choices for each of the coordinates, this gives us different functions.      The number of different injective functions from to is .    This is similar to the above, except now we cannot repeat elements, and we must also have for this to be non-zero. This gives different injective functions.      The number of different bijective functions from to is .    To be a bijection, we must have . Using the previous formula, this gives different bijections.    "
 },
 {
-  "id": "sec-III-6-4-1",
+  "id": "sec-III-6-sols-4-1",
   "level": "2",
-  "url": "sec-III-6.html#sec-III-6-4-1",
+  "url": "sec-III-6-sols.html#sec-III-6-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Practice: Counting.",
-  "body": " Practice: Counting   Suppose a license plate has capital letters followed by digits. For example, ABCD12 is a valid license plate.  We can imagine a license plate combination being chosen by functions: and .     How many different license plate combinations are there?      How does your answer change if no letters can be repeated?      How does your answer change if no digits can be repeated?      How does your answer change if no letters or digits can be repeated?    "
+  "body": " Practice: Counting   Suppose a license plate has capital letters followed by digits. For example, ABCD12 is a valid license plate.  We can imagine a license plate combination being chosen by functions: and .     How many different license plate combinations are there?           How does your answer change if no letters can be repeated?           How does your answer change if no digits can be repeated?           How does your answer change if no letters or digits can be repeated?         "
 },
 {
   "id": "sec-IV-1",
