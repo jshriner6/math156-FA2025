@@ -1207,58 +1207,58 @@ var ptx_lunr_docs = [
   "body": " Practice: Counting   Suppose a license plate has capital letters followed by digits. For example, ABCD12 is a valid license plate.  We can imagine a license plate combination being chosen by functions: and .     How many different license plate combinations are there?           How does your answer change if no letters can be repeated?           How does your answer change if no digits can be repeated?           How does your answer change if no letters or digits can be repeated?         "
 },
 {
-  "id": "sec-IV-1",
+  "id": "sec-IV-1-sols",
   "level": "1",
-  "url": "sec-IV-1.html",
+  "url": "sec-IV-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S IV.1\\text{:}\\)<\/span> Sequences",
-  "body": " : Sequences    Motivation: Sequences        Definition: Sequence   A sequence is a     Examples: Sequences   There are various ways we can define sequences, but a common way is with an explicit function.       Practice: Sequences    Write out the first terms of each sequence below.                  What is a possible rule for the sequence       Observations: Sequences        "
+  "body": " : Sequences    Motivation: Sequences       Sequences are important structures used in programming, and we use functions to define them. We'll look at the basics of building sequences in this section.     Definition: Sequence   A sequence is a    function (or ).  Since our domain is , it is common to imagine sequences as an infinite ordered list: which is more commonly written as .     Examples: Sequences   There are various ways we can define sequences, but a common way is with an explicit function.    The sequence is the sequence .  The sequence is the sequence        Practice: Sequences    Write out the first terms of each sequence below.                                  What is a possible rule for the sequence     A possible rule is . Another possible rule is . In general, there are many rules that satisfy finitely many points, so this is not a good way to communicate a sequence.      Observations: Sequences          It can often be useful to visualizes sequences. Graphs of sequences are discrete points in the coordinate plane.    Sequences are functions, so they can be combined in natural ways. Given two sequences and , we can form new sequences:                      We generally do not compose two sequences (why not?).        "
 },
 {
-  "id": "sec-IV-1-2-1",
+  "id": "sec-IV-1-sols-2-1",
   "level": "2",
-  "url": "sec-IV-1.html#sec-IV-1-2-1",
+  "url": "sec-IV-1-sols.html#sec-IV-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Sequences.",
-  "body": " Motivation: Sequences      "
+  "body": " Motivation: Sequences       Sequences are important structures used in programming, and we use functions to define them. We'll look at the basics of building sequences in this section.   "
 },
 {
-  "id": "sec-IV-1-2-2",
+  "id": "sec-IV-1-sols-2-2",
   "level": "2",
-  "url": "sec-IV-1.html#sec-IV-1-2-2",
+  "url": "sec-IV-1-sols.html#sec-IV-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Sequence.",
-  "body": " Definition: Sequence   A sequence is a   "
+  "body": " Definition: Sequence   A sequence is a    function (or ).  Since our domain is , it is common to imagine sequences as an infinite ordered list: which is more commonly written as .   "
 },
 {
-  "id": "sec-IV-1-2-3",
+  "id": "sec-IV-1-sols-2-3",
   "level": "2",
-  "url": "sec-IV-1.html#sec-IV-1-2-3",
+  "url": "sec-IV-1-sols.html#sec-IV-1-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Examples: Sequences.",
-  "body": " Examples: Sequences   There are various ways we can define sequences, but a common way is with an explicit function.   "
+  "body": " Examples: Sequences   There are various ways we can define sequences, but a common way is with an explicit function.    The sequence is the sequence .  The sequence is the sequence    "
 },
 {
-  "id": "sec-IV-1-3-1",
+  "id": "sec-IV-1-sols-3-1",
   "level": "2",
-  "url": "sec-IV-1.html#sec-IV-1-3-1",
+  "url": "sec-IV-1-sols.html#sec-IV-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Sequences.",
-  "body": " Practice: Sequences    Write out the first terms of each sequence below.                  What is a possible rule for the sequence     "
+  "body": " Practice: Sequences    Write out the first terms of each sequence below.                                  What is a possible rule for the sequence     A possible rule is . Another possible rule is . In general, there are many rules that satisfy finitely many points, so this is not a good way to communicate a sequence.    "
 },
 {
-  "id": "sec-IV-1-3-2",
+  "id": "sec-IV-1-sols-3-2",
   "level": "2",
-  "url": "sec-IV-1.html#sec-IV-1-3-2",
+  "url": "sec-IV-1-sols.html#sec-IV-1-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Observations: Sequences.",
-  "body": " Observations: Sequences      "
+  "body": " Observations: Sequences          It can often be useful to visualizes sequences. Graphs of sequences are discrete points in the coordinate plane.    Sequences are functions, so they can be combined in natural ways. Given two sequences and , we can form new sequences:                      We generally do not compose two sequences (why not?).      "
 },
 {
   "id": "sec-IV-2",
