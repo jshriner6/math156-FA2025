@@ -1261,85 +1261,85 @@ var ptx_lunr_docs = [
   "body": " Observations: Sequences          It can often be useful to visualizes sequences. Graphs of sequences are discrete points in the coordinate plane.    Sequences are functions, so they can be combined in natural ways. Given two sequences and , we can form new sequences:                      We generally do not compose two sequences (why not?).      "
 },
 {
-  "id": "sec-IV-2",
+  "id": "sec-IV-2-sols",
   "level": "1",
-  "url": "sec-IV-2.html",
+  "url": "sec-IV-2-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S IV.2\\text{:}\\)<\/span> Recursion",
-  "body": " : Recursion    Motivation: Recursive Sequences        Definition: Recursive Sequence   A recursive sequence is     Example: Recursive Sequence    ,      Practice: Recursive Sequence   Write the first terms of the sequence defined by , .       Example: Multiple Initial Values    ,      Why Recursive Sequences?   Many observable patterns are easiest to write down recursively:        Verify that the sequence , can be written explicitly with the rule .     Practice: Verifying Explicit Formulas   Verify that the sequence , can be written explicitly with the rule .     "
+  "body": " : Recursion    Motivation: Recursive Sequences       Last time we saw how to define sequences explicitly. We can also define sequences recursively . This is often done either for convenience or to build more interesting sequences.     Definition: Recursive Sequence   A recursive sequence is    a sequence which is defined using previous values of the sequence.     Example: Recursive Sequence    ,     The sequence is which can be simplified to Note that there is flexibility with the indices. This sequence could also be defined as , .     Practice: Recursive Sequence   Write the first terms of the sequence defined by , .            Example: Multiple Initial Values    ,     This sequence is . It is a very famous sequence known as the Fibonacci sequence .     Why Recursive Sequences?   Many observable patterns are easiest to write down recursively:       If we knew the height of a tree was feet initially and grew feet each year, we could easily write this pattern recursively as .    If we knew the height of a tree was feet initially and doubled in height each year, we could easily write this pattern recursively as .    If we knew that mg of medication was given initially, and each hour of the medication gets processed by the body but an additional mg is also given, we could easily write this pattern for the amount of medication left in the body recursively as .   The drawback of recursively defined sequences is that they can be difficult to analyze or make predictions off of. Therefore, it is also often desirable to have a closed form (explicit function description) for a recursive sequence. This is generally a hard thing to do (and not always possible). In this course, we'll practice verifying explicit descriptions for recursive sequences.        Verify that the sequence , can be written explicitly with the rule .       Check the initial value:     Assume that the explicit formula is true for a generic :     Show the previous assumption implies the explicit formula is true for :         Practice: Verifying Explicit Formulas   Verify that the sequence , can be written explicitly with the rule .       Check the initial value:     Assume that the explicit formula is true for a generic :     Show the previous assumption implies the explicit formula is true for :         "
 },
 {
-  "id": "sec-IV-2-2-1",
+  "id": "sec-IV-2-sols-2-1",
   "level": "2",
-  "url": "sec-IV-2.html#sec-IV-2-2-1",
+  "url": "sec-IV-2-sols.html#sec-IV-2-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Recursive Sequences.",
-  "body": " Motivation: Recursive Sequences      "
+  "body": " Motivation: Recursive Sequences       Last time we saw how to define sequences explicitly. We can also define sequences recursively . This is often done either for convenience or to build more interesting sequences.   "
 },
 {
-  "id": "sec-IV-2-2-2",
+  "id": "sec-IV-2-sols-2-2",
   "level": "2",
-  "url": "sec-IV-2.html#sec-IV-2-2-2",
+  "url": "sec-IV-2-sols.html#sec-IV-2-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Recursive Sequence.",
-  "body": " Definition: Recursive Sequence   A recursive sequence is   "
+  "body": " Definition: Recursive Sequence   A recursive sequence is    a sequence which is defined using previous values of the sequence.   "
 },
 {
-  "id": "sec-IV-2-2-3",
+  "id": "sec-IV-2-sols-2-3",
   "level": "2",
-  "url": "sec-IV-2.html#sec-IV-2-2-3",
+  "url": "sec-IV-2-sols.html#sec-IV-2-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Recursive Sequence.",
-  "body": " Example: Recursive Sequence    ,    "
+  "body": " Example: Recursive Sequence    ,     The sequence is which can be simplified to Note that there is flexibility with the indices. This sequence could also be defined as , .   "
 },
 {
-  "id": "sec-IV-2-2-4",
+  "id": "sec-IV-2-sols-2-4",
   "level": "2",
-  "url": "sec-IV-2.html#sec-IV-2-2-4",
+  "url": "sec-IV-2-sols.html#sec-IV-2-sols-2-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Recursive Sequence.",
-  "body": " Practice: Recursive Sequence   Write the first terms of the sequence defined by , .   "
+  "body": " Practice: Recursive Sequence   Write the first terms of the sequence defined by , .        "
 },
 {
-  "id": "sec-IV-2-3-1",
+  "id": "sec-IV-2-sols-3-1",
   "level": "2",
-  "url": "sec-IV-2.html#sec-IV-2-3-1",
+  "url": "sec-IV-2-sols.html#sec-IV-2-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Multiple Initial Values.",
-  "body": " Example: Multiple Initial Values    ,    "
+  "body": " Example: Multiple Initial Values    ,     This sequence is . It is a very famous sequence known as the Fibonacci sequence .   "
 },
 {
-  "id": "sec-IV-2-3-2",
+  "id": "sec-IV-2-sols-3-2",
   "level": "2",
-  "url": "sec-IV-2.html#sec-IV-2-3-2",
+  "url": "sec-IV-2-sols.html#sec-IV-2-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Why Recursive Sequences?",
-  "body": " Why Recursive Sequences?   Many observable patterns are easiest to write down recursively:   "
+  "body": " Why Recursive Sequences?   Many observable patterns are easiest to write down recursively:       If we knew the height of a tree was feet initially and grew feet each year, we could easily write this pattern recursively as .    If we knew the height of a tree was feet initially and doubled in height each year, we could easily write this pattern recursively as .    If we knew that mg of medication was given initially, and each hour of the medication gets processed by the body but an additional mg is also given, we could easily write this pattern for the amount of medication left in the body recursively as .   The drawback of recursively defined sequences is that they can be difficult to analyze or make predictions off of. Therefore, it is also often desirable to have a closed form (explicit function description) for a recursive sequence. This is generally a hard thing to do (and not always possible). In this course, we'll practice verifying explicit descriptions for recursive sequences.   "
 },
 {
-  "id": "sec-IV-2-4-1",
+  "id": "sec-IV-2-sols-4-1",
   "level": "2",
-  "url": "sec-IV-2.html#sec-IV-2-4-1",
+  "url": "sec-IV-2-sols.html#sec-IV-2-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "  Verify that the sequence , can be written explicitly with the rule .   "
+  "body": "  Verify that the sequence , can be written explicitly with the rule .       Check the initial value:     Assume that the explicit formula is true for a generic :     Show the previous assumption implies the explicit formula is true for :       "
 },
 {
-  "id": "sec-IV-2-4-2",
+  "id": "sec-IV-2-sols-4-2",
   "level": "2",
-  "url": "sec-IV-2.html#sec-IV-2-4-2",
+  "url": "sec-IV-2-sols.html#sec-IV-2-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "Practice: Verifying Explicit Formulas.",
-  "body": " Practice: Verifying Explicit Formulas   Verify that the sequence , can be written explicitly with the rule .   "
+  "body": " Practice: Verifying Explicit Formulas   Verify that the sequence , can be written explicitly with the rule .       Check the initial value:     Assume that the explicit formula is true for a generic :     Show the previous assumption implies the explicit formula is true for :       "
 },
 {
   "id": "sec-IV-3",
