@@ -1,6 +1,6 @@
 <pretext>
     <article xml:id="notes">
-        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-7">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-7-sols">
         <title><m>\S IV.7</m>: Geometric Series</title>
             <page>
                 <exercise workspace="1in">
@@ -39,7 +39,14 @@
                         <statement>
                             Draw the square after three steps.  What is the area of the shaded region?  Write this as both an expanded sum, and as a single fraction.
                         </statement>
-                        
+                        <solution>
+                            <p>
+                                <image source="sol1.png" width="50%">
+                                    <shortdescription>Square colored after three steps</shortdescription>
+                                </image>
+                                Area is <m>\frac{1}{2}+\frac{1}{4}+\frac{1}{8}=\frac{7}{8}</m>.
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="1in">
                         <statement>
@@ -47,7 +54,14 @@
                                 Draw the square after four steps.  What is the area of the shaded region?  Write this as both an expanded sum, and as a single fraction.
                             </p>
                         </statement>
-                        
+                        <solution>
+                            <p>
+                                <image source="sol2.png" width="50%">
+                                    <shortdescription>Square colored after four steps</shortdescription>
+                                </image>
+                                Area is <m>\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}=\frac{15}{16}</m>.
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="1in">
                         <statement>
@@ -55,7 +69,14 @@
                                 Draw the square after five steps.  What is the area of the shaded region?  Write this as both an expanded sum, and as a single fraction.
                             </p>
                         </statement>
-                        
+                        <solution>
+                            <p>
+                                <image source="sol3.png" width="50%">
+                                    <shortdescription>Square colored after five steps</shortdescription>
+                                </image>
+                                Area is <m>\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\frac{1}{32}=\frac{31}{32}</m>.
+                            </p>
+                        </solution>
                     </task>
                     
                 </exercise>
@@ -74,6 +95,11 @@
                                 Write down a sum that expresses the area after <m>n</m> steps. Write it in both expanded form and in sigma-notation.
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>\displaystyle\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^{n}}= \sum_{i=1}^{n}\frac{1}{2^{i}}</m>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="1in">
                         <statement>
@@ -81,6 +107,11 @@
                                 In the previous problem, you may have noticed a pattern in your final answers.  Use this to guess a simple formula for the area after <m>n</m> steps (in other words, simplify so your answer is no longer a sum).
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>\displaystyle\frac{2^{n}-1}{2^{n}}= 1-\frac{1}{2^{n}}</m>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="1in">
                         <statement>
@@ -89,6 +120,13 @@
 
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                The area approaches 1 as <m>n</m> goes to infinity.
+This makes sense, because the square has area 1, and the shaded region is always contained inside the square.
+The non-shaded region gets cut in half each time, so the shaded area should approach 1.
+                            </p>
+                        </solution>
                     </task>
                     
                 </exercise>
@@ -119,6 +157,11 @@ Infinite geometric sums, on the other hand, are the limits of the partial sums (
                                 In a previous problem, the areas that you calculated were geometric sums with a specific initial term and constant ratio.  What was the initial term <m>a</m> in these sums?  The constant ratio <m>r</m>?
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>\displaystyle a=\frac{1}{2}, \quad r = \frac{1}{2}</m>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="1in">
                         <statement>
@@ -132,6 +175,17 @@ Let <m>a</m> and <m>r</m> be arbitrary numbers with <m>r\neq 1</m>.
 Most of them should cancel.)
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <me>
+                                 \begin{alignedat}{4}
+                                 S_{n}-rS_{n} \amp= \left(a+ar+\cdots +ar^{n-1}\right) - r\left(a+ar+\cdots +ar^{n-1}\right) \\ 
+                                 \amp= \left(a+ar+\cdots +ar^{n-1}\right) - \left(ar+ar^{2}+\cdots + ar^{n}\right) \\ 
+                                 \amp= a-ar^{n}
+                                 \end{alignedat}
+                                </me>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="1in">
                         <statement>
@@ -140,6 +194,16 @@ Most of them should cancel.)
 
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                             <me>
+                                \begin{alignedat}{4}
+                                (1-r)S_{n} \amp= a - ar^{n} \\ 
+                                S_{n} \amp= \frac{a-ar^{n}}{1-r}
+                                \end{alignedat}
+                            </me>
+                            </p>
+                        </solution>
                     </task>
                 </exercise>
             </page>
@@ -162,6 +226,12 @@ Most of them should cancel.)
 
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                It does not depend on <m>a</m>, but does depend on <m>r</m>. The series converges for <m>\lvert r\rvert \lt 1</m>.
+                                It diverges for <m>\lvert r\rvert \geq 1</m>.
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="2in">
                         <statement>
@@ -169,6 +239,11 @@ Most of them should cancel.)
                                 Using your formula for <m>S_{n}</m>, take limits to come up with a formula for the value of the sum of a general infinite geometric series.  Check that this formula agrees with the area of the square in the very first problem.
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>\displaystyle \sum_{i=1}^{\infty} ar^{i-1}= \lim_{n\to\infty}\frac{a(1-r^{n})}{1-r}= \frac{a}{1-r}</m>, provided <m>|r| \lt 1</m>
+                            </p>
+                        </solution>
                     </task>
                 </exercise>
             </page>
@@ -176,7 +251,7 @@ Most of them should cancel.)
                 <exercise>
                     <statement>
                         <p>
-                            Now that we know how to calculate finite and infinite geometric sums, let’s get some practice with a few examples.
+                            Now that we know how to calculate finite and infinite geometric sums, let's get some practice with a few examples.
 <ol>
     <li>
         <p>
@@ -217,6 +292,42 @@ Most of them should cancel.)
 
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\frac{2}{1-(1/3)}=3</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\frac{1/4}{1-(1/2)}=\frac{1}{2}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\frac{e}{1-\frac{1}{\pi}}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\frac{0.9}{1-0.1} = 1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\frac{2-2(2/3)^{10}}{1-(2/3)} = \frac{116,050}{19,683} \approx 5.896</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Diverges
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
                 </exercise>
             </page>
 
