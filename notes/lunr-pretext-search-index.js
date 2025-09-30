@@ -1529,6 +1529,186 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "A note regarding <span class=\"process-math\">\\(\\R\\)<\/span>.",
   "body": " A note regarding   Recall that we used equivalence relations to construct from , and from .   "
+},
+{
+  "id": "sec-IV-6",
+  "level": "1",
+  "url": "sec-IV-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S IV.6\\text{:}\\)<\/span> Series",
+  "body": " : Series    Motivation: Series        Thought Exercise   Suppose I take steps according to the rules:   Each step is half the distance of the previous step.    My first step is foot.   If I take infinitely many steps, how far have I traveled?     Modeling with Sequences and Series          Definitions        Example: Partial Sums           Practice: Partial Sums   For each sequence, write the corresponding series using summation notation. Then compute the first five partial sums, and make a guess as to whether the series converges or diverges.                 Facts: Convergence        "
+},
+{
+  "id": "sec-IV-6-2-1",
+  "level": "2",
+  "url": "sec-IV-6.html#sec-IV-6-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Series.",
+  "body": " Motivation: Series      "
+},
+{
+  "id": "sec-IV-6-2-2",
+  "level": "2",
+  "url": "sec-IV-6.html#sec-IV-6-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Thought Exercise.",
+  "body": " Thought Exercise   Suppose I take steps according to the rules:   Each step is half the distance of the previous step.    My first step is foot.   If I take infinitely many steps, how far have I traveled?   "
+},
+{
+  "id": "sec-IV-6-2-3",
+  "level": "2",
+  "url": "sec-IV-6.html#sec-IV-6-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Modeling with Sequences and Series.",
+  "body": " Modeling with Sequences and Series      "
+},
+{
+  "id": "sec-IV-6-3-1",
+  "level": "2",
+  "url": "sec-IV-6.html#sec-IV-6-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Definitions.",
+  "body": " Definitions      "
+},
+{
+  "id": "sec-IV-6-3-2",
+  "level": "2",
+  "url": "sec-IV-6.html#sec-IV-6-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Partial Sums.",
+  "body": " Example: Partial Sums       "
+},
+{
+  "id": "sec-IV-6-4-1",
+  "level": "2",
+  "url": "sec-IV-6.html#sec-IV-6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Practice: Partial Sums.",
+  "body": " Practice: Partial Sums   For each sequence, write the corresponding series using summation notation. Then compute the first five partial sums, and make a guess as to whether the series converges or diverges.               "
+},
+{
+  "id": "sec-IV-6-4-2",
+  "level": "2",
+  "url": "sec-IV-6.html#sec-IV-6-4-2",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Facts: Convergence.",
+  "body": " Facts: Convergence      "
+},
+{
+  "id": "sec-IV-7",
+  "level": "1",
+  "url": "sec-IV-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S IV.7\\text{:}\\)<\/span> Geometric Series",
+  "body": " : Geometric Series     Consider coloring in a square using the following step-by-step process. For the first step, we draw a line vertically down the middle of the square and color the right half:  Square getting colored.    Since the square has area 1, the area of the shaded region is 1\/2. For the next step, we draw a horizontal line through the remaining space and color in the top quarter:  Square getting colored again.  At this point, the shaded region has area . We continue this process, at each step coloring half of the remaining space.    Draw the square after three steps. What is the area of the shaded region? Write this as both an expanded sum, and as a single fraction.     Draw the square after four steps. What is the area of the shaded region? Write this as both an expanded sum, and as a single fraction.      Draw the square after five steps. What is the area of the shaded region? Write this as both an expanded sum, and as a single fraction.         Now, let's think about the area after steps, where is an arbitrary number.     Write down a sum that expresses the area after steps. Write it in both expanded form and in sigma-notation.      In the previous problem, you may have noticed a pattern in your final answers. Use this to guess a simple formula for the area after steps (in other words, simplify so your answer is no longer a sum).      Based on this formula, what can you infer about the area of the shaded region as tends toward infinity? Does this make geometric sense? Why or why not?         Now let’s talk about general geometric sequences and series. A geometric sequence is defined by an initial term  and constant ratio  , and looks like this: Partial geometric sums are just the partial sums of geometric sequences. That is, sums of the form Infinite geometric sums, on the other hand, are the limits of the partial sums (whenever these limits exist), and look like this:      In a previous problem, the areas that you calculated were geometric sums with a specific initial term and constant ratio. What was the initial term in these sums? The constant ratio ?      In a previous problem, we came up with a simplified expression for the area of the shaded region after steps. We will generalize this expression. Let and be arbitrary numbers with .  Using the original definition of , expand and then simplify . (Hint: Group like terms. Most of them should cancel.)      If you did the above calculation carefully, you should get an answer similar to . Solve this equation to come up with a simple formula for . Check that this formula agrees with your formula from the first problem.         Recall that the value of a series is defined to be the limit of its partial sums, so that      Based on your formula for , what can you say about the convergence or divergence of ? Does it depend on ? Does it depend on ? For what values of does the series converge? For what values does it diverge?      Using your formula for , take limits to come up with a formula for the value of the sum of a general infinite geometric series. Check that this formula agrees with the area of the square in the very first problem.         Now that we know how to calculate finite and infinite geometric sums, let’s get some practice with a few examples.                                     "
+},
+{
+  "id": "sec-IV-7-2-1",
+  "level": "2",
+  "url": "sec-IV-7.html#sec-IV-7-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider coloring in a square using the following step-by-step process. For the first step, we draw a line vertically down the middle of the square and color the right half:  Square getting colored.    Since the square has area 1, the area of the shaded region is 1\/2. For the next step, we draw a horizontal line through the remaining space and color in the top quarter:  Square getting colored again.  At this point, the shaded region has area . We continue this process, at each step coloring half of the remaining space.    Draw the square after three steps. What is the area of the shaded region? Write this as both an expanded sum, and as a single fraction.     Draw the square after four steps. What is the area of the shaded region? Write this as both an expanded sum, and as a single fraction.      Draw the square after five steps. What is the area of the shaded region? Write this as both an expanded sum, and as a single fraction.    "
+},
+{
+  "id": "sec-IV-7-3-1",
+  "level": "2",
+  "url": "sec-IV-7.html#sec-IV-7-3-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Now, let's think about the area after steps, where is an arbitrary number.     Write down a sum that expresses the area after steps. Write it in both expanded form and in sigma-notation.      In the previous problem, you may have noticed a pattern in your final answers. Use this to guess a simple formula for the area after steps (in other words, simplify so your answer is no longer a sum).      Based on this formula, what can you infer about the area of the shaded region as tends toward infinity? Does this make geometric sense? Why or why not?    "
+},
+{
+  "id": "sec-IV-7-4-1",
+  "level": "2",
+  "url": "sec-IV-7.html#sec-IV-7-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Now let’s talk about general geometric sequences and series. A geometric sequence is defined by an initial term  and constant ratio  , and looks like this: Partial geometric sums are just the partial sums of geometric sequences. That is, sums of the form Infinite geometric sums, on the other hand, are the limits of the partial sums (whenever these limits exist), and look like this:      In a previous problem, the areas that you calculated were geometric sums with a specific initial term and constant ratio. What was the initial term in these sums? The constant ratio ?      In a previous problem, we came up with a simplified expression for the area of the shaded region after steps. We will generalize this expression. Let and be arbitrary numbers with .  Using the original definition of , expand and then simplify . (Hint: Group like terms. Most of them should cancel.)      If you did the above calculation carefully, you should get an answer similar to . Solve this equation to come up with a simple formula for . Check that this formula agrees with your formula from the first problem.    "
+},
+{
+  "id": "sec-IV-7-5-1",
+  "level": "2",
+  "url": "sec-IV-7.html#sec-IV-7-5-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Recall that the value of a series is defined to be the limit of its partial sums, so that      Based on your formula for , what can you say about the convergence or divergence of ? Does it depend on ? Does it depend on ? For what values of does the series converge? For what values does it diverge?      Using your formula for , take limits to come up with a formula for the value of the sum of a general infinite geometric series. Check that this formula agrees with the area of the square in the very first problem.    "
+},
+{
+  "id": "sec-IV-7-6-1",
+  "level": "2",
+  "url": "sec-IV-7.html#sec-IV-7-6-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Now that we know how to calculate finite and infinite geometric sums, let’s get some practice with a few examples.                                   "
+},
+{
+  "id": "sec-IV-8",
+  "level": "1",
+  "url": "sec-IV-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S IV.8\\text{:}\\)<\/span> Arithmetic Sums",
+  "body": " : Arithmetic Sums    Motivation: Arithmetic Sums        Definition: Arithmetic Sequence   An arithmetic sequence is a sequence of the form     Example 1: Sums of Arithmetic Sequences   Consider the sequence which has the corresponding sum .       Example 2: Sums of Arithmetic Sequences   Consider the sum .     Practice: Sums of Arithmetic Sequences   Compute the following sums:                 As a challenge, compute a formula for the generic sum .     "
+},
+{
+  "id": "sec-IV-8-2-1",
+  "level": "2",
+  "url": "sec-IV-8.html#sec-IV-8-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Arithmetic Sums.",
+  "body": " Motivation: Arithmetic Sums      "
+},
+{
+  "id": "sec-IV-8-2-2",
+  "level": "2",
+  "url": "sec-IV-8.html#sec-IV-8-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Arithmetic Sequence.",
+  "body": " Definition: Arithmetic Sequence   An arithmetic sequence is a sequence of the form   "
+},
+{
+  "id": "sec-IV-8-2-3",
+  "level": "2",
+  "url": "sec-IV-8.html#sec-IV-8-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example 1: Sums of Arithmetic Sequences.",
+  "body": " Example 1: Sums of Arithmetic Sequences   Consider the sequence which has the corresponding sum .   "
+},
+{
+  "id": "sec-IV-8-3-1",
+  "level": "2",
+  "url": "sec-IV-8.html#sec-IV-8-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example 2: Sums of Arithmetic Sequences.",
+  "body": " Example 2: Sums of Arithmetic Sequences   Consider the sum .   "
+},
+{
+  "id": "sec-IV-8-3-2",
+  "level": "2",
+  "url": "sec-IV-8.html#sec-IV-8-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Sums of Arithmetic Sequences.",
+  "body": " Practice: Sums of Arithmetic Sequences   Compute the following sums:                 As a challenge, compute a formula for the generic sum .   "
 }
 ]
 
