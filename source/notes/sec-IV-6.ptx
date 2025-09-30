@@ -1,0 +1,117 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-6">
+        <title><m>\S IV.6</m>: Series</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Series  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="1in">
+                    <title>Thought Exercise</title>
+                    <statement>
+                        <p>
+                            Suppose I take steps according to the rules:
+                            <ol>
+                                <li>
+                                    <p>
+                                        Each step is half the distance of the previous step.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        My first step is <m>1</m> foot.
+                                    </p>
+                                </li>
+                            </ol>
+                            If I take infinitely many steps, how far have I traveled?
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="5in">
+                    <title>Modeling with Sequences and Series</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="3in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Example: Partial Sums</title>
+                    <statement>
+                        <p>
+                            <me>
+                                \sum_{n=1}^\infty \frac{1}{2^{n-1}} = 
+                            </me>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="3in">
+                    <title>Practice: Partial Sums</title>
+                    <statement>
+                        <p>
+                            For each sequence, write the corresponding series using summation notation. Then compute
+                            the first five partial sums, and make a guess as to whether the series converges or diverges.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>a_n = \frac{1}{n}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>b_n = \frac{1}{n^2}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Facts: Convergence</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

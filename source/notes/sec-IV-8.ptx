@@ -1,0 +1,92 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-8">
+        <title><m>\S IV.8</m>: Arithmetic Sums</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Arithmetic Sums  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Definition: Arithmetic Sequence</title>
+                    <statement>
+                        <p>
+                            An <term>arithmetic sequence</term> is a sequence of the form
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Example 1: Sums of Arithmetic Sequences</title>
+                    <statement>
+                        <p>
+                            Consider the sequence
+                            <me>
+                                0,1,2,3,4,\dots, k
+                            </me>
+                            which has the corresponding sum <m>\sum_{n=0}^k n </m>.
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>Example 2: Sums of Arithmetic Sequences</title>
+                    <statement>
+                        <p>
+                            Consider the sum <m>\sum_{n=0}^{100} (2 + 3n) </m>.
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Sums of Arithmetic Sequences</title>
+                    <statement>
+                        <p>
+                            Compute the following sums:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\sum_{n=0}^{50} (4 + 7n) </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\sum_{n=1}^{70} (-6 + 2n) </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\sum_{n=10}^{60} (2 - 3n) </m>
+                                    </p>
+                                </li>
+                            </ol>
+                            As a challenge, compute a formula for the generic sum
+                            <me>
+                                \sum_{n=0}^k ( a+ dn)
+                            </me>.
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

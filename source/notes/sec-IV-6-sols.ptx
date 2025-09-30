@@ -1,0 +1,278 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-IV-6-sols">
+        <title><m>\S IV.6</m>: Series</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Series  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Series (infinite sums) are very useful structures in solving problems and representing functions
+                            (more later on this!). First, when does this even make sense, and what are some basic tools that 
+                            can help?
+                        </p>
+                    </solution>
+                </exercise>
+                <exercise workspace="1in">
+                    <title>Thought Exercise</title>
+                    <statement>
+                        <p>
+                            Suppose I take steps according to the rules:
+                            <ol>
+                                <li>
+                                    <p>
+                                        Each step is half the distance of the previous step.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        My first step is <m>1</m> foot.
+                                    </p>
+                                </li>
+                            </ol>
+                            If I take infinitely many steps, how far have I traveled?
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="5in">
+                    <title>Modeling with Sequences and Series</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If we let <m>(d_n)</m> be the sequence whose <m>n^{th}</m> term is the length of my 
+                            <m>n^{th}</m> step, then
+                            <me>
+                                (d_n) = 1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \frac{1}{16}, \dots
+                            </me>
+                            To answer the question, we're asking what is the sum of all these terms:
+                            <me>
+                                1 + \frac{1}{2} + \frac{1}{4}+\frac{1}{8}+ \frac{1}{16}+ \cdots = \sum_{n=1}^\infty \frac{1}{2^{n-1}} = ?
+                            </me>
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="3in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p> Let <m>(a_n)</m> be a sequence.
+                            <ol>
+                                <li>
+                                    <p>
+                                      The <term>series</term>  associated with the sequence is the infinite sum 
+                                      <m>\sum_{n=1}^\infty a_n</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The <term><m>k^{th}</m> partial sum</term> of the series is the finite sum
+                                        <m>S_k = \sum_{n=1}^k a_n</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If the sequence <m>(S_k)</m> converges to a number <m>L</m>, the we write 
+                                        <m>\sum_{n=1}^\infty a_n = L</m>, and say the series <term>converges</term>. Otherwise,
+                                        we say the series <term>diverges</term>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Example: Partial Sums</title>
+                    <statement>
+                        <p>
+                            <me>
+                                \sum_{n=1}^\infty \frac{1}{2^{n-1}} = 
+                            </me>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            To get an idea if this series converges or diverges, we can compute several partial sums:
+                            <ul>
+                                <li>
+                                    <p>
+                                        <m>S_1 = 1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>S_2 = \frac{3}{2}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>S_3 = \frac{7}{4}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>S_4 = \frac{15}{8}</m>
+                                    </p>
+                                </li>
+                            </ul>
+                            Using technology, we can guess that the partial sums converge to <m>2</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="3in">
+                    <title>Practice: Partial Sums</title>
+                    <statement>
+                        <p>
+                            For each sequence, write the corresponding series using summation notation. Then compute
+                            the first five partial sums, and make a guess as to whether the series converges or diverges.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>a_n = \frac{1}{n}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>b_n = \frac{1}{n^2}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                            <m>S_1 = 1</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_2 = \frac{3}{2}</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_3 = \frac{11}{6} \approx 1.83</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_4 = \frac{25}{12} \approx 2.08</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_5 = \frac{137}{60} \approx 2.28</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_{100} \approx 5.187</m>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    </p>
+                                    <p>
+                                    This series diverges.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                            <m>S_1 = 1</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_2 = \frac{5}{4}</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_3 = \frac{49}{36} </m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_4 = \frac{205}{144} \approx 1.42</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_5 = \frac{5269}{3600} \approx 1.46</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                            <m>S_{100} \approx 1.63</m>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    </p>
+                                    <p>
+                                    This series converges.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Facts: Convergence</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If <m>\sum_{n=1}^\infty a_n</m> converges, then <m>\lim_{n \to \infty} a_n = 0</m>. Equivalently, if 
+                            <m>\lim_{n \to \infty} a_n \neq 0</m>, then <m>\sum_{n=1}^\infty a_n</m> diverges.
+                        </p>
+                        <p>
+                            The series <m>\sum_{n=1}^\infty \frac{1}{n^p}</m> converges if <m>p \gt 1</m>. Otherwise, it diverges.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
