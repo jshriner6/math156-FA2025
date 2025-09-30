@@ -1342,76 +1342,76 @@ var ptx_lunr_docs = [
   "body": " Practice: Verifying Explicit Formulas   Verify that the sequence , can be written explicitly with the rule .       Check the initial value:     Assume that the explicit formula is true for a generic :     Show the previous assumption implies the explicit formula is true for :       "
 },
 {
-  "id": "sec-IV-3",
+  "id": "sec-IV-3-sols",
   "level": "1",
-  "url": "sec-IV-3.html",
+  "url": "sec-IV-3-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S IV.3\\text{:}\\)<\/span> Monotone and Bounded Sequences",
-  "body": " : Monotone and Bounded Sequences    Motivation: Monotone and Bounded Sequences        Desmos: Monotone and Bounded    Desmos visual for monotone and bounded sequences .     Definition: Monotone      Monotone Increasing (Decreasing)  Strictly Increasing (Decreasing)  Monotone             Definition: Bounded      Bounded Above  Bounded Below  Bounded               Analyzing Algebraically   Let's analyze the following sequence rules algebraically:                           Practice: Monotone and Bounded Algebraically   Determine algebraically whether the following sequences are monotone and\/or bounded.                 Practice: Monotone and Bounded Using Technology   Sometimes it can be challenging to determine these properties algebraically. Use technology or compute terms to make an educated guess about whether the following are monotone and\/or bounded.                 "
+  "body": " : Monotone and Bounded Sequences    Motivation: Monotone and Bounded Sequences       It is often useful to determine the \"long term behavior\" of a sequence. That is, what is happening at the \"tail\" of the sequence. This section will introduce some important vocabulary and concepts related to this question.     Desmos: Monotone and Bounded    Desmos visual for monotone and bounded sequences .     Definition: Monotone      Monotone Increasing (Decreasing)  Strictly Increasing (Decreasing)  Monotone               Monotone Increasing (Decreasing)  Strictly Increasing (Decreasing)  Monotone    ( )  ( )  Monotonically increasing OR decreasing        Definition: Bounded      Bounded Above  Bounded Below  Bounded               Bounded Above  Bounded Below  Bounded    such that for all   such that for all   Bounded above AND below          Analyzing Algebraically   Let's analyze the following sequence rules algebraically:                             As increases, decreases. So (strictly increasing). Also, , so is bounded.    Note that (strictly increasing), and (bounded below but not above).    This sequence is not monotone. However, , so it is bounded.    This sequence is neither monotone, nor bounded above or below.        Practice: Monotone and Bounded Algebraically   Determine algebraically whether the following sequences are monotone and\/or bounded.                   This sequence is strictly decreasing (thus monotone), and bounded.    This sequence is not monotone, but is bounded.        Practice: Monotone and Bounded Using Technology   Sometimes it can be challenging to determine these properties algebraically. Use technology or compute terms to make an educated guess about whether the following are monotone and\/or bounded.                   This sequence is (eventually) strictly increasing, and bounded below (but not above).    This sequence is strictly increasing and bounded.   You can view these sequences in the Desmos visual for monotone and bounded sequences .     "
 },
 {
-  "id": "sec-IV-3-2-1",
+  "id": "sec-IV-3-sols-2-1",
   "level": "2",
-  "url": "sec-IV-3.html#sec-IV-3-2-1",
+  "url": "sec-IV-3-sols.html#sec-IV-3-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Monotone and Bounded Sequences.",
-  "body": " Motivation: Monotone and Bounded Sequences      "
+  "body": " Motivation: Monotone and Bounded Sequences       It is often useful to determine the \"long term behavior\" of a sequence. That is, what is happening at the \"tail\" of the sequence. This section will introduce some important vocabulary and concepts related to this question.   "
 },
 {
-  "id": "sec-IV-3-2-2",
+  "id": "sec-IV-3-sols-2-2",
   "level": "2",
-  "url": "sec-IV-3.html#sec-IV-3-2-2",
+  "url": "sec-IV-3-sols.html#sec-IV-3-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Desmos: Monotone and Bounded.",
   "body": " Desmos: Monotone and Bounded    Desmos visual for monotone and bounded sequences .   "
 },
 {
-  "id": "sec-IV-3-2-3",
+  "id": "sec-IV-3-sols-2-3",
   "level": "2",
-  "url": "sec-IV-3.html#sec-IV-3-2-3",
+  "url": "sec-IV-3-sols.html#sec-IV-3-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Definition: Monotone.",
-  "body": " Definition: Monotone      Monotone Increasing (Decreasing)  Strictly Increasing (Decreasing)  Monotone           "
+  "body": " Definition: Monotone      Monotone Increasing (Decreasing)  Strictly Increasing (Decreasing)  Monotone               Monotone Increasing (Decreasing)  Strictly Increasing (Decreasing)  Monotone    ( )  ( )  Monotonically increasing OR decreasing      "
 },
 {
-  "id": "sec-IV-3-2-4",
+  "id": "sec-IV-3-sols-2-4",
   "level": "2",
-  "url": "sec-IV-3.html#sec-IV-3-2-4",
+  "url": "sec-IV-3-sols.html#sec-IV-3-sols-2-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Definition: Bounded.",
-  "body": " Definition: Bounded      Bounded Above  Bounded Below  Bounded           "
+  "body": " Definition: Bounded      Bounded Above  Bounded Below  Bounded               Bounded Above  Bounded Below  Bounded    such that for all   such that for all   Bounded above AND below      "
 },
 {
-  "id": "sec-IV-3-3-1",
+  "id": "sec-IV-3-sols-3-1",
   "level": "2",
-  "url": "sec-IV-3.html#sec-IV-3-3-1",
+  "url": "sec-IV-3-sols.html#sec-IV-3-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Analyzing Algebraically.",
-  "body": " Analyzing Algebraically   Let's analyze the following sequence rules algebraically:                         "
+  "body": " Analyzing Algebraically   Let's analyze the following sequence rules algebraically:                             As increases, decreases. So (strictly increasing). Also, , so is bounded.    Note that (strictly increasing), and (bounded below but not above).    This sequence is not monotone. However, , so it is bounded.    This sequence is neither monotone, nor bounded above or below.      "
 },
 {
-  "id": "sec-IV-3-3-2",
+  "id": "sec-IV-3-sols-3-2",
   "level": "2",
-  "url": "sec-IV-3.html#sec-IV-3-3-2",
+  "url": "sec-IV-3-sols.html#sec-IV-3-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Practice: Monotone and Bounded Algebraically.",
-  "body": " Practice: Monotone and Bounded Algebraically   Determine algebraically whether the following sequences are monotone and\/or bounded.               "
+  "body": " Practice: Monotone and Bounded Algebraically   Determine algebraically whether the following sequences are monotone and\/or bounded.                   This sequence is strictly decreasing (thus monotone), and bounded.    This sequence is not monotone, but is bounded.      "
 },
 {
-  "id": "sec-IV-3-3-3",
+  "id": "sec-IV-3-sols-3-3",
   "level": "2",
-  "url": "sec-IV-3.html#sec-IV-3-3-3",
+  "url": "sec-IV-3-sols.html#sec-IV-3-sols-3-3",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: Monotone and Bounded Using Technology.",
-  "body": " Practice: Monotone and Bounded Using Technology   Sometimes it can be challenging to determine these properties algebraically. Use technology or compute terms to make an educated guess about whether the following are monotone and\/or bounded.               "
+  "body": " Practice: Monotone and Bounded Using Technology   Sometimes it can be challenging to determine these properties algebraically. Use technology or compute terms to make an educated guess about whether the following are monotone and\/or bounded.                   This sequence is (eventually) strictly increasing, and bounded below (but not above).    This sequence is strictly increasing and bounded.   You can view these sequences in the Desmos visual for monotone and bounded sequences .   "
 },
 {
   "id": "sec-IV-4",
