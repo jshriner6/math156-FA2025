@@ -1414,76 +1414,76 @@ var ptx_lunr_docs = [
   "body": " Practice: Monotone and Bounded Using Technology   Sometimes it can be challenging to determine these properties algebraically. Use technology or compute terms to make an educated guess about whether the following are monotone and\/or bounded.                   This sequence is (eventually) strictly increasing, and bounded below (but not above).    This sequence is strictly increasing and bounded.   You can view these sequences in the Desmos visual for monotone and bounded sequences .   "
 },
 {
-  "id": "sec-IV-4",
+  "id": "sec-IV-4-sols",
   "level": "1",
-  "url": "sec-IV-4.html",
+  "url": "sec-IV-4-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S IV.4\\text{:}\\)<\/span> Convergence",
-  "body": " : Convergence    Motivation: Convergence        Desmos: Convergence    Desmos visual for convergent sequences .     (Informal) Definition: Convergence   A sequence  converges to if     Limits: Familiar Functions   Define sequences with the following rules:        Properties of Limits   There are several useful properties of limits that can help us compute more limits.  If and converge, then     Example: Properties of Limits           Practice: Properties of Limits   Determine if the sequences defined by the following rules converge or diverge. If that converge, find their limit.                                          "
+  "body": " : Convergence    Motivation: Convergence       Last time we described some general long run behavior of sequences. It can be especially important to recognize when sequences \"settle down\", which we will discuss in this section.     Desmos: Convergence    Desmos visual for convergent sequences .     (Informal) Definition: Convergence   A sequence  converges to if    we can make the tail of as close as we'd like to . We write (the limit of is ). If does not converge, we say it diverges .  This is a vague definition for our intuition. There is a more formal definition given in your textbook.     Limits: Familiar Functions   Define sequences with the following rules:         (diverges)     (diverges)     (diverges)     (converges)          Properties of Limits   There are several useful properties of limits that can help us compute more limits.  If and converge, then                  , as long as .        Example: Properties of Limits                Practice: Properties of Limits   Determine if the sequences defined by the following rules converge or diverge. If that converge, find their limit.                                                       (diverges)               (diverges)     diverges   You can visualize the last four sequences in the Desmos visual for convergent sequences .     "
 },
 {
-  "id": "sec-IV-4-2-1",
+  "id": "sec-IV-4-sols-2-1",
   "level": "2",
-  "url": "sec-IV-4.html#sec-IV-4-2-1",
+  "url": "sec-IV-4-sols.html#sec-IV-4-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Convergence.",
-  "body": " Motivation: Convergence      "
+  "body": " Motivation: Convergence       Last time we described some general long run behavior of sequences. It can be especially important to recognize when sequences \"settle down\", which we will discuss in this section.   "
 },
 {
-  "id": "sec-IV-4-2-2",
+  "id": "sec-IV-4-sols-2-2",
   "level": "2",
-  "url": "sec-IV-4.html#sec-IV-4-2-2",
+  "url": "sec-IV-4-sols.html#sec-IV-4-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Desmos: Convergence.",
   "body": " Desmos: Convergence    Desmos visual for convergent sequences .   "
 },
 {
-  "id": "sec-IV-4-2-3",
+  "id": "sec-IV-4-sols-2-3",
   "level": "2",
-  "url": "sec-IV-4.html#sec-IV-4-2-3",
+  "url": "sec-IV-4-sols.html#sec-IV-4-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "(Informal) Definition: Convergence.",
-  "body": " (Informal) Definition: Convergence   A sequence  converges to if   "
+  "body": " (Informal) Definition: Convergence   A sequence  converges to if    we can make the tail of as close as we'd like to . We write (the limit of is ). If does not converge, we say it diverges .  This is a vague definition for our intuition. There is a more formal definition given in your textbook.   "
 },
 {
-  "id": "sec-IV-4-2-4",
+  "id": "sec-IV-4-sols-2-4",
   "level": "2",
-  "url": "sec-IV-4.html#sec-IV-4-2-4",
+  "url": "sec-IV-4-sols.html#sec-IV-4-sols-2-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Limits: Familiar Functions.",
-  "body": " Limits: Familiar Functions   Define sequences with the following rules:    "
+  "body": " Limits: Familiar Functions   Define sequences with the following rules:         (diverges)     (diverges)     (diverges)     (converges)      "
 },
 {
-  "id": "sec-IV-4-3-1",
+  "id": "sec-IV-4-sols-3-1",
   "level": "2",
-  "url": "sec-IV-4.html#sec-IV-4-3-1",
+  "url": "sec-IV-4-sols.html#sec-IV-4-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Properties of Limits.",
-  "body": " Properties of Limits   There are several useful properties of limits that can help us compute more limits.  If and converge, then   "
+  "body": " Properties of Limits   There are several useful properties of limits that can help us compute more limits.  If and converge, then                  , as long as .      "
 },
 {
-  "id": "sec-IV-4-3-2",
+  "id": "sec-IV-4-sols-3-2",
   "level": "2",
-  "url": "sec-IV-4.html#sec-IV-4-3-2",
+  "url": "sec-IV-4-sols.html#sec-IV-4-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Example: Properties of Limits.",
-  "body": " Example: Properties of Limits       "
+  "body": " Example: Properties of Limits            "
 },
 {
-  "id": "sec-IV-4-4-1",
+  "id": "sec-IV-4-sols-4-1",
   "level": "2",
-  "url": "sec-IV-4.html#sec-IV-4-4-1",
+  "url": "sec-IV-4-sols.html#sec-IV-4-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: Properties of Limits.",
-  "body": " Practice: Properties of Limits   Determine if the sequences defined by the following rules converge or diverge. If that converge, find their limit.                                        "
+  "body": " Practice: Properties of Limits   Determine if the sequences defined by the following rules converge or diverge. If that converge, find their limit.                                                       (diverges)               (diverges)     diverges   You can visualize the last four sequences in the Desmos visual for convergent sequences .   "
 },
 {
   "id": "sec-IV-5",
