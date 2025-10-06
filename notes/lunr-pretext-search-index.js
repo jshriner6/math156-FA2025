@@ -1486,121 +1486,121 @@ var ptx_lunr_docs = [
   "body": " Practice: Properties of Limits   Determine if the sequences defined by the following rules converge or diverge. If that converge, find their limit.                                                       (diverges)               (diverges)     diverges   You can visualize the last four sequences in the Desmos visual for convergent sequences .   "
 },
 {
-  "id": "sec-IV-5",
+  "id": "sec-IV-5-sols",
   "level": "1",
-  "url": "sec-IV-5.html",
+  "url": "sec-IV-5-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S IV.5\\text{:}\\)<\/span> Limits, Bounds, and <span class=\"process-math\">\\(\\R\\)<\/span>",
-  "body": " : Limits, Bounds, and    Motivation: Limits and Bounds        Practice: Monotone, bounded, and convergence   Do you think the following implications are true or false? If false, describe a counter-example.   If converges, then it is bounded.    If is bounded, then it converges.    If converges, then it is monotone.    If is monotone, then it converges.    If is monotone and bounded, then it converges.          Example: Finding Limits   Consider the recursive sequence , .     A note regarding   Recall that we used equivalence relations to construct from , and from .     "
+  "body": " : Limits, Bounds, and    Motivation: Limits and Bounds       Last time we explored different ways that sequences converged. We'll use the concepts of monotone and bounded to say more about when sequences converge.     Practice: Monotone, bounded, and convergence   Do you think the following implications are true or false? If false, describe a counter-example.   If converges, then it is bounded.    If is bounded, then it converges.    If converges, then it is monotone.    If is monotone, then it converges.    If is monotone and bounded, then it converges.          This is true.    This is false. Consider .    This is false. Consider .    This is false. Consider .    This is true, and can be a very useful fact for analyzing recursive sequences.          Example: Finding Limits   Consider the recursive sequence , .    See notes from class, or the supplemental notes for section IV.5 in myOpenMath.     A note regarding   Recall that we used equivalence relations to construct from , and from .    We can similarly construct as equivalence classes of special sequences of rational numbers. The details are beyond the scope of our course.     "
 },
 {
-  "id": "sec-IV-5-2-1",
+  "id": "sec-IV-5-sols-2-1",
   "level": "2",
-  "url": "sec-IV-5.html#sec-IV-5-2-1",
+  "url": "sec-IV-5-sols.html#sec-IV-5-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Limits and Bounds.",
-  "body": " Motivation: Limits and Bounds      "
+  "body": " Motivation: Limits and Bounds       Last time we explored different ways that sequences converged. We'll use the concepts of monotone and bounded to say more about when sequences converge.   "
 },
 {
-  "id": "sec-IV-5-2-2",
+  "id": "sec-IV-5-sols-2-2",
   "level": "2",
-  "url": "sec-IV-5.html#sec-IV-5-2-2",
+  "url": "sec-IV-5-sols.html#sec-IV-5-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Practice: Monotone, bounded, and convergence.",
-  "body": " Practice: Monotone, bounded, and convergence   Do you think the following implications are true or false? If false, describe a counter-example.   If converges, then it is bounded.    If is bounded, then it converges.    If converges, then it is monotone.    If is monotone, then it converges.    If is monotone and bounded, then it converges.      "
+  "body": " Practice: Monotone, bounded, and convergence   Do you think the following implications are true or false? If false, describe a counter-example.   If converges, then it is bounded.    If is bounded, then it converges.    If converges, then it is monotone.    If is monotone, then it converges.    If is monotone and bounded, then it converges.          This is true.    This is false. Consider .    This is false. Consider .    This is false. Consider .    This is true, and can be a very useful fact for analyzing recursive sequences.      "
 },
 {
-  "id": "sec-IV-5-3-1",
+  "id": "sec-IV-5-sols-3-1",
   "level": "2",
-  "url": "sec-IV-5.html#sec-IV-5-3-1",
+  "url": "sec-IV-5-sols.html#sec-IV-5-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Finding Limits.",
-  "body": " Example: Finding Limits   Consider the recursive sequence , .   "
+  "body": " Example: Finding Limits   Consider the recursive sequence , .    See notes from class, or the supplemental notes for section IV.5 in myOpenMath.   "
 },
 {
-  "id": "sec-IV-5-3-2",
+  "id": "sec-IV-5-sols-3-2",
   "level": "2",
-  "url": "sec-IV-5.html#sec-IV-5-3-2",
+  "url": "sec-IV-5-sols.html#sec-IV-5-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "A note regarding <span class=\"process-math\">\\(\\R\\)<\/span>.",
-  "body": " A note regarding   Recall that we used equivalence relations to construct from , and from .   "
+  "body": " A note regarding   Recall that we used equivalence relations to construct from , and from .    We can similarly construct as equivalence classes of special sequences of rational numbers. The details are beyond the scope of our course.   "
 },
 {
-  "id": "sec-IV-6",
+  "id": "sec-IV-6-sols",
   "level": "1",
-  "url": "sec-IV-6.html",
+  "url": "sec-IV-6-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S IV.6\\text{:}\\)<\/span> Series",
-  "body": " : Series    Motivation: Series        Thought Exercise   Suppose I take steps according to the rules:   Each step is half the distance of the previous step.    My first step is foot.   If I take infinitely many steps, how far have I traveled?     Modeling with Sequences and Series          Definitions        Example: Partial Sums           Practice: Partial Sums   For each sequence, write the corresponding series using summation notation. Then compute the first five partial sums, and make a guess as to whether the series converges or diverges.                 Facts: Convergence        "
+  "body": " : Series    Motivation: Series       Series (infinite sums) are very useful structures in solving problems and representing functions (more later on this!). First, when does this even make sense, and what are some basic tools that can help?     Thought Exercise   Suppose I take steps according to the rules:   Each step is half the distance of the previous step.    My first step is foot.   If I take infinitely many steps, how far have I traveled?     Modeling with Sequences and Series       If we let be the sequence whose term is the length of my step, then To answer the question, we're asking what is the sum of all these terms:        Definitions       Let be a sequence.   The series associated with the sequence is the infinite sum     The partial sum of the series is the finite sum .    If the sequence converges to a number , the we write , and say the series converges . Otherwise, we say the series diverges .        Example: Partial Sums        To get an idea if this series converges or diverges, we can compute several partial sums:                      Using technology, we can guess that the partial sums converge to .       Practice: Partial Sums   For each sequence, write the corresponding series using summation notation. Then compute the first five partial sums, and make a guess as to whether the series converges or diverges.                                                     This series diverges.                                      This series converges.        Facts: Convergence       If converges, then . Equivalently, if , then diverges.  The series converges if . Otherwise, it diverges.     "
 },
 {
-  "id": "sec-IV-6-2-1",
+  "id": "sec-IV-6-sols-2-1",
   "level": "2",
-  "url": "sec-IV-6.html#sec-IV-6-2-1",
+  "url": "sec-IV-6-sols.html#sec-IV-6-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Series.",
-  "body": " Motivation: Series      "
+  "body": " Motivation: Series       Series (infinite sums) are very useful structures in solving problems and representing functions (more later on this!). First, when does this even make sense, and what are some basic tools that can help?   "
 },
 {
-  "id": "sec-IV-6-2-2",
+  "id": "sec-IV-6-sols-2-2",
   "level": "2",
-  "url": "sec-IV-6.html#sec-IV-6-2-2",
+  "url": "sec-IV-6-sols.html#sec-IV-6-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Thought Exercise.",
   "body": " Thought Exercise   Suppose I take steps according to the rules:   Each step is half the distance of the previous step.    My first step is foot.   If I take infinitely many steps, how far have I traveled?   "
 },
 {
-  "id": "sec-IV-6-2-3",
+  "id": "sec-IV-6-sols-2-3",
   "level": "2",
-  "url": "sec-IV-6.html#sec-IV-6-2-3",
+  "url": "sec-IV-6-sols.html#sec-IV-6-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Modeling with Sequences and Series.",
-  "body": " Modeling with Sequences and Series      "
+  "body": " Modeling with Sequences and Series       If we let be the sequence whose term is the length of my step, then To answer the question, we're asking what is the sum of all these terms:    "
 },
 {
-  "id": "sec-IV-6-3-1",
+  "id": "sec-IV-6-sols-3-1",
   "level": "2",
-  "url": "sec-IV-6.html#sec-IV-6-3-1",
+  "url": "sec-IV-6-sols.html#sec-IV-6-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Definitions.",
-  "body": " Definitions      "
+  "body": " Definitions       Let be a sequence.   The series associated with the sequence is the infinite sum     The partial sum of the series is the finite sum .    If the sequence converges to a number , the we write , and say the series converges . Otherwise, we say the series diverges .      "
 },
 {
-  "id": "sec-IV-6-3-2",
+  "id": "sec-IV-6-sols-3-2",
   "level": "2",
-  "url": "sec-IV-6.html#sec-IV-6-3-2",
+  "url": "sec-IV-6-sols.html#sec-IV-6-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Partial Sums.",
-  "body": " Example: Partial Sums       "
+  "body": " Example: Partial Sums        To get an idea if this series converges or diverges, we can compute several partial sums:                      Using technology, we can guess that the partial sums converge to .   "
 },
 {
-  "id": "sec-IV-6-4-1",
+  "id": "sec-IV-6-sols-4-1",
   "level": "2",
-  "url": "sec-IV-6.html#sec-IV-6-4-1",
+  "url": "sec-IV-6-sols.html#sec-IV-6-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Practice: Partial Sums.",
-  "body": " Practice: Partial Sums   For each sequence, write the corresponding series using summation notation. Then compute the first five partial sums, and make a guess as to whether the series converges or diverges.               "
+  "body": " Practice: Partial Sums   For each sequence, write the corresponding series using summation notation. Then compute the first five partial sums, and make a guess as to whether the series converges or diverges.                                                     This series diverges.                                      This series converges.      "
 },
 {
-  "id": "sec-IV-6-4-2",
+  "id": "sec-IV-6-sols-4-2",
   "level": "2",
-  "url": "sec-IV-6.html#sec-IV-6-4-2",
+  "url": "sec-IV-6-sols.html#sec-IV-6-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Facts: Convergence.",
-  "body": " Facts: Convergence      "
+  "body": " Facts: Convergence       If converges, then . Equivalently, if , then diverges.  The series converges if . Otherwise, it diverges.   "
 },
 {
   "id": "sec-IV-7",
