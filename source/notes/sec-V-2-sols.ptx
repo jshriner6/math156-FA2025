@@ -1,0 +1,104 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-V-2-sols">
+        <title><m>\S V.2</m>: More on Continuity</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Continuity  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Intuitively, "continuous" means small changes in the input result in small changes in the output.
+                            This leads to many useful properties of continuous functions, one of which is explored in this
+                            section.
+                        </p>
+                    </solution>
+                    
+                
+                </exercise>
+                <exercise workspace="3in">
+                    <title>The Intermediate Value Theorem</title>
+                    <statement>
+                        <p>
+                            Let <m>f: \R \to \R</m> be continuous, and let <m>a,b \in \R</m> with <m>a \lt b</m>.
+                            If <m>y \in \R</m> is strictly between <m>f(a)</m> and <m>f(b)</m>, then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            there exists <m>c \in \R</m> such that <m>a \lt c \lt b</m> and <m>f(c) = y</m>. 
+                        </p>
+                        <p>
+                            There is a useful picture of this fact in <url href="https://htmlpreview.github.io/?https://github.com/hulpke/csbook/blob/main/mathforcs.html#Ch5.S2">Section V.2</url>
+                            of your textbook.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="4in">
+                    <title>Application: Finding Zeros</title>
+                    <statement>
+                        <p>
+                            Is there a solution to <m>x^3-\cos(x) = 0</m>?
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can start by letting <m>f(x)= x^3-\cos(x)</m>, and noticing <m>f</m> is continuous (it is 
+                            a combination of continuous functions). Since <m>f(0)=-1 \lt 0</m> and <m>f(\pi) = \pi^3+1 \gt 0</m>,
+                            the IVT tells us there must exist <m>c</m> such that <m>0 \lt c \lt \pi</m> and <m>f(c) =0</m>. If we'd
+                            like to approximate what <m>c</m> is even closer, we can repeat the IVT in a similar fashion (see notes
+                            from class).
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Application: Estimating <m>\pi</m></title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            See the example in <url href="https://htmlpreview.github.io/?https://github.com/hulpke/csbook/blob/main/mathforcs.html#Ch5.S2">Section V.2</url>
+                            of your textbook.
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: IVT</title>
+                    <statement>
+                        <p>
+                            Use the Intermediate Value Theorem to approximate a solution to <m>x^3 + x + 3 = 0</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We know <m>f(x) = x^3 + x + 3</m> is continuous since it is a polynomial. We could start by noticing
+                            that <m>f(0) = 3</m> and <m>f(-2)= -7</m>. Therefore, the IVT tells us there must exist <m>c \in (-2,0)</m>
+                            such that <m>f(c)=0</m>. The midpoint of the interval <m>(-2,0)</m> is <m>-1</m>, so we can compute
+                            <m>f(-1) = 1 \gt 0</m>. Therefore, the IVT tells us there must exist <m>c \in (-2,-1)</m> such that 
+                            <m>f(c) = 0</m>. Repeating four more times would tell us that <m>c \in (-1.25, -1.1875)</m>. Compare this
+                            to the actual value of <m>c \approx -1.21341</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

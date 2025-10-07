@@ -1,0 +1,170 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-V-1-sols">
+        <title><m>\S V.1</m>: Limits of Functions and Continuity</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Limits of Functions  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We've discussed limits in the context of describing end behavior of sequences. Limits are also
+                            very useful for describing general function behavior.
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Definition: Limits of Functions</title>
+                    <statement>
+                        <p>
+                            Let <m>D \subset \R</m>, and <m>f: D \to \R</m>. 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If there exists <m>L \in \R</m> such that <m>\lim_{n \to \infty} f(a_n) = L</m> whenever
+                            <m>(a_n)</m> is a sequence with <m>lim_{n \to \infty}a_n = a</m> and <m>a_n \in D \setminus \{a\}</m>, 
+                            we write <m>\lim_{x \to a} f(x) = L</m>, and say <term>the limit of <m>f</m> as <m>x</m> approaches
+                            <m>a</m> is <m>L</m></term>.
+                        </p>
+                        <p>
+                            Reference the <url href="https://www.desmos.com/calculator/p86jalgi4f">Desmos interactive</url> for the example discussed in class.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Computing Limits Algebraically</title>
+                    <statement>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 1} \frac{x^2-1}{x+1}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 1} \frac{x^2-1}{x-1}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 0} \frac{\sqrt{4x+9}-3}{x}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 1} \frac{x^2-1}{x+1} = 0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 1} \frac{x^2-1}{x-1} =\lim_{x \to 1} x+1 = 2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 0} \frac{\sqrt{4x+9}-3}{x} = \lim_{x \to 0} \frac{(4x+9) - 9}{x(\sqrt{4x+9}+3)} =\lim_{x \to 0} \frac{4}{\sqrt{4x+9}+3}= \frac{4}{6} </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Computing Limits</title>
+                    <statement>
+                        <p>
+                            Compute the following limits:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to -2} \frac{x^2-x-6}{x+2}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{h \to 0} \frac{\sqrt{h+4}-2}{h}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{h \to 0} \frac{(2+h)^2-4}{h}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to -2} \frac{x^2-x-6}{x+2} = -5</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{h \to 0} \frac{\sqrt{h+4}-2}{h} = \frac{1}{4}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{h \to 0} \frac{(2+h)^2-4}{h}= 4</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Continuity</title>
+                    <statement>
+                        <p>
+                            A function <m>f</m> is <term>continuous at <m>x=a</m></term> if 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <me>
+                                \lim_{x \to a} f(x) = f(a)
+                            </me>.
+                            If <m>f</m> is continuous at every value in its domain, we say <m>f</m> is a <term>continuous function</term>.
+                            If a function is not continuous, we say it is <term>discontinuous</term>.
+                        </p>
+                        <p>
+                            Many important functions are continuous (power functions, polynomial functions, rational functions,
+                            exponential functions, trigonometric functions), and combinations of continuous functions are 
+                            also continuous. Continuous functions have many useful properties, and it's also important to be 
+                            aware whenever you are working with discontinuous functions.
+                        </p>
+                    </solution>
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

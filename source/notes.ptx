@@ -86,6 +86,12 @@
     <xi:include href="./notes/sec-IV-8.ptx" xpointer="sec-IV-8" /> -->
     <!-- <xi:include href="./notes/sec-IV-8-sols.ptx" xpointer="sec-IV-8-sols" /> -->
 
+    <xi:include href="./notes/sec-V-1.ptx" xpointer="sec-V-1" /> -->
+    <!-- <xi:include href="./notes/sec-V-1-sols.ptx" xpointer="sec-V-1-sols" /> -->
+     
+    <xi:include href="./notes/sec-V-2.ptx" xpointer="sec-V-2" /> -->
+    <!--<xi:include href="./notes/sec-V-2-sols.ptx" xpointer="sec-V-2-sols" /> -->
+
     <!-- SAMPLES
     <xi:include href="./notes/week01.ptx" xpointer="notes/1" />
     <xi:include href="./notes/week02.ptx" xpointer="notes/1" />

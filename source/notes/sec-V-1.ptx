@@ -1,0 +1,100 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-V-1">
+        <title><m>\S V.1</m>: Limits of Functions and Continuity</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Limits of Functions  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Definition: Limits of Functions</title>
+                    <statement>
+                        <p>
+                            Let <m>D \subset \R</m>, and <m>f: D \to \R</m>. 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Computing Limits Algebraically</title>
+                    <statement>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 1} \frac{x^2-1}{x+1}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 1} \frac{x^2-1}{x-1}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to 0} \frac{\sqrt{4x+9}-3}{x}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Computing Limits</title>
+                    <statement>
+                        <p>
+                            Compute the following limits:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\lim_{x \to -2} \frac{x^2-x-6}{x+2}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{h \to 0} \frac{\sqrt{h+4}-2}{h}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\lim_{h \to 0} \frac{(2+h)^2-4}{h}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Continuity</title>
+                    <statement>
+                        <p>
+                            A function <m>f</m> is <term>continuous at <m>x=a</m></term> if 
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
