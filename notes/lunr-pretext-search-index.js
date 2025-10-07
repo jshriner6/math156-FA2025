@@ -1709,6 +1709,114 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Practice: Sums of Arithmetic Sequences.",
   "body": " Practice: Sums of Arithmetic Sequences   Compute the following sums:                 As a challenge, compute a formula for the generic sum .   "
+},
+{
+  "id": "sec-V-1",
+  "level": "1",
+  "url": "sec-V-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S V.1\\text{:}\\)<\/span> Limits of Functions and Continuity",
+  "body": " : Limits of Functions and Continuity    Motivation: Limits of Functions        Definition: Limits of Functions   Let , and .       Computing Limits Algebraically                           Practice: Computing Limits   Compute the following limits:                        Continuity   A function is continuous at if     "
+},
+{
+  "id": "sec-V-1-2-1",
+  "level": "2",
+  "url": "sec-V-1.html#sec-V-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Limits of Functions.",
+  "body": " Motivation: Limits of Functions      "
+},
+{
+  "id": "sec-V-1-2-2",
+  "level": "2",
+  "url": "sec-V-1.html#sec-V-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Limits of Functions.",
+  "body": " Definition: Limits of Functions   Let , and .   "
+},
+{
+  "id": "sec-V-1-3-1",
+  "level": "2",
+  "url": "sec-V-1.html#sec-V-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Computing Limits Algebraically.",
+  "body": " Computing Limits Algebraically                       "
+},
+{
+  "id": "sec-V-1-4-1",
+  "level": "2",
+  "url": "sec-V-1.html#sec-V-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Computing Limits.",
+  "body": " Practice: Computing Limits   Compute the following limits:                    "
+},
+{
+  "id": "sec-V-1-5-1",
+  "level": "2",
+  "url": "sec-V-1.html#sec-V-1-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Continuity.",
+  "body": " Continuity   A function is continuous at if   "
+},
+{
+  "id": "sec-V-2",
+  "level": "1",
+  "url": "sec-V-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S V.2\\text{:}\\)<\/span> More on Continuity",
+  "body": " : More on Continuity    Motivation: Continuity        The Intermediate Value Theorem   Let be continuous, and let with . If is strictly between and , then       Application: Finding Zeros   Is there a solution to ?     Application: Estimating      Practice: IVT   Use the Intermediate Value Theorem to approximate a solution to .     "
+},
+{
+  "id": "sec-V-2-2-1",
+  "level": "2",
+  "url": "sec-V-2.html#sec-V-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Continuity.",
+  "body": " Motivation: Continuity      "
+},
+{
+  "id": "sec-V-2-2-2",
+  "level": "2",
+  "url": "sec-V-2.html#sec-V-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Intermediate Value Theorem.",
+  "body": " The Intermediate Value Theorem   Let be continuous, and let with . If is strictly between and , then   "
+},
+{
+  "id": "sec-V-2-3-1",
+  "level": "2",
+  "url": "sec-V-2.html#sec-V-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Application: Finding Zeros.",
+  "body": " Application: Finding Zeros   Is there a solution to ?   "
+},
+{
+  "id": "sec-V-2-3-2",
+  "level": "2",
+  "url": "sec-V-2.html#sec-V-2-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Application: Estimating <span class=\"process-math\">\\(\\pi\\)<\/span>.",
+  "body": " Application: Estimating  "
+},
+{
+  "id": "sec-V-2-4-1",
+  "level": "2",
+  "url": "sec-V-2.html#sec-V-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: IVT.",
+  "body": " Practice: IVT   Use the Intermediate Value Theorem to approximate a solution to .   "
 }
 ]
 
