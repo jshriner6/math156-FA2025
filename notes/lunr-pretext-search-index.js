@@ -1657,58 +1657,58 @@ var ptx_lunr_docs = [
   "body": "  Now that we know how to calculate finite and infinite geometric sums, let's get some practice with a few examples.                                                                Diverges      "
 },
 {
-  "id": "sec-IV-8",
+  "id": "sec-IV-8-sols",
   "level": "1",
-  "url": "sec-IV-8.html",
+  "url": "sec-IV-8-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S IV.8\\text{:}\\)<\/span> Arithmetic Sums",
-  "body": " : Arithmetic Sums    Motivation: Arithmetic Sums        Definition: Arithmetic Sequence   An arithmetic sequence is a sequence of the form     Example 1: Sums of Arithmetic Sequences   Consider the sequence which has the corresponding sum .       Example 2: Sums of Arithmetic Sequences   Consider the sum .     Practice: Sums of Arithmetic Sequences   Compute the following sums:                 As a challenge, compute a formula for the generic sum .     "
+  "body": " : Arithmetic Sums    Motivation: Arithmetic Sums       Arithmetic series aren't useful, but partial sums are. How can we utilize their structure to compute them efficiently?     Definition: Arithmetic Sequence   An arithmetic sequence is a sequence of the form     . The rule for a generic term is .     Example 1: Sums of Arithmetic Sequences   Consider the sequence which has the corresponding sum .    We can use the structure of this sequence to compute that . See our class notes or your textbook for details.       Example 2: Sums of Arithmetic Sequences   Consider the sum .    We can use the structure of this sequence to compute that . See our class notes or your textbook for details.     Practice: Sums of Arithmetic Sequences   Compute the following sums:                 As a challenge, compute a formula for the generic sum .                     See our class notes for details.     "
 },
 {
-  "id": "sec-IV-8-2-1",
+  "id": "sec-IV-8-sols-2-1",
   "level": "2",
-  "url": "sec-IV-8.html#sec-IV-8-2-1",
+  "url": "sec-IV-8-sols.html#sec-IV-8-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Arithmetic Sums.",
-  "body": " Motivation: Arithmetic Sums      "
+  "body": " Motivation: Arithmetic Sums       Arithmetic series aren't useful, but partial sums are. How can we utilize their structure to compute them efficiently?   "
 },
 {
-  "id": "sec-IV-8-2-2",
+  "id": "sec-IV-8-sols-2-2",
   "level": "2",
-  "url": "sec-IV-8.html#sec-IV-8-2-2",
+  "url": "sec-IV-8-sols.html#sec-IV-8-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Arithmetic Sequence.",
-  "body": " Definition: Arithmetic Sequence   An arithmetic sequence is a sequence of the form   "
+  "body": " Definition: Arithmetic Sequence   An arithmetic sequence is a sequence of the form     . The rule for a generic term is .   "
 },
 {
-  "id": "sec-IV-8-2-3",
+  "id": "sec-IV-8-sols-2-3",
   "level": "2",
-  "url": "sec-IV-8.html#sec-IV-8-2-3",
+  "url": "sec-IV-8-sols.html#sec-IV-8-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example 1: Sums of Arithmetic Sequences.",
-  "body": " Example 1: Sums of Arithmetic Sequences   Consider the sequence which has the corresponding sum .   "
+  "body": " Example 1: Sums of Arithmetic Sequences   Consider the sequence which has the corresponding sum .    We can use the structure of this sequence to compute that . See our class notes or your textbook for details.   "
 },
 {
-  "id": "sec-IV-8-3-1",
+  "id": "sec-IV-8-sols-3-1",
   "level": "2",
-  "url": "sec-IV-8.html#sec-IV-8-3-1",
+  "url": "sec-IV-8-sols.html#sec-IV-8-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Example 2: Sums of Arithmetic Sequences.",
-  "body": " Example 2: Sums of Arithmetic Sequences   Consider the sum .   "
+  "body": " Example 2: Sums of Arithmetic Sequences   Consider the sum .    We can use the structure of this sequence to compute that . See our class notes or your textbook for details.   "
 },
 {
-  "id": "sec-IV-8-3-2",
+  "id": "sec-IV-8-sols-3-2",
   "level": "2",
-  "url": "sec-IV-8.html#sec-IV-8-3-2",
+  "url": "sec-IV-8-sols.html#sec-IV-8-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Sums of Arithmetic Sequences.",
-  "body": " Practice: Sums of Arithmetic Sequences   Compute the following sums:                 As a challenge, compute a formula for the generic sum .   "
+  "body": " Practice: Sums of Arithmetic Sequences   Compute the following sums:                 As a challenge, compute a formula for the generic sum .                     See our class notes for details.   "
 },
 {
   "id": "sec-V-1",
