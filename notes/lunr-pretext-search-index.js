@@ -1711,58 +1711,58 @@ var ptx_lunr_docs = [
   "body": " Practice: Sums of Arithmetic Sequences   Compute the following sums:                 As a challenge, compute a formula for the generic sum .                     See our class notes for details.   "
 },
 {
-  "id": "sec-V-1",
+  "id": "sec-V-1-sols",
   "level": "1",
-  "url": "sec-V-1.html",
+  "url": "sec-V-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S V.1\\text{:}\\)<\/span> Limits of Functions and Continuity",
-  "body": " : Limits of Functions and Continuity    Motivation: Limits of Functions        Definition: Limits of Functions   Let , and .       Computing Limits Algebraically                           Practice: Computing Limits   Compute the following limits:                        Continuity   A function is continuous at if     "
+  "body": " : Limits of Functions and Continuity    Motivation: Limits of Functions       We've discussed limits in the context of describing end behavior of sequences. Limits are also very useful for describing general function behavior.     Definition: Limits of Functions   Let , and .    If there exists such that whenever is a sequence with and , we write , and say the limit of as approaches is .  Reference the Desmos interactive for the example discussed in class.       Computing Limits Algebraically                                                Practice: Computing Limits   Compute the following limits:                                             Continuity   A function is continuous at if     . If is continuous at every value in its domain, we say is a continuous function . If a function is not continuous, we say it is discontinuous .  Many important functions are continuous (power functions, polynomial functions, rational functions, exponential functions, trigonometric functions), and combinations of continuous functions are also continuous. Continuous functions have many useful properties, and it's also important to be aware whenever you are working with discontinuous functions.     "
 },
 {
-  "id": "sec-V-1-2-1",
+  "id": "sec-V-1-sols-2-1",
   "level": "2",
-  "url": "sec-V-1.html#sec-V-1-2-1",
+  "url": "sec-V-1-sols.html#sec-V-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Limits of Functions.",
-  "body": " Motivation: Limits of Functions      "
+  "body": " Motivation: Limits of Functions       We've discussed limits in the context of describing end behavior of sequences. Limits are also very useful for describing general function behavior.   "
 },
 {
-  "id": "sec-V-1-2-2",
+  "id": "sec-V-1-sols-2-2",
   "level": "2",
-  "url": "sec-V-1.html#sec-V-1-2-2",
+  "url": "sec-V-1-sols.html#sec-V-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Limits of Functions.",
-  "body": " Definition: Limits of Functions   Let , and .   "
+  "body": " Definition: Limits of Functions   Let , and .    If there exists such that whenever is a sequence with and , we write , and say the limit of as approaches is .  Reference the Desmos interactive for the example discussed in class.   "
 },
 {
-  "id": "sec-V-1-3-1",
+  "id": "sec-V-1-sols-3-1",
   "level": "2",
-  "url": "sec-V-1.html#sec-V-1-3-1",
+  "url": "sec-V-1-sols.html#sec-V-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Computing Limits Algebraically.",
-  "body": " Computing Limits Algebraically                       "
+  "body": " Computing Limits Algebraically                                            "
 },
 {
-  "id": "sec-V-1-4-1",
+  "id": "sec-V-1-sols-4-1",
   "level": "2",
-  "url": "sec-V-1.html#sec-V-1-4-1",
+  "url": "sec-V-1-sols.html#sec-V-1-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Computing Limits.",
-  "body": " Practice: Computing Limits   Compute the following limits:                    "
+  "body": " Practice: Computing Limits   Compute the following limits:                                         "
 },
 {
-  "id": "sec-V-1-5-1",
+  "id": "sec-V-1-sols-5-1",
   "level": "2",
-  "url": "sec-V-1.html#sec-V-1-5-1",
+  "url": "sec-V-1-sols.html#sec-V-1-sols-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Continuity.",
-  "body": " Continuity   A function is continuous at if   "
+  "body": " Continuity   A function is continuous at if     . If is continuous at every value in its domain, we say is a continuous function . If a function is not continuous, we say it is discontinuous .  Many important functions are continuous (power functions, polynomial functions, rational functions, exponential functions, trigonometric functions), and combinations of continuous functions are also continuous. Continuous functions have many useful properties, and it's also important to be aware whenever you are working with discontinuous functions.   "
 },
 {
   "id": "sec-V-2",
