@@ -1817,6 +1817,240 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Practice: IVT.",
   "body": " Practice: IVT   Use the Intermediate Value Theorem to approximate a solution to .   "
+},
+{
+  "id": "sec-V-5",
+  "level": "1",
+  "url": "sec-V-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S V.5\\text{:}\\)<\/span> The Derivative",
+  "body": " : The Derivative    Motivation: Derivatives        Average Rate of Change          Instantaneous Rate of Change        Example: IROC   Let . What is the instantaneous rate of change of at ?       Example: Derivative DNE        Differentiability and Continuity   If is differentiable at , then     "
+},
+{
+  "id": "sec-V-5-2-1",
+  "level": "2",
+  "url": "sec-V-5.html#sec-V-5-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Derivatives.",
+  "body": " Motivation: Derivatives      "
+},
+{
+  "id": "sec-V-5-2-2",
+  "level": "2",
+  "url": "sec-V-5.html#sec-V-5-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Average Rate of Change.",
+  "body": " Average Rate of Change      "
+},
+{
+  "id": "sec-V-5-3-1",
+  "level": "2",
+  "url": "sec-V-5.html#sec-V-5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Instantaneous Rate of Change.",
+  "body": " Instantaneous Rate of Change      "
+},
+{
+  "id": "sec-V-5-3-2",
+  "level": "2",
+  "url": "sec-V-5.html#sec-V-5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example: IROC.",
+  "body": " Example: IROC   Let . What is the instantaneous rate of change of at ?   "
+},
+{
+  "id": "sec-V-5-4-1",
+  "level": "2",
+  "url": "sec-V-5.html#sec-V-5-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Derivative DNE.",
+  "body": " Example: Derivative DNE      "
+},
+{
+  "id": "sec-V-5-4-2",
+  "level": "2",
+  "url": "sec-V-5.html#sec-V-5-4-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Differentiability and Continuity.",
+  "body": " Differentiability and Continuity   If is differentiable at , then   "
+},
+{
+  "id": "sec-V-6",
+  "level": "1",
+  "url": "sec-V-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S V.6\\text{:}\\)<\/span> Basic Derivatives",
+  "body": " : Basic Derivatives    Motivation: Basic Derivatives        Constant, Linear, and Power Functions          Practice: Limit Definition    Use the limit definition of derivative to justify the derivative rules for constant and linear functions.      If , compute using the limit definition. What pattern do you notice?      Power Rule   If , then       Derivatives of Sums and Constant Multiples   Suppose and are differentiable at . Then     Example: Derivatives of Sums and Constant Multiples   Let .     Practice: Derivatives of Sums and Constant Multiples   Find the equation of the tangent line to at .     "
+},
+{
+  "id": "sec-V-6-2-1",
+  "level": "2",
+  "url": "sec-V-6.html#sec-V-6-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Basic Derivatives.",
+  "body": " Motivation: Basic Derivatives      "
+},
+{
+  "id": "sec-V-6-2-2",
+  "level": "2",
+  "url": "sec-V-6.html#sec-V-6-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Constant, Linear, and Power Functions.",
+  "body": " Constant, Linear, and Power Functions      "
+},
+{
+  "id": "sec-V-6-3-1",
+  "level": "2",
+  "url": "sec-V-6.html#sec-V-6-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Practice: Limit Definition.",
+  "body": " Practice: Limit Definition    Use the limit definition of derivative to justify the derivative rules for constant and linear functions.      If , compute using the limit definition. What pattern do you notice?    "
+},
+{
+  "id": "sec-V-6-3-2",
+  "level": "2",
+  "url": "sec-V-6.html#sec-V-6-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Power Rule.",
+  "body": " Power Rule   If , then   "
+},
+{
+  "id": "sec-V-6-4-1",
+  "level": "2",
+  "url": "sec-V-6.html#sec-V-6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Derivatives of Sums and Constant Multiples.",
+  "body": " Derivatives of Sums and Constant Multiples   Suppose and are differentiable at . Then   "
+},
+{
+  "id": "sec-V-6-4-2",
+  "level": "2",
+  "url": "sec-V-6.html#sec-V-6-4-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: Derivatives of Sums and Constant Multiples.",
+  "body": " Example: Derivatives of Sums and Constant Multiples   Let .   "
+},
+{
+  "id": "sec-V-6-4-3",
+  "level": "2",
+  "url": "sec-V-6.html#sec-V-6-4-3",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: Derivatives of Sums and Constant Multiples.",
+  "body": " Practice: Derivatives of Sums and Constant Multiples   Find the equation of the tangent line to at .   "
+},
+{
+  "id": "sec-V-7",
+  "level": "1",
+  "url": "sec-V-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S V.7\\text{:}\\)<\/span> The Derivative as a Function",
+  "body": " : The Derivative as a Function    Motivation: The Derivative Function        Review and Notation   Let's review some derivative functions we already know, and introduce new notation.     Example: Notation   Notation is important for identifying the variable we are taking the derivative with respect to.       Practice: Derivative Functions    For given below, sketch a rough graph of .  Graph of f of x, which is a polynomial that increases, then decreases, then increases.        If , compute .      If , compute .             "
+},
+{
+  "id": "sec-V-7-2-1",
+  "level": "2",
+  "url": "sec-V-7.html#sec-V-7-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: The Derivative Function.",
+  "body": " Motivation: The Derivative Function      "
+},
+{
+  "id": "sec-V-7-2-2",
+  "level": "2",
+  "url": "sec-V-7.html#sec-V-7-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Review and Notation.",
+  "body": " Review and Notation   Let's review some derivative functions we already know, and introduce new notation.   "
+},
+{
+  "id": "sec-V-7-2-3",
+  "level": "2",
+  "url": "sec-V-7.html#sec-V-7-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Notation.",
+  "body": " Example: Notation   Notation is important for identifying the variable we are taking the derivative with respect to.   "
+},
+{
+  "id": "sec-V-7-3-1",
+  "level": "2",
+  "url": "sec-V-7.html#sec-V-7-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Derivative Functions.",
+  "body": " Practice: Derivative Functions    For given below, sketch a rough graph of .  Graph of f of x, which is a polynomial that increases, then decreases, then increases.        If , compute .      If , compute .           "
+},
+{
+  "id": "sec-V-8",
+  "level": "1",
+  "url": "sec-V-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S V.8\\text{:}\\)<\/span> Derivatives of Common Functions",
+  "body": " : Derivatives of Common Functions    Motivation: Derivatives of Common Functions        Activity: Derivative of Sine   Consider the function , which is graphed in Figure below. Note carefully that the grid in the diagram does not have boxes that are , but rather approximately , as the horizontal scale of the grid is units per box.   At left, the graph of .   The graph of sine of x along with blank axes for sketching its derivative function.       At each of , use a straightedge to sketch an accurate tangent line to .    Use the provided grid to estimate the slope of the tangent line you drew at each point. Pay careful attention to the scale of the grid.    Use the limit definition of the derivative to estimate by using small values of , and compare the result to your visual estimate for the slope of the tangent line to at in (b). Using periodicity, what does this result suggest about ? about ?    Based on your work in (a), (b), and (c), sketch an accurate graph of on the axes adjacent to the graph of .    What familiar function do you think is the derivative of ?          Activity: Derivative of Cosine   Consider the function , which is graphed in Figure below. Note carefully that the grid in the diagram does not have boxes that are , but rather approximately , as the horizontal scale of the grid is units per box.   At left, the graph of .   The graph of the cosine function along with blank axes for sketching its derivative function.       At each of , use a straightedge to sketch an accurate tangent line to .    Use the provided grid to estimate the slope of the tangent line you drew at each point. Again, note the scale of the axes and grid.    Use the limit definition of the derivative to estimate by using small values of , and compare the result to your visual estimate for the slope of the tangent line to at in (b). Using periodicity, what does this result suggest about ? can symmetry on the graph help you estimate other slopes easily?    Based on your work in (a), (b), and (c), sketch an accurate graph of on the axes adjacent to the graph of .    What familiar function do you think is the derivative of ?          Activity: Derivatives of and   Use the graphs of (left) and (right) to answer the following questions.    Graph of e to the x    Graph of natural log of x       On each graph, sketch the tangent lines that represent the values , and . Then use the limit definition and technology to estimate the slope of each tangent line.      On each graph, sketch a rough graph of and .      Use your responses to the previous parts to hypothesize equations for and .        Practice: Computing Derivatives   Compute derivative functions of the following functions.                      "
+},
+{
+  "id": "sec-V-8-2-1",
+  "level": "2",
+  "url": "sec-V-8.html#sec-V-8-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Derivatives of Common Functions.",
+  "body": " Motivation: Derivatives of Common Functions      "
+},
+{
+  "id": "sec-V-8-2-2",
+  "level": "2",
+  "url": "sec-V-8.html#sec-V-8-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Activity: Derivative of Sine.",
+  "body": " Activity: Derivative of Sine   Consider the function , which is graphed in Figure below. Note carefully that the grid in the diagram does not have boxes that are , but rather approximately , as the horizontal scale of the grid is units per box.   At left, the graph of .   The graph of sine of x along with blank axes for sketching its derivative function.       At each of , use a straightedge to sketch an accurate tangent line to .    Use the provided grid to estimate the slope of the tangent line you drew at each point. Pay careful attention to the scale of the grid.    Use the limit definition of the derivative to estimate by using small values of , and compare the result to your visual estimate for the slope of the tangent line to at in (b). Using periodicity, what does this result suggest about ? about ?    Based on your work in (a), (b), and (c), sketch an accurate graph of on the axes adjacent to the graph of .    What familiar function do you think is the derivative of ?      "
+},
+{
+  "id": "sec-V-8-3-1",
+  "level": "2",
+  "url": "sec-V-8.html#sec-V-8-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Activity: Derivative of Cosine.",
+  "body": " Activity: Derivative of Cosine   Consider the function , which is graphed in Figure below. Note carefully that the grid in the diagram does not have boxes that are , but rather approximately , as the horizontal scale of the grid is units per box.   At left, the graph of .   The graph of the cosine function along with blank axes for sketching its derivative function.       At each of , use a straightedge to sketch an accurate tangent line to .    Use the provided grid to estimate the slope of the tangent line you drew at each point. Again, note the scale of the axes and grid.    Use the limit definition of the derivative to estimate by using small values of , and compare the result to your visual estimate for the slope of the tangent line to at in (b). Using periodicity, what does this result suggest about ? can symmetry on the graph help you estimate other slopes easily?    Based on your work in (a), (b), and (c), sketch an accurate graph of on the axes adjacent to the graph of .    What familiar function do you think is the derivative of ?      "
+},
+{
+  "id": "sec-V-8-4-1",
+  "level": "2",
+  "url": "sec-V-8.html#sec-V-8-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Activity: Derivatives of <span class=\"process-math\">\\(e^x\\)<\/span> and <span class=\"process-math\">\\(\\ln(x)\\)<\/span>.",
+  "body": " Activity: Derivatives of and   Use the graphs of (left) and (right) to answer the following questions.    Graph of e to the x    Graph of natural log of x       On each graph, sketch the tangent lines that represent the values , and . Then use the limit definition and technology to estimate the slope of each tangent line.      On each graph, sketch a rough graph of and .      Use your responses to the previous parts to hypothesize equations for and .    "
+},
+{
+  "id": "sec-V-8-5-1",
+  "level": "2",
+  "url": "sec-V-8.html#sec-V-8-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Computing Derivatives.",
+  "body": " Practice: Computing Derivatives   Compute derivative functions of the following functions.                    "
 }
 ]
 
