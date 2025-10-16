@@ -13,7 +13,88 @@
                     
                 
                 </exercise>
+                <exercise workspace="6in">
+                    <title>Constant, Linear, and Power Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
 
+            </page>
+
+            <page>
+
+                <exercise>
+                    <title>Practice: Limit Definition</title>
+                    
+                    
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Use the limit definition of derivative to justify the derivative rules for constant
+                                and linear functions.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                If <m>f(x)=x^2</m>, compute <m>f'(2), f'(0), f'(4)</m> using the limit definition. What 
+                                pattern do you notice?
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Power Rule</title>
+                    <statement>
+                        <p>
+                            If <m>f(x) = x^p</m>, then
+                        </p>
+                    </statement>
+                    
+                    
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="2in">
+                    <title>Derivatives of Sums and Constant Multiples</title>
+                    <statement>
+                        <p>
+                            Suppose <m>f</m> and <m>g</m> are differentiable at <m>x=a</m>. Then
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Example: Derivatives of Sums and Constant Multiples</title>
+                    <statement>
+                        <p>
+                            Let <m>h(x)= 3x^3-4x^2+x-3</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Practice: Derivatives of Sums and Constant Multiples</title>
+                    <statement>
+                        <p>
+                            Find the equation of the tangent line to <m>p(x)= -2x^3+3x^2-5x+3</m> at <m>x=-1</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
             </page>
 
         </worksheet>

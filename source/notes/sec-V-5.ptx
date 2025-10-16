@@ -13,7 +13,63 @@
                     
                 
                 </exercise>
+                <exercise workspace="4in">
+                    <title>Average Rate of Change</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
 
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>Instantaneous Rate of Change</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Example: IROC</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x)= x^2</m>. What is the instantaneous rate of change of <m>f</m> at <m>x=2</m>?
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="4in">
+                    <title>Example: Derivative DNE</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Differentiability and Continuity</title>
+                    <statement>
+                        <p>
+                            If <m>f</m> is differentiable at <m>x_0</m>, then
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
             </page>
 
         </worksheet>
