@@ -1,0 +1,152 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-V-5-sols">
+        <title><m>\S V.5</m>: The Derivative</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Derivatives  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Determining how a function changes over time is at the root of many questions. We will review 
+                            one way we can describe change for a function, and use it to develop a new way to describe
+                            change.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Average Rate of Change</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can use the <term>average rate of change</term> to describe how a function changes
+                            between two input values.
+                        </p>
+                        <p>
+                            For example, if <m>f(x) = x^2</m> then between <m>x=0</m> and <m>x=2</m> we can calculate
+                            <me>
+                                AROC_{[0,2]} = \frac{f(2) - f(0)}{2-0} = 2
+                            </me>.
+                            The number <m>2</m> describes the slope of the <term>secant line</term> connecting the points
+                            <m>(0,f(0))</m> and <m>(2,f(2)</m>.
+                        </p>
+                        <p>
+                            Another equivalent way to compute average rate of change is using a <term>difference quotient</term>.
+                            A difference quotient calculates the average rate of change between points <m>(x,f(x))</m> and
+                            <m>(x+h, f(x+h))</m>:
+                            <me>
+                                AROC_{[x,x+h]}= \frac{f(x+h)- f(x)}{h}
+                            </me>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>Instantaneous Rate of Change</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can use the <term>instantaneous rate of change</term> to describe how a function changes
+                            at a single input value. See the <url href="https://www.desmos.com/calculator/qlzwrqxbnv">IROC interactive</url>
+                            to visualize how we define IROC from AROC. Using limit notation, we write
+                            <me>
+                                IROC_{x=x_0} = \lim_{h \to 0} \frac{f(x_0+h)- f(x_0)}{h}
+                            </me>.
+                            
+                        </p>
+                        <p>
+                            Note that instead of <m>IROC_{x=x_0}</m>, we typically write <m>f'(x_0)</m> ("f prime at x zero", or 
+                            "the derivative of f at x zero"). Also note 
+                            that limits need not exist, so the derivative of a function at an input value may not exist. If <m>f'(x_0)</m> does
+                            exist, we say <m>f</m> is <term>differentiable at <m>x_0</m></term>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Example: IROC</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x)= x^2</m>. What is the instantaneous rate of change of <m>f</m> at <m>x=2</m>?
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>f'(2) = \lim_{h\to 0} \frac{f(2+h)-f(2)}{h} =\lim_{h\to 0} \frac{(2+h)^2 -4}{h} = 4</m>
+                            (see notes from class for the algebra needed to simplify the limit to a final answer).
+                        </p>
+                        <p>
+                            The value <m>f'(2) =4</m> describes the slope of the <term>tangent line</term> to <m>f</m> at 
+                            <m>x=2</m>. This line is important, and once we have its slope, we can write down the equation of 
+                            the line using point-slope form:
+                            <me>
+                                y - y_1 = m(x-x_1) \rightarrow y - f(2)= f'(2)(x-2)  \rightarrow y = 4 + 4(x-2)
+                            </me>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="4in">
+                    <title>Example: Derivative DNE</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Let <m>g(x) = |x|</m>. If we try to compute <m>g'(0)</m>, we get
+                            <me>
+                                \lim_{h \to 0} \frac{g(0+h)- g(0)}{h} = \lim_{h \to 0} \frac{|h|}{h}
+                            </me>.
+                            Notice that if we approach <m>0</m> from the left this expression is <m>-1</m>, but if we 
+                            approach <m>0</m> from the right, this expression is <m>1</m>. In other words, this limit
+                            (and thus the derivative of <m>g</m> at <m>0</m>) does not exist.
+                            
+                        </p>
+                    </solution>
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Differentiability and Continuity</title>
+                    <statement>
+                        <p>
+                            If <m>f</m> is differentiable at <m>x_0</m>, then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>f</m> is continuous at <m>x_0</m>. Equivalently, if <m>f</m> is discontinuous at <m>x_0</m>, 
+                            then <m>f</m> is not differentiable at <m>x_0</m>. Note that <m>f</m> being continuous at an input 
+                            does <em>not</em> imply it is differentiable at that input (see our previous example).
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

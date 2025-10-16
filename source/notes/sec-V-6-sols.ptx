@@ -1,0 +1,189 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-V-6-sols">
+        <title><m>\S V.6</m>: Basic Derivatives</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Basic Derivatives  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We'll practice visualizing derivatives by looking at some basic functions.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Constant, Linear, and Power Functions</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            See the <url href="https://www.desmos.com/calculator/mb9pnwnfgx">Desmos interactive</url> from class 
+                            used to visualize the derivative rules for constant and linear functions:
+                            <ol>
+                                <li>
+                                    <p>
+                                        If <m>f(x)=c</m>, then <m>f'(a)=0</m> for all <m>a</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>f(x)=mx+b</m>, then <m>f'(a)=m</m> for all <m>a</m>.
+                                    </p>
+                                </li>
+
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+
+                <exercise>
+                    <title>Practice: Limit Definition</title>
+                    
+                    
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Use the limit definition of derivative to justify the derivative rules for constant
+                                and linear functions.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                               If <m>f(x)=c</m>, then
+                               <me>
+                                f'(a)= \lim_{h\to 0}\frac{f(a+h)-f(a)}{h} =\lim_{h\to 0}\frac{c-c}{h} =\lim_{h\to 0}\frac{0}{h} = 0
+                               </me>.
+                               
+                            </p>
+
+                            <p>
+                               If <m>f(x)=mx+b</m>, then
+                               <me>
+                                f'(a)= \lim_{h\to 0}\frac{f(a+h)-f(a)}{h} =\lim_{h\to 0}\frac{m(a+h)+b-(ma+b)}{h} =\lim_{h\to 0}\frac{mh}{h} = m
+                               </me>.
+                               
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                If <m>f(x)=x^2</m>, compute <m>f'(-2), f'(0), f'(2)</m> using the limit definition. What 
+                                pattern do you notice?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>f'(-2) = \lim_{h \to 0} \frac{f(-2+h) -f(-2)}{h}= \lim_{h \to 0} \frac{(-2+h)^2 +4}{h}= \lim_{h \to 0} \frac{-4-4h+h^2 + 4}{h}= -4 </m>
+                            </p>
+
+                            <p>
+                                <m>f'(0) = \lim_{h \to 0} \frac{f(0+h) -f(0)}{h}= \lim_{h \to 0} \frac{(0+h)^2 +0}{h}= \lim_{h \to 0} \frac{h^2}{h}= 0 </m>
+                            </p>
+
+                            <p>
+                                <m>f'(2) = \lim_{h \to 0} \frac{f(2+h) -f(2)}{h}= \lim_{h \to 0} \frac{(2+h)^2 -4}{h}= \lim_{h \to 0} \frac{4+4h+h^2 - 4}{h}= 4 </m>
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Power Rule</title>
+                    <statement>
+                        <p>
+                            If <m>f(x) = x^p</m>, then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>f'(a)=pa^{p-1}</m> for all <m>a</m> in which this equation is defined.
+                        </p>
+                        <p>
+                            For example, if <m>f(x) =\sqrt{x}</m>, then <m>f'(2)= 0.5(2)^{-0.5}</m>.
+                        </p>
+                    </solution>
+                    
+                    
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="2in">
+                    <title>Derivatives of Sums and Constant Multiples</title>
+                    <statement>
+                        <p>
+                            Suppose <m>f</m> and <m>g</m> are differentiable at <m>x=a</m>. Then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f+g</m> is differentiable at <m>a</m>, and <m>(f+g)'(a)= f'(a)+g'(a)</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>cf</m> is differentiable at <m>a</m>, and <m>(cf)'(a) = cf'(a)</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Example: Derivatives of Sums and Constant Multiples</title>
+                    <statement>
+                        <p>
+                            Let <m>h(x)= 3x^3-4x^2+x-3</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>h'(2)= 3\cdot (3 \cdot 2^2) - 4 \cdot(2\cdot 2) + 1 = 21</m>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Practice: Derivatives of Sums and Constant Multiples</title>
+                    <statement>
+                        <p>
+                            Find the equation of the tangent line to <m>p(x)= -2x^3+3x^2-5x+3</m> at <m>x=-1</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Since <m>p(-1)=13</m> and <m>p'(-1) = -17</m>, the equation of the tangent line is
+                            <me>
+                                y =p(-1)+p'(-1)(x+1) = 13 - 17(x+1)
+                            </me>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

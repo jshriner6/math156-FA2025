@@ -1,0 +1,136 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-V-7-sols">
+        <title><m>\S V.7</m>: The Derivative as a Function</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: The Derivative Function  </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We've defined the derivative of a function at a point as the slope of the tangent line
+                            at that point. If we consider how slopes of tangent lines change as inputs change, we 
+                            realize the derivative as a function itself.
+                        </p>
+                        <p>
+                            See the <url href="https://www.desmos.com/calculator/uvcoeuysu6">Desmos visual</url> for an example of visualizing a derivative function.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Review and Notation</title>
+                    <statement>
+                        <p>
+                            Let's review some derivative functions we already know, and introduce new notation.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If <m>f(x)=c</m>, then <m>f'(x) =0</m>.
+                        </p>
+                        <p>
+                            If <m>g(x)=mx+b</m>, then <m>\frac{dg}{dx} = m</m>.
+                        </p>
+                        <p>
+                            If <m>y=mx+b</m>, then <m>\frac{dy}{dx} = m</m>.
+                        </p>
+                        <p>
+                            We can state the power rule as 
+                            <me>
+                                \frac{d}{dx}\left(x^p \right) = p(x)^{p-1}
+                            </me>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Example: Notation</title>
+                    <statement>
+                        <p>
+                            Notation is important for identifying the variable we are taking the derivative with respect to.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\frac{d}{dt}\left(t^2 \right) = 2t</m>, but <m>\frac{d}{dt}\left(x^2 \right) = 0</m>.
+                        </p>
+                        <p>
+                            If <m>V=\pi r^2 h</m>, then <m>\frac{dV}{dr} = 2\pi rh</m> and <m>\frac{dV}{dh} =\pi r^2 </m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Derivative Functions</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                For <m>f(x)</m> given below, sketch a rough graph of <m>f'(x)</m>.
+                                <image source="graphf.jpeg" width="75%">
+                                    <shortdescription>Graph of f of x, which is a polynomial that increases, then decreases, then increases.</shortdescription>
+                                </image>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>f'(x)</m> should be an upward opening parabola with zeros at input values coinciding to the maximum
+                                and minimum values of <m>f</m>.
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                               If <m>f(t)= t^2+2t- \sqrt{t}</m>, compute <m>f'(t)</m>.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>f'(t)= 2t + 2 - 0.5(t)^{-0.5}</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                If <m>y= z^3 + z^{-1} - \pi</m>, compute <m>\frac{dy}{dz}</m>.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>\frac{dy}{dz} = 3z^2 - z^{-2}</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <me>
+                                    \frac{d}{dm}\left( 2n + m^2 + mn\right) = 
+                                </me>
+                                
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>2m + n</m>
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
