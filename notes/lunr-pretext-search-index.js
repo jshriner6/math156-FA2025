@@ -1765,58 +1765,58 @@ var ptx_lunr_docs = [
   "body": " Continuity   A function is continuous at if     . If is continuous at every value in its domain, we say is a continuous function . If a function is not continuous, we say it is discontinuous .  Many important functions are continuous (power functions, polynomial functions, rational functions, exponential functions, trigonometric functions), and combinations of continuous functions are also continuous. Continuous functions have many useful properties, and it's also important to be aware whenever you are working with discontinuous functions.   "
 },
 {
-  "id": "sec-V-2",
+  "id": "sec-V-2-sols",
   "level": "1",
-  "url": "sec-V-2.html",
+  "url": "sec-V-2-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S V.2\\text{:}\\)<\/span> More on Continuity",
-  "body": " : More on Continuity    Motivation: Continuity        The Intermediate Value Theorem   Let be continuous, and let with . If is strictly between and , then       Application: Finding Zeros   Is there a solution to ?     Application: Estimating      Practice: IVT   Use the Intermediate Value Theorem to approximate a solution to .     "
+  "body": " : More on Continuity    Motivation: Continuity       Intuitively, \"continuous\" means small changes in the input result in small changes in the output. This leads to many useful properties of continuous functions, one of which is explored in this section.     The Intermediate Value Theorem   Let be continuous, and let with . If is strictly between and , then    there exists such that and .  There is a useful picture of this fact in Section V.2 of your textbook.       Application: Finding Zeros   Is there a solution to ?    We can start by letting , and noticing is continuous (it is a combination of continuous functions). Since and , the IVT tells us there must exist such that and . If we'd like to approximate what is even closer, we can repeat the IVT in a similar fashion (see notes from class).     Application: Estimating       See the example in Section V.2 of your textbook.       Practice: IVT   Use the Intermediate Value Theorem to approximate a solution to .    We know is continuous since it is a polynomial. We could start by noticing that and . Therefore, the IVT tells us there must exist such that . The midpoint of the interval is , so we can compute . Therefore, the IVT tells us there must exist such that . Repeating four more times would tell us that . Compare this to the actual value of .     "
 },
 {
-  "id": "sec-V-2-2-1",
+  "id": "sec-V-2-sols-2-1",
   "level": "2",
-  "url": "sec-V-2.html#sec-V-2-2-1",
+  "url": "sec-V-2-sols.html#sec-V-2-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Continuity.",
-  "body": " Motivation: Continuity      "
+  "body": " Motivation: Continuity       Intuitively, \"continuous\" means small changes in the input result in small changes in the output. This leads to many useful properties of continuous functions, one of which is explored in this section.   "
 },
 {
-  "id": "sec-V-2-2-2",
+  "id": "sec-V-2-sols-2-2",
   "level": "2",
-  "url": "sec-V-2.html#sec-V-2-2-2",
+  "url": "sec-V-2-sols.html#sec-V-2-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "The Intermediate Value Theorem.",
-  "body": " The Intermediate Value Theorem   Let be continuous, and let with . If is strictly between and , then   "
+  "body": " The Intermediate Value Theorem   Let be continuous, and let with . If is strictly between and , then    there exists such that and .  There is a useful picture of this fact in Section V.2 of your textbook.   "
 },
 {
-  "id": "sec-V-2-3-1",
+  "id": "sec-V-2-sols-3-1",
   "level": "2",
-  "url": "sec-V-2.html#sec-V-2-3-1",
+  "url": "sec-V-2-sols.html#sec-V-2-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Application: Finding Zeros.",
-  "body": " Application: Finding Zeros   Is there a solution to ?   "
+  "body": " Application: Finding Zeros   Is there a solution to ?    We can start by letting , and noticing is continuous (it is a combination of continuous functions). Since and , the IVT tells us there must exist such that and . If we'd like to approximate what is even closer, we can repeat the IVT in a similar fashion (see notes from class).   "
 },
 {
-  "id": "sec-V-2-3-2",
+  "id": "sec-V-2-sols-3-2",
   "level": "2",
-  "url": "sec-V-2.html#sec-V-2-3-2",
+  "url": "sec-V-2-sols.html#sec-V-2-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Application: Estimating <span class=\"process-math\">\\(\\pi\\)<\/span>.",
-  "body": " Application: Estimating  "
+  "body": " Application: Estimating       See the example in Section V.2 of your textbook.   "
 },
 {
-  "id": "sec-V-2-4-1",
+  "id": "sec-V-2-sols-4-1",
   "level": "2",
-  "url": "sec-V-2.html#sec-V-2-4-1",
+  "url": "sec-V-2-sols.html#sec-V-2-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: IVT.",
-  "body": " Practice: IVT   Use the Intermediate Value Theorem to approximate a solution to .   "
+  "body": " Practice: IVT   Use the Intermediate Value Theorem to approximate a solution to .    We know is continuous since it is a polynomial. We could start by noticing that and . Therefore, the IVT tells us there must exist such that . The midpoint of the interval is , so we can compute . Therefore, the IVT tells us there must exist such that . Repeating four more times would tell us that . Compare this to the actual value of .   "
 },
 {
   "id": "sec-V-5",
