@@ -1819,67 +1819,67 @@ var ptx_lunr_docs = [
   "body": " Practice: IVT   Use the Intermediate Value Theorem to approximate a solution to .    We know is continuous since it is a polynomial. We could start by noticing that and . Therefore, the IVT tells us there must exist such that . The midpoint of the interval is , so we can compute . Therefore, the IVT tells us there must exist such that . Repeating four more times would tell us that . Compare this to the actual value of .   "
 },
 {
-  "id": "sec-V-5",
+  "id": "sec-V-5-sols",
   "level": "1",
-  "url": "sec-V-5.html",
+  "url": "sec-V-5-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S V.5\\text{:}\\)<\/span> The Derivative",
-  "body": " : The Derivative    Motivation: Derivatives        Average Rate of Change          Instantaneous Rate of Change        Example: IROC   Let . What is the instantaneous rate of change of at ?       Example: Derivative DNE        Differentiability and Continuity   If is differentiable at , then     "
+  "body": " : The Derivative    Motivation: Derivatives       Determining how a function changes over time is at the root of many questions. We will review one way we can describe change for a function, and use it to develop a new way to describe change.     Average Rate of Change       We can use the average rate of change to describe how a function changes between two input values.  For example, if then between and we can calculate . The number describes the slope of the secant line connecting the points and .  Another equivalent way to compute average rate of change is using a difference quotient . A difference quotient calculates the average rate of change between points and : .       Instantaneous Rate of Change       We can use the instantaneous rate of change to describe how a function changes at a single input value. See the IROC interactive to visualize how we define IROC from AROC. Using limit notation, we write .  Note that instead of , we typically write (\"f prime at x zero\", or \"the derivative of f at x zero\"). Also note that limits need not exist, so the derivative of a function at an input value may not exist. If does exist, we say is differentiable at .     Example: IROC   Let . What is the instantaneous rate of change of at ?     (see notes from class for the algebra needed to simplify the limit to a final answer).  The value describes the slope of the tangent line to at . This line is important, and once we have its slope, we can write down the equation of the line using point-slope form: .       Example: Derivative DNE       Let . If we try to compute , we get . Notice that if we approach from the left this expression is , but if we approach from the right, this expression is . In other words, this limit (and thus the derivative of at ) does not exist.     Differentiability and Continuity   If is differentiable at , then     is continuous at . Equivalently, if is discontinuous at , then is not differentiable at . Note that being continuous at an input does not imply it is differentiable at that input (see our previous example).     "
 },
 {
-  "id": "sec-V-5-2-1",
+  "id": "sec-V-5-sols-2-1",
   "level": "2",
-  "url": "sec-V-5.html#sec-V-5-2-1",
+  "url": "sec-V-5-sols.html#sec-V-5-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Derivatives.",
-  "body": " Motivation: Derivatives      "
+  "body": " Motivation: Derivatives       Determining how a function changes over time is at the root of many questions. We will review one way we can describe change for a function, and use it to develop a new way to describe change.   "
 },
 {
-  "id": "sec-V-5-2-2",
+  "id": "sec-V-5-sols-2-2",
   "level": "2",
-  "url": "sec-V-5.html#sec-V-5-2-2",
+  "url": "sec-V-5-sols.html#sec-V-5-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Average Rate of Change.",
-  "body": " Average Rate of Change      "
+  "body": " Average Rate of Change       We can use the average rate of change to describe how a function changes between two input values.  For example, if then between and we can calculate . The number describes the slope of the secant line connecting the points and .  Another equivalent way to compute average rate of change is using a difference quotient . A difference quotient calculates the average rate of change between points and : .   "
 },
 {
-  "id": "sec-V-5-3-1",
+  "id": "sec-V-5-sols-3-1",
   "level": "2",
-  "url": "sec-V-5.html#sec-V-5-3-1",
+  "url": "sec-V-5-sols.html#sec-V-5-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Instantaneous Rate of Change.",
-  "body": " Instantaneous Rate of Change      "
+  "body": " Instantaneous Rate of Change       We can use the instantaneous rate of change to describe how a function changes at a single input value. See the IROC interactive to visualize how we define IROC from AROC. Using limit notation, we write .  Note that instead of , we typically write (\"f prime at x zero\", or \"the derivative of f at x zero\"). Also note that limits need not exist, so the derivative of a function at an input value may not exist. If does exist, we say is differentiable at .   "
 },
 {
-  "id": "sec-V-5-3-2",
+  "id": "sec-V-5-sols-3-2",
   "level": "2",
-  "url": "sec-V-5.html#sec-V-5-3-2",
+  "url": "sec-V-5-sols.html#sec-V-5-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Example: IROC.",
-  "body": " Example: IROC   Let . What is the instantaneous rate of change of at ?   "
+  "body": " Example: IROC   Let . What is the instantaneous rate of change of at ?     (see notes from class for the algebra needed to simplify the limit to a final answer).  The value describes the slope of the tangent line to at . This line is important, and once we have its slope, we can write down the equation of the line using point-slope form: .   "
 },
 {
-  "id": "sec-V-5-4-1",
+  "id": "sec-V-5-sols-4-1",
   "level": "2",
-  "url": "sec-V-5.html#sec-V-5-4-1",
+  "url": "sec-V-5-sols.html#sec-V-5-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Derivative DNE.",
-  "body": " Example: Derivative DNE      "
+  "body": " Example: Derivative DNE       Let . If we try to compute , we get . Notice that if we approach from the left this expression is , but if we approach from the right, this expression is . In other words, this limit (and thus the derivative of at ) does not exist.   "
 },
 {
-  "id": "sec-V-5-4-2",
+  "id": "sec-V-5-sols-4-2",
   "level": "2",
-  "url": "sec-V-5.html#sec-V-5-4-2",
+  "url": "sec-V-5-sols.html#sec-V-5-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Differentiability and Continuity.",
-  "body": " Differentiability and Continuity   If is differentiable at , then   "
+  "body": " Differentiability and Continuity   If is differentiable at , then     is continuous at . Equivalently, if is discontinuous at , then is not differentiable at . Note that being continuous at an input does not imply it is differentiable at that input (see our previous example).   "
 },
 {
   "id": "sec-V-6",
