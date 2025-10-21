@@ -1882,76 +1882,76 @@ var ptx_lunr_docs = [
   "body": " Differentiability and Continuity   If is differentiable at , then     is continuous at . Equivalently, if is discontinuous at , then is not differentiable at . Note that being continuous at an input does not imply it is differentiable at that input (see our previous example).   "
 },
 {
-  "id": "sec-V-6",
+  "id": "sec-V-6-sols",
   "level": "1",
-  "url": "sec-V-6.html",
+  "url": "sec-V-6-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S V.6\\text{:}\\)<\/span> Basic Derivatives",
-  "body": " : Basic Derivatives    Motivation: Basic Derivatives        Constant, Linear, and Power Functions          Practice: Limit Definition    Use the limit definition of derivative to justify the derivative rules for constant and linear functions.      If , compute using the limit definition. What pattern do you notice?      Power Rule   If , then       Derivatives of Sums and Constant Multiples   Suppose and are differentiable at . Then     Example: Derivatives of Sums and Constant Multiples   Let .     Practice: Derivatives of Sums and Constant Multiples   Find the equation of the tangent line to at .     "
+  "body": " : Basic Derivatives    Motivation: Basic Derivatives       We'll practice visualizing derivatives by looking at some basic functions.     Constant, Linear, and Power Functions       See the Desmos interactive from class used to visualize the derivative rules for constant and linear functions:   If , then for all .    If , then for all .          Practice: Limit Definition    Use the limit definition of derivative to justify the derivative rules for constant and linear functions.    If , then .  If , then .      If , compute using the limit definition. What pattern do you notice?                 Power Rule   If , then     for all in which this equation is defined.  For example, if , then .       Derivatives of Sums and Constant Multiples   Suppose and are differentiable at . Then        is differentiable at , and .     is differentiable at , and .        Example: Derivatives of Sums and Constant Multiples   Let .          Practice: Derivatives of Sums and Constant Multiples   Find the equation of the tangent line to at .    Since and , the equation of the tangent line is .     "
 },
 {
-  "id": "sec-V-6-2-1",
+  "id": "sec-V-6-sols-2-1",
   "level": "2",
-  "url": "sec-V-6.html#sec-V-6-2-1",
+  "url": "sec-V-6-sols.html#sec-V-6-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Basic Derivatives.",
-  "body": " Motivation: Basic Derivatives      "
+  "body": " Motivation: Basic Derivatives       We'll practice visualizing derivatives by looking at some basic functions.   "
 },
 {
-  "id": "sec-V-6-2-2",
+  "id": "sec-V-6-sols-2-2",
   "level": "2",
-  "url": "sec-V-6.html#sec-V-6-2-2",
+  "url": "sec-V-6-sols.html#sec-V-6-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Constant, Linear, and Power Functions.",
-  "body": " Constant, Linear, and Power Functions      "
+  "body": " Constant, Linear, and Power Functions       See the Desmos interactive from class used to visualize the derivative rules for constant and linear functions:   If , then for all .    If , then for all .      "
 },
 {
-  "id": "sec-V-6-3-1",
+  "id": "sec-V-6-sols-3-1",
   "level": "2",
-  "url": "sec-V-6.html#sec-V-6-3-1",
+  "url": "sec-V-6-sols.html#sec-V-6-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Practice: Limit Definition.",
-  "body": " Practice: Limit Definition    Use the limit definition of derivative to justify the derivative rules for constant and linear functions.      If , compute using the limit definition. What pattern do you notice?    "
+  "body": " Practice: Limit Definition    Use the limit definition of derivative to justify the derivative rules for constant and linear functions.    If , then .  If , then .      If , compute using the limit definition. What pattern do you notice?               "
 },
 {
-  "id": "sec-V-6-3-2",
+  "id": "sec-V-6-sols-3-2",
   "level": "2",
-  "url": "sec-V-6.html#sec-V-6-3-2",
+  "url": "sec-V-6-sols.html#sec-V-6-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Power Rule.",
-  "body": " Power Rule   If , then   "
+  "body": " Power Rule   If , then     for all in which this equation is defined.  For example, if , then .   "
 },
 {
-  "id": "sec-V-6-4-1",
+  "id": "sec-V-6-sols-4-1",
   "level": "2",
-  "url": "sec-V-6.html#sec-V-6-4-1",
+  "url": "sec-V-6-sols.html#sec-V-6-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Derivatives of Sums and Constant Multiples.",
-  "body": " Derivatives of Sums and Constant Multiples   Suppose and are differentiable at . Then   "
+  "body": " Derivatives of Sums and Constant Multiples   Suppose and are differentiable at . Then        is differentiable at , and .     is differentiable at , and .      "
 },
 {
-  "id": "sec-V-6-4-2",
+  "id": "sec-V-6-sols-4-2",
   "level": "2",
-  "url": "sec-V-6.html#sec-V-6-4-2",
+  "url": "sec-V-6-sols.html#sec-V-6-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Example: Derivatives of Sums and Constant Multiples.",
-  "body": " Example: Derivatives of Sums and Constant Multiples   Let .   "
+  "body": " Example: Derivatives of Sums and Constant Multiples   Let .        "
 },
 {
-  "id": "sec-V-6-4-3",
+  "id": "sec-V-6-sols-4-3",
   "level": "2",
-  "url": "sec-V-6.html#sec-V-6-4-3",
+  "url": "sec-V-6-sols.html#sec-V-6-sols-4-3",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: Derivatives of Sums and Constant Multiples.",
-  "body": " Practice: Derivatives of Sums and Constant Multiples   Find the equation of the tangent line to at .   "
+  "body": " Practice: Derivatives of Sums and Constant Multiples   Find the equation of the tangent line to at .    Since and , the equation of the tangent line is .   "
 },
 {
   "id": "sec-V-7",
