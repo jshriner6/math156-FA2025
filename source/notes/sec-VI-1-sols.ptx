@@ -1,0 +1,110 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-1-sols">
+        <title><m>\S VI.1</m>: Increasing/Decreasing</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Increasing/Decreasing </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We developed the derivative to help us describe how functions change (recall, the derivative 
+                            is also known as the instantaneous rate of change). This chapter will explore some common
+                            applications of derivatives towards this goal.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Facts: Increasing/Decreasing</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If <m>f'(x_0) \gt 0</m>, then <m>f(x)</m> is increasing at <m>x_0</m>.
+                        </p>
+                        <p>
+                            If <m>f'(x_0) \lt 0</m>, then <m>f(x)</m> is decreasing at <m>x_0</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Definition: Critical Point</title>
+                    <statement>
+                        <p>
+                            Let <m>x_0</m> be in the domain of <m>f</m>. If <m>f'(x_0) = 0 </m> or <m>f'(x_0)</m> does not exist, then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            the point <m>(x_0,f(x_0))</m> is a <term>critical point</term> of the function <m>f(x)</m>.
+                        </p>
+                        <p>
+                            One perspective is that if we can find the critical points of a continuous function, then we 
+                            can use the derivative to describe the increasing/decreasing behavior of the function on its
+                            entire domain.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="3in">
+                    <title>Example: Increasing/Decreasing</title>
+                    <statement>
+                        <p>
+                            Describe where <m>f(x) = \frac{3}{2}x^4 + 2x^3 - 6x^2 + \frac{5}{4}</m> is increasing and decreasing.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can compute <m>f'(x) = 6x^3 + 6x^2 -12x</m>, and notice that <m>f'(x)=0 </m> when <m>x=0,-2,1</m>,
+                            and <m>f'(x)</m> exists for all <m>x</m> values. So the critical points of <m>f</m> are at <m>x=0,-2,1</m>.
+                        </p>
+                        <p>
+                            Using a first derivative sign chart as shown in class, we find that the first derivative is 
+                            negative on <m>(-\infty,-2)</m> and <m>(0,1)</m>, and positive on <m>(-2,0)</m> and <m>(2,\infty)</m>.
+                            Therefore, the function <m>f</m> decreases on <m>(-\infty,-2)</m> and <m>(0,1)</m>, and increases on
+                            <m>(-2,0)</m> and <m>(2,\infty)</m>.
+                        
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Increasing/Decreasing</title>
+                    <statement>
+                        <p>
+                            Describe where <m>g(x)= x^{2/3} + x</m> is increasing and decreasing.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can compute <m>g'(x) = \frac{2}{3}x^{-1/3} + 1</m>, and notice that <m>g'(x)=0 </m> when <m>x=-\frac{8}{27}</m>,
+                            and <m>g'(x)</m> does not exist for <m>x=0</m> (which is in the domain of <m>g</m>). So the critical points of <m>g</m> are at <m>x=0,-\frac{8}{27}</m>.
+                        </p>
+                        <p>
+                            Using a first derivative sign chart as shown in class, we find that the first derivative is 
+                            positive on <m>(-\infty,-\frac{8}{27})</m> and <m>(0,\infty)</m>, and negative on <m>(-\frac{8}{27},0)</m>.
+                            Therefore, the function <m>g</m> increases on <m>(-\infty,-\frac{8}{27})</m> and <m>(0,\infty)</m>, and decreases on
+                            <m>(-\frac{8}{27},0)</m>.
+                        
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

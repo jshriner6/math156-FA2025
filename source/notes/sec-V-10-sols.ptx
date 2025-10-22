@@ -1,0 +1,130 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-V-10-sols">
+        <title><m>\S V.10</m>: Higher Derivatives</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Higher Derivatives </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Derivatives are functions, and we can take derivatives of functions. We'll continue practicing
+                            derivative rules by computing <term>higher derivatives</term>.
+                        </p>
+                    </solution>
+                    
+                
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Notation</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x) = x^{100}</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            As we know, to write the first derivative we could write <m>f'(x) = 100x^{99}</m> or 
+                            <m>\frac{df}{dx}= 100 x^{99}</m>. We could also write <m>f^{(1)}(x) = 100x^{99}</m>, which is 
+                            less common for the first derivative, but more common for higher derivatives.
+                        </p>
+                        <p>
+                            Taking the derivative of the first derivative function we obtain the <term>second derivative function</term>. 
+                            we could write this as <m>f''(x) = 9900x^{98}</m>, <m>\frac{d^2f}{dx^2} = 9900x^{98}</m>, or 
+                            <m>f^{(2)}(x) = 9900x^{98}</m>.
+                        </p>
+                        <p>
+                            We could continue this for the third derivative, fourth derivative, etc. For many functions we may notice a pattern
+                            in higher derivatives. For example, for this function we could notice that <m>f^{(50)}(x) = 100 \cdot 99 \cdot \dots \cdot 51 x^{50}</m>, 
+                            without actually computing all of the previous derivative functions.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Higher Derivatives</title>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Let <m>g(t) = 5t^6 - \sin(t) + 2e^t</m>.
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Compute <m>g'(t)</m>, <m>g''(t)</m>, and <m>g^{(3)}(t)</m>.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Compute <m>g^{(50)}(t)</m>.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>g'(t)= 30t^5-\cos(t)+2e^t</m>
+                            </p>
+                            <p>
+                                <m>g''(t)= 150t^4+\sin(t)+2e^t</m>
+                            </p>
+                            <p>
+                                <m>g'''(t)= 600t^3+\cos(t)+2e^t</m>
+                            </p>
+                            <p>
+                                <m>g^{(50)}(t)= \sin(t)+2e^t</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Let <m>h(x)=e^{x^2}</m>. Compute <m>h''(x)</m>.
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>h'(x) = e^{x^2}\cdot 2x </m>
+                            </p>
+                            <p>
+                                <m>h''(x) = e^{x^2}\cdot 2x \cdot 2x + e^{x^2}\cdot 2 </m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                Let <m>k(z)= ze^z</m>. What is <m>k'''(z)</m>? What is <m>k^{(n)}(z)</m>?
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>k'(z) = e^z + ze^z = e^z(1+z)</m>
+                            </p>
+                            <p>
+                                <m>k''(z) = e^z(1+z) + e^z = e^z(2+z)</m>
+                            </p>
+                            <p>
+                                <m>k'''(z) = e^z(2+z) + e^z = e^z(3+z)</m>
+                            </p>
+                            <p>
+                                <m>k^{(n)}(z) = e^z(n+z) </m>
+                            </p>
+                        </solution>
+                    </task>
+                
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

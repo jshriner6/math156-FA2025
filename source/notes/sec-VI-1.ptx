@@ -1,0 +1,63 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-1">
+        <title><m>\S VI.1</m>: Increasing/Decreasing</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Increasing/Decreasing </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Facts: Increasing/Decreasing</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Definition: Critical Point</title>
+                    <statement>
+                        <p>
+                            Let <m>x_0</m> be in the domain of <m>f</m>. If <m>f'(x_0) = 0 </m> or <m>f'(x_0)</m> does not exist, then
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="3in">
+                    <title>Example: Increasing/Decreasing</title>
+                    <statement>
+                        <p>
+                            Describe where <m>f(x) = \frac{3}{2}x^4 + 2x^3 - 6x^2 + \frac{5}{4}</m> is increasing and decreasing.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Practice: Increasing/Decreasing</title>
+                    <statement>
+                        <p>
+                            Describe where <m>g(x)= x^{2/3} + x</m> is increasing and decreasing.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

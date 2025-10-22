@@ -1,0 +1,197 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-2-sols">
+        <title><m>\S VI.2</m>: The Shape of a Curve</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: The Shape of a Curve </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We've seen <m>f'(x)</m> is useful for describing where <m>f(x)</m> increases and decreases. 
+                            What other properties can derivatives help us identify?
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Definition: Local Extrema</title>
+                    <statement>
+                        <p>
+                            A function <m>f(x)</m> has 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        a <term>local maximum</term> at <m>x_0</m> if <m>f(x_0) \geq f(x)</m> for 
+                                        all <m>x</m> close to <m>x_0</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        a <term>local minimum</term> at <m>x_0</m> if <m>f(x_0) \leq f(x)</m> for 
+                                        all <m>x</m> close to <m>x_0</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            We've seen that local extrema are critical points, but not all critical points are local
+                            extrema. So the general strategy for finding local extrema of <m>f</m> is to identify all
+                            critical points of <m>f</m>, and then find a way to test these critical points.
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>First Derivative Test (Review)</title>
+                    <statement>
+                        <p>
+                            Find the local extrema of <m>f(x) = 2x^3 - 3x^2 - 36x +15</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We compute <m>f'(x) = 6x^2-6x-36</m>, and then find that <m>f'(x)=0</m> when 
+                            <m>x=-2,3</m>. Setting up a first derivative sign chart as in class shows us that 
+                            <m>f</m> increases on <m>(-\infty, -2)</m>, decreases on <m>(-2,3)</m>, and increases on
+                            <m>(3,\infty)</m>. This means that <m>(-2,f(-2))</m> is a local max, while <m>(3,f(3))</m>
+                            is a local min.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Concavity</title>
+                    <statement>
+                        <p>
+                            The way <m>f</m> "bends" is important in local extrema, and is another general property of functions
+                            that we can identify using derivatives.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If <m>f''(x) \gt 0</m>, this means the first derivative is increasing at <m>x</m>. In <m>f</m>, 
+                            this produces some portion of a "U" shape. We say <m>f</m> is <term>concave up</term> at <m>x</m> values
+                            where this is true.
+                        </p>
+                        <p>
+                            If <m>f''(x) \lt 0</m>, this means the first derivative is decreasing at <m>x</m>. In <m>f</m>, 
+                            this produces some portion of an upside down "U" shape. We say <m>f</m> is <term>concave down</term> at <m>x</m> values
+                            where this is true.
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="3in">
+                    <title>Second Derivative Test</title>
+                    <statement>
+                        <p>
+                            If <m>(x_0,f(x_0))</m> is a critical point of <m>f</m>, then 
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        If <m>f''(x_0) \gt 0</m>, then <m>x_0</m> is a local minimum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>f''(x_0) \lt 0</m>, then <m>x_0</m> is a local maximum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>f''(x_0) = 0</m>, then this test is inconclusive. Use the first derivative test.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Definition: Inflection Point</title>
+                    <statement>
+                        <p>
+                            If <m>f</m> changes concavity at <m>x_0</m>, then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            the point <m>(x_0,f(x_0))</m> is an <term>inflection point</term>.
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Example: Concavity</title>
+                    <statement>
+                        <p>
+                            Let <m>p(x)=\frac{1}{2}x^4 + 3x^3</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We can compute <m>p'(x) = 2x^3 + 9x^2</m> to find that <m>x=0, -4.5</m> are critical points of <m>p</m>.
+                            We can compute <m>p''(x) = 6x^2 + 18x</m> to see that <m>p''(x)=0</m>, when <m>x=0,-3</m>, so these are
+                            potential inflection points of <m>p</m>. 
+                        </p>
+                        <p>
+                            Setting up a second derivative sign chart similar to in class, we see that <m>p''</m> is positive on
+                            <m>(-\infty, -3)</m> and <m>(0,\infty)</m>, and negative on <m>(-3,0)</m>. Therefore, <m>p</m> is 
+                            concave up on <m>(-\infty, -3)</m> and <m>(0,\infty)</m>, and concave down on <m>(-3,0)</m>. This means that 
+                            <m>x=0,-3</m> are both inflection points of <m>p</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Local Extrema and Inflection Points</title>
+                    <statement>
+                        <p>
+                            Find all local extrema and inflections points of <m>f(x)= xe^x</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We compute <m>f'(x) = e^x +xe^x = e^x(1+x)</m>, so <m>x=-1</m> is a critical point. Using the first derivative test,
+                            we can classify <m>x=-1</m> as a local minimum of <m>f</m>.
+                        </p>
+                        <p>
+                            We compute <m>f''(x) = e^x(2+x)</m>, so <m>x=-2</m> is a potential inflection point. To test, we can set up a 
+                            second derivative sign chart to see that <m>f</m> is concave down on <m>(-\infty, -2)</m>, and concave up
+                            on <m>(-2, \infty)</m>. Therefore, <m>x=-2</m> is an inflection point of <m>f</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

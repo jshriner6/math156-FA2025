@@ -1,0 +1,102 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-2">
+        <title><m>\S VI.2</m>: The Shape of a Curve</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: The Shape of a Curve </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Definition: Local Extrema</title>
+                    <statement>
+                        <p>
+                            A function <m>f(x)</m> has 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>First Derivative Test (Review)</title>
+                    <statement>
+                        <p>
+                            Find the local extrema of <m>f(x) = 2x^3 - 3x^2 - 36x +15</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Concavity</title>
+                    <statement>
+                        <p>
+                            The way <m>f</m> "bends" is important in local extrema, and is another general property of functions
+                            that we can identify using derivatives.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="3in">
+                    <title>Second Derivative Test</title>
+                    <statement>
+                        <p>
+                            If <m>(x_0,f(x_0))</m> is a critical point of <m>f</m>, then 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <title>Definition: Inflection Point</title>
+                    <statement>
+                        <p>
+                            If <m>f</m> changes concavity at <m>x_0</m>, then
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Example: Concavity</title>
+                    <statement>
+                        <p>
+                            Let <m>p(x)=\frac{1}{2}x^4 + 3x^3</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Local Extrema and Inflection Points</title>
+                    <statement>
+                        <p>
+                            Find all local extrema and inflections points of <m>f(x)= xe^x</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
