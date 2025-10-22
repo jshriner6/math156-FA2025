@@ -2051,6 +2051,258 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Practice: Computing Derivatives.",
   "body": " Practice: Computing Derivatives   Compute derivative functions of the following functions.                    "
+},
+{
+  "id": "sec-V-9",
+  "level": "1",
+  "url": "sec-V-9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S V.9\\text{:}\\)<\/span> Derivative Rules",
+  "body": " : Derivative Rules    Motivation: Derivative Rules        The Product Rule        Practice: The Product Rule                      The Quotient Rule        Practice: The Quotient Rule                      The Chain Rule   Let and .     Practice: The Chain Rule                      Practice: Putting It All Together                    "
+},
+{
+  "id": "sec-V-9-2-1",
+  "level": "2",
+  "url": "sec-V-9.html#sec-V-9-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Derivative Rules.",
+  "body": " Motivation: Derivative Rules      "
+},
+{
+  "id": "sec-V-9-2-2",
+  "level": "2",
+  "url": "sec-V-9.html#sec-V-9-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Product Rule.",
+  "body": " The Product Rule      "
+},
+{
+  "id": "sec-V-9-2-3",
+  "level": "2",
+  "url": "sec-V-9.html#sec-V-9-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Practice: The Product Rule.",
+  "body": " Practice: The Product Rule                  "
+},
+{
+  "id": "sec-V-9-3-1",
+  "level": "2",
+  "url": "sec-V-9.html#sec-V-9-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "The Quotient Rule.",
+  "body": " The Quotient Rule      "
+},
+{
+  "id": "sec-V-9-3-2",
+  "level": "2",
+  "url": "sec-V-9.html#sec-V-9-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: The Quotient Rule.",
+  "body": " Practice: The Quotient Rule                  "
+},
+{
+  "id": "sec-V-9-4-1",
+  "level": "2",
+  "url": "sec-V-9.html#sec-V-9-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "The Chain Rule.",
+  "body": " The Chain Rule   Let and .   "
+},
+{
+  "id": "sec-V-9-4-2",
+  "level": "2",
+  "url": "sec-V-9.html#sec-V-9-4-2",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: The Chain Rule.",
+  "body": " Practice: The Chain Rule                  "
+},
+{
+  "id": "sec-V-9-5-1",
+  "level": "2",
+  "url": "sec-V-9.html#sec-V-9-5-1",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Practice: Putting It All Together.",
+  "body": " Practice: Putting It All Together                  "
+},
+{
+  "id": "sec-V-10",
+  "level": "1",
+  "url": "sec-V-10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S V.10\\text{:}\\)<\/span> Higher Derivatives",
+  "body": " : Higher Derivatives    Motivation: Higher Derivatives        Notation   Let .       Practice: Higher Derivatives    Let .   Compute , , and .    Compute .         Let . Compute .      Let . What is ? What is ?      "
+},
+{
+  "id": "sec-V-10-2-1",
+  "level": "2",
+  "url": "sec-V-10.html#sec-V-10-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Higher Derivatives.",
+  "body": " Motivation: Higher Derivatives      "
+},
+{
+  "id": "sec-V-10-2-2",
+  "level": "2",
+  "url": "sec-V-10.html#sec-V-10-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Notation.",
+  "body": " Notation   Let .   "
+},
+{
+  "id": "sec-V-10-3-1",
+  "level": "2",
+  "url": "sec-V-10.html#sec-V-10-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Practice: Higher Derivatives.",
+  "body": " Practice: Higher Derivatives    Let .   Compute , , and .    Compute .         Let . Compute .      Let . What is ? What is ?    "
+},
+{
+  "id": "sec-VI-1",
+  "level": "1",
+  "url": "sec-VI-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VI.1\\text{:}\\)<\/span> Increasing\/Decreasing",
+  "body": " : Increasing\/Decreasing    Motivation: Increasing\/Decreasing        Facts: Increasing\/Decreasing        Definition: Critical Point   Let be in the domain of . If or does not exist, then       Example: Increasing\/Decreasing   Describe where is increasing and decreasing.     Practice: Increasing\/Decreasing   Describe where is increasing and decreasing.     "
+},
+{
+  "id": "sec-VI-1-2-1",
+  "level": "2",
+  "url": "sec-VI-1.html#sec-VI-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Increasing\/Decreasing.",
+  "body": " Motivation: Increasing\/Decreasing      "
+},
+{
+  "id": "sec-VI-1-2-2",
+  "level": "2",
+  "url": "sec-VI-1.html#sec-VI-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Facts: Increasing\/Decreasing.",
+  "body": " Facts: Increasing\/Decreasing      "
+},
+{
+  "id": "sec-VI-1-2-3",
+  "level": "2",
+  "url": "sec-VI-1.html#sec-VI-1-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definition: Critical Point.",
+  "body": " Definition: Critical Point   Let be in the domain of . If or does not exist, then   "
+},
+{
+  "id": "sec-VI-1-3-1",
+  "level": "2",
+  "url": "sec-VI-1.html#sec-VI-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example: Increasing\/Decreasing.",
+  "body": " Example: Increasing\/Decreasing   Describe where is increasing and decreasing.   "
+},
+{
+  "id": "sec-VI-1-3-2",
+  "level": "2",
+  "url": "sec-VI-1.html#sec-VI-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Increasing\/Decreasing.",
+  "body": " Practice: Increasing\/Decreasing   Describe where is increasing and decreasing.   "
+},
+{
+  "id": "sec-VI-2",
+  "level": "1",
+  "url": "sec-VI-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VI.2\\text{:}\\)<\/span> The Shape of a Curve",
+  "body": " : The Shape of a Curve    Motivation: The Shape of a Curve        Definition: Local Extrema   A function has       First Derivative Test (Review)   Find the local extrema of .     Concavity   The way \"bends\" is important in local extrema, and is another general property of functions that we can identify using derivatives.       Second Derivative Test   If is a critical point of , then     Definition: Inflection Point   If changes concavity at , then     Example: Concavity   Let .       Practice: Local Extrema and Inflection Points   Find all local extrema and inflections points of .     "
+},
+{
+  "id": "sec-VI-2-2-1",
+  "level": "2",
+  "url": "sec-VI-2.html#sec-VI-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: The Shape of a Curve.",
+  "body": " Motivation: The Shape of a Curve      "
+},
+{
+  "id": "sec-VI-2-2-2",
+  "level": "2",
+  "url": "sec-VI-2.html#sec-VI-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Local Extrema.",
+  "body": " Definition: Local Extrema   A function has   "
+},
+{
+  "id": "sec-VI-2-3-1",
+  "level": "2",
+  "url": "sec-VI-2.html#sec-VI-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "First Derivative Test (Review).",
+  "body": " First Derivative Test (Review)   Find the local extrema of .   "
+},
+{
+  "id": "sec-VI-2-3-2",
+  "level": "2",
+  "url": "sec-VI-2.html#sec-VI-2-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Concavity.",
+  "body": " Concavity   The way \"bends\" is important in local extrema, and is another general property of functions that we can identify using derivatives.   "
+},
+{
+  "id": "sec-VI-2-4-1",
+  "level": "2",
+  "url": "sec-VI-2.html#sec-VI-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Second Derivative Test.",
+  "body": " Second Derivative Test   If is a critical point of , then   "
+},
+{
+  "id": "sec-VI-2-4-2",
+  "level": "2",
+  "url": "sec-VI-2.html#sec-VI-2-4-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Definition: Inflection Point.",
+  "body": " Definition: Inflection Point   If changes concavity at , then   "
+},
+{
+  "id": "sec-VI-2-4-3",
+  "level": "2",
+  "url": "sec-VI-2.html#sec-VI-2-4-3",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Example: Concavity.",
+  "body": " Example: Concavity   Let .   "
+},
+{
+  "id": "sec-VI-2-5-1",
+  "level": "2",
+  "url": "sec-VI-2.html#sec-VI-2-5-1",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Practice: Local Extrema and Inflection Points.",
+  "body": " Practice: Local Extrema and Inflection Points   Find all local extrema and inflections points of .   "
 }
 ]
 
