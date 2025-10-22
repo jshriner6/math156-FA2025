@@ -1954,49 +1954,49 @@ var ptx_lunr_docs = [
   "body": " Practice: Derivatives of Sums and Constant Multiples   Find the equation of the tangent line to at .    Since and , the equation of the tangent line is .   "
 },
 {
-  "id": "sec-V-7",
+  "id": "sec-V-7-sols",
   "level": "1",
-  "url": "sec-V-7.html",
+  "url": "sec-V-7-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S V.7\\text{:}\\)<\/span> The Derivative as a Function",
-  "body": " : The Derivative as a Function    Motivation: The Derivative Function        Review and Notation   Let's review some derivative functions we already know, and introduce new notation.     Example: Notation   Notation is important for identifying the variable we are taking the derivative with respect to.       Practice: Derivative Functions    For given below, sketch a rough graph of .  Graph of f of x, which is a polynomial that increases, then decreases, then increases.        If , compute .      If , compute .             "
+  "body": " : The Derivative as a Function    Motivation: The Derivative Function       We've defined the derivative of a function at a point as the slope of the tangent line at that point. If we consider how slopes of tangent lines change as inputs change, we realize the derivative as a function itself.  See the Desmos visual for an example of visualizing a derivative function.     Review and Notation   Let's review some derivative functions we already know, and introduce new notation.    If , then .  If , then .  If , then .  We can state the power rule as .     Example: Notation   Notation is important for identifying the variable we are taking the derivative with respect to.     , but .  If , then and .       Practice: Derivative Functions    For given below, sketch a rough graph of .  Graph of f of x, which is a polynomial that increases, then decreases, then increases.       should be an upward opening parabola with zeros at input values coinciding to the maximum and minimum values of .      If , compute .           If , compute .                       "
 },
 {
-  "id": "sec-V-7-2-1",
+  "id": "sec-V-7-sols-2-1",
   "level": "2",
-  "url": "sec-V-7.html#sec-V-7-2-1",
+  "url": "sec-V-7-sols.html#sec-V-7-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: The Derivative Function.",
-  "body": " Motivation: The Derivative Function      "
+  "body": " Motivation: The Derivative Function       We've defined the derivative of a function at a point as the slope of the tangent line at that point. If we consider how slopes of tangent lines change as inputs change, we realize the derivative as a function itself.  See the Desmos visual for an example of visualizing a derivative function.   "
 },
 {
-  "id": "sec-V-7-2-2",
+  "id": "sec-V-7-sols-2-2",
   "level": "2",
-  "url": "sec-V-7.html#sec-V-7-2-2",
+  "url": "sec-V-7-sols.html#sec-V-7-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Review and Notation.",
-  "body": " Review and Notation   Let's review some derivative functions we already know, and introduce new notation.   "
+  "body": " Review and Notation   Let's review some derivative functions we already know, and introduce new notation.    If , then .  If , then .  If , then .  We can state the power rule as .   "
 },
 {
-  "id": "sec-V-7-2-3",
+  "id": "sec-V-7-sols-2-3",
   "level": "2",
-  "url": "sec-V-7.html#sec-V-7-2-3",
+  "url": "sec-V-7-sols.html#sec-V-7-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Notation.",
-  "body": " Example: Notation   Notation is important for identifying the variable we are taking the derivative with respect to.   "
+  "body": " Example: Notation   Notation is important for identifying the variable we are taking the derivative with respect to.     , but .  If , then and .   "
 },
 {
-  "id": "sec-V-7-3-1",
+  "id": "sec-V-7-sols-3-1",
   "level": "2",
-  "url": "sec-V-7.html#sec-V-7-3-1",
+  "url": "sec-V-7-sols.html#sec-V-7-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Derivative Functions.",
-  "body": " Practice: Derivative Functions    For given below, sketch a rough graph of .  Graph of f of x, which is a polynomial that increases, then decreases, then increases.        If , compute .      If , compute .           "
+  "body": " Practice: Derivative Functions    For given below, sketch a rough graph of .  Graph of f of x, which is a polynomial that increases, then decreases, then increases.       should be an upward opening parabola with zeros at input values coinciding to the maximum and minimum values of .      If , compute .           If , compute .                     "
 },
 {
   "id": "sec-V-8",
