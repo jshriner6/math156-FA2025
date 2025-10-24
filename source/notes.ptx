@@ -101,8 +101,8 @@
     <!--<xi:include href="./notes/sec-V-7.ptx" xpointer="sec-V-7" /> -->
     <xi:include href="./notes/sec-V-7-sols.ptx" xpointer="sec-V-7-sols" /> -->
 
-    <xi:include href="./notes/sec-V-8.ptx" xpointer="sec-V-8" /> -->
-    <!-- <xi:include href="./notes/sec-V-8-sols.ptx" xpointer="sec-V-8-sols" /> -->
+    <!-- <xi:include href="./notes/sec-V-8.ptx" xpointer="sec-V-8" /> -->
+    <xi:include href="./notes/sec-V-8-sols.ptx" xpointer="sec-V-8-sols" /> -->
 
     <xi:include href="./notes/sec-V-9.ptx" xpointer="sec-V-9" /> -->
     <!-- <xi:include href="./notes/sec-V-9-sols.ptx" xpointer="sec-V-9-sols" /> -->
