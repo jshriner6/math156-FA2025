@@ -253,7 +253,7 @@
                             <ol>
                                 <li>
                                     <p>
-                                        <m>\frac{d}{dx}(\sin(x^2) \ cdot x^3)=\cos(x^2)\cdot 2x \cdot x^3 + \sin(x^2)\cdot 3x^2</m>
+                                        <m>\frac{d}{dx}(\sin(x^2) \cdot x^3)=\cos(x^2)\cdot 2x \cdot x^3 + \sin(x^2)\cdot 3x^2</m>
                                     </p>
                                 </li>
                                 <li>
