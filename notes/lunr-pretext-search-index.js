@@ -2053,85 +2053,85 @@ var ptx_lunr_docs = [
   "body": " Practice: Computing Derivatives   Compute derivative functions of the following functions.                                         "
 },
 {
-  "id": "sec-V-9",
+  "id": "sec-V-9-sols",
   "level": "1",
-  "url": "sec-V-9.html",
+  "url": "sec-V-9-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S V.9\\text{:}\\)<\/span> Derivative Rules",
-  "body": " : Derivative Rules    Motivation: Derivative Rules        The Product Rule        Practice: The Product Rule                      The Quotient Rule        Practice: The Quotient Rule                      The Chain Rule   Let and .     Practice: The Chain Rule                      Practice: Putting It All Together                    "
+  "body": " : Derivative Rules    Motivation: Derivative Rules       We know derivatives \"behave nicely\" with addition and constant multiples. That is, and . What about other combinations of functions?        The Product Rule       We used the change in area of a growing rectangle to come up with the product rule :   For example, . We could also simplify the product to a single power function and use the power rule to verify this answer.     Practice: The Product Rule                                        The Quotient Rule       We can use the product rule to derive the quotient rule:   For example, . We could also simplify the quotient to a single power function and use the power rule to verify this answer.     Practice: The Quotient Rule                                      The Chain Rule   Let and .    Then . This captures the essence that the derivative of a composition is the derivative of the outside function times the derivative of the inside function. More precisely, .  For example, .     Practice: The Chain Rule                                      Practice: Putting It All Together                                    "
 },
 {
-  "id": "sec-V-9-2-1",
+  "id": "sec-V-9-sols-2-1",
   "level": "2",
-  "url": "sec-V-9.html#sec-V-9-2-1",
+  "url": "sec-V-9-sols.html#sec-V-9-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Derivative Rules.",
-  "body": " Motivation: Derivative Rules      "
+  "body": " Motivation: Derivative Rules       We know derivatives \"behave nicely\" with addition and constant multiples. That is, and . What about other combinations of functions?      "
 },
 {
-  "id": "sec-V-9-2-2",
+  "id": "sec-V-9-sols-2-2",
   "level": "2",
-  "url": "sec-V-9.html#sec-V-9-2-2",
+  "url": "sec-V-9-sols.html#sec-V-9-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "The Product Rule.",
-  "body": " The Product Rule      "
+  "body": " The Product Rule       We used the change in area of a growing rectangle to come up with the product rule :   For example, . We could also simplify the product to a single power function and use the power rule to verify this answer.   "
 },
 {
-  "id": "sec-V-9-2-3",
+  "id": "sec-V-9-sols-2-3",
   "level": "2",
-  "url": "sec-V-9.html#sec-V-9-2-3",
+  "url": "sec-V-9-sols.html#sec-V-9-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Practice: The Product Rule.",
-  "body": " Practice: The Product Rule                  "
+  "body": " Practice: The Product Rule                                    "
 },
 {
-  "id": "sec-V-9-3-1",
+  "id": "sec-V-9-sols-3-1",
   "level": "2",
-  "url": "sec-V-9.html#sec-V-9-3-1",
+  "url": "sec-V-9-sols.html#sec-V-9-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "The Quotient Rule.",
-  "body": " The Quotient Rule      "
+  "body": " The Quotient Rule       We can use the product rule to derive the quotient rule:   For example, . We could also simplify the quotient to a single power function and use the power rule to verify this answer.   "
 },
 {
-  "id": "sec-V-9-3-2",
+  "id": "sec-V-9-sols-3-2",
   "level": "2",
-  "url": "sec-V-9.html#sec-V-9-3-2",
+  "url": "sec-V-9-sols.html#sec-V-9-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: The Quotient Rule.",
-  "body": " Practice: The Quotient Rule                  "
+  "body": " Practice: The Quotient Rule                                  "
 },
 {
-  "id": "sec-V-9-4-1",
+  "id": "sec-V-9-sols-4-1",
   "level": "2",
-  "url": "sec-V-9.html#sec-V-9-4-1",
+  "url": "sec-V-9-sols.html#sec-V-9-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "The Chain Rule.",
-  "body": " The Chain Rule   Let and .   "
+  "body": " The Chain Rule   Let and .    Then . This captures the essence that the derivative of a composition is the derivative of the outside function times the derivative of the inside function. More precisely, .  For example, .   "
 },
 {
-  "id": "sec-V-9-4-2",
+  "id": "sec-V-9-sols-4-2",
   "level": "2",
-  "url": "sec-V-9.html#sec-V-9-4-2",
+  "url": "sec-V-9-sols.html#sec-V-9-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: The Chain Rule.",
-  "body": " Practice: The Chain Rule                  "
+  "body": " Practice: The Chain Rule                                  "
 },
 {
-  "id": "sec-V-9-5-1",
+  "id": "sec-V-9-sols-5-1",
   "level": "2",
-  "url": "sec-V-9.html#sec-V-9-5-1",
+  "url": "sec-V-9-sols.html#sec-V-9-sols-5-1",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "Practice: Putting It All Together.",
-  "body": " Practice: Putting It All Together                  "
+  "body": " Practice: Putting It All Together                                  "
 },
 {
   "id": "sec-V-10",
