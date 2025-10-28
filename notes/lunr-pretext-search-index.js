@@ -2134,40 +2134,40 @@ var ptx_lunr_docs = [
   "body": " Practice: Putting It All Together                                  "
 },
 {
-  "id": "sec-V-10",
+  "id": "sec-V-10-sols",
   "level": "1",
-  "url": "sec-V-10.html",
+  "url": "sec-V-10-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S V.10\\text{:}\\)<\/span> Higher Derivatives",
-  "body": " : Higher Derivatives    Motivation: Higher Derivatives        Notation   Let .       Practice: Higher Derivatives    Let .   Compute , , and .    Compute .         Let . Compute .      Let . What is ? What is ?      "
+  "body": " : Higher Derivatives    Motivation: Higher Derivatives       Derivatives are functions, and we can take derivatives of functions. We'll continue practicing derivative rules by computing higher derivatives .     Notation   Let .    As we know, to write the first derivative we could write or . We could also write , which is less common for the first derivative, but more common for higher derivatives.  Taking the derivative of the first derivative function we obtain the second derivative function . we could write this as , , or .  We could continue this for the third derivative, fourth derivative, etc. For many functions we may notice a pattern in higher derivatives. For example, for this function we could notice that , without actually computing all of the previous derivative functions.       Practice: Higher Derivatives    Let .   Compute , , and .    Compute .                       Let . Compute .              Let . What is ? What is ?                    "
 },
 {
-  "id": "sec-V-10-2-1",
+  "id": "sec-V-10-sols-2-1",
   "level": "2",
-  "url": "sec-V-10.html#sec-V-10-2-1",
+  "url": "sec-V-10-sols.html#sec-V-10-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Higher Derivatives.",
-  "body": " Motivation: Higher Derivatives      "
+  "body": " Motivation: Higher Derivatives       Derivatives are functions, and we can take derivatives of functions. We'll continue practicing derivative rules by computing higher derivatives .   "
 },
 {
-  "id": "sec-V-10-2-2",
+  "id": "sec-V-10-sols-2-2",
   "level": "2",
-  "url": "sec-V-10.html#sec-V-10-2-2",
+  "url": "sec-V-10-sols.html#sec-V-10-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Notation.",
-  "body": " Notation   Let .   "
+  "body": " Notation   Let .    As we know, to write the first derivative we could write or . We could also write , which is less common for the first derivative, but more common for higher derivatives.  Taking the derivative of the first derivative function we obtain the second derivative function . we could write this as , , or .  We could continue this for the third derivative, fourth derivative, etc. For many functions we may notice a pattern in higher derivatives. For example, for this function we could notice that , without actually computing all of the previous derivative functions.   "
 },
 {
-  "id": "sec-V-10-3-1",
+  "id": "sec-V-10-sols-3-1",
   "level": "2",
-  "url": "sec-V-10.html#sec-V-10-3-1",
+  "url": "sec-V-10-sols.html#sec-V-10-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Practice: Higher Derivatives.",
-  "body": " Practice: Higher Derivatives    Let .   Compute , , and .    Compute .         Let . Compute .      Let . What is ? What is ?    "
+  "body": " Practice: Higher Derivatives    Let .   Compute , , and .    Compute .                       Let . Compute .              Let . What is ? What is ?                  "
 },
 {
   "id": "sec-VI-1",
