@@ -2303,6 +2303,258 @@ var ptx_lunr_docs = [
   "number": "8",
   "title": "Practice: Local Extrema and Inflection Points.",
   "body": " Practice: Local Extrema and Inflection Points   Find all local extrema and inflections points of .   "
+},
+{
+  "id": "sec-VI-3",
+  "level": "1",
+  "url": "sec-VI-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VI.3\\text{:}\\)<\/span> Optimization",
+  "body": " : Optimization    Motivation: Optimization        Optimization: Closed Intervals   Fact (Extreme Value Theorem): Let be continuous. Then       Example: Closed Intervals   Find the absolute maximum and minimum of where .     Example: Application   A farmer has feet of fencing to enclose a rectangular field, which borders a canal (so needs no fencing on that side). What is the largest area they can enclose?       Optimization: Open Intervals   Fact: If is continuous and has a single critical point , then     Example: Open Intervals   Let . Find the absolute maximum of on .       Practice: Optimization   Find the absolute maximum and minimum of , where .     Practice: Application   You need to design a box with a square base and open top whose volume is 864 cubic inches. What is the minimum surface area of such a box?     "
+},
+{
+  "id": "sec-VI-3-2-1",
+  "level": "2",
+  "url": "sec-VI-3.html#sec-VI-3-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Optimization.",
+  "body": " Motivation: Optimization      "
+},
+{
+  "id": "sec-VI-3-2-2",
+  "level": "2",
+  "url": "sec-VI-3.html#sec-VI-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Optimization: Closed Intervals.",
+  "body": " Optimization: Closed Intervals   Fact (Extreme Value Theorem): Let be continuous. Then   "
+},
+{
+  "id": "sec-VI-3-3-1",
+  "level": "2",
+  "url": "sec-VI-3.html#sec-VI-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Closed Intervals.",
+  "body": " Example: Closed Intervals   Find the absolute maximum and minimum of where .   "
+},
+{
+  "id": "sec-VI-3-3-2",
+  "level": "2",
+  "url": "sec-VI-3.html#sec-VI-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example: Application.",
+  "body": " Example: Application   A farmer has feet of fencing to enclose a rectangular field, which borders a canal (so needs no fencing on that side). What is the largest area they can enclose?   "
+},
+{
+  "id": "sec-VI-3-4-1",
+  "level": "2",
+  "url": "sec-VI-3.html#sec-VI-3-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Optimization: Open Intervals.",
+  "body": " Optimization: Open Intervals   Fact: If is continuous and has a single critical point , then   "
+},
+{
+  "id": "sec-VI-3-4-2",
+  "level": "2",
+  "url": "sec-VI-3.html#sec-VI-3-4-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: Open Intervals.",
+  "body": " Example: Open Intervals   Let . Find the absolute maximum of on .   "
+},
+{
+  "id": "sec-VI-3-5-1",
+  "level": "2",
+  "url": "sec-VI-3.html#sec-VI-3-5-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: Optimization.",
+  "body": " Practice: Optimization   Find the absolute maximum and minimum of , where .   "
+},
+{
+  "id": "sec-VI-3-5-2",
+  "level": "2",
+  "url": "sec-VI-3.html#sec-VI-3-5-2",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Practice: Application.",
+  "body": " Practice: Application   You need to design a box with a square base and open top whose volume is 864 cubic inches. What is the minimum surface area of such a box?   "
+},
+{
+  "id": "sec-VI-4",
+  "level": "1",
+  "url": "sec-VI-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VI.4\\text{:}\\)<\/span> Newton’s Method",
+  "body": " : Newton's Method    Motivation: Newton's Method        Example: Approximating   We'd like to approximate a solution to .       Newton's Method   To approximate solutions to , we can compute a sequence of approximations by     Practice: Newton's Method   Use Newton's method to approximate solutions to the following with three iterations (that is, compute ).                 "
+},
+{
+  "id": "sec-VI-4-2-1",
+  "level": "2",
+  "url": "sec-VI-4.html#sec-VI-4-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Newton’s Method.",
+  "body": " Motivation: Newton's Method      "
+},
+{
+  "id": "sec-VI-4-2-2",
+  "level": "2",
+  "url": "sec-VI-4.html#sec-VI-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Example: Approximating <span class=\"process-math\">\\(\\pi\\)<\/span>.",
+  "body": " Example: Approximating   We'd like to approximate a solution to .   "
+},
+{
+  "id": "sec-VI-4-3-1",
+  "level": "2",
+  "url": "sec-VI-4.html#sec-VI-4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Newton’s Method.",
+  "body": " Newton's Method   To approximate solutions to , we can compute a sequence of approximations by   "
+},
+{
+  "id": "sec-VI-4-3-2",
+  "level": "2",
+  "url": "sec-VI-4.html#sec-VI-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Newton’s Method.",
+  "body": " Practice: Newton's Method   Use Newton's method to approximate solutions to the following with three iterations (that is, compute ).               "
+},
+{
+  "id": "sec-VI-5",
+  "level": "1",
+  "url": "sec-VI-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VI.5\\text{:}\\)<\/span> L’Hospital’s Rule",
+  "body": " : L'Hospital's Rule    Motivation: L'Hospital's Rule        Limit Notation (Review)        L'Hospital's Rule   Let and be differentiable functions. If then       Example: L'Hospital's Rule                      Practice: L'Hospital's Rule                                        "
+},
+{
+  "id": "sec-VI-5-2-1",
+  "level": "2",
+  "url": "sec-VI-5.html#sec-VI-5-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: L’Hospital’s Rule.",
+  "body": " Motivation: L'Hospital's Rule      "
+},
+{
+  "id": "sec-VI-5-2-2",
+  "level": "2",
+  "url": "sec-VI-5.html#sec-VI-5-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Limit Notation (Review).",
+  "body": " Limit Notation (Review)      "
+},
+{
+  "id": "sec-VI-5-2-3",
+  "level": "2",
+  "url": "sec-VI-5.html#sec-VI-5-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "L’Hospital’s Rule.",
+  "body": " L'Hospital's Rule   Let and be differentiable functions. If then   "
+},
+{
+  "id": "sec-VI-5-3-1",
+  "level": "2",
+  "url": "sec-VI-5.html#sec-VI-5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example: L’Hospital’s Rule.",
+  "body": " Example: L'Hospital's Rule                  "
+},
+{
+  "id": "sec-VI-5-4-1",
+  "level": "2",
+  "url": "sec-VI-5.html#sec-VI-5-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: L’Hospital’s Rule.",
+  "body": " Practice: L'Hospital's Rule                                      "
+},
+{
+  "id": "sec-VI-6",
+  "level": "1",
+  "url": "sec-VI-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VI.6\\text{:}\\)<\/span> Order of Growth",
+  "body": " : Order of Growth    Motivation: Order of Growth        Definition: \"Big OH\"   We say that is of order at most if     Example: Order                           Determining Orders of Growth   Fact: Suppose . Then      Let and .       Pracice: Order of Growth   Compare each pair of functions below using \"big OH\" notation.    and      and      and      and         Big OH as a Relation   Let be the set of functions on , and define the relation on by if and only if and . Then     "
+},
+{
+  "id": "sec-VI-6-2-1",
+  "level": "2",
+  "url": "sec-VI-6.html#sec-VI-6-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Order of Growth.",
+  "body": " Motivation: Order of Growth      "
+},
+{
+  "id": "sec-VI-6-2-2",
+  "level": "2",
+  "url": "sec-VI-6.html#sec-VI-6-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: \"Big OH\".",
+  "body": " Definition: \"Big OH\"   We say that is of order at most if   "
+},
+{
+  "id": "sec-VI-6-2-3",
+  "level": "2",
+  "url": "sec-VI-6.html#sec-VI-6-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Order.",
+  "body": " Example: Order                       "
+},
+{
+  "id": "sec-VI-6-3-1",
+  "level": "2",
+  "url": "sec-VI-6.html#sec-VI-6-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Determining Orders of Growth.",
+  "body": " Determining Orders of Growth   Fact: Suppose . Then   "
+},
+{
+  "id": "sec-VI-6-3-2",
+  "level": "2",
+  "url": "sec-VI-6.html#sec-VI-6-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Let and .   "
+},
+{
+  "id": "sec-VI-6-4-1",
+  "level": "2",
+  "url": "sec-VI-6.html#sec-VI-6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Pracice: Order of Growth.",
+  "body": " Pracice: Order of Growth   Compare each pair of functions below using \"big OH\" notation.    and      and      and      and       "
+},
+{
+  "id": "sec-VI-6-4-2",
+  "level": "2",
+  "url": "sec-VI-6.html#sec-VI-6-4-2",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Big OH as a Relation.",
+  "body": " Big OH as a Relation   Let be the set of functions on , and define the relation on by if and only if and . Then   "
 }
 ]
 
