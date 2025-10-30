@@ -2170,58 +2170,58 @@ var ptx_lunr_docs = [
   "body": " Practice: Higher Derivatives    Let .   Compute , , and .    Compute .                       Let . Compute .              Let . What is ? What is ?                  "
 },
 {
-  "id": "sec-VI-1",
+  "id": "sec-VI-1-sols",
   "level": "1",
-  "url": "sec-VI-1.html",
+  "url": "sec-VI-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VI.1\\text{:}\\)<\/span> Increasing\/Decreasing",
-  "body": " : Increasing\/Decreasing    Motivation: Increasing\/Decreasing        Facts: Increasing\/Decreasing        Definition: Critical Point   Let be in the domain of . If or does not exist, then       Example: Increasing\/Decreasing   Describe where is increasing and decreasing.     Practice: Increasing\/Decreasing   Describe where is increasing and decreasing.     "
+  "body": " : Increasing\/Decreasing    Motivation: Increasing\/Decreasing       We developed the derivative to help us describe how functions change (recall, the derivative is also known as the instantaneous rate of change). This chapter will explore some common applications of derivatives towards this goal.     Facts: Increasing\/Decreasing       If , then is increasing at .  If , then is decreasing at .     Definition: Critical Point   Let be in the domain of . If or does not exist, then    the point is a critical point of the function .  One perspective is that if we can find the critical points of a continuous function, then we can use the derivative to describe the increasing\/decreasing behavior of the function on its entire domain.       Example: Increasing\/Decreasing   Describe where is increasing and decreasing.    We can compute , and notice that when , and exists for all values. So the critical points of are at .  Using a first derivative sign chart as shown in class, we find that the first derivative is negative on and , and positive on and . Therefore, the function decreases on and , and increases on and .     Practice: Increasing\/Decreasing   Describe where is increasing and decreasing.    We can compute , and notice that when , and does not exist for (which is in the domain of ). So the critical points of are at .  Using a first derivative sign chart as shown in class, we find that the first derivative is positive on and , and negative on . Therefore, the function increases on and , and decreases on .     "
 },
 {
-  "id": "sec-VI-1-2-1",
+  "id": "sec-VI-1-sols-2-1",
   "level": "2",
-  "url": "sec-VI-1.html#sec-VI-1-2-1",
+  "url": "sec-VI-1-sols.html#sec-VI-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Increasing\/Decreasing.",
-  "body": " Motivation: Increasing\/Decreasing      "
+  "body": " Motivation: Increasing\/Decreasing       We developed the derivative to help us describe how functions change (recall, the derivative is also known as the instantaneous rate of change). This chapter will explore some common applications of derivatives towards this goal.   "
 },
 {
-  "id": "sec-VI-1-2-2",
+  "id": "sec-VI-1-sols-2-2",
   "level": "2",
-  "url": "sec-VI-1.html#sec-VI-1-2-2",
+  "url": "sec-VI-1-sols.html#sec-VI-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Facts: Increasing\/Decreasing.",
-  "body": " Facts: Increasing\/Decreasing      "
+  "body": " Facts: Increasing\/Decreasing       If , then is increasing at .  If , then is decreasing at .   "
 },
 {
-  "id": "sec-VI-1-2-3",
+  "id": "sec-VI-1-sols-2-3",
   "level": "2",
-  "url": "sec-VI-1.html#sec-VI-1-2-3",
+  "url": "sec-VI-1-sols.html#sec-VI-1-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Definition: Critical Point.",
-  "body": " Definition: Critical Point   Let be in the domain of . If or does not exist, then   "
+  "body": " Definition: Critical Point   Let be in the domain of . If or does not exist, then    the point is a critical point of the function .  One perspective is that if we can find the critical points of a continuous function, then we can use the derivative to describe the increasing\/decreasing behavior of the function on its entire domain.   "
 },
 {
-  "id": "sec-VI-1-3-1",
+  "id": "sec-VI-1-sols-3-1",
   "level": "2",
-  "url": "sec-VI-1.html#sec-VI-1-3-1",
+  "url": "sec-VI-1-sols.html#sec-VI-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Example: Increasing\/Decreasing.",
-  "body": " Example: Increasing\/Decreasing   Describe where is increasing and decreasing.   "
+  "body": " Example: Increasing\/Decreasing   Describe where is increasing and decreasing.    We can compute , and notice that when , and exists for all values. So the critical points of are at .  Using a first derivative sign chart as shown in class, we find that the first derivative is negative on and , and positive on and . Therefore, the function decreases on and , and increases on and .   "
 },
 {
-  "id": "sec-VI-1-3-2",
+  "id": "sec-VI-1-sols-3-2",
   "level": "2",
-  "url": "sec-VI-1.html#sec-VI-1-3-2",
+  "url": "sec-VI-1-sols.html#sec-VI-1-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Increasing\/Decreasing.",
-  "body": " Practice: Increasing\/Decreasing   Describe where is increasing and decreasing.   "
+  "body": " Practice: Increasing\/Decreasing   Describe where is increasing and decreasing.    We can compute , and notice that when , and does not exist for (which is in the domain of ). So the critical points of are at .  Using a first derivative sign chart as shown in class, we find that the first derivative is positive on and , and negative on . Therefore, the function increases on and , and decreases on .   "
 },
 {
   "id": "sec-VI-2",
