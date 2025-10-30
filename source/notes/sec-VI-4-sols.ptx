@@ -1,0 +1,115 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-4-sols">
+        <title><m>\S VI.4</m>: Newton's Method</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Newton's Method </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Recall, the Intermediate Value Theorem gave us a method for approximating zeros of functions
+                            using bisection, but it was slow! Using derivatives, we can do better.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="8in">
+                    <title>Example: Approximating <m>\pi</m></title>
+                    <statement>
+                        <p>
+                            We'd like to approximate a solution to <m>f(x) = \sin(x) = 0</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            See notes from class. Using Newton's method (with equations of tangent lines), we get an 
+                            approximation of <m>\pi \approx 3.1415926533</m> after just two iterations!
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="6in">
+                    <title>Newton's Method</title>
+                    <statement>
+                        <p>
+                            To approximate solutions to <m>f(x)=0</m>, we can compute a sequence of approximations by
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        Choosing <m>x_0</m> close to <m>x</m>. The Intermediate Value Theorem is often
+                                        useful.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>x_n</m> is your current approximation, then 
+                                        <me>
+                                            x_{n+1} = \frac{-f(x_n)}{f'(x_n)}+ x_n
+                                        </me>.
+                                        This comes from finding the zero of the equation of the tangent line to <m>f</m> at <m>x_n</m>.
+                                        
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Practice: Newton's Method</title>
+                    <statement>
+                        <p>
+                            Use Newton's method to approximate solutions to the following with three iterations (that is, compute
+                            <m>x_3</m>).
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f(x) = x^2 - 7=0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g(x) = e^x - 7=0</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        See notes from class. After three iterations, we get <m>x_3 \approx 2.64575205</m>. Compare
+                                        this to <m>\sqrt{7}</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        See notes from class. After three iterations, we get <m>x_3 \approx 1.95838719705</m>. Compare
+                                        this to <m>\ln{7}</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            
+
+        </worksheet>
+    </article>
+</pretext>

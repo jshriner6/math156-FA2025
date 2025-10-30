@@ -1,0 +1,122 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-6">
+        <title><m>\S VI.6</m>: Order of Growth</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Order of Growth </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Definition: "Big OH"</title>
+                    <statement>
+                        <p>
+                            We say that <term><m>f(x)</m> is of order at most <m>g(x)</m></term> if 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Example: Order</title>
+                    <statement>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>x^2 + x + 1 = </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\sin(x)= </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\sin(x)= </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="4in">
+                    <title>Determining Orders of Growth</title>
+                    <statement>
+                        <p>
+                            Fact: Suppose <m>\lim_{x \to \infty} \frac{f(x)}{g(x)} = L</m>. Then
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <statement>
+                        <p>
+                            Let <m>f(x) = e^x</m> and <m>g(x) = x</m>. 
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="6in">
+                    <title>Pracice: Order of Growth</title>
+                    <statement>
+                        <p>
+                            Compare each pair of functions below using "big OH" notation.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f(x) = x^5</m> and <m>g(x) = x^{10}</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f(x) = x^3</m> and <m>g(x) = e^x</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f(x) = \ln(x)</m> and <m>g(x) = x</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>f(x) = \ln(x^2)</m> and <m>g(x) = \ln(x^3)</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="3in">
+                    <title>Big OH as a Relation</title>
+                    
+                    <statement>
+                        <p>
+                            Let <m>F</m> be the set of functions on <m>\R \to \R</m>, and define the relation <m>R</m> on
+                            <m>F</m> by <m>fRg</m> if and only if <m>f= O(g(x))</m> and <m>g=O(f(x))</m>. Then
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

@@ -1,0 +1,67 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-4">
+        <title><m>\S VI.4</m>: Newton's Method</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Newton's Method </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+                <exercise workspace="8in">
+                    <title>Example: Approximating <m>\pi</m></title>
+                    <statement>
+                        <p>
+                            We'd like to approximate a solution to <m>f(x) = \sin(x) = 0</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="6in">
+                    <title>Newton's Method</title>
+                    <statement>
+                        <p>
+                            To approximate solutions to <m>f(x)=0</m>, we can compute a sequence of approximations by
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="6in">
+                    <title>Practice: Newton's Method</title>
+                    <statement>
+                        <p>
+                            Use Newton's method to approximate solutions to the following with three iterations (that is, compute
+                            <m>x_3</m>).
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f(x) = x^2 - 7=0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g(x) = e^x - 7=0</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            
+
+        </worksheet>
+    </article>
+</pretext>

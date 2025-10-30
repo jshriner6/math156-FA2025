@@ -1,0 +1,177 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-3-sols">
+        <title><m>\S VI.3</m>: Optimization</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Optimization </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            One important application of derivatives is to optimize functions, such as answering questions
+                            like "What dimensions will maximize area?" and "How much product will maximize profit?". We'll 
+                            look at how to answer such questions in this section.
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Optimization: Closed Intervals</title>
+                    <statement>
+                        <p>
+                            Fact (Extreme Value Theorem): Let <m>f: [a,b] \to \R</m> be continuous. Then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>f</m> has both an absolute maximum and absolute minimum value on <m>[a,b]</m>.
+                        </p>
+                        <p>
+                            There is a methodical process for finding the absolute extrema in this case:
+                            <ol>
+                                <li>
+                                    <p>
+                                        Find all critical numbers of <m>f</m> in <m>[a,b]</m>.
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Compute <m>f(a), f(b),</m>, and <m>f(c)</m> for all critical numbers <m>c</m> found
+                                        in the previous part.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Pick the largest (this is the absolute maximum) and smallest (this is 
+                                        the absolute minimum) output values.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="4in">
+                    <title>Example: Closed Intervals</title>
+                    <statement>
+                        <p>
+                            Find the absolute maximum and minimum of <m>f: [1,4] \to \R</m> where <m>f(x)=2x^3-9x^2+10</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We compute <m>f'(x) = 6x^2 - 18x</m> to find the critical numbers <m>x=0,3</m> of <m>f</m>. However,
+                            only <m>x=3</m> is in the closed interval <m>[1,4]</m>, so we ignore <m>x=0</m>. Then we compute
+                            <m>f(1)=3, f(4)=-6</m>, and <m>f(3)=-17</m> to conclude that <m>f</m> has an absolute maximum value
+                            of <m>y=3</m> at <m>x=1</m> and an absolute minimum value of <m>y=-17</m> at <m>x=3</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Example: Application</title>
+                    <statement>
+                        <p>
+                            A farmer has <m>60</m> feet of fencing to enclose a rectangular field, which borders a canal (so
+                            needs no fencing on that side). What is the largest area they can enclose?
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            The relevant function to optimize is <m>A=xy</m>, where <m>2y+x =60</m>, or <m>x=60-2y</m>. This means
+                            the area function becomes <m>A(y) = y(60-2y) = 60y-2y^2</m>, and the relevant interval for <m>y</m> is 
+                            <m>[0,30]</m>. Then <m>A'(y)= 60-4y</m>, so <m>y=15</m> is a critical number of <m>A</m> in the interval
+                            <m>[0,30]</m>. Testing end points and the crtical number, we see that <m>A</m> has an absolute maximum 
+                            of <m>450</m> square feet, occurring when <m>x=30</m> feet and <m>y=15</m> feet.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="2in">
+                    <title>Optimization: Open Intervals</title>
+                    <statement>
+                        <p>
+                            Fact: If <m>f</m> is continuous and has a single critical point <m>c \in (a,b)</m>, then
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            if <m>f(c)</m> is a local minimum it is also an absolute minimum. Similarly, if <m>f(c)</m> is a 
+                            local maximum it is also an absolute maximum.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="5in">
+                    <title>Example: Open Intervals</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x) = 2 + \frac{3}{1+(x+1)^2}</m>. Find the absolute maximum of <m>f</m> on <m>\R</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We compute <m>f'(x) = \frac{-6(x+1)}{(1+(x+1)^2)^2}</m>, and see that <m>x=-1 </m> is the only
+                            critical number of <m>f</m> on <m>\R</m>. Using a first derivative sign chart, we can classify 
+                            <m>x=-1</m> as a local maximum, and therefore <m>f(-1)=5</m> is also an absolute maximum of <m>f</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="6in">
+                    <title>Practice: Optimization</title>
+                    <statement>
+                        <p>
+                            Find the absolute maximum and minimum of <m>g: [-6,0] \to \R</m>, where <m>g(x) =e^x \cdot x^2</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>g'(x) = e^x x (x+2)</m>, so <m>x=0,-2</m> are critical numbers of <m>g</m>. Testing <m>g(0), g(-6)</m>, and
+                            <m>g(-2)</m>, we can conclude that <m>g</m> has an absolute maximum at <m>x=-2</m> and an absolute minimum at
+                            <m>x=0</m>.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="6in">
+                    <title>Practice: Application</title>
+                    <statement>
+                        <p>
+                            You need to design a box with a square base and open top whose volume is 864 cubic inches. What is the 
+                            minimum surface area of such a box?
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            The surface area equation is <m>S=x^2 + 4xy</m> with the condition that <m>x^2y=864</m>. This means we can 
+                            write <m>S(x) = x^2 +3456x^{-1}</m>, with the relevant interval for <m>x</m> being <m>(0,\infty)</m>. We can
+                            compute <m>S'(x) = 2x - 3456x^{-2}</m>, so critical numbers of <m>S</m> are <m>x=0, 12</m>, but we can ignore
+                            <m>x=0</m>. We can test <m>x=12</m> using the first derivative test to conclude that it is a local minimum. Since 
+                            it is the only critical number in <m>(0,\infty)</m>, it is also the location of an absolute minimum. Therefore, the 
+                            minimum surface area is <m>S(12) = 432</m> square inches.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

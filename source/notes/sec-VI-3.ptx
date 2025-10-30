@@ -1,0 +1,103 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VI-3">
+        <title><m>\S VI.3</m>: Optimization</title>
+            <page>
+                <exercise workspace="1in">
+                    <title>Motivation: Optimization </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Optimization: Closed Intervals</title>
+                    <statement>
+                        <p>
+                            Fact (Extreme Value Theorem): Let <m>f: [a,b] \to \R</m> be continuous. Then
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise workspace="4in">
+                    <title>Example: Closed Intervals</title>
+                    <statement>
+                        <p>
+                            Find the absolute maximum and minimum of <m>f: [1,4] \to \R</m> where <m>f(x)=2x^3-9x^2+10</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="4in">
+                    <title>Example: Application</title>
+                    <statement>
+                        <p>
+                            A farmer has <m>60</m> feet of fencing to enclose a rectangular field, which borders a canal (so
+                            needs no fencing on that side). What is the largest area they can enclose?
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="2in">
+                    <title>Optimization: Open Intervals</title>
+                    <statement>
+                        <p>
+                            Fact: If <m>f</m> is continuous and has a single critical point <m>c \in (a,b)</m>, then
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="5in">
+                    <title>Example: Open Intervals</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x) = 2 + \frac{3}{1+(x+1)^2}</m>. Find the absolute maximum of <m>f</m> on <m>\R</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="6in">
+                    <title>Practice: Optimization</title>
+                    <statement>
+                        <p>
+                            Find the absolute maximum and minimum of <m>g: [-6,0] \to \R</m>, where <m>g(x) =e^x \cdot x^2</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="6in">
+                    <title>Practice: Application</title>
+                    <statement>
+                        <p>
+                            You need to design a box with a square base and open top whose volume is 864 cubic inches. What is the 
+                            minimum surface area of such a box?
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
