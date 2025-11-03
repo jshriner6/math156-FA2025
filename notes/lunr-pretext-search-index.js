@@ -2305,85 +2305,85 @@ var ptx_lunr_docs = [
   "body": " Practice: Local Extrema and Inflection Points   Find all local extrema and inflections points of .    We compute , so is a critical point. Using the first derivative test, we can classify as a local minimum of .  We compute , so is a potential inflection point. To test, we can set up a second derivative sign chart to see that is concave down on , and concave up on . Therefore, is an inflection point of .   "
 },
 {
-  "id": "sec-VI-3",
+  "id": "sec-VI-3-sols",
   "level": "1",
-  "url": "sec-VI-3.html",
+  "url": "sec-VI-3-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VI.3\\text{:}\\)<\/span> Optimization",
-  "body": " : Optimization    Motivation: Optimization        Optimization: Closed Intervals   Fact (Extreme Value Theorem): Let be continuous. Then       Example: Closed Intervals   Find the absolute maximum and minimum of where .     Example: Application   A farmer has feet of fencing to enclose a rectangular field, which borders a canal (so needs no fencing on that side). What is the largest area they can enclose?       Optimization: Open Intervals   Fact: If is continuous and has a single critical point , then     Example: Open Intervals   Let . Find the absolute maximum of on .       Practice: Optimization   Find the absolute maximum and minimum of , where .     Practice: Application   You need to design a box with a square base and open top whose volume is 864 cubic inches. What is the minimum surface area of such a box?     "
+  "body": " : Optimization    Motivation: Optimization       One important application of derivatives is to optimize functions, such as answering questions like \"What dimensions will maximize area?\" and \"How much product will maximize profit?\". We'll look at how to answer such questions in this section.     Optimization: Closed Intervals   Fact (Extreme Value Theorem): Let be continuous. Then     has both an absolute maximum and absolute minimum value on .  There is a methodical process for finding the absolute extrema in this case:   Find all critical numbers of in .    Compute , and for all critical numbers found in the previous part.    Pick the largest (this is the absolute maximum) and smallest (this is the absolute minimum) output values.          Example: Closed Intervals   Find the absolute maximum and minimum of where .    We compute to find the critical numbers of . However, only is in the closed interval , so we ignore . Then we compute , and to conclude that has an absolute maximum value of at and an absolute minimum value of at .     Example: Application   A farmer has feet of fencing to enclose a rectangular field, which borders a canal (so needs no fencing on that side). What is the largest area they can enclose?    The relevant function to optimize is , where , or . This means the area function becomes , and the relevant interval for is . Then , so is a critical number of in the interval . Testing end points and the crtical number, we see that has an absolute maximum of square feet, occurring when feet and feet.       Optimization: Open Intervals   Fact: If is continuous and has a single critical point , then    if is a local minimum it is also an absolute minimum. Similarly, if is a local maximum it is also an absolute maximum.     Example: Open Intervals   Let . Find the absolute maximum of on .    We compute , and see that is the only critical number of on . Using a first derivative sign chart, we can classify as a local maximum, and therefore is also an absolute maximum of .       Practice: Optimization   Find the absolute maximum and minimum of , where .     , so are critical numbers of . Testing , and , we can conclude that has an absolute maximum at and an absolute minimum at .     Practice: Application   You need to design a box with a square base and open top whose volume is 864 cubic inches. What is the minimum surface area of such a box?    The surface area equation is with the condition that . This means we can write , with the relevant interval for being . We can compute , so critical numbers of are , but we can ignore . We can test using the first derivative test to conclude that it is a local minimum. Since it is the only critical number in , it is also the location of an absolute minimum. Therefore, the minimum surface area is square inches.     "
 },
 {
-  "id": "sec-VI-3-2-1",
+  "id": "sec-VI-3-sols-2-1",
   "level": "2",
-  "url": "sec-VI-3.html#sec-VI-3-2-1",
+  "url": "sec-VI-3-sols.html#sec-VI-3-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Optimization.",
-  "body": " Motivation: Optimization      "
+  "body": " Motivation: Optimization       One important application of derivatives is to optimize functions, such as answering questions like \"What dimensions will maximize area?\" and \"How much product will maximize profit?\". We'll look at how to answer such questions in this section.   "
 },
 {
-  "id": "sec-VI-3-2-2",
+  "id": "sec-VI-3-sols-2-2",
   "level": "2",
-  "url": "sec-VI-3.html#sec-VI-3-2-2",
+  "url": "sec-VI-3-sols.html#sec-VI-3-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Optimization: Closed Intervals.",
-  "body": " Optimization: Closed Intervals   Fact (Extreme Value Theorem): Let be continuous. Then   "
+  "body": " Optimization: Closed Intervals   Fact (Extreme Value Theorem): Let be continuous. Then     has both an absolute maximum and absolute minimum value on .  There is a methodical process for finding the absolute extrema in this case:   Find all critical numbers of in .    Compute , and for all critical numbers found in the previous part.    Pick the largest (this is the absolute maximum) and smallest (this is the absolute minimum) output values.      "
 },
 {
-  "id": "sec-VI-3-3-1",
+  "id": "sec-VI-3-sols-3-1",
   "level": "2",
-  "url": "sec-VI-3.html#sec-VI-3-3-1",
+  "url": "sec-VI-3-sols.html#sec-VI-3-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Closed Intervals.",
-  "body": " Example: Closed Intervals   Find the absolute maximum and minimum of where .   "
+  "body": " Example: Closed Intervals   Find the absolute maximum and minimum of where .    We compute to find the critical numbers of . However, only is in the closed interval , so we ignore . Then we compute , and to conclude that has an absolute maximum value of at and an absolute minimum value of at .   "
 },
 {
-  "id": "sec-VI-3-3-2",
+  "id": "sec-VI-3-sols-3-2",
   "level": "2",
-  "url": "sec-VI-3.html#sec-VI-3-3-2",
+  "url": "sec-VI-3-sols.html#sec-VI-3-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Example: Application.",
-  "body": " Example: Application   A farmer has feet of fencing to enclose a rectangular field, which borders a canal (so needs no fencing on that side). What is the largest area they can enclose?   "
+  "body": " Example: Application   A farmer has feet of fencing to enclose a rectangular field, which borders a canal (so needs no fencing on that side). What is the largest area they can enclose?    The relevant function to optimize is , where , or . This means the area function becomes , and the relevant interval for is . Then , so is a critical number of in the interval . Testing end points and the crtical number, we see that has an absolute maximum of square feet, occurring when feet and feet.   "
 },
 {
-  "id": "sec-VI-3-4-1",
+  "id": "sec-VI-3-sols-4-1",
   "level": "2",
-  "url": "sec-VI-3.html#sec-VI-3-4-1",
+  "url": "sec-VI-3-sols.html#sec-VI-3-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Optimization: Open Intervals.",
-  "body": " Optimization: Open Intervals   Fact: If is continuous and has a single critical point , then   "
+  "body": " Optimization: Open Intervals   Fact: If is continuous and has a single critical point , then    if is a local minimum it is also an absolute minimum. Similarly, if is a local maximum it is also an absolute maximum.   "
 },
 {
-  "id": "sec-VI-3-4-2",
+  "id": "sec-VI-3-sols-4-2",
   "level": "2",
-  "url": "sec-VI-3.html#sec-VI-3-4-2",
+  "url": "sec-VI-3-sols.html#sec-VI-3-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Example: Open Intervals.",
-  "body": " Example: Open Intervals   Let . Find the absolute maximum of on .   "
+  "body": " Example: Open Intervals   Let . Find the absolute maximum of on .    We compute , and see that is the only critical number of on . Using a first derivative sign chart, we can classify as a local maximum, and therefore is also an absolute maximum of .   "
 },
 {
-  "id": "sec-VI-3-5-1",
+  "id": "sec-VI-3-sols-5-1",
   "level": "2",
-  "url": "sec-VI-3.html#sec-VI-3-5-1",
+  "url": "sec-VI-3-sols.html#sec-VI-3-sols-5-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: Optimization.",
-  "body": " Practice: Optimization   Find the absolute maximum and minimum of , where .   "
+  "body": " Practice: Optimization   Find the absolute maximum and minimum of , where .     , so are critical numbers of . Testing , and , we can conclude that has an absolute maximum at and an absolute minimum at .   "
 },
 {
-  "id": "sec-VI-3-5-2",
+  "id": "sec-VI-3-sols-5-2",
   "level": "2",
-  "url": "sec-VI-3.html#sec-VI-3-5-2",
+  "url": "sec-VI-3-sols.html#sec-VI-3-sols-5-2",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "Practice: Application.",
-  "body": " Practice: Application   You need to design a box with a square base and open top whose volume is 864 cubic inches. What is the minimum surface area of such a box?   "
+  "body": " Practice: Application   You need to design a box with a square base and open top whose volume is 864 cubic inches. What is the minimum surface area of such a box?    The surface area equation is with the condition that . This means we can write , with the relevant interval for being . We can compute , so critical numbers of are , but we can ignore . We can test using the first derivative test to conclude that it is a local minimum. Since it is the only critical number in , it is also the location of an absolute minimum. Therefore, the minimum surface area is square inches.   "
 },
 {
   "id": "sec-VI-4",
