@@ -1,0 +1,169 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VII-2">
+        <title><m>\S VII.2</m>: Taylor Series</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Taylor Series </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Definition: Taylor Series</title>
+                    <statement>
+                        <p>
+                            Given a function <m>f</m>, the <term>Taylor series of <m>f</m> centered at <m>x=0</m></term> is
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise>
+                    <title>Convergence of Taylor Series</title>
+                    <statement>
+                        <p>
+                            Let <m>T(x)</m> be a Taylor series. Then one of the following hold:
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Taylor Series of Common Functions</title>
+                    <statement>
+                        <p>
+                            Let's compute the Taylor series of some common functions.
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>f(x) = e^x</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>g(x) = \sin(x)</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>h(x) = \frac{1}{1-x}</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>Properties of Taylor Series</title>
+                    <statement>
+                        <p>
+                            We can combine Taylor series of functions in meaningful ways to get Taylor series of new functions.
+                            Let <m>f(x) = \sum_{n=0}^\infty a_n x^n</m> and <m>g(x) = \sum_{n=0}^\infty b_n x^n</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="5in">
+                    <title>Example: A new Taylor series</title>
+                    <statement>
+                        <p>
+                            We know <me>
+                                \sin(x) = \sum_{n=0}^\infty (-1)^n \frac{x^{2n+1}}{(2n+1)!}
+                            </me>.
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Practice: New Taylor series</title>
+                    <introduction>
+                        <p>
+                            Let's find the Taylor series for <m>f(x) = 2x^3e^{4x}</m>, given that we know
+                            <me>
+                                e^x = \sum_{n=0}^\infty \frac{x^n}{n!}
+                            </me>.
+                            
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Write the Taylor series for <m>e^{4x}</m> using composition.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Write the Taylor series for <m>2e^{4x}</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                Write the Taylor series for <m>2x^3e^{4x}</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+
+                <exercise workspace="5in">
+                    <title>Example: New Taylor series</title>
+                    <statement>
+                        <p>
+                            <me>
+                                \frac{1}{1+x} = \frac{1}{1- (-x)} = \sum_{n=0}^\infty (-x)^n = \sum_{n=0}^\infty (-1)^n(x)^n
+                            </me>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Application: Euler's Formula</title>
+                    
+                    
+                    <statement>
+                        <p>
+                           One very useful application of Taylor series is that it helps us derive Euler's formula:
+                           <me>
+                            e^{ix} = \cos(x) + i\sin(x)
+                           </me>.
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

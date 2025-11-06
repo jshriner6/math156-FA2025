@@ -1,0 +1,99 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VII-1">
+        <title><m>\S VII.1</m>: Taylor Polynomials</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Taylor Polynomials </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Definition: Taylor Polynomial at <m>x=0</m></title>
+                    <statement>
+                        <p>
+                            Let <m>f</m> be a continuously differentiable function. The
+                            <term><m>n^{th}</m> degree Taylor polynomial of <m>f</m> centered at <m>x=0</m></term> is
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="5in">
+                    <title>Example: Taylor Polynomial</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x) = e^x</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="5in">
+                    <title>Practice: Taylor Polynomial</title>
+                    <statement>
+                        <p>
+                            Let <m>g(x) = \cos(x)</m>. Compute <m>p_4(x)</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>Definition: Taylor Polynomials with arbitrary center</title>
+                    <statement>
+                        <p>
+                            We can center Taylor polynomials at any <m>x</m>-value. Recall that the tangent line to <m>f</m>
+                            at <m>x=a</m> is 
+                            <me>
+                                L(x)= f(a) +f'(a)(x-a)
+                            </me>.
+                            The <term><m>n^{th}</m> degree Taylor polynomial of <m>f</m> centered at <m>x=a</m> </term> is
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise workspace="5in">
+                    <title>Example: Taylor polynomial</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x) = e^x</m>. 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Practice: Taylor Polynomial</title>
+                    
+                    <statement>
+                        <p>
+                            Compute the <m>2^{nd}</m> order Taylor polynomial of <m>f(x) = \ln(x)</m> centered at <m>x=1</m>.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
