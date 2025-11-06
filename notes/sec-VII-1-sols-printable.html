@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>\S VI.4 Newton’s Method</title>
+<title>\S VII.1 Taylor Polynomials</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -134,7 +134,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-VI-3-sols.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-VI-5-sols.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-VII-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-VII-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -183,10 +183,11 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-1-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.1\text{:}\)</span> Increasing/Decreasing</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-2-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.2\text{:}\)</span> The Shape of a Curve</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-3-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.3\text{:}\)</span> Optimization</span></a></div></li>
-<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-VI-4-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.4\text{:}\)</span> Newton’s Method</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-4-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.4\text{:}\)</span> Newton’s Method</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-5-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.5\text{:}\)</span> L’Hospital’s Rule</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-6.html" class="internal"><span class="title"><span class="process-math">\(\S VI.6\text{:}\)</span> Order of Growth</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VII-1.html" class="internal"><span class="title"><span class="process-math">\(\S VII.1\text{:}\)</span> Taylor Polynomials</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-VII-1-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VII.1\text{:}\)</span> Taylor Polynomials</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VII-2.html" class="internal"><span class="title"><span class="process-math">\(\S VII.2\text{:}\)</span> Taylor Series</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
@@ -204,107 +205,153 @@ eBookConfig.enable_chatcodes =  false;
 <button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
 </div>
 </div>
-<section class="worksheet" id="sec-VI-4-sols" data-margins="1in 1in 1.25cm 1in"><h2 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"><span class="process-math">\(\S VI.4\text{:}\)</span> Newton’s Method</span><div class="print-links"><a href="sec-VI-4-sols-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<section class="worksheet" id="sec-VII-1-sols" data-margins="1in 1in 1.25cm 1in"><h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"><span class="process-math">\(\S VII.1\text{:}\)</span> Taylor Polynomials</span><div class="print-links"><a href="sec-VII-1-sols-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h2>
-<section class="onepage" id="sec-VI-4-sols-2"><article class="exercise exercise-like" id="sec-VI-4-sols-2-1"><h3 class="heading">
-<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivation: Newton’s Method.</span>
+<section class="onepage" id="sec-VII-1-sols-2"><article class="exercise exercise-like" id="sec-VII-1-sols-2-1"><h3 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivation: Taylor Polynomials.</span>
 </h3>
-<div class="para" id="sec-VI-4-sols-2-1-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="solutions"><details id="sec-VI-4-sols-2-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="sec-VI-4-sols-2-1-3-1">Recall, the Intermediate Value Theorem gave us a method for approximating zeros of functions using bisection, but it was slow! Using derivatives, we can do better.<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-VII-1-sols-2-1-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="solutions"><details id="sec-VII-1-sols-2-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec-VII-1-sols-2-1-3-1">We’ve seen that differentiable functions look a lot like their tangent lines when we zoom in to a point. We can do even better with higher derivatives.<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Solution 1.1"><a href="#sec-VI-4-sols-2-1-3" title="Copy heading and permalink for Solution 1.1" aria-label="Copy heading and permalink for Solution 1.1">🔗</a></div>
+<div class="para" id="sec-VII-1-sols-2-1-3-2">See <a class="external" href="https://www.desmos.com/calculator/alb2vb4jj8" target="_blank">the desmos interactive from class</a> for a visualization of this, as well as visuals of examples throughout this lesson.<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-2-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.1"><a href="#sec-VII-1-sols-2-1-3" title="Copy heading and permalink for Solution 1.1" aria-label="Copy heading and permalink for Solution 1.1">🔗</a></div>
 </div></details></div>
-<div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 1: Motivation: Newton’s Method"><a href="#sec-VI-4-sols-2-1" title="Copy heading and permalink for Worksheet Exercise 1: Motivation: Newton’s Method" aria-label="Copy heading and permalink for Worksheet Exercise 1: Motivation: Newton’s Method">🔗</a></div></article><article class="exercise exercise-like" id="sec-VI-4-sols-2-2"><h3 class="heading">
-<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example: Approximating <span class="process-math">\(\pi\)</span>.</span>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 1: Motivation: Taylor Polynomials"><a href="#sec-VII-1-sols-2-1" title="Copy heading and permalink for Worksheet Exercise 1: Motivation: Taylor Polynomials" aria-label="Copy heading and permalink for Worksheet Exercise 1: Motivation: Taylor Polynomials">🔗</a></div></article><article class="exercise exercise-like" id="sec-VII-1-sols-2-2"><h3 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Definition: Taylor Polynomial at <span class="process-math">\(x=0\)</span>.</span>
 </h3>
-<div class="para" id="sec-VI-4-sols-2-2-2-1">We’d like to approximate a solution to <span class="process-math">\(f(x) = \sin(x) = 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-VII-1-sols-2-2-2-1">Let <span class="process-math">\(f\)</span> be a continuously differentiable function. The <dfn class="terminology"><span class="process-math">\(n^{th}\)</span> degree Taylor polynomial of <span class="process-math">\(f\)</span> centered at <span class="process-math">\(x=0\)</span></dfn> is<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="sec-VI-4-sols-2-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="sec-VI-4-sols-2-2-3-1">See notes from class. Using Newton’s method (with equations of tangent lines), we get an approximation of <span class="process-math">\(\pi \approx 3.1415926533\)</span> after just two iterations!<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Solution 2.1"><a href="#sec-VI-4-sols-2-2-3" title="Copy heading and permalink for Solution 2.1" aria-label="Copy heading and permalink for Solution 2.1">🔗</a></div>
-</div></details></div>
-<div class="workspace" data-space="8in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 2: Example: Approximating \pi"><a href="#sec-VI-4-sols-2-2" title="Copy heading and permalink for Worksheet Exercise 2: Example: Approximating \pi" aria-label="Copy heading and permalink for Worksheet Exercise 2: Example: Approximating \pi">🔗</a></div></article></section><section class="onepage" id="sec-VI-4-sols-3"><article class="exercise exercise-like" id="sec-VI-4-sols-3-1"><h3 class="heading">
-<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Newton’s Method.</span>
-</h3>
-<div class="para" id="sec-VI-4-sols-3-1-2-1">To approximate solutions to <span class="process-math">\(f(x)=0\text{,}\)</span> we can compute a sequence of approximations by<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions"><details id="sec-VI-4-sols-3-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="sec-VI-4-sols-3-1-3-1">
-<ol class="lower-alpha lower-alpha-level-1" id="sec-VI-4-sols-3-1-3-1-1">
-<li id="sec-VI-4-sols-3-1-3-1-1-1">
-<div class="para" id="sec-VI-4-sols-3-1-3-1-1-1-1">Choosing <span class="process-math">\(x_0\)</span> close to <span class="process-math">\(x\text{.}\)</span> The Intermediate Value Theorem is often useful.<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-1-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 3.a"><a href="#sec-VI-4-sols-3-1-3-1-1-1" title="Copy heading and permalink for Item 3.a" aria-label="Copy heading and permalink for Item 3.a">🔗</a></div>
-</li>
-<li id="sec-VI-4-sols-3-1-3-1-1-2">
-<div class="para logical" id="sec-VI-4-sols-3-1-3-1-1-2-1">
-<div class="para">If <span class="process-math">\(x_n\)</span> is your current approximation, then</div>
+<div class="solutions"><details id="sec-VII-1-sols-2-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-VII-1-sols-2-2-3-1">
 <div class="displaymath process-math">
 \begin{equation*}
-x_{n+1} = \frac{-f(x_n)}{f'(x_n)}+ x_n\text{.}
+p_n(x)= \sum_{k=0}^n \frac{f^{(k)}(0)}{k!} x^k\text{.}
 \end{equation*}
 </div>
-<div class="para">This comes from finding the zero of the equation of the tangent line to <span class="process-math">\(f\)</span> at <span class="process-math">\(x_n\text{.}\)</span>
+<div class="para">The reason for these specific coefficients is that they force <span class="process-math">\(p_n^{(k)}(0) = f^{(k)}(0)\)</span> for all <span class="process-math">\(k\text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-1-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 3.b"><a href="#sec-VI-4-sols-3-1-3-1-1-2" title="Copy heading and permalink for Item 3.b" aria-label="Copy heading and permalink for Item 3.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Solution 3.1"><a href="#sec-VI-4-sols-3-1-3" title="Copy heading and permalink for Solution 3.1" aria-label="Copy heading and permalink for Solution 3.1">🔗</a></div>
+<div class="autopermalink" data-description="Solution 2.1"><a href="#sec-VII-1-sols-2-2-3" title="Copy heading and permalink for Solution 2.1" aria-label="Copy heading and permalink for Solution 2.1">🔗</a></div>
 </div></details></div>
-<div class="workspace" data-space="6in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 3: Newton’s Method"><a href="#sec-VI-4-sols-3-1" title="Copy heading and permalink for Worksheet Exercise 3: Newton’s Method" aria-label="Copy heading and permalink for Worksheet Exercise 3: Newton’s Method">🔗</a></div></article><article class="exercise exercise-like" id="sec-VI-4-sols-3-2"><h3 class="heading">
-<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice: Newton’s Method.</span>
+<div class="workspace" data-space="4in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 2: Definition: Taylor Polynomial at x=0"><a href="#sec-VII-1-sols-2-2" title="Copy heading and permalink for Worksheet Exercise 2: Definition: Taylor Polynomial at x=0" aria-label="Copy heading and permalink for Worksheet Exercise 2: Definition: Taylor Polynomial at x=0">🔗</a></div></article></section><section class="onepage" id="sec-VII-1-sols-3"><article class="exercise exercise-like" id="sec-VII-1-sols-3-1"><h3 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example: Taylor Polynomial.</span>
 </h3>
-<div class="para logical" id="sec-VI-4-sols-3-2-2-1">
-<div class="para">Use Newton’s method to approximate solutions to the following with three iterations (that is, compute <span class="process-math">\(x_3\)</span>).</div>
-<ol class="lower-alpha lower-alpha-level-1" id="sec-VI-4-sols-3-2-2-1-2">
-<li id="sec-VI-4-sols-3-2-2-1-2-1">
-<div class="para" id="sec-VI-4-sols-3-2-2-1-2-1-1">
-<span class="process-math">\(\displaystyle f(x) = x^2 - 7=0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-VII-1-sols-3-1-2-1">Let <span class="process-math">\(f(x) = e^x\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 4.a"><a href="#sec-VI-4-sols-3-2-2-1-2-1" title="Copy heading and permalink for Item 4.a" aria-label="Copy heading and permalink for Item 4.a">🔗</a></div>
-</li>
-<li id="sec-VI-4-sols-3-2-2-1-2-2">
-<div class="para" id="sec-VI-4-sols-3-2-2-1-2-2-1">
-<span class="process-math">\(\displaystyle g(x) = e^x - 7=0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="solutions"><details id="sec-VII-1-sols-3-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec-VII-1-sols-3-1-3-1">Then <span class="process-math">\(p_4(x) = 1 + x + \frac{1}{2}x^2 + \frac{1}{6}x^3 + \frac{1}{24}x^4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 4.b"><a href="#sec-VI-4-sols-3-2-2-1-2-2" title="Copy heading and permalink for Item 4.b" aria-label="Copy heading and permalink for Item 4.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="sec-VII-1-sols-3-1-3-2">
+<div class="para">Note that this can be used to make very good approximations for <span class="process-math">\(x\)</span>-values close to <span class="process-math">\(0\text{:}\)</span>
 </div>
-<div class="solutions"><details id="sec-VI-4-sols-3-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="sec-VI-4-sols-3-2-3-1">
-<ol class="lower-alpha lower-alpha-level-1" id="sec-VI-4-sols-3-2-3-1-1">
-<li id="sec-VI-4-sols-3-2-3-1-1-1">
-<div class="para" id="sec-VI-4-sols-3-2-3-1-1-1-1">See notes from class. After three iterations, we get <span class="process-math">\(x_3 \approx 2.64575205\text{.}\)</span> Compare this to <span class="process-math">\(\sqrt{7}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="displaymath process-math">
+\begin{equation*}
+e^{0.5} \approx p_4(0.5) = 1.6484375\text{.}
+\end{equation*}
 </div>
-<div class="autopermalink" data-description="Item 4.a"><a href="#sec-VI-4-sols-3-2-3-1-1-1" title="Copy heading and permalink for Item 4.a" aria-label="Copy heading and permalink for Item 4.a">🔗</a></div>
-</li>
-<li id="sec-VI-4-sols-3-2-3-1-1-2">
-<div class="para" id="sec-VI-4-sols-3-2-3-1-1-2-1">See notes from class. After three iterations, we get <span class="process-math">\(x_3 \approx 1.95838719705\text{.}\)</span> Compare this to <span class="process-math">\(\ln{7}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-3-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 4.b"><a href="#sec-VI-4-sols-3-2-3-1-1-2" title="Copy heading and permalink for Item 4.b" aria-label="Copy heading and permalink for Item 4.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Solution 4.1"><a href="#sec-VI-4-sols-3-2-3" title="Copy heading and permalink for Solution 4.1" aria-label="Copy heading and permalink for Solution 4.1">🔗</a></div>
+<div class="autopermalink" data-description="Solution 3.1"><a href="#sec-VII-1-sols-3-1-3" title="Copy heading and permalink for Solution 3.1" aria-label="Copy heading and permalink for Solution 3.1">🔗</a></div>
 </div></details></div>
-<div class="workspace" data-space="6in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 4: Practice: Newton’s Method"><a href="#sec-VI-4-sols-3-2" title="Copy heading and permalink for Worksheet Exercise 4: Practice: Newton’s Method" aria-label="Copy heading and permalink for Worksheet Exercise 4: Practice: Newton’s Method">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: \S VI.4 Newton’s Method"><a href="#sec-VI-4-sols" title="Copy heading and permalink for Worksheet: \S VI.4 Newton’s Method" aria-label="Copy heading and permalink for Worksheet: \S VI.4 Newton’s Method">🔗</a></div></section>
+<div class="workspace" data-space="5in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 3: Example: Taylor Polynomial"><a href="#sec-VII-1-sols-3-1" title="Copy heading and permalink for Worksheet Exercise 3: Example: Taylor Polynomial" aria-label="Copy heading and permalink for Worksheet Exercise 3: Example: Taylor Polynomial">🔗</a></div></article><article class="exercise exercise-like" id="sec-VII-1-sols-3-2"><h3 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice: Taylor Polynomial.</span>
+</h3>
+<div class="para" id="sec-VII-1-sols-3-2-2-1">Let <span class="process-math">\(g(x) = \cos(x)\text{.}\)</span> Compute <span class="process-math">\(p_4(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-VII-1-sols-3-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-VII-1-sols-3-2-3-1">
+<div class="para">Note that <span class="process-math">\(g'(0) = g'''(0) = 0\text{,}\)</span> so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p_4(x)= 1 - \frac{1}{2}x^2 + \frac{1}{4!}x^4\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1"><a href="#sec-VII-1-sols-3-2-3" title="Copy heading and permalink for Solution 4.1" aria-label="Copy heading and permalink for Solution 4.1">🔗</a></div>
+</div></details></div>
+<div class="workspace" data-space="5in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4: Practice: Taylor Polynomial"><a href="#sec-VII-1-sols-3-2" title="Copy heading and permalink for Worksheet Exercise 4: Practice: Taylor Polynomial" aria-label="Copy heading and permalink for Worksheet Exercise 4: Practice: Taylor Polynomial">🔗</a></div></article></section><section class="onepage" id="sec-VII-1-sols-4"><article class="exercise exercise-like" id="sec-VII-1-sols-4-1"><h3 class="heading">
+<span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Definition: Taylor Polynomials with arbitrary center.</span>
+</h3>
+<div class="para logical" id="sec-VII-1-sols-4-1-2-1">
+<div class="para">We can center Taylor polynomials at any <span class="process-math">\(x\)</span>-value. Recall that the tangent line to <span class="process-math">\(f\)</span> at <span class="process-math">\(x=a\)</span> is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+L(x)= f(a) +f'(a)(x-a)\text{.}
+\end{equation*}
+</div>
+<div class="para">The <dfn class="terminology"><span class="process-math">\(n^{th}\)</span> degree Taylor polynomial of <span class="process-math">\(f\)</span> centered at <span class="process-math">\(x=a\)</span></dfn> is</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-VII-1-sols-4-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-VII-1-sols-4-1-3-1">
+<div class="displaymath process-math">
+\begin{equation*}
+p_n(x)= \sum_{k=0}^n \frac{f^{(k)}(a)}{k!} (x-a)^k\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-4-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 5.1"><a href="#sec-VII-1-sols-4-1-3" title="Copy heading and permalink for Solution 5.1" aria-label="Copy heading and permalink for Solution 5.1">🔗</a></div>
+</div></details></div>
+<div class="workspace" data-space="4in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5: Definition: Taylor Polynomials with arbitrary center"><a href="#sec-VII-1-sols-4-1" title="Copy heading and permalink for Worksheet Exercise 5: Definition: Taylor Polynomials with arbitrary center" aria-label="Copy heading and permalink for Worksheet Exercise 5: Definition: Taylor Polynomials with arbitrary center">🔗</a></div></article><article class="exercise exercise-like" id="sec-VII-1-sols-4-2"><h3 class="heading">
+<span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example: Taylor polynomial.</span>
+</h3>
+<div class="para" id="sec-VII-1-sols-4-2-2-1">Let <span class="process-math">\(f(x) = e^x\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-VII-1-sols-4-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-VII-1-sols-4-2-3-1">
+<div class="para">The fourth degree Taylor polynomial centered at <span class="process-math">\(x=1\)</span> is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p_4(x) = e + e(x-1) + \frac{e}{2}(x-1)^2 + \frac{e}{3!}(x-1)^3 + \frac{e}{4!}(x-1)^4\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-4-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-VII-1-sols-4-2-3-2">
+<div class="para">Note that we can use this polynomial to make very good approximations for <span class="process-math">\(x\)</span>-values close to <span class="process-math">\(1\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+e^{1.5} \approx p_4(1.5) \approx 4.4809177\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-4-2-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 6.1"><a href="#sec-VII-1-sols-4-2-3" title="Copy heading and permalink for Solution 6.1" aria-label="Copy heading and permalink for Solution 6.1">🔗</a></div>
+</div></details></div>
+<div class="workspace" data-space="5in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 6: Example: Taylor polynomial"><a href="#sec-VII-1-sols-4-2" title="Copy heading and permalink for Worksheet Exercise 6: Example: Taylor polynomial" aria-label="Copy heading and permalink for Worksheet Exercise 6: Example: Taylor polynomial">🔗</a></div></article></section><section class="onepage" id="sec-VII-1-sols-5"><article class="exercise exercise-like" id="sec-VII-1-sols-5-1"><h3 class="heading">
+<span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice: Taylor Polynomial.</span>
+</h3>
+<div class="para" id="sec-VII-1-sols-5-1-2-1">Compute the <span class="process-math">\(2^{nd}\)</span> order Taylor polynomial of <span class="process-math">\(f(x) = \ln(x)\)</span> centered at <span class="process-math">\(x=1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-5-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec-VII-1-sols-5-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-VII-1-sols-5-1-3-1">
+<div class="para">Note that <span class="process-math">\(f'(1) = 1\)</span> and <span class="process-math">\(f''(1) = -1\text{,}\)</span> so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p_2(x)= (x-1) - \frac{1}{2}(x-1)^2
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VII-1-sols-5-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.1"><a href="#sec-VII-1-sols-5-1-3" title="Copy heading and permalink for Solution 7.1" aria-label="Copy heading and permalink for Solution 7.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Worksheet Exercise 7: Practice: Taylor Polynomial"><a href="#sec-VII-1-sols-5-1" title="Copy heading and permalink for Worksheet Exercise 7: Practice: Taylor Polynomial" aria-label="Copy heading and permalink for Worksheet Exercise 7: Practice: Taylor Polynomial">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: \S VII.1 Taylor Polynomials"><a href="#sec-VII-1-sols" title="Copy heading and permalink for Worksheet: \S VII.1 Taylor Polynomials" aria-label="Copy heading and permalink for Worksheet: \S VII.1 Taylor Polynomials">🔗</a></div></section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="sec-VI-3-sols.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-VI-5-sols.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-VII-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-VII-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

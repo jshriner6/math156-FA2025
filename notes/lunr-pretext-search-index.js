@@ -2555,6 +2555,168 @@ var ptx_lunr_docs = [
   "number": "7",
   "title": "Big OH as a Relation.",
   "body": " Big OH as a Relation   Let be the set of functions on , and define the relation on by if and only if and . Then   "
+},
+{
+  "id": "sec-VII-1",
+  "level": "1",
+  "url": "sec-VII-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VII.1\\text{:}\\)<\/span> Taylor Polynomials",
+  "body": " : Taylor Polynomials    Motivation: Taylor Polynomials        Definition: Taylor Polynomial at   Let be a continuously differentiable function. The degree Taylor polynomial of centered at is       Example: Taylor Polynomial   Let .     Practice: Taylor Polynomial   Let . Compute .       Definition: Taylor Polynomials with arbitrary center   We can center Taylor polynomials at any -value. Recall that the tangent line to at is . The degree Taylor polynomial of centered at  is     Example: Taylor polynomial   Let .       Practice: Taylor Polynomial   Compute the order Taylor polynomial of centered at .     "
+},
+{
+  "id": "sec-VII-1-2-1",
+  "level": "2",
+  "url": "sec-VII-1.html#sec-VII-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Taylor Polynomials.",
+  "body": " Motivation: Taylor Polynomials      "
+},
+{
+  "id": "sec-VII-1-2-2",
+  "level": "2",
+  "url": "sec-VII-1.html#sec-VII-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Taylor Polynomial at <span class=\"process-math\">\\(x=0\\)<\/span>.",
+  "body": " Definition: Taylor Polynomial at   Let be a continuously differentiable function. The degree Taylor polynomial of centered at is   "
+},
+{
+  "id": "sec-VII-1-3-1",
+  "level": "2",
+  "url": "sec-VII-1.html#sec-VII-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Taylor Polynomial.",
+  "body": " Example: Taylor Polynomial   Let .   "
+},
+{
+  "id": "sec-VII-1-3-2",
+  "level": "2",
+  "url": "sec-VII-1.html#sec-VII-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Taylor Polynomial.",
+  "body": " Practice: Taylor Polynomial   Let . Compute .   "
+},
+{
+  "id": "sec-VII-1-4-1",
+  "level": "2",
+  "url": "sec-VII-1.html#sec-VII-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Definition: Taylor Polynomials with arbitrary center.",
+  "body": " Definition: Taylor Polynomials with arbitrary center   We can center Taylor polynomials at any -value. Recall that the tangent line to at is . The degree Taylor polynomial of centered at  is   "
+},
+{
+  "id": "sec-VII-1-4-2",
+  "level": "2",
+  "url": "sec-VII-1.html#sec-VII-1-4-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: Taylor polynomial.",
+  "body": " Example: Taylor polynomial   Let .   "
+},
+{
+  "id": "sec-VII-1-5-1",
+  "level": "2",
+  "url": "sec-VII-1.html#sec-VII-1-5-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: Taylor Polynomial.",
+  "body": " Practice: Taylor Polynomial   Compute the order Taylor polynomial of centered at .   "
+},
+{
+  "id": "sec-VII-2",
+  "level": "1",
+  "url": "sec-VII-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VII.2\\text{:}\\)<\/span> Taylor Series",
+  "body": " : Taylor Series    Motivation: Taylor Series        Definition: Taylor Series   Given a function , the Taylor series of centered at is       Convergence of Taylor Series   Let be a Taylor series. Then one of the following hold:       Practice: Taylor Series of Common Functions   Let's compute the Taylor series of some common functions.                        Properties of Taylor Series   We can combine Taylor series of functions in meaningful ways to get Taylor series of new functions. Let and .     Example: A new Taylor series   We know .       Practice: New Taylor series   Let's find the Taylor series for , given that we know .     Write the Taylor series for using composition.      Write the Taylor series for .      Write the Taylor series for .      Example: New Taylor series           Application: Euler's Formula   One very useful application of Taylor series is that it helps us derive Euler's formula: .     "
+},
+{
+  "id": "sec-VII-2-2-1",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Taylor Series.",
+  "body": " Motivation: Taylor Series      "
+},
+{
+  "id": "sec-VII-2-2-2",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Taylor Series.",
+  "body": " Definition: Taylor Series   Given a function , the Taylor series of centered at is   "
+},
+{
+  "id": "sec-VII-2-3-1",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Convergence of Taylor Series.",
+  "body": " Convergence of Taylor Series   Let be a Taylor series. Then one of the following hold:   "
+},
+{
+  "id": "sec-VII-2-4-1",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Taylor Series of Common Functions.",
+  "body": " Practice: Taylor Series of Common Functions   Let's compute the Taylor series of some common functions.                    "
+},
+{
+  "id": "sec-VII-2-5-1",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Properties of Taylor Series.",
+  "body": " Properties of Taylor Series   We can combine Taylor series of functions in meaningful ways to get Taylor series of new functions. Let and .   "
+},
+{
+  "id": "sec-VII-2-5-2",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-5-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: A new Taylor series.",
+  "body": " Example: A new Taylor series   We know .   "
+},
+{
+  "id": "sec-VII-2-6-1",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-6-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: New Taylor series.",
+  "body": " Practice: New Taylor series   Let's find the Taylor series for , given that we know .     Write the Taylor series for using composition.      Write the Taylor series for .      Write the Taylor series for .    "
+},
+{
+  "id": "sec-VII-2-6-2",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-6-2",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Example: New Taylor series.",
+  "body": " Example: New Taylor series       "
+},
+{
+  "id": "sec-VII-2-7-1",
+  "level": "2",
+  "url": "sec-VII-2.html#sec-VII-2-7-1",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "Application: Euler’s Formula.",
+  "body": " Application: Euler's Formula   One very useful application of Taylor series is that it helps us derive Euler's formula: .   "
 }
 ]
 
