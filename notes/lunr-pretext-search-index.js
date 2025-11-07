@@ -2485,76 +2485,76 @@ var ptx_lunr_docs = [
   "body": " Practice: L'Hospital's Rule                                                (Note: LH rule does not apply)                          "
 },
 {
-  "id": "sec-VI-6",
+  "id": "sec-VI-6-sols",
   "level": "1",
-  "url": "sec-VI-6.html",
+  "url": "sec-VI-6-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VI.6\\text{:}\\)<\/span> Order of Growth",
-  "body": " : Order of Growth    Motivation: Order of Growth        Definition: \"Big OH\"   We say that is of order at most if     Example: Order                           Determining Orders of Growth   Fact: Suppose . Then      Let and .       Pracice: Order of Growth   Compare each pair of functions below using \"big OH\" notation.    and      and      and      and         Big OH as a Relation   Let be the set of functions on , and define the relation on by if and only if and . Then     "
+  "body": " : Order of Growth    Motivation: Order of Growth       Limits at infinity are often used to compare how fast two functions grow (in absolute value). We'll see how we can apply tools from last section to classify function growth.     Definition: \"Big OH\"   We say that is of order at most if    there exists such that for all . We write , and say \"f is big OH of g\".  The intuition is that this means can be scaled to outgrow eventually.     Example: Order                                        Note the unfortunate side-effect of this notation: and , but is not the same as !          Determining Orders of Growth   Fact: Suppose . Then       If , then .    If , then .    If , then and .         Let and .    Since we used LH rule to compute , this means .       Pracice: Order of Growth   Compare each pair of functions below using \"big OH\" notation.    and      and      and      and                           and         Big OH as a Relation   Let be the set of functions on , and define the relation on by if and only if and . Then     is an equivalence relation on , and the equivalence classes are called complexity classes .     "
 },
 {
-  "id": "sec-VI-6-2-1",
+  "id": "sec-VI-6-sols-2-1",
   "level": "2",
-  "url": "sec-VI-6.html#sec-VI-6-2-1",
+  "url": "sec-VI-6-sols.html#sec-VI-6-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Order of Growth.",
-  "body": " Motivation: Order of Growth      "
+  "body": " Motivation: Order of Growth       Limits at infinity are often used to compare how fast two functions grow (in absolute value). We'll see how we can apply tools from last section to classify function growth.   "
 },
 {
-  "id": "sec-VI-6-2-2",
+  "id": "sec-VI-6-sols-2-2",
   "level": "2",
-  "url": "sec-VI-6.html#sec-VI-6-2-2",
+  "url": "sec-VI-6-sols.html#sec-VI-6-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: \"Big OH\".",
-  "body": " Definition: \"Big OH\"   We say that is of order at most if   "
+  "body": " Definition: \"Big OH\"   We say that is of order at most if    there exists such that for all . We write , and say \"f is big OH of g\".  The intuition is that this means can be scaled to outgrow eventually.   "
 },
 {
-  "id": "sec-VI-6-2-3",
+  "id": "sec-VI-6-sols-2-3",
   "level": "2",
-  "url": "sec-VI-6.html#sec-VI-6-2-3",
+  "url": "sec-VI-6-sols.html#sec-VI-6-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Order.",
-  "body": " Example: Order                       "
+  "body": " Example: Order                                        Note the unfortunate side-effect of this notation: and , but is not the same as !      "
 },
 {
-  "id": "sec-VI-6-3-1",
+  "id": "sec-VI-6-sols-3-1",
   "level": "2",
-  "url": "sec-VI-6.html#sec-VI-6-3-1",
+  "url": "sec-VI-6-sols.html#sec-VI-6-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Determining Orders of Growth.",
-  "body": " Determining Orders of Growth   Fact: Suppose . Then   "
+  "body": " Determining Orders of Growth   Fact: Suppose . Then       If , then .    If , then .    If , then and .      "
 },
 {
-  "id": "sec-VI-6-3-2",
+  "id": "sec-VI-6-sols-3-2",
   "level": "2",
-  "url": "sec-VI-6.html#sec-VI-6-3-2",
+  "url": "sec-VI-6-sols.html#sec-VI-6-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Let and .   "
+  "body": "  Let and .    Since we used LH rule to compute , this means .   "
 },
 {
-  "id": "sec-VI-6-4-1",
+  "id": "sec-VI-6-sols-4-1",
   "level": "2",
-  "url": "sec-VI-6.html#sec-VI-6-4-1",
+  "url": "sec-VI-6-sols.html#sec-VI-6-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Pracice: Order of Growth.",
-  "body": " Pracice: Order of Growth   Compare each pair of functions below using \"big OH\" notation.    and      and      and      and       "
+  "body": " Pracice: Order of Growth   Compare each pair of functions below using \"big OH\" notation.    and      and      and      and                           and       "
 },
 {
-  "id": "sec-VI-6-4-2",
+  "id": "sec-VI-6-sols-4-2",
   "level": "2",
-  "url": "sec-VI-6.html#sec-VI-6-4-2",
+  "url": "sec-VI-6-sols.html#sec-VI-6-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Big OH as a Relation.",
-  "body": " Big OH as a Relation   Let be the set of functions on , and define the relation on by if and only if and . Then   "
+  "body": " Big OH as a Relation   Let be the set of functions on , and define the relation on by if and only if and . Then     is an equivalence relation on , and the equivalence classes are called complexity classes .   "
 },
 {
   "id": "sec-VII-1",
