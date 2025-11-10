@@ -2557,76 +2557,76 @@ var ptx_lunr_docs = [
   "body": " Big OH as a Relation   Let be the set of functions on , and define the relation on by if and only if and . Then     is an equivalence relation on , and the equivalence classes are called complexity classes .   "
 },
 {
-  "id": "sec-VII-1",
+  "id": "sec-VII-1-sols",
   "level": "1",
-  "url": "sec-VII-1.html",
+  "url": "sec-VII-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VII.1\\text{:}\\)<\/span> Taylor Polynomials",
-  "body": " : Taylor Polynomials    Motivation: Taylor Polynomials        Definition: Taylor Polynomial at   Let be a continuously differentiable function. The degree Taylor polynomial of centered at is       Example: Taylor Polynomial   Let .     Practice: Taylor Polynomial   Let . Compute .       Definition: Taylor Polynomials with arbitrary center   We can center Taylor polynomials at any -value. Recall that the tangent line to at is . The degree Taylor polynomial of centered at  is     Example: Taylor polynomial   Let .       Practice: Taylor Polynomial   Compute the order Taylor polynomial of centered at .     "
+  "body": " : Taylor Polynomials    Motivation: Taylor Polynomials       We've seen that differentiable functions look a lot like their tangent lines when we zoom in to a point. We can do even better with higher derivatives.  See the desmos interactive from class for a visualization of this, as well as visuals of examples throughout this lesson.     Definition: Taylor Polynomial at   Let be a continuously differentiable function. The degree Taylor polynomial of centered at is     . The reason for these specific coefficients is that they force for all .       Example: Taylor Polynomial   Let .    Then .  Note that this can be used to make very good approximations for -values close to : .     Practice: Taylor Polynomial   Let . Compute .    Note that , so .       Definition: Taylor Polynomials with arbitrary center   We can center Taylor polynomials at any -value. Recall that the tangent line to at is . The degree Taylor polynomial of centered at  is     .     Example: Taylor polynomial   Let .    The fourth degree Taylor polynomial centered at is .  Note that we can use this polynomial to make very good approximations for -values close to : .       Practice: Taylor Polynomial   Compute the order Taylor polynomial of centered at .    Note that and , so      "
 },
 {
-  "id": "sec-VII-1-2-1",
+  "id": "sec-VII-1-sols-2-1",
   "level": "2",
-  "url": "sec-VII-1.html#sec-VII-1-2-1",
+  "url": "sec-VII-1-sols.html#sec-VII-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Taylor Polynomials.",
-  "body": " Motivation: Taylor Polynomials      "
+  "body": " Motivation: Taylor Polynomials       We've seen that differentiable functions look a lot like their tangent lines when we zoom in to a point. We can do even better with higher derivatives.  See the desmos interactive from class for a visualization of this, as well as visuals of examples throughout this lesson.   "
 },
 {
-  "id": "sec-VII-1-2-2",
+  "id": "sec-VII-1-sols-2-2",
   "level": "2",
-  "url": "sec-VII-1.html#sec-VII-1-2-2",
+  "url": "sec-VII-1-sols.html#sec-VII-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Taylor Polynomial at <span class=\"process-math\">\\(x=0\\)<\/span>.",
-  "body": " Definition: Taylor Polynomial at   Let be a continuously differentiable function. The degree Taylor polynomial of centered at is   "
+  "body": " Definition: Taylor Polynomial at   Let be a continuously differentiable function. The degree Taylor polynomial of centered at is     . The reason for these specific coefficients is that they force for all .   "
 },
 {
-  "id": "sec-VII-1-3-1",
+  "id": "sec-VII-1-sols-3-1",
   "level": "2",
-  "url": "sec-VII-1.html#sec-VII-1-3-1",
+  "url": "sec-VII-1-sols.html#sec-VII-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Example: Taylor Polynomial.",
-  "body": " Example: Taylor Polynomial   Let .   "
+  "body": " Example: Taylor Polynomial   Let .    Then .  Note that this can be used to make very good approximations for -values close to : .   "
 },
 {
-  "id": "sec-VII-1-3-2",
+  "id": "sec-VII-1-sols-3-2",
   "level": "2",
-  "url": "sec-VII-1.html#sec-VII-1-3-2",
+  "url": "sec-VII-1-sols.html#sec-VII-1-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Taylor Polynomial.",
-  "body": " Practice: Taylor Polynomial   Let . Compute .   "
+  "body": " Practice: Taylor Polynomial   Let . Compute .    Note that , so .   "
 },
 {
-  "id": "sec-VII-1-4-1",
+  "id": "sec-VII-1-sols-4-1",
   "level": "2",
-  "url": "sec-VII-1.html#sec-VII-1-4-1",
+  "url": "sec-VII-1-sols.html#sec-VII-1-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Definition: Taylor Polynomials with arbitrary center.",
-  "body": " Definition: Taylor Polynomials with arbitrary center   We can center Taylor polynomials at any -value. Recall that the tangent line to at is . The degree Taylor polynomial of centered at  is   "
+  "body": " Definition: Taylor Polynomials with arbitrary center   We can center Taylor polynomials at any -value. Recall that the tangent line to at is . The degree Taylor polynomial of centered at  is     .   "
 },
 {
-  "id": "sec-VII-1-4-2",
+  "id": "sec-VII-1-sols-4-2",
   "level": "2",
-  "url": "sec-VII-1.html#sec-VII-1-4-2",
+  "url": "sec-VII-1-sols.html#sec-VII-1-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Example: Taylor polynomial.",
-  "body": " Example: Taylor polynomial   Let .   "
+  "body": " Example: Taylor polynomial   Let .    The fourth degree Taylor polynomial centered at is .  Note that we can use this polynomial to make very good approximations for -values close to : .   "
 },
 {
-  "id": "sec-VII-1-5-1",
+  "id": "sec-VII-1-sols-5-1",
   "level": "2",
-  "url": "sec-VII-1.html#sec-VII-1-5-1",
+  "url": "sec-VII-1-sols.html#sec-VII-1-sols-5-1",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: Taylor Polynomial.",
-  "body": " Practice: Taylor Polynomial   Compute the order Taylor polynomial of centered at .   "
+  "body": " Practice: Taylor Polynomial   Compute the order Taylor polynomial of centered at .    Note that and , so    "
 },
 {
   "id": "sec-VII-2",
