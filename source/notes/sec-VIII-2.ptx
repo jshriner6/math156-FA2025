@@ -1,0 +1,164 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-2">
+        <title><m>\S VIII.2</m>: Basic Antiderivative Rules</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Antiderivative Rules </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Exercise: Some Basic Antiderivatives</title>
+                    <statement>
+                        <p>
+                            Complete the following table:
+                         
+      
+      <tabular top="minor" bottom="minor">
+        <row bottom="medium">
+          <cell> <m>f(x)</m></cell>
+          <cell><m>\int f(x) dx</m>   <nbsp /></cell>
+        </row>
+        <row>
+          <cell  ><m>3</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell  ><m>k</m>, (<m>k</m> is constant)</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>x^2</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>x^{0.5}</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>x^n</m>, <m>n \ne -1</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\frac{1}{x}</m>, <m>x \neq 0</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\sin(x)</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\cos(x)</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>e^x</m></cell>
+          <cell></cell>
+        </row>
+        
+      </tabular>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Properties of Indefinite Integrals</title>
+                    <statement>
+                        <p>
+                            Similar to derivatives, antiderivatives behave nicely with addition and constant multiples:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int (f(x) + g(x)) \quad dx = </m>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int cf(x)  \quad dx = </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>Example: Computing Antiderivatives</title>
+                    <statement>
+                        <p>
+                            Compute <m>\displaystyle \int 3x^2 - 7x +\cos(x) + e^x \quad dx</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Practice: Computing Antiderivatives</title>
+                    <introduction>
+                        <p>
+                            Compute the following indefinite integrals.
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \left(\sqrt{t} - \frac{4}{t^2}\right) \quad dt </m>
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int (4x+1)(3x+2) \quad dx </m>
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int (4x+1)(3x+2) \quad dt </m>
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \frac{2x^5 - 3x + \sqrt{x}}{x^2} \quad dx </m>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Taylor Series Application</title>
+                    <statement>
+                        <p>
+                            The integral <m>\displaystyle \int e^{x^2} \quad dx</m> cannot be represented with elementary functions.
+                            However...
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

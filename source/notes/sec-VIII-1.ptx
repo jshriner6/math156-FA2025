@@ -1,0 +1,172 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-1">
+        <title><m>\S VIII.1</m>: Antiderivatives and Indefinite Integrals</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Antiderivatives </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Exercise: Antiderivative</title>
+                    
+                    
+                    <statement>
+                        <p>
+                            Given <m>f(x) =x</m>, 
+                            <ol>
+                                <li>
+                                    <p>
+                                        Sketch <m>f'(x)</m>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Sketch <m>F(x)</m> such that <m>F'(x) = f(x)</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Definition: Antiderivative</title>
+                    <statement>
+                        <p>
+                            An <term>antiderivative</term> of <m>f(x) </m> is a function <m>F(x)</m> such that
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>Notation: Indefinite Integrals</title>
+                    <statement>
+                        <p>
+                            The family of antiderivative of <m>f(x)</m> with respect to <m>x</m> is notated 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Practice: Verifying Indefinite Integrals</title>
+                    
+                    
+                    <introduction>
+                        <p>
+                            Determine if the following are true or false.
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int 2x \quad dx = x^2 +C</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \sin(x) \quad dx = \cos(x) +C</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int x^3 \quad dx = x^4 +C</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \frac{1}{x} \quad dx = \ln(x) +C</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int 2x\cos(x^2) \quad dx = x^2\sin(x^2) +C</m>
+                            </p>
+                        </statement>
+                    </task>
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>Antiderivatives with Initial Condition</title>
+                    <statement>
+                        <p>
+                            If we also know a specific value that an antiderivative must satisfy, then we can determine 
+                            the equation of a unique antiderivative:
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Practice: Finding Antiderivatives</title>
+                    <introduction>
+                        <p>
+                            Find the antiderivative <m>F(x)</m> of each function <m>f(x)</m> satisfying the given initial condition.
+                        </p>
+                    </introduction>
+                    <task workspace="1.5in">
+                        <statement>
+                            <p>
+                                <m>f(x) = 2x</m>, <m>F(0) = -3</m>
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="1.5in">
+                        <statement>
+                            <p>
+                                <m>f(x) = 2x</m>, <m>F(-3) = 0</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="1.5in">
+                        <statement>
+                            <p>
+                                <m>f(x) = \sin(x)</m>, <m>F(0) = -2</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="1.5in">
+                        <statement>
+                            <p>
+                                <m>f(x) =\frac{1}{x}</m>, <m>F(e) = 5</m>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>

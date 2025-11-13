@@ -1,0 +1,263 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-2-sols">
+        <title><m>\S VIII.2</m>: Basic Antiderivative Rules</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Antiderivative Rules </title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Now that we understand what antiderivatives are, we'll focus on methods for computing them 
+                            (similar to what we did for derivative rules). Some antiderivative rules require only reversing 
+                            basic derivative rules.
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="1in">
+                    <title>Exercise: Some Basic Antiderivatives</title>
+                    <statement>
+                        <p>
+                            Complete the following table:
+                         
+      
+      <tabular top="minor" bottom="minor">
+        <row bottom="medium">
+          <cell> <m>f(x)</m></cell>
+          <cell><m>\int f(x) dx</m>   <nbsp /></cell>
+        </row>
+        <row>
+          <cell  ><m>3</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell  ><m>k</m>, (<m>k</m> is constant)</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>x^2</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>x^{0.5}</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>x^n</m>, <m>n \ne -1</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\frac{1}{x}</m>, <m>x \neq 0</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\sin(x)</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\cos(x)</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>e^x</m></cell>
+          <cell></cell>
+        </row>
+        
+      </tabular>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <tabular top="minor" bottom="minor">
+        <row bottom="medium">
+          <cell> <m>f(x)</m></cell>
+          <cell><m>\int f(x) dx</m>   <nbsp /></cell>
+        </row>
+        <row>
+          <cell  ><m>3</m></cell>
+          <cell><m>3x + C</m></cell>
+        </row>
+        <row>
+          <cell  ><m>k</m>, (<m>k</m> is constant)</cell>
+          <cell><m>kx + C</m></cell>
+        </row>
+        <row>
+          <cell><m>x^2</m></cell>
+          <cell><m>\frac{1}{3}x^3 + C</m></cell>
+        </row>
+        <row>
+          <cell><m>x^{0.5}</m></cell>
+          <cell><m>\frac{2}{3}x^{\frac{3}{2}} + C</m></cell>
+        </row>
+        <row>
+          <cell><m>x^n</m>, <m>n \ne -1</m></cell>
+          <cell><m>\frac{1}{n+1} x^{n+1} + C</m></cell>
+        </row>
+        <row>
+          <cell><m>\frac{1}{x}</m>, <m>x \neq 0</m></cell>
+          <cell><m>\ln(|x|) + C</m></cell>
+        </row>
+        <row>
+          <cell><m>\sin(x)</m></cell>
+          <cell><m>-\cos(x) + C</m></cell>
+        </row>
+        <row>
+          <cell><m>\cos(x)</m></cell>
+          <cell><m>\sin(x) + C</m></cell>
+        </row>
+        <row>
+          <cell><m>e^x</m></cell>
+          <cell><m>e^x + C</m></cell>
+        </row>
+        
+      </tabular>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Properties of Indefinite Integrals</title>
+                    <statement>
+                        <p>
+                            Similar to derivatives, antiderivatives behave nicely with addition and constant multiples:
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int (f(x) + g(x)) \quad dx = </m>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int cf(x)  \quad dx = </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int f(x) \quad dx + \int g(x) \quad dx</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle c \int f(x)  \quad dx </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>Example: Computing Antiderivatives</title>
+                    <statement>
+                        <p>
+                            Compute <m>\displaystyle \int 3x^2 - 7x +\cos(x) + e^x \quad dx</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\displaystyle 3 \int x^2 \quad dx - 7\int x \quad dx + \int \cos(x) \quad dx + \int e^x \quad dx = x^3 - \frac{7}{2} x^2 + \sin(x) + e^x + C</m>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Practice: Computing Antiderivatives</title>
+                    <introduction>
+                        <p>
+                            Compute the following indefinite integrals.
+                        </p>
+                    </introduction>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \left(\sqrt{t} - \frac{4}{t^2}\right) \quad dt </m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>\frac{2}{3}t^{3/2} + \frac{4}{t} + C</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int (4x+1)(3x+2) \quad dx </m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>4x^3 + \frac{11}{2}x^2 + 2x + C</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int (4x+1)(3x+2) \quad dt </m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>(4x+1)(3x+2)t + C</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task workspace="1in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \frac{2x^5 - 3x + \sqrt{x}}{x^2} \quad dx </m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <m>0.5 x^4 - 3 \ln(|x|) -2x^{-1/2} + C</m>
+                            </p>
+                        </solution>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Taylor Series Application</title>
+                    <statement>
+                        <p>
+                            The integral <m>\displaystyle \int e^{x^2} \quad dx</m> cannot be represented with elementary functions.
+                            However...
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\displaystyle \int e^{x^2} \quad dx = \int \left( \sum_{n=0}^\infty \frac{x^{2n}}{n!} \right) \quad dx = \sum_{n=0}^\infty \left(\int \frac{x^{2n}}{n!} \quad dx \right)= \sum_{n=0}^\infty \frac{x^{2n+1}}{(2n+1)n!}+ C</m>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+    </article>
+</pretext>
