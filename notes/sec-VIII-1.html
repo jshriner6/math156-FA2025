@@ -14,11 +14,11 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>\S VI.4 Newton’s Method</title>
+<title>\S VIII.1 Antiderivatives and Indefinite Integrals</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-<link href="_static/pretext/css/print-worksheet.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
@@ -134,7 +134,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-VI-3-sols.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-VI-5-sols.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-VII-2-sols.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-VIII-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -183,130 +183,119 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-1-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.1\text{:}\)</span> Increasing/Decreasing</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-2-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.2\text{:}\)</span> The Shape of a Curve</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-3-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.3\text{:}\)</span> Optimization</span></a></div></li>
-<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-VI-4-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.4\text{:}\)</span> Newton’s Method</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-4-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.4\text{:}\)</span> Newton’s Method</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-5-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.5\text{:}\)</span> L’Hospital’s Rule</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VI-6-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VI.6\text{:}\)</span> Order of Growth</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VII-1-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VII.1\text{:}\)</span> Taylor Polynomials</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VII-2-sols.html" class="internal"><span class="title"><span class="process-math">\(\S VII.2\text{:}\)</span> Taylor Series</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VIII-1.html" class="internal"><span class="title"><span class="process-math">\(\S VIII.1\text{:}\)</span> Antiderivatives and Indefinite Integrals</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-VIII-1.html" class="internal"><span class="title"><span class="process-math">\(\S VIII.1\text{:}\)</span> Antiderivatives and Indefinite Integrals</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-VIII-2.html" class="internal"><span class="title"><span class="process-math">\(\S VIII.2\text{:}\)</span> Basic Antiderivative Rules</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content">
-<div class="print-preview-header">
-<h2 class="print-preview">Print preview</h2>
-<div class="print-controls">
-<div class="print-controls-toggles">
-<form class="papersize-select" id="papersize-select">
-<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
-        </label><label><input type="radio" name="papersize" value="letter">Letter
-        </label>
-</form>
-<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
-</div>
-<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
-</div>
-</div>
-<section class="worksheet" id="sec-VI-4-sols" data-margins="1in 1in 1.25cm 1in"><h2 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"><span class="process-math">\(\S VI.4\text{:}\)</span> Newton’s Method</span><div class="print-links"><a href="sec-VI-4-sols-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="worksheet" id="sec-VIII-1" data-margins="1in 1in 1.25cm 1in"><h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"><span class="process-math">\(\S VIII.1\text{:}\)</span> Antiderivatives and Indefinite Integrals</span><div class="print-links"><a href="sec-VIII-1-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h2>
-<section class="onepage" id="sec-VI-4-sols-2"><article class="exercise exercise-like" id="sec-VI-4-sols-2-1"><h3 class="heading">
-<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivation: Newton’s Method.</span>
+<section class="onepage" id="sec-VIII-1-2"><article class="exercise exercise-like" id="sec-VIII-1-2-1"><h3 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivation: Antiderivatives.</span>
 </h3>
-<div class="para" id="sec-VI-4-sols-2-1-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="solutions"><details id="sec-VI-4-sols-2-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="sec-VI-4-sols-2-1-3-1">Recall, the Intermediate Value Theorem gave us a method for approximating zeros of functions using bisection, but it was slow! Using derivatives, we can do better.<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-VIII-1-2-1-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 1: Motivation: Antiderivatives"><a href="#sec-VIII-1-2-1" title="Copy heading and permalink for Worksheet Exercise 1: Motivation: Antiderivatives" aria-label="Copy heading and permalink for Worksheet Exercise 1: Motivation: Antiderivatives">🔗</a></div></article><article class="exercise exercise-like" id="sec-VIII-1-2-2"><h3 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercise: Antiderivative.</span>
+</h3>
+<div class="para logical" id="sec-VIII-1-2-2-2-1">
+<div class="para">Given <span class="process-math">\(f(x) =x\text{,}\)</span>
 </div>
-<div class="autopermalink" data-description="Solution 1.1"><a href="#sec-VI-4-sols-2-1-3" title="Copy heading and permalink for Solution 1.1" aria-label="Copy heading and permalink for Solution 1.1">🔗</a></div>
-</div></details></div>
+<ol class="lower-alpha lower-alpha-level-1" id="sec-VIII-1-2-2-2-1-2">
+<li id="sec-VIII-1-2-2-2-1-2-1">
+<div class="para" id="sec-VIII-1-2-2-2-1-2-1-1">Sketch <span class="process-math">\(f'(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-2-2-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.a"><a href="#sec-VIII-1-2-2-2-1-2-1" title="Copy heading and permalink for Item 2.a" aria-label="Copy heading and permalink for Item 2.a">🔗</a></div>
+</li>
+<li id="sec-VIII-1-2-2-2-1-2-2">
+<div class="para" id="sec-VIII-1-2-2-2-1-2-2-1">Sketch <span class="process-math">\(F(x)\)</span> such that <span class="process-math">\(F'(x) = f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-2-2-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.b"><a href="#sec-VIII-1-2-2-2-1-2-2" title="Copy heading and permalink for Item 2.b" aria-label="Copy heading and permalink for Item 2.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 2: Exercise: Antiderivative"><a href="#sec-VIII-1-2-2" title="Copy heading and permalink for Worksheet Exercise 2: Exercise: Antiderivative" aria-label="Copy heading and permalink for Worksheet Exercise 2: Exercise: Antiderivative">🔗</a></div></article><article class="exercise exercise-like" id="sec-VIII-1-2-3"><h3 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Definition: Antiderivative.</span>
+</h3>
+<div class="para" id="sec-VIII-1-2-3-2-1">An <dfn class="terminology">antiderivative</dfn> of <span class="process-math">\(f(x) \)</span> is a function <span class="process-math">\(F(x)\)</span> such that<div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 3: Definition: Antiderivative"><a href="#sec-VIII-1-2-3" title="Copy heading and permalink for Worksheet Exercise 3: Definition: Antiderivative" aria-label="Copy heading and permalink for Worksheet Exercise 3: Definition: Antiderivative">🔗</a></div></article></section><section class="onepage" id="sec-VIII-1-3"><article class="exercise exercise-like" id="sec-VIII-1-3-1"><h3 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Notation: Indefinite Integrals.</span>
+</h3>
+<div class="para" id="sec-VIII-1-3-1-2-1">The family of antiderivative of <span class="process-math">\(f(x)\)</span> with respect to <span class="process-math">\(x\)</span> is notated<div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4: Notation: Indefinite Integrals"><a href="#sec-VIII-1-3-1" title="Copy heading and permalink for Worksheet Exercise 4: Notation: Indefinite Integrals" aria-label="Copy heading and permalink for Worksheet Exercise 4: Notation: Indefinite Integrals">🔗</a></div></article><article class="exercise exercise-like" id="sec-VIII-1-3-2"><h3 class="heading">
+<span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice: Verifying Indefinite Integrals.</span>
+</h3>
+<div class="introduction" id="sec-VIII-1-3-2-2"><div class="para" id="sec-VIII-1-3-2-2-1">Determine if the following are true or false.<div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="sec-VIII-1-3-2-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-VIII-1-3-2-3-1-1">
+<span class="process-math">\(\displaystyle \int 2x \quad dx = x^2 +C\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-3-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 1: Motivation: Newton’s Method"><a href="#sec-VI-4-sols-2-1" title="Copy heading and permalink for Worksheet Exercise 1: Motivation: Newton’s Method" aria-label="Copy heading and permalink for Worksheet Exercise 1: Motivation: Newton’s Method">🔗</a></div></article><article class="exercise exercise-like" id="sec-VI-4-sols-2-2"><h3 class="heading">
-<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example: Approximating <span class="process-math">\(\pi\)</span>.</span>
+<div class="autopermalink" data-description="Task 5.a"><a href="#sec-VIII-1-3-2-3" title="Copy heading and permalink for Task 5.a" aria-label="Copy heading and permalink for Task 5.a">🔗</a></div></article><article class="task exercise-like" id="sec-VIII-1-3-2-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-VIII-1-3-2-4-1-1">
+<span class="process-math">\(\displaystyle \int \sin(x) \quad dx = \cos(x) +C\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-3-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 5.b"><a href="#sec-VIII-1-3-2-4" title="Copy heading and permalink for Task 5.b" aria-label="Copy heading and permalink for Task 5.b">🔗</a></div></article><article class="task exercise-like" id="sec-VIII-1-3-2-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-VIII-1-3-2-5-1-1">
+<span class="process-math">\(\displaystyle \int x^3 \quad dx = x^4 +C\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-3-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 5.c"><a href="#sec-VIII-1-3-2-5" title="Copy heading and permalink for Task 5.c" aria-label="Copy heading and permalink for Task 5.c">🔗</a></div></article><article class="task exercise-like" id="sec-VIII-1-3-2-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="sec-VIII-1-3-2-6-1-1">
+<span class="process-math">\(\displaystyle \int \frac{1}{x} \quad dx = \ln(x) +C\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-3-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 5.d"><a href="#sec-VIII-1-3-2-6" title="Copy heading and permalink for Task 5.d" aria-label="Copy heading and permalink for Task 5.d">🔗</a></div></article><article class="task exercise-like" id="sec-VIII-1-3-2-7"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="sec-VIII-1-3-2-7-1-1">
+<span class="process-math">\(\displaystyle \int 2x\cos(x^2) \quad dx = x^2\sin(x^2) +C\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-3-2-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 5.e"><a href="#sec-VIII-1-3-2-7" title="Copy heading and permalink for Task 5.e" aria-label="Copy heading and permalink for Task 5.e">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 5: Practice: Verifying Indefinite Integrals"><a href="#sec-VIII-1-3-2" title="Copy heading and permalink for Worksheet Exercise 5: Practice: Verifying Indefinite Integrals" aria-label="Copy heading and permalink for Worksheet Exercise 5: Practice: Verifying Indefinite Integrals">🔗</a></div></article></section><section class="onepage" id="sec-VIII-1-4"><article class="exercise exercise-like" id="sec-VIII-1-4-1"><h3 class="heading">
+<span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Antiderivatives with Initial Condition.</span>
 </h3>
-<div class="para" id="sec-VI-4-sols-2-2-2-1">We’d like to approximate a solution to <span class="process-math">\(f(x) = \sin(x) = 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-VIII-1-4-1-2-1">If we also know a specific value that an antiderivative must satisfy, then we can determine the equation of a unique antiderivative:<div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="sec-VI-4-sols-2-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="sec-VI-4-sols-2-2-3-1">See notes from class. Using Newton’s method (with equations of tangent lines), we get an approximation of <span class="process-math">\(\pi \approx 3.1415926533\)</span> after just two iterations!<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Solution 2.1"><a href="#sec-VI-4-sols-2-2-3" title="Copy heading and permalink for Solution 2.1" aria-label="Copy heading and permalink for Solution 2.1">🔗</a></div>
-</div></details></div>
-<div class="workspace" data-space="8in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 2: Example: Approximating \pi"><a href="#sec-VI-4-sols-2-2" title="Copy heading and permalink for Worksheet Exercise 2: Example: Approximating \pi" aria-label="Copy heading and permalink for Worksheet Exercise 2: Example: Approximating \pi">🔗</a></div></article></section><section class="onepage" id="sec-VI-4-sols-3"><article class="exercise exercise-like" id="sec-VI-4-sols-3-1"><h3 class="heading">
-<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Newton’s Method.</span>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 6: Antiderivatives with Initial Condition"><a href="#sec-VIII-1-4-1" title="Copy heading and permalink for Worksheet Exercise 6: Antiderivatives with Initial Condition" aria-label="Copy heading and permalink for Worksheet Exercise 6: Antiderivatives with Initial Condition">🔗</a></div></article><article class="exercise exercise-like" id="sec-VIII-1-4-2"><h3 class="heading">
+<span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice: Finding Antiderivatives.</span>
 </h3>
-<div class="para" id="sec-VI-4-sols-3-1-2-1">To approximate solutions to <span class="process-math">\(f(x)=0\text{,}\)</span> we can compute a sequence of approximations by<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="sec-VIII-1-4-2-2"><div class="para" id="sec-VIII-1-4-2-2-1">Find the antiderivative <span class="process-math">\(F(x)\)</span> of each function <span class="process-math">\(f(x)\)</span> satisfying the given initial condition.<div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="sec-VIII-1-4-2-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-VIII-1-4-2-3-1-1">
+<span class="process-math">\(f(x) = 2x\text{,}\)</span> <span class="process-math">\(F(0) = -3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-4-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="sec-VI-4-sols-3-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="sec-VI-4-sols-3-1-3-1">
-<ol class="lower-alpha lower-alpha-level-1" id="sec-VI-4-sols-3-1-3-1-1">
-<li id="sec-VI-4-sols-3-1-3-1-1-1">
-<div class="para" id="sec-VI-4-sols-3-1-3-1-1-1-1">Choosing <span class="process-math">\(x_0\)</span> close to <span class="process-math">\(x\text{.}\)</span> The Intermediate Value Theorem is often useful.<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-1-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 7.a"><a href="#sec-VIII-1-4-2-3" title="Copy heading and permalink for Task 7.a" aria-label="Copy heading and permalink for Task 7.a">🔗</a></div></article><article class="task exercise-like" id="sec-VIII-1-4-2-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-VIII-1-4-2-4-1-1">
+<span class="process-math">\(f(x) = 2x\text{,}\)</span> <span class="process-math">\(F(-3) = 0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-4-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 3.a"><a href="#sec-VI-4-sols-3-1-3-1-1-1" title="Copy heading and permalink for Item 3.a" aria-label="Copy heading and permalink for Item 3.a">🔗</a></div>
-</li>
-<li id="sec-VI-4-sols-3-1-3-1-1-2">
-<div class="para logical" id="sec-VI-4-sols-3-1-3-1-1-2-1">
-<div class="para">If <span class="process-math">\(x_n\)</span> is your current approximation, then</div>
-<div class="displaymath process-math">
-\begin{equation*}
-x_{n+1} = \frac{-f(x_n)}{f'(x_n)}+ x_n\text{.}
-\end{equation*}
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 7.b"><a href="#sec-VIII-1-4-2-4" title="Copy heading and permalink for Task 7.b" aria-label="Copy heading and permalink for Task 7.b">🔗</a></div></article><article class="task exercise-like" id="sec-VIII-1-4-2-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-VIII-1-4-2-5-1-1">
+<span class="process-math">\(f(x) = \sin(x)\text{,}\)</span> <span class="process-math">\(F(0) = -2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-4-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para">This comes from finding the zero of the equation of the tangent line to <span class="process-math">\(f\)</span> at <span class="process-math">\(x_n\text{.}\)</span>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 7.c"><a href="#sec-VIII-1-4-2-5" title="Copy heading and permalink for Task 7.c" aria-label="Copy heading and permalink for Task 7.c">🔗</a></div></article><article class="task exercise-like" id="sec-VIII-1-4-2-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="sec-VIII-1-4-2-6-1-1">
+<span class="process-math">\(f(x) =\frac{1}{x}\text{,}\)</span> <span class="process-math">\(F(e) = 5\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VIII-1-4-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-1-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 3.b"><a href="#sec-VI-4-sols-3-1-3-1-1-2" title="Copy heading and permalink for Item 3.b" aria-label="Copy heading and permalink for Item 3.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Solution 3.1"><a href="#sec-VI-4-sols-3-1-3" title="Copy heading and permalink for Solution 3.1" aria-label="Copy heading and permalink for Solution 3.1">🔗</a></div>
-</div></details></div>
-<div class="workspace" data-space="6in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 3: Newton’s Method"><a href="#sec-VI-4-sols-3-1" title="Copy heading and permalink for Worksheet Exercise 3: Newton’s Method" aria-label="Copy heading and permalink for Worksheet Exercise 3: Newton’s Method">🔗</a></div></article><article class="exercise exercise-like" id="sec-VI-4-sols-3-2"><h3 class="heading">
-<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice: Newton’s Method.</span>
-</h3>
-<div class="para logical" id="sec-VI-4-sols-3-2-2-1">
-<div class="para">Use Newton’s method to approximate solutions to the following with three iterations (that is, compute <span class="process-math">\(x_3\)</span>).</div>
-<ol class="lower-alpha lower-alpha-level-1" id="sec-VI-4-sols-3-2-2-1-2">
-<li id="sec-VI-4-sols-3-2-2-1-2-1">
-<div class="para" id="sec-VI-4-sols-3-2-2-1-2-1-1">
-<span class="process-math">\(\displaystyle f(x) = x^2 - 7=0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 4.a"><a href="#sec-VI-4-sols-3-2-2-1-2-1" title="Copy heading and permalink for Item 4.a" aria-label="Copy heading and permalink for Item 4.a">🔗</a></div>
-</li>
-<li id="sec-VI-4-sols-3-2-2-1-2-2">
-<div class="para" id="sec-VI-4-sols-3-2-2-1-2-2-1">
-<span class="process-math">\(\displaystyle g(x) = e^x - 7=0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 4.b"><a href="#sec-VI-4-sols-3-2-2-1-2-2" title="Copy heading and permalink for Item 4.b" aria-label="Copy heading and permalink for Item 4.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions"><details id="sec-VI-4-sols-3-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="sec-VI-4-sols-3-2-3-1">
-<ol class="lower-alpha lower-alpha-level-1" id="sec-VI-4-sols-3-2-3-1-1">
-<li id="sec-VI-4-sols-3-2-3-1-1-1">
-<div class="para" id="sec-VI-4-sols-3-2-3-1-1-1-1">See notes from class. After three iterations, we get <span class="process-math">\(x_3 \approx 2.64575205\text{.}\)</span> Compare this to <span class="process-math">\(\sqrt{7}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 4.a"><a href="#sec-VI-4-sols-3-2-3-1-1-1" title="Copy heading and permalink for Item 4.a" aria-label="Copy heading and permalink for Item 4.a">🔗</a></div>
-</li>
-<li id="sec-VI-4-sols-3-2-3-1-1-2">
-<div class="para" id="sec-VI-4-sols-3-2-3-1-1-2-1">See notes from class. After three iterations, we get <span class="process-math">\(x_3 \approx 1.95838719705\text{.}\)</span> Compare this to <span class="process-math">\(\ln{7}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 4.b"><a href="#sec-VI-4-sols-3-2-3-1-1-2" title="Copy heading and permalink for Item 4.b" aria-label="Copy heading and permalink for Item 4.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-VI-4-sols-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Solution 4.1"><a href="#sec-VI-4-sols-3-2-3" title="Copy heading and permalink for Solution 4.1" aria-label="Copy heading and permalink for Solution 4.1">🔗</a></div>
-</div></details></div>
-<div class="workspace" data-space="6in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 4: Practice: Newton’s Method"><a href="#sec-VI-4-sols-3-2" title="Copy heading and permalink for Worksheet Exercise 4: Practice: Newton’s Method" aria-label="Copy heading and permalink for Worksheet Exercise 4: Practice: Newton’s Method">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: \S VI.4 Newton’s Method"><a href="#sec-VI-4-sols" title="Copy heading and permalink for Worksheet: \S VI.4 Newton’s Method" aria-label="Copy heading and permalink for Worksheet: \S VI.4 Newton’s Method">🔗</a></div></section>
-</div>
+<div class="workspace" data-space="1.5in"></div>
+<div class="autopermalink" data-description="Task 7.d"><a href="#sec-VIII-1-4-2-6" title="Copy heading and permalink for Task 7.d" aria-label="Copy heading and permalink for Task 7.d">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 7: Practice: Finding Antiderivatives"><a href="#sec-VIII-1-4-2" title="Copy heading and permalink for Worksheet Exercise 7: Practice: Finding Antiderivatives" aria-label="Copy heading and permalink for Worksheet Exercise 7: Practice: Finding Antiderivatives">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: \S VIII.1 Antiderivatives and Indefinite Integrals"><a href="#sec-VIII-1" title="Copy heading and permalink for Worksheet: \S VIII.1 Antiderivatives and Indefinite Integrals" aria-label="Copy heading and permalink for Worksheet: \S VIII.1 Antiderivatives and Indefinite Integrals">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="sec-VI-3-sols.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-VI-5-sols.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-VII-2-sols.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-VIII-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

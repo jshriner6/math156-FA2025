@@ -2717,6 +2717,141 @@ var ptx_lunr_docs = [
   "number": "9",
   "title": "Application: Euler’s Formula.",
   "body": " Application: Euler's Formula   One very useful application of Taylor series is that it helps us derive Euler's formula: .    See notes from class, or your textbook .   "
+},
+{
+  "id": "sec-VIII-1",
+  "level": "1",
+  "url": "sec-VIII-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VIII.1\\text{:}\\)<\/span> Antiderivatives and Indefinite Integrals",
+  "body": " : Antiderivatives and Indefinite Integrals    Motivation: Antiderivatives        Exercise: Antiderivative   Given ,   Sketch .    Sketch such that .        Definition: Antiderivative   An antiderivative of is a function such that       Notation: Indefinite Integrals   The family of antiderivative of with respect to is notated     Practice: Verifying Indefinite Integrals   Determine if the following are true or false.                                          Antiderivatives with Initial Condition   If we also know a specific value that an antiderivative must satisfy, then we can determine the equation of a unique antiderivative:     Practice: Finding Antiderivatives   Find the antiderivative of each function satisfying the given initial condition.      ,        ,        ,        ,       "
+},
+{
+  "id": "sec-VIII-1-2-1",
+  "level": "2",
+  "url": "sec-VIII-1.html#sec-VIII-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Antiderivatives.",
+  "body": " Motivation: Antiderivatives      "
+},
+{
+  "id": "sec-VIII-1-2-2",
+  "level": "2",
+  "url": "sec-VIII-1.html#sec-VIII-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Exercise: Antiderivative.",
+  "body": " Exercise: Antiderivative   Given ,   Sketch .    Sketch such that .      "
+},
+{
+  "id": "sec-VIII-1-2-3",
+  "level": "2",
+  "url": "sec-VIII-1.html#sec-VIII-1-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definition: Antiderivative.",
+  "body": " Definition: Antiderivative   An antiderivative of is a function such that   "
+},
+{
+  "id": "sec-VIII-1-3-1",
+  "level": "2",
+  "url": "sec-VIII-1.html#sec-VIII-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Notation: Indefinite Integrals.",
+  "body": " Notation: Indefinite Integrals   The family of antiderivative of with respect to is notated   "
+},
+{
+  "id": "sec-VIII-1-3-2",
+  "level": "2",
+  "url": "sec-VIII-1.html#sec-VIII-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Verifying Indefinite Integrals.",
+  "body": " Practice: Verifying Indefinite Integrals   Determine if the following are true or false.                                      "
+},
+{
+  "id": "sec-VIII-1-4-1",
+  "level": "2",
+  "url": "sec-VIII-1.html#sec-VIII-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Antiderivatives with Initial Condition.",
+  "body": " Antiderivatives with Initial Condition   If we also know a specific value that an antiderivative must satisfy, then we can determine the equation of a unique antiderivative:   "
+},
+{
+  "id": "sec-VIII-1-4-2",
+  "level": "2",
+  "url": "sec-VIII-1.html#sec-VIII-1-4-2",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: Finding Antiderivatives.",
+  "body": " Practice: Finding Antiderivatives   Find the antiderivative of each function satisfying the given initial condition.      ,        ,        ,        ,     "
+},
+{
+  "id": "sec-VIII-2",
+  "level": "1",
+  "url": "sec-VIII-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VIII.2\\text{:}\\)<\/span> Basic Antiderivative Rules",
+  "body": " : Basic Antiderivative Rules    Motivation: Antiderivative Rules        Exercise: Some Basic Antiderivatives   Complete the following table:             , ( is constant)             ,     ,                     Properties of Indefinite Integrals   Similar to derivatives, antiderivatives behave nicely with addition and constant multiples:                   Example: Computing Antiderivatives   Compute .     Practice: Computing Antiderivatives   Compute the following indefinite integrals.                                   Taylor Series Application   The integral cannot be represented with elementary functions. However...     "
+},
+{
+  "id": "sec-VIII-2-2-1",
+  "level": "2",
+  "url": "sec-VIII-2.html#sec-VIII-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Antiderivative Rules.",
+  "body": " Motivation: Antiderivative Rules      "
+},
+{
+  "id": "sec-VIII-2-2-2",
+  "level": "2",
+  "url": "sec-VIII-2.html#sec-VIII-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Exercise: Some Basic Antiderivatives.",
+  "body": " Exercise: Some Basic Antiderivatives   Complete the following table:             , ( is constant)             ,     ,                   "
+},
+{
+  "id": "sec-VIII-2-2-3",
+  "level": "2",
+  "url": "sec-VIII-2.html#sec-VIII-2-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Properties of Indefinite Integrals.",
+  "body": " Properties of Indefinite Integrals   Similar to derivatives, antiderivatives behave nicely with addition and constant multiples:               "
+},
+{
+  "id": "sec-VIII-2-3-1",
+  "level": "2",
+  "url": "sec-VIII-2.html#sec-VIII-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example: Computing Antiderivatives.",
+  "body": " Example: Computing Antiderivatives   Compute .   "
+},
+{
+  "id": "sec-VIII-2-3-2",
+  "level": "2",
+  "url": "sec-VIII-2.html#sec-VIII-2-3-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Computing Antiderivatives.",
+  "body": " Practice: Computing Antiderivatives   Compute the following indefinite integrals.                               "
+},
+{
+  "id": "sec-VIII-2-4-1",
+  "level": "2",
+  "url": "sec-VIII-2.html#sec-VIII-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Taylor Series Application.",
+  "body": " Taylor Series Application   The integral cannot be represented with elementary functions. However...   "
 }
 ]
 
