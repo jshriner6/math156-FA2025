@@ -1,6 +1,6 @@
 <pretext>
     <article xml:id="notes">
-        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-6">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-6-sols">
         <title><m>\S VIII.6</m>: The Fundamental Theorem of Calculus</title>
             <page>
                 <exercise workspace="2in">
@@ -10,6 +10,12 @@
                             
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            We've conceptually defined definite integrals, but practically they're hard to compute. We'll make 
+                            a connection to previous ideas that makes this easier.
+                        </p>
+                    </solution>
                 
                 </exercise>
                 <exercise workspace="4in">
@@ -21,7 +27,25 @@
                             of the object from <m>t=0</m> to <m>t=2</m>?
                         </p>
                     </statement>
-                    
+                    <solution>
+                        <p>
+                            There are two approaches we could take to answering this question. The first would be to find
+                            the position function <m>s(t)</m> (i.e., the antiderivative satisfying the initial condition), and then
+                            compute <m>s(2)-s(0)</m>.
+                        </p>
+                        <p>
+                            The second would be to graph <m>v(t)=s'(t)</m>, and find the signed area between <m>v(t)</m> and the input axis between
+                            <m>t=0</m> and <m>t=2</m>. That is, compute <m>\displaystyle \int_0^2 v(t) \quad dt</m>.
+                        </p>
+                        <p>
+                            These approaches compute the same thing. In symbols,
+                            <me>
+                                \displaystyle \int_0^2 s'(t) \quad dt = s(2) - s(0)
+                            </me>,
+                            which illustrates the important relationship described by the Fundamental Theorem of Calculus.
+                            
+                        </p>
+                    </solution>
                     
                 </exercise>
 
@@ -35,7 +59,15 @@
                             <m>f(x)</m>. Then
                         </p>
                     </statement>
-                    
+                    <solution>
+                        <p>
+                            <me>
+                                \int_a^b f(x) \quad dx = F(b) - F(a)
+                            </me>.
+                            It is common to notate <m>F(b) - F(a)</m> as <m>F(x)\Big|_a^b</m>
+                            
+                        </p>
+                    </solution>
                     
                 </exercise>
                 <exercise workspace="3in">
@@ -45,7 +77,11 @@
                             <m>\displaystyle \int_0^1 x^2 \quad dx</m>
                         </p>
                     </statement>
-                    
+                    <solution>
+                        <p>
+                            <m>= \frac{1}{3}x^3\Big|_0^1 = \frac{1}{3}(1)^3 - \frac{1}{3}(0)^3 = \frac{1}{3}</m>
+                        </p>
+                    </solution>
                     
                 </exercise>
             </page>
@@ -58,13 +94,23 @@
                                 <m>\displaystyle \int_{-1}^4 2-2x \quad dx</m>
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>-5</m>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="2in">
                         <statement>
                             <p>
-                                <m>\displaystyle \int_{0}^{\pi/2} \sin(x) \quad dx</m>
+                                <m>\displaystyle \int_{0}^{\pi/2} \sin(x)\quad dx</m>
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>1</m>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="2in">
                         <statement>
@@ -72,6 +118,11 @@
                                 <m>\displaystyle \int_{0}^1 e^x \quad dx</m>
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>e-1</m>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="2in">
                         <statement>
@@ -79,6 +130,11 @@
                                 <m>\displaystyle \int_{-1}^1 x^5 \quad dx</m>
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>0</m>
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="2in">
                         <statement>
@@ -86,6 +142,11 @@
                                 <m>\displaystyle \int_{0}^2 3x^3 - 2x^2 - e^x \quad dx</m>
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                <m>23/3-e^2</m>
+                            </p>
+                        </solution>
                     </task>
                     
                     
@@ -99,7 +160,16 @@
                             <m>\displaystyle \int_1^2 x e^{x^2} \quad dx</m>
                         </p>
                     </statement>
-                    
+                    <solution>
+                        <p>
+                            Letting <m>u= x^2</m>, we obtain and solve the following definite integral with respect to <m>u</m>:
+                            <me>
+                                \int_1^4 0.5 e^u \quad du = 0.5e^u \Big|_1^4 = 0.5e^4 - 0.5e
+                            </me>.
+
+                            
+                        </p>
+                    </solution>
                     
                 </exercise>
 
@@ -111,6 +181,15 @@
                                 <m>\displaystyle \int_{1}^{2} \frac{x}{1+4x^2} \quad dx</m>
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                Letting <m>u=1+4x^2</m>, we convert this definite integral to
+                                <me>
+                                    \int_5^{17} \frac{1}{8u} \quad du = \frac{1}{8}\ln|u| \Big|_5^{17} = \frac{1}{8}\ln(17) -\frac{1}{8}\ln(5)
+                                </me>
+                                
+                            </p>
+                        </solution>
                     </task>
                     <task workspace="3in">
                         <statement>
@@ -118,6 +197,14 @@
                                 <m>\displaystyle \int_{2/pi}^{4/\pi} \frac{\cos\left(\frac{1}{x}\right)}{x^2} \quad dx</m>
                             </p>
                         </statement>
+                        <solution>
+                            <p>
+                                Letting <m>u=x^{-1}</m>, we convert this definite integral to
+                                <me>
+                                    \int_{\pi/2}^{\pi/4} -\cos(u) \quad du = -\sin(u)\Big|_{\pi/2}^{\pi/4} = -\frac{\sqrt{2}}{2}+1
+                                </me>
+                            </p>
+                        </solution>
                     </task>
                     
                 </exercise>
@@ -134,6 +221,15 @@
                             </image>
                         </p>
                     </statement>
+                    <solution>
+                        <p>
+                            The FTC tells us how to interpret a definite integral when the function we're integrating has
+                            units. For example, if <m>r(t)</m> has units gallons per day and <m>R(t)</m> is an antiderivative
+                            of <m>r</m>, then <m>R(t)</m> will have units of gallons. This tells us that an integral like
+                            <m>\displaystyle \int_4^{10} r(t) \quad dt</m> tells us about the total change in gallons from day 4 
+                            to day 10.
+                        </p>
+                    </solution>
                     
                 </exercise>
             </page>
