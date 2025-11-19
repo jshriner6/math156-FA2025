@@ -1,0 +1,176 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-3-sols">
+        <title><m>\S VIII.3</m>: Integration By Parts</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Integration By Parts</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We've seen that finding antiderivatives can be useful. We'll continue to add methods for how we can
+                            do this for more complicated functions.
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>The Product Rule and Integration</title>
+                    <statement>
+                        <p>
+                            Recall, the product rule tells us
+                            <me>
+                                \frac{d}{dx}(f(x) \cdot g(x)) = f'(x) g(x) + f(x) g'(x)
+                            </me>,
+                            or equivalently, 
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <me>
+                                \displaystyle \int f'(x)g(x) + f(x)g'(x) \quad dx = f(x) \cdot g(x) + C
+                            </me>.
+
+                            We can rearrange this as shown in class to obtain the formula for <term>integration by parts</term>:
+                            <me>
+                                \displaystyle \int f(x)g'(x) \quad dx = f(x)g(x) - \int f'(x)g(x) \quad dx
+                            </me>.
+                            The shorthand version using differentials is
+                            <me>
+                                \displaystyle \int u \quad dv = uv - \int v \quad du
+                            </me>.
+                            
+                            
+                            
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>A First Example</title>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \int xe^x \quad dx</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            If we choose <m>u=x</m> and <m>dv = e^x \quad dx</m>, then we can solve for <m>du = dx</m> and
+                            <m>v = e^x</m> to get 
+                            <me>
+                                \int xe^x \quad dx = xe^x - \int e^x \quad dx = xe^x - e^x +C
+                            </me>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Integration By Parts</title>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int x\cos(x) \quad dx</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Choose <m>u=x</m> and <m>dv = \cos(x) \quad dx</m>. Using IBP and solving we should get
+                                <me>
+                                    \int x\cos(x) \quad dx = x\sin(x) + \cos(x) + C
+                                </me>.
+                                
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \ln(x) \quad dx</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Choose <m>u=\ln(x)</m> and <m>dv =  dx</m>. Using IBP and solving we should get
+                                <me>
+                                    \int \ln(x) \quad dx = x\ln(x) -x + C
+                                </me>.
+                            </p>
+                        </solution>
+                        
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int x^2 e^x\quad dx</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Choose <m>u=x^2</m> and <m>dv = e^x \quad dx</m>. Using IBP (twice, the second 
+                                using <m>u=2x</m> and <m>dv = e^x \quad dx</m>) and solving we should get
+                                <me>
+                                    \int x^2 e^x\quad dx = x^2e^x - 2xe^x + 2e^x +C
+                                </me>.
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int e^x\cos(x) \quad dx</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Choose <m>u=\cos(x)</m> and <m>dv = e^x \quad dx</m>. Using IBP (twice, the second 
+                                using <m>u=\sin(x)</m> and <m>dv = e^x \quad dx</m>) and using the
+                                "boomerang" trick, we should get
+                                <me>
+                                    \int e^x\cos(x)\quad dx = \frac{e^x\cos(x) + e^x\sin(x)}{2} +C
+                                </me>.
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Summary: Integration By Parts</title>
+                    <statement>
+                        <p>
+                            There are some general guidelines for picking <m>u</m> and <m>dv</m>:
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            You will typically have success picking <m>dv</m> to be (in this order of preference) exponential,
+                            trig, algebraic, logarithmic.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>

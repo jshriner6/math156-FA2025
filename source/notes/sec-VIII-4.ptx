@@ -1,0 +1,84 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-4">
+        <title><m>\S VIII.4</m>: Substitution</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Substitution</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>The Chain Rule and Integration</title>
+                    <statement>
+                        <p>
+                            Note that <m>\displaystyle \int e^{0.5x} \quad dx \neq e^{0.5x} +C</m>. Why?
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>A First Example</title>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \int x^3 \cdot \sin(7x^4 + 3) \quad dx</m>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+                <exercise>
+                    <title>Practice: Substitution</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \frac{x^2}{5x^3+1} \quad dx</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int e^x \sin(e^x) \quad dx</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \frac{\cos(\sqrt{x})}{\sqrt{x}} \quad dx</m>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>A Final Example</title>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \int \tan(x) \quad dx</m>
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>

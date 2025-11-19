@@ -1,0 +1,88 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-5-2">
+        <title><m>\S VIII.5</m>: The Definite Integral</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: The Definite Integral</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                
+                </exercise>
+
+                <exercise workspace="5in">
+                    <title>Definition: Definite Integral</title>
+                    <statement>
+                        <p>
+                            The <term>definite integral</term> of a continuous function <m>f(x)</m> on an interval 
+                            <m>[a,b]</m> is the number 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+            <page>
+                <exercise>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                               <m>\displaystyle \int_0^1 3x \quad dx</m> 
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                               <m>\displaystyle \int_{-1}^4 2-2x \quad dx</m> 
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                               <m>\displaystyle \int_{-1}^1 \sqrt{1-x^2} \quad dx</m> 
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>Properties of Definite Integrals</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Practice: Properties of Definite Integrals</title>
+                    <statement>
+                        <p>
+                            Compute <m>\displaystyle \int_{-3}^4 g(x) \quad dx</m>.
+                            <image source="piece-g.jpeg" width="50%">
+                                <shortdescription>Graph of a piecwise function g.</shortdescription>
+                            </image>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>

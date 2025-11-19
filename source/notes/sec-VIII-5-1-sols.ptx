@@ -1,0 +1,157 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-5-1-sols">
+        <title><m>\S VIII.5</m>: Riemann Sums</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Riemann Sums</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We'll see that computing areas between curves is useful, and in general requires calculus 
+                            concepts.
+                        </p>
+                    </solution>
+                
+                </exercise>
+                <exercise workspace="5in">
+                    <title>Introduction: Computing Areas</title>
+                    <statement>
+                        <p>
+                            If a car travels <m>5</m> meters per second, how far has it traveled after <m>10</m> seconds?
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            It travels <m>5 \cdot 10 = 50</m> meters, which when visualized graphically, is the area under 
+                            velocity curve <m>\frac{ds}{dt} = 5</m> from <m>t=0</m> to <m>t=10</m>.
+                        </p>
+                        <p>
+                            Computing this area was easy because it is a nice geometric shape. In general, this isn't 
+                            straightforward (for example, what if your velocity curve was <m>\frac{ds}{dt} = t^2</m>?).
+                        </p>
+                        <p>
+                            We'll start by trying to approximate these areas. See the <url href="https://www.desmos.com/calculator/3lqxdmuwvd">Riemann sum interactive from class</url> for the 
+                            general approach.
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>Approximatin Areas Using Rectangles</title>
+                    <statement>
+                        <p>
+                            We can approximate areas using rectangles, and we can choose
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        the width of each rectangle (called <m>\Delta x</m>), and
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        how the height of each rectangle is determined on each subinterval of 
+                                        length <m>\Delta x</m>.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Definition: Riemann Sums</title>
+                    <statement>
+                        <p>
+                            Given <m>f(x)</m> on the interval <m>[a,b]</m>,
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        The <term><m>n^{th}</m> right Riemann sum</term> is 
+                                        <me>
+                                            R_n = \Delta x f(a+\Delta x) + \Delta x f(a+ 2 \Delta x) + \cdots + \Delta x f(a+ n\Delta x) = \Delta x \sum_{k=1}^n f( a+ k\Delta x)
+                                        </me>
+                                        
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        The <term><m>n^{th}</m> left Riemann sum</term> is 
+                                        <me>
+                                            L_n = \Delta x f(a+ 0\Delta x) + \Delta x f(a+  \Delta x) + \cdots + \Delta x f(a+ (n-1)\Delta x) = \Delta x \sum_{k=0}^{n-1} f( a+ k\Delta x)
+                                        </me>
+                                        
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="3in">
+                    <title>Example: Riemann Sums</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x) = x^2</m> on <m>[0,2]</m>, and choose <m>n=4</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Then <m>\Delta x = \frac{2-0}{4} = 0.5</m>, and 
+                            <me>
+                                R_4 = 0.5 \sum_{n=1}^4 f(0 + n \cdot 0.5) = 0.5(1/4 + 1 + 9/4 + 4) = 15/4
+                            </me>,
+                            <me>
+                                L_4 = 0.5 \sum_{n=0}^3 f(0 + n \cdot 0.5) = 0.5(0+ 1/4 + 1 + 9/4 ) = 7/4
+                            </me>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Positive vs. Negative Function Values</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            See course notes for a visual example. In general, it is important to remember that 
+                            Riemann sums approximate the <term>net signed area</term> between a curve and the input axis,
+                            where area above the input axis is counted as positive, and area below the input axis is counted
+                            as negative.
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>

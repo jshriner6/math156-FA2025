@@ -1,0 +1,154 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-5-2-sols">
+        <title><m>\S VIII.5</m>: The Definite Integral</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: The Definite Integral</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Riemann sums give us a way to estimate the net signed area between a curve and the input
+                            axis. We can combine this with calculus tools to compute area exactly.
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="5in">
+                    <title>Definition: Definite Integral</title>
+                    <statement>
+                        <p>
+                            The <term>definite integral</term> of a continuous function <m>f(x)</m> on an interval 
+                            <m>[a,b]</m> is the number 
+                        </p>
+                    </statement>
+                    
+                    <solution>
+                        <p>
+                            <m>\displaystyle \int_a^b f(x) \quad dx = \lim_{n \to \infty} R_n</m>.
+                        </p>
+                        
+                    </solution>
+                </exercise>
+
+            </page>
+            <page>
+                <exercise>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                               <m>\displaystyle \int_0^1 3x \quad dx</m> 
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                We recognize this as the area of a triangle with base <m>1</m> and height <m>3</m>, so
+                                <m>\displaystyle \int_0^1 3x \quad dx = 3/2</m> .
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                               <m>\displaystyle \int_{-1}^4 2-2x \quad dx</m> 
+                            </p>
+                        </statement>
+                         <solution>
+                            <p>
+                                We recognize this as the area of a triangle with base <m>2</m> and height <m>4</m> minus 
+                                the area of a triangle with base <m>3</m> and height <m>6</m>, so
+                                <m>\displaystyle  \int_{-1}^4 2-2x = 4 - 9 = -5</m> .
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                               <m>\displaystyle \int_{-1}^1 \sqrt{1-x^2} \quad dx</m> 
+                            </p>
+                        </statement>
+                         <solution>
+                            <p>
+                                We recognize this as the area of a semi-circle with radius <m>1</m>, so
+                                <m>\displaystyle  \int_{-1}^1 \sqrt{1-x^2}  \quad dx = \pi/2</m> .
+                            </p>
+                        </solution>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="4in">
+                    <title>Properties of Definite Integrals</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int_a^a f(x) \quad dx = 0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int_a^c f(x) \quad dx = \int_a^b f(x) \quad dx + \int_b^c f(x) \quad dx</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int_a^b f(x) \quad dx = - \int_b^a f(x) \quad dx  </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int_a^b kf(x) \quad dx = k \int_a^b f(x) \quad dx  </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\displaystyle \int_a^b f(x) + g(x) \quad dx = \int_a^b f(x) \quad dx + \int_a^b g(x) \quad dx</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Practice: Properties of Definite Integrals</title>
+                    <statement>
+                        <p>
+                            Compute <m>\displaystyle \int_{-3}^4 g(x) \quad dx</m>.
+                            <image source="piece-g.jpeg" width="50%">
+                                <shortdescription>Graph of a piecwise function g.</shortdescription>
+                            </image>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            <m>\displaystyle \int_{-3}^4 g(x) \quad dx = 1/2 + \pi/4 - 1/2 - 1 - 1/2 +\pi/2 = 3\pi/4 - 3/2</m>
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>

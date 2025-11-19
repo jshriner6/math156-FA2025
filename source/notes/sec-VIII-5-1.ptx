@@ -1,0 +1,78 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-5-1">
+        <title><m>\S VIII.5</m>: Riemann Sums</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Riemann Sums</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                
+                </exercise>
+                <exercise workspace="5in">
+                    <title>Introduction: Computing Areas</title>
+                    <statement>
+                        <p>
+                            If a car travels <m>5</m> meters per second, how far has it traveled after <m>10</m> seconds?
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>Approximatin Areas Using Rectangles</title>
+                    <statement>
+                        <p>
+                            We can approximate areas using rectangles, and we can choose
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Definition: Riemann Sums</title>
+                    <statement>
+                        <p>
+                            Given <m>f(x)</m> on the interval <m>[a,b]</m>,
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="3in">
+                    <title>Example: Riemann Sums</title>
+                    <statement>
+                        <p>
+                            Let <m>f(x) = x^2</m> on <m>[0,2]</m>, and choose <m>n=4</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Positive vs. Negative Function Values</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>

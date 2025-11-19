@@ -1,0 +1,158 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-4-sols">
+        <title><m>\S VIII.4</m>: Substitution</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Substitution</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            We will continue learning methods for finding more complicated antiderivatives.
+                        </p>
+                    </solution>
+                
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>The Chain Rule and Integration</title>
+                    <statement>
+                        <p>
+                            Note that <m>\displaystyle \int e^{0.5x} \quad dx \neq e^{0.5x} +C</m>. Why?
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            The derivative of the right hand side requires the chain rule. In general, recall that 
+                            <me>
+                                \frac{d}{dx}(f(g(x))) = f'(g(x))\cdot g'(x)
+                            </me>,
+                            or equivalently
+                            <me>
+                                \int f'(g(x)) g'(x) \quad dx = f(g(x)) +C
+                            </me>.
+                            This gives us a strategy for finding antiderivatives using <term>substitution</term>.
+                            
+                            
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>A First Example</title>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \int x^3 \cdot \sin(7x^4 + 3) \quad dx</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Letting <m>u = 7x^4 + 3</m>, our integral reduces to the <m>du</m> integral
+                            <me>
+                                \int \sin(u) \cdot \frac{1}{28} \quad du
+                            </me>, 
+                            which is easier. We compute this integral to be <m>-\frac{1}{28}\cos(u) +C</m>, and then 
+                            back-substitute <m>u = 7x^4 + 3</m> to get the final answer of 
+                            <me>
+                                \int x^3 \cdot \sin(7x^4 + 3) \quad dx = -\frac{1}{28}\cos(7x^4 + 3) +C
+                            </me>.
+                            
+                            
+                        </p>
+                    </solution>
+                    
+                    
+                </exercise>
+                <exercise>
+                    <title>Practice: Substitution</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \frac{x^2}{5x^3+1} \quad dx</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Choose <m>u = 5x^3 +1</m>. After substituting and solving we should compute 
+                                <me>
+                                    \int \frac{x^2}{5x^3+1} \quad dx = \frac{1}{15} \ln|5x^3 +1| +C
+                                </me>.
+                                
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int e^x \sin(e^x) \quad dx</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                Choose <m>u = e^x</m>. After substituting and solving we should compute 
+                                <me>
+                                    \int e^x \sin(e^x) \quad dx = -\cos(e^x) +C
+                                </me>.
+                                
+                            </p>
+                        </solution>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \frac{\cos(\sqrt{x})}{\sqrt{x}} \quad dx</m>
+                            </p>
+                        </statement>
+
+                        <solution>
+                            <p>
+                                Choose <m>u = \sqrt{x}</m>. After substituting and solving we should compute 
+                                <me>
+                                    \int \frac{\cos(\sqrt{x})}{\sqrt{x}} \quad dx =2 \sin(\sqrt{x})+C
+                                </me>.
+                                
+                            </p>
+                        </solution>
+                    </task>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>A Final Example</title>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \int \tan(x) \quad dx</m>
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Recognizing that <m>\tan(x) = \frac{\sin(x)}{\cos(x)}</m>, the two real choice are either
+                            <m>u=\sin(x)</m> or <m>u=\cos(x)</m>. The choice that will work is <m>u=\cos(x)</m>, and should
+                            give us
+                            <me>
+                                 \int \tan(x) \quad dx = -\ln|\cos(x)| + C
+                            </me>.
+                            
+                        </p>
+                    </solution>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>

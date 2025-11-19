@@ -1,0 +1,99 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="sec-VIII-3">
+        <title><m>\S VIII.3</m>: Integration By Parts</title>
+            <page>
+                <exercise workspace="2in">
+                    <title>Motivation: Integration By Parts</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>The Product Rule and Integration</title>
+                    <statement>
+                        <p>
+                            Recall, the product rule tells us
+                            <me>
+                                \frac{d}{dx}(f(x) \cdot g(x)) = f'(x) g(x) + f(x) g'(x)
+                            </me>,
+                            or equivalently, 
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <title>A First Example</title>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \int xe^x \quad dx</m>
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+            </page>
+            <page>
+                <exercise>
+                    <title>Practice: Integration By Parts</title>
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int x\cos(x) \quad dx</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int \ln(x) \quad dx</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int x^2 e^x\quad dx</m>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="3in">
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int e^x\cos(x) \quad dx</m>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+            </page>
+
+            <page>
+                <exercise>
+                    <title>Summary: Integration By Parts</title>
+                    <statement>
+                        <p>
+                            There are some general guidelines for picking <m>u</m> and <m>dv</m>:
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>
