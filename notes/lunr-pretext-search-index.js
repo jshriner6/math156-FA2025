@@ -2719,76 +2719,76 @@ var ptx_lunr_docs = [
   "body": " Application: Euler's Formula   One very useful application of Taylor series is that it helps us derive Euler's formula: .    See notes from class, or your textbook .   "
 },
 {
-  "id": "sec-VIII-1",
+  "id": "sec-VIII-1-sols",
   "level": "1",
-  "url": "sec-VIII-1.html",
+  "url": "sec-VIII-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VIII.1\\text{:}\\)<\/span> Antiderivatives and Indefinite Integrals",
-  "body": " : Antiderivatives and Indefinite Integrals    Motivation: Antiderivatives        Exercise: Antiderivative   Given ,   Sketch .    Sketch such that .        Definition: Antiderivative   An antiderivative of is a function such that       Notation: Indefinite Integrals   The family of antiderivative of with respect to is notated     Practice: Verifying Indefinite Integrals   Determine if the following are true or false.                                          Antiderivatives with Initial Condition   If we also know a specific value that an antiderivative must satisfy, then we can determine the equation of a unique antiderivative:     Practice: Finding Antiderivatives   Find the antiderivative of each function satisfying the given initial condition.      ,        ,        ,        ,       "
+  "body": " : Antiderivatives and Indefinite Integrals    Motivation: Antiderivatives       In many cases, we have information about the derivatives of a system, and would like to use this information to describe system behavior. The concept of \"thinking backwards from derivative\" can be useful.     Exercise: Antiderivative   Given ,   Sketch .    Sketch such that .        is a constant function. However, a function satisfying is a quadratic function, and there are infinitely many of them.     Definition: Antiderivative   An antiderivative of is a function such that     . We noticed above that if is an antiderivative of , then so is for any constant .       Notation: Indefinite Integrals   The family of antiderivative of with respect to is notated     , and is called the indefinite integral of with respect to .     Practice: Verifying Indefinite Integrals   Determine if the following are true or false.          True           False           False           True, though typically we'd like the antiderivative functions to be defined on the same domain as . To satisfy this, we'd notice .           False        Antiderivatives with Initial Condition   If we also know a specific value that an antiderivative must satisfy, then we can determine the equation of a unique antiderivative:    For example, if we know and , this specifies a specific quadratic function whose -intercept is .     Practice: Finding Antiderivatives   Find the antiderivative of each function satisfying the given initial condition.      ,             ,             ,             ,            "
 },
 {
-  "id": "sec-VIII-1-2-1",
+  "id": "sec-VIII-1-sols-2-1",
   "level": "2",
-  "url": "sec-VIII-1.html#sec-VIII-1-2-1",
+  "url": "sec-VIII-1-sols.html#sec-VIII-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Antiderivatives.",
-  "body": " Motivation: Antiderivatives      "
+  "body": " Motivation: Antiderivatives       In many cases, we have information about the derivatives of a system, and would like to use this information to describe system behavior. The concept of \"thinking backwards from derivative\" can be useful.   "
 },
 {
-  "id": "sec-VIII-1-2-2",
+  "id": "sec-VIII-1-sols-2-2",
   "level": "2",
-  "url": "sec-VIII-1.html#sec-VIII-1-2-2",
+  "url": "sec-VIII-1-sols.html#sec-VIII-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Exercise: Antiderivative.",
-  "body": " Exercise: Antiderivative   Given ,   Sketch .    Sketch such that .      "
+  "body": " Exercise: Antiderivative   Given ,   Sketch .    Sketch such that .        is a constant function. However, a function satisfying is a quadratic function, and there are infinitely many of them.   "
 },
 {
-  "id": "sec-VIII-1-2-3",
+  "id": "sec-VIII-1-sols-2-3",
   "level": "2",
-  "url": "sec-VIII-1.html#sec-VIII-1-2-3",
+  "url": "sec-VIII-1-sols.html#sec-VIII-1-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Definition: Antiderivative.",
-  "body": " Definition: Antiderivative   An antiderivative of is a function such that   "
+  "body": " Definition: Antiderivative   An antiderivative of is a function such that     . We noticed above that if is an antiderivative of , then so is for any constant .   "
 },
 {
-  "id": "sec-VIII-1-3-1",
+  "id": "sec-VIII-1-sols-3-1",
   "level": "2",
-  "url": "sec-VIII-1.html#sec-VIII-1-3-1",
+  "url": "sec-VIII-1-sols.html#sec-VIII-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Notation: Indefinite Integrals.",
-  "body": " Notation: Indefinite Integrals   The family of antiderivative of with respect to is notated   "
+  "body": " Notation: Indefinite Integrals   The family of antiderivative of with respect to is notated     , and is called the indefinite integral of with respect to .   "
 },
 {
-  "id": "sec-VIII-1-3-2",
+  "id": "sec-VIII-1-sols-3-2",
   "level": "2",
-  "url": "sec-VIII-1.html#sec-VIII-1-3-2",
+  "url": "sec-VIII-1-sols.html#sec-VIII-1-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Verifying Indefinite Integrals.",
-  "body": " Practice: Verifying Indefinite Integrals   Determine if the following are true or false.                                      "
+  "body": " Practice: Verifying Indefinite Integrals   Determine if the following are true or false.          True           False           False           True, though typically we'd like the antiderivative functions to be defined on the same domain as . To satisfy this, we'd notice .           False    "
 },
 {
-  "id": "sec-VIII-1-4-1",
+  "id": "sec-VIII-1-sols-4-1",
   "level": "2",
-  "url": "sec-VIII-1.html#sec-VIII-1-4-1",
+  "url": "sec-VIII-1-sols.html#sec-VIII-1-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Antiderivatives with Initial Condition.",
-  "body": " Antiderivatives with Initial Condition   If we also know a specific value that an antiderivative must satisfy, then we can determine the equation of a unique antiderivative:   "
+  "body": " Antiderivatives with Initial Condition   If we also know a specific value that an antiderivative must satisfy, then we can determine the equation of a unique antiderivative:    For example, if we know and , this specifies a specific quadratic function whose -intercept is .   "
 },
 {
-  "id": "sec-VIII-1-4-2",
+  "id": "sec-VIII-1-sols-4-2",
   "level": "2",
-  "url": "sec-VIII-1.html#sec-VIII-1-4-2",
+  "url": "sec-VIII-1-sols.html#sec-VIII-1-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "Practice: Finding Antiderivatives.",
-  "body": " Practice: Finding Antiderivatives   Find the antiderivative of each function satisfying the given initial condition.      ,        ,        ,        ,     "
+  "body": " Practice: Finding Antiderivatives   Find the antiderivative of each function satisfying the given initial condition.      ,             ,             ,             ,          "
 },
 {
   "id": "sec-VIII-2",
