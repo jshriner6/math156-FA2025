@@ -2852,6 +2852,312 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Taylor Series Application.",
   "body": " Taylor Series Application   The integral cannot be represented with elementary functions. However...   "
+},
+{
+  "id": "sec-VIII-3",
+  "level": "1",
+  "url": "sec-VIII-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VIII.3\\text{:}\\)<\/span> Integration By Parts",
+  "body": " : Integration By Parts    Motivation: Integration By Parts        The Product Rule and Integration   Recall, the product rule tells us , or equivalently,       A First Example           Practice: Integration By Parts                                  Summary: Integration By Parts   There are some general guidelines for picking and :     "
+},
+{
+  "id": "sec-VIII-3-2-1",
+  "level": "2",
+  "url": "sec-VIII-3.html#sec-VIII-3-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Integration By Parts.",
+  "body": " Motivation: Integration By Parts      "
+},
+{
+  "id": "sec-VIII-3-2-2",
+  "level": "2",
+  "url": "sec-VIII-3.html#sec-VIII-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Product Rule and Integration.",
+  "body": " The Product Rule and Integration   Recall, the product rule tells us , or equivalently,   "
+},
+{
+  "id": "sec-VIII-3-3-1",
+  "level": "2",
+  "url": "sec-VIII-3.html#sec-VIII-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "A First Example.",
+  "body": " A First Example       "
+},
+{
+  "id": "sec-VIII-3-4-1",
+  "level": "2",
+  "url": "sec-VIII-3.html#sec-VIII-3-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Integration By Parts.",
+  "body": " Practice: Integration By Parts                              "
+},
+{
+  "id": "sec-VIII-3-5-1",
+  "level": "2",
+  "url": "sec-VIII-3.html#sec-VIII-3-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Summary: Integration By Parts.",
+  "body": " Summary: Integration By Parts   There are some general guidelines for picking and :   "
+},
+{
+  "id": "sec-VIII-4",
+  "level": "1",
+  "url": "sec-VIII-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VIII.4\\text{:}\\)<\/span> Substitution",
+  "body": " : Substitution    Motivation: Substitution        The Chain Rule and Integration   Note that . Why?       A First Example         Practice: Substitution                           A Final Example         "
+},
+{
+  "id": "sec-VIII-4-2-1",
+  "level": "2",
+  "url": "sec-VIII-4.html#sec-VIII-4-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Substitution.",
+  "body": " Motivation: Substitution      "
+},
+{
+  "id": "sec-VIII-4-2-2",
+  "level": "2",
+  "url": "sec-VIII-4.html#sec-VIII-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Chain Rule and Integration.",
+  "body": " The Chain Rule and Integration   Note that . Why?   "
+},
+{
+  "id": "sec-VIII-4-3-1",
+  "level": "2",
+  "url": "sec-VIII-4.html#sec-VIII-4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "A First Example.",
+  "body": " A First Example       "
+},
+{
+  "id": "sec-VIII-4-3-2",
+  "level": "2",
+  "url": "sec-VIII-4.html#sec-VIII-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Practice: Substitution.",
+  "body": " Practice: Substitution                       "
+},
+{
+  "id": "sec-VIII-4-4-1",
+  "level": "2",
+  "url": "sec-VIII-4.html#sec-VIII-4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "A Final Example.",
+  "body": " A Final Example       "
+},
+{
+  "id": "sec-VIII-5-1",
+  "level": "1",
+  "url": "sec-VIII-5-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VIII.5\\text{:}\\)<\/span> Riemann Sums",
+  "body": " : Riemann Sums    Motivation: Riemann Sums        Introduction: Computing Areas   If a car travels meters per second, how far has it traveled after seconds?       Approximatin Areas Using Rectangles   We can approximate areas using rectangles, and we can choose     Definition: Riemann Sums   Given on the interval ,       Example: Riemann Sums   Let on , and choose .     Positive vs. Negative Function Values        "
+},
+{
+  "id": "sec-VIII-5-1-2-1",
+  "level": "2",
+  "url": "sec-VIII-5-1.html#sec-VIII-5-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Riemann Sums.",
+  "body": " Motivation: Riemann Sums      "
+},
+{
+  "id": "sec-VIII-5-1-2-2",
+  "level": "2",
+  "url": "sec-VIII-5-1.html#sec-VIII-5-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Introduction: Computing Areas.",
+  "body": " Introduction: Computing Areas   If a car travels meters per second, how far has it traveled after seconds?   "
+},
+{
+  "id": "sec-VIII-5-1-3-1",
+  "level": "2",
+  "url": "sec-VIII-5-1.html#sec-VIII-5-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Approximatin Areas Using Rectangles.",
+  "body": " Approximatin Areas Using Rectangles   We can approximate areas using rectangles, and we can choose   "
+},
+{
+  "id": "sec-VIII-5-1-3-2",
+  "level": "2",
+  "url": "sec-VIII-5-1.html#sec-VIII-5-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Definition: Riemann Sums.",
+  "body": " Definition: Riemann Sums   Given on the interval ,   "
+},
+{
+  "id": "sec-VIII-5-1-4-1",
+  "level": "2",
+  "url": "sec-VIII-5-1.html#sec-VIII-5-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Riemann Sums.",
+  "body": " Example: Riemann Sums   Let on , and choose .   "
+},
+{
+  "id": "sec-VIII-5-1-4-2",
+  "level": "2",
+  "url": "sec-VIII-5-1.html#sec-VIII-5-1-4-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Positive vs. Negative Function Values.",
+  "body": " Positive vs. Negative Function Values      "
+},
+{
+  "id": "sec-VIII-5-2",
+  "level": "1",
+  "url": "sec-VIII-5-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VIII.5\\text{:}\\)<\/span> The Definite Integral",
+  "body": " : The Definite Integral    Motivation: The Definite Integral        Definition: Definite Integral   The definite integral of a continuous function on an interval is the number                                Properties of Definite Integrals        Practice: Properties of Definite Integrals   Compute .  Graph of a piecwise function g.       "
+},
+{
+  "id": "sec-VIII-5-2-2-1",
+  "level": "2",
+  "url": "sec-VIII-5-2.html#sec-VIII-5-2-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: The Definite Integral.",
+  "body": " Motivation: The Definite Integral      "
+},
+{
+  "id": "sec-VIII-5-2-2-2",
+  "level": "2",
+  "url": "sec-VIII-5-2.html#sec-VIII-5-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definition: Definite Integral.",
+  "body": " Definition: Definite Integral   The definite integral of a continuous function on an interval is the number   "
+},
+{
+  "id": "sec-VIII-5-2-3-1",
+  "level": "2",
+  "url": "sec-VIII-5-2.html#sec-VIII-5-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                      "
+},
+{
+  "id": "sec-VIII-5-2-4-1",
+  "level": "2",
+  "url": "sec-VIII-5-2.html#sec-VIII-5-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Properties of Definite Integrals.",
+  "body": " Properties of Definite Integrals      "
+},
+{
+  "id": "sec-VIII-5-2-4-2",
+  "level": "2",
+  "url": "sec-VIII-5-2.html#sec-VIII-5-2-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: Properties of Definite Integrals.",
+  "body": " Practice: Properties of Definite Integrals   Compute .  Graph of a piecwise function g.     "
+},
+{
+  "id": "sec-VIII-6",
+  "level": "1",
+  "url": "sec-VIII-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S VIII.6\\text{:}\\)<\/span> The Fundamental Theorem of Calculus",
+  "body": " : The Fundamental Theorem of Calculus    Motivation: The Fundamental Theorem of Calculus        Example: Motivating the FTC   Let be the velocity of an object at time . If the object's initial position is feet, what is the displacement of the object from to ?       The FTC   Let be a continuous function on , and an antiderivative of . Then     Example: The FTC           Practice: The FTC                                         Example: The FTC and Substitution         Practice: The FTC and Substitution                    Interpreting Integrals with the FTC     Graph of rate function in gallons per day with respect to time (in days), with the area accumulated between day 4 and 10 shaded.       "
+},
+{
+  "id": "sec-VIII-6-2-1",
+  "level": "2",
+  "url": "sec-VIII-6.html#sec-VIII-6-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: The Fundamental Theorem of Calculus.",
+  "body": " Motivation: The Fundamental Theorem of Calculus      "
+},
+{
+  "id": "sec-VIII-6-2-2",
+  "level": "2",
+  "url": "sec-VIII-6.html#sec-VIII-6-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Example: Motivating the FTC.",
+  "body": " Example: Motivating the FTC   Let be the velocity of an object at time . If the object's initial position is feet, what is the displacement of the object from to ?   "
+},
+{
+  "id": "sec-VIII-6-3-1",
+  "level": "2",
+  "url": "sec-VIII-6.html#sec-VIII-6-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "The FTC.",
+  "body": " The FTC   Let be a continuous function on , and an antiderivative of . Then   "
+},
+{
+  "id": "sec-VIII-6-3-2",
+  "level": "2",
+  "url": "sec-VIII-6.html#sec-VIII-6-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example: The FTC.",
+  "body": " Example: The FTC       "
+},
+{
+  "id": "sec-VIII-6-4-1",
+  "level": "2",
+  "url": "sec-VIII-6.html#sec-VIII-6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Practice: The FTC.",
+  "body": " Practice: The FTC                                     "
+},
+{
+  "id": "sec-VIII-6-5-1",
+  "level": "2",
+  "url": "sec-VIII-6.html#sec-VIII-6-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: The FTC and Substitution.",
+  "body": " Example: The FTC and Substitution       "
+},
+{
+  "id": "sec-VIII-6-5-2",
+  "level": "2",
+  "url": "sec-VIII-6.html#sec-VIII-6-5-2",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Practice: The FTC and Substitution.",
+  "body": " Practice: The FTC and Substitution                "
+},
+{
+  "id": "sec-VIII-6-6-1",
+  "level": "2",
+  "url": "sec-VIII-6.html#sec-VIII-6-6-1",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Interpreting Integrals with the FTC.",
+  "body": " Interpreting Integrals with the FTC     Graph of rate function in gallons per day with respect to time (in days), with the area accumulated between day 4 and 10 shaded.     "
 }
 ]
 
