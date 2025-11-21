@@ -253,6 +253,9 @@
                         <p>
                             <m>\displaystyle \int e^{x^2} \quad dx = \int \left( \sum_{n=0}^\infty \frac{x^{2n}}{n!} \right) \quad dx = \sum_{n=0}^\infty \left(\int \frac{x^{2n}}{n!} \quad dx \right)= \sum_{n=0}^\infty \frac{x^{2n+1}}{(2n+1)n!}+ C</m>
                         </p>
+                        <p>
+                            Visualize what this tells us in this <url href="https://www.desmos.com/calculator/yvmpsoactp">Desmos interactive</url>.
+                        </p>
                     </solution>
                     
                 </exercise>
