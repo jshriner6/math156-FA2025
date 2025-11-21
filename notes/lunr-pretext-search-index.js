@@ -2791,67 +2791,67 @@ var ptx_lunr_docs = [
   "body": " Practice: Finding Antiderivatives   Find the antiderivative of each function satisfying the given initial condition.      ,             ,             ,             ,          "
 },
 {
-  "id": "sec-VIII-2",
+  "id": "sec-VIII-2-sols",
   "level": "1",
-  "url": "sec-VIII-2.html",
+  "url": "sec-VIII-2-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VIII.2\\text{:}\\)<\/span> Basic Antiderivative Rules",
-  "body": " : Basic Antiderivative Rules    Motivation: Antiderivative Rules        Exercise: Some Basic Antiderivatives   Complete the following table:             , ( is constant)             ,     ,                     Properties of Indefinite Integrals   Similar to derivatives, antiderivatives behave nicely with addition and constant multiples:                   Example: Computing Antiderivatives   Compute .     Practice: Computing Antiderivatives   Compute the following indefinite integrals.                                   Taylor Series Application   The integral cannot be represented with elementary functions. However...     "
+  "body": " : Basic Antiderivative Rules    Motivation: Antiderivative Rules       Now that we understand what antiderivatives are, we'll focus on methods for computing them (similar to what we did for derivative rules). Some antiderivative rules require only reversing basic derivative rules.     Exercise: Some Basic Antiderivatives   Complete the following table:             , ( is constant)             ,     ,                                 , ( is constant)             ,     ,                     Properties of Indefinite Integrals   Similar to derivatives, antiderivatives behave nicely with addition and constant multiples:                                   Example: Computing Antiderivatives   Compute .          Practice: Computing Antiderivatives   Compute the following indefinite integrals.                                                       Taylor Series Application   The integral cannot be represented with elementary functions. However...       Visualize what this tells us in this Desmos interactive .     "
 },
 {
-  "id": "sec-VIII-2-2-1",
+  "id": "sec-VIII-2-sols-2-1",
   "level": "2",
-  "url": "sec-VIII-2.html#sec-VIII-2-2-1",
+  "url": "sec-VIII-2-sols.html#sec-VIII-2-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Antiderivative Rules.",
-  "body": " Motivation: Antiderivative Rules      "
+  "body": " Motivation: Antiderivative Rules       Now that we understand what antiderivatives are, we'll focus on methods for computing them (similar to what we did for derivative rules). Some antiderivative rules require only reversing basic derivative rules.   "
 },
 {
-  "id": "sec-VIII-2-2-2",
+  "id": "sec-VIII-2-sols-2-2",
   "level": "2",
-  "url": "sec-VIII-2.html#sec-VIII-2-2-2",
+  "url": "sec-VIII-2-sols.html#sec-VIII-2-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Exercise: Some Basic Antiderivatives.",
-  "body": " Exercise: Some Basic Antiderivatives   Complete the following table:             , ( is constant)             ,     ,                   "
+  "body": " Exercise: Some Basic Antiderivatives   Complete the following table:             , ( is constant)             ,     ,                                 , ( is constant)             ,     ,                   "
 },
 {
-  "id": "sec-VIII-2-2-3",
+  "id": "sec-VIII-2-sols-2-3",
   "level": "2",
-  "url": "sec-VIII-2.html#sec-VIII-2-2-3",
+  "url": "sec-VIII-2-sols.html#sec-VIII-2-sols-2-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Properties of Indefinite Integrals.",
-  "body": " Properties of Indefinite Integrals   Similar to derivatives, antiderivatives behave nicely with addition and constant multiples:               "
+  "body": " Properties of Indefinite Integrals   Similar to derivatives, antiderivatives behave nicely with addition and constant multiples:                               "
 },
 {
-  "id": "sec-VIII-2-3-1",
+  "id": "sec-VIII-2-sols-3-1",
   "level": "2",
-  "url": "sec-VIII-2.html#sec-VIII-2-3-1",
+  "url": "sec-VIII-2-sols.html#sec-VIII-2-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Example: Computing Antiderivatives.",
-  "body": " Example: Computing Antiderivatives   Compute .   "
+  "body": " Example: Computing Antiderivatives   Compute .        "
 },
 {
-  "id": "sec-VIII-2-3-2",
+  "id": "sec-VIII-2-sols-3-2",
   "level": "2",
-  "url": "sec-VIII-2.html#sec-VIII-2-3-2",
+  "url": "sec-VIII-2-sols.html#sec-VIII-2-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Computing Antiderivatives.",
-  "body": " Practice: Computing Antiderivatives   Compute the following indefinite integrals.                               "
+  "body": " Practice: Computing Antiderivatives   Compute the following indefinite integrals.                                                   "
 },
 {
-  "id": "sec-VIII-2-4-1",
+  "id": "sec-VIII-2-sols-4-1",
   "level": "2",
-  "url": "sec-VIII-2.html#sec-VIII-2-4-1",
+  "url": "sec-VIII-2-sols.html#sec-VIII-2-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Taylor Series Application.",
-  "body": " Taylor Series Application   The integral cannot be represented with elementary functions. However...   "
+  "body": " Taylor Series Application   The integral cannot be represented with elementary functions. However...       Visualize what this tells us in this Desmos interactive .   "
 },
 {
   "id": "sec-VIII-3",
