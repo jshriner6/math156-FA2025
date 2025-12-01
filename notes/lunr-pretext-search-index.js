@@ -2854,58 +2854,58 @@ var ptx_lunr_docs = [
   "body": " Taylor Series Application   The integral cannot be represented with elementary functions. However...       Visualize what this tells us in this Desmos interactive .   "
 },
 {
-  "id": "sec-VIII-3",
+  "id": "sec-VIII-3-sols",
   "level": "1",
-  "url": "sec-VIII-3.html",
+  "url": "sec-VIII-3-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VIII.3\\text{:}\\)<\/span> Integration By Parts",
-  "body": " : Integration By Parts    Motivation: Integration By Parts        The Product Rule and Integration   Recall, the product rule tells us , or equivalently,       A First Example           Practice: Integration By Parts                                  Summary: Integration By Parts   There are some general guidelines for picking and :     "
+  "body": " : Integration By Parts    Motivation: Integration By Parts       We've seen that finding antiderivatives can be useful. We'll continue to add methods for how we can do this for more complicated functions.     The Product Rule and Integration   Recall, the product rule tells us , or equivalently,     . We can rearrange this as shown in class to obtain the formula for integration by parts : . The shorthand version using differentials is .       A First Example        If we choose and , then we can solve for and to get .       Practice: Integration By Parts         Choose and . Using IBP and solving we should get .           Choose and . Using IBP and solving we should get .           Choose and . Using IBP (twice, the second using and ) and solving we should get .           Choose and . Using IBP (twice, the second using and ) and using the \"boomerang\" trick, we should get .        Summary: Integration By Parts   There are some general guidelines for picking and :    You will typically have success picking to be (in this order of preference) exponential, trig, algebraic, logarithmic.     "
 },
 {
-  "id": "sec-VIII-3-2-1",
+  "id": "sec-VIII-3-sols-2-1",
   "level": "2",
-  "url": "sec-VIII-3.html#sec-VIII-3-2-1",
+  "url": "sec-VIII-3-sols.html#sec-VIII-3-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Integration By Parts.",
-  "body": " Motivation: Integration By Parts      "
+  "body": " Motivation: Integration By Parts       We've seen that finding antiderivatives can be useful. We'll continue to add methods for how we can do this for more complicated functions.   "
 },
 {
-  "id": "sec-VIII-3-2-2",
+  "id": "sec-VIII-3-sols-2-2",
   "level": "2",
-  "url": "sec-VIII-3.html#sec-VIII-3-2-2",
+  "url": "sec-VIII-3-sols.html#sec-VIII-3-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "The Product Rule and Integration.",
-  "body": " The Product Rule and Integration   Recall, the product rule tells us , or equivalently,   "
+  "body": " The Product Rule and Integration   Recall, the product rule tells us , or equivalently,     . We can rearrange this as shown in class to obtain the formula for integration by parts : . The shorthand version using differentials is .   "
 },
 {
-  "id": "sec-VIII-3-3-1",
+  "id": "sec-VIII-3-sols-3-1",
   "level": "2",
-  "url": "sec-VIII-3.html#sec-VIII-3-3-1",
+  "url": "sec-VIII-3-sols.html#sec-VIII-3-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "A First Example.",
-  "body": " A First Example       "
+  "body": " A First Example        If we choose and , then we can solve for and to get .   "
 },
 {
-  "id": "sec-VIII-3-4-1",
+  "id": "sec-VIII-3-sols-4-1",
   "level": "2",
-  "url": "sec-VIII-3.html#sec-VIII-3-4-1",
+  "url": "sec-VIII-3-sols.html#sec-VIII-3-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Integration By Parts.",
-  "body": " Practice: Integration By Parts                              "
+  "body": " Practice: Integration By Parts         Choose and . Using IBP and solving we should get .           Choose and . Using IBP and solving we should get .           Choose and . Using IBP (twice, the second using and ) and solving we should get .           Choose and . Using IBP (twice, the second using and ) and using the \"boomerang\" trick, we should get .    "
 },
 {
-  "id": "sec-VIII-3-5-1",
+  "id": "sec-VIII-3-sols-5-1",
   "level": "2",
-  "url": "sec-VIII-3.html#sec-VIII-3-5-1",
+  "url": "sec-VIII-3-sols.html#sec-VIII-3-sols-5-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Summary: Integration By Parts.",
-  "body": " Summary: Integration By Parts   There are some general guidelines for picking and :   "
+  "body": " Summary: Integration By Parts   There are some general guidelines for picking and :    You will typically have success picking to be (in this order of preference) exponential, trig, algebraic, logarithmic.   "
 },
 {
   "id": "sec-VIII-4",
