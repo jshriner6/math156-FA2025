@@ -2908,58 +2908,58 @@ var ptx_lunr_docs = [
   "body": " Summary: Integration By Parts   There are some general guidelines for picking and :    You will typically have success picking to be (in this order of preference) exponential, trig, algebraic, logarithmic.   "
 },
 {
-  "id": "sec-VIII-4",
+  "id": "sec-VIII-4-sols",
   "level": "1",
-  "url": "sec-VIII-4.html",
+  "url": "sec-VIII-4-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VIII.4\\text{:}\\)<\/span> Substitution",
-  "body": " : Substitution    Motivation: Substitution        The Chain Rule and Integration   Note that . Why?       A First Example         Practice: Substitution                           A Final Example         "
+  "body": " : Substitution    Motivation: Substitution       We will continue learning methods for finding more complicated antiderivatives.     The Chain Rule and Integration   Note that . Why?    The derivative of the right hand side requires the chain rule. In general, recall that , or equivalently . This gives us a strategy for finding antiderivatives using substitution .       A First Example        Letting , our integral reduces to the integral , which is easier. We compute this integral to be , and then back-substitute to get the final answer of .     Practice: Substitution         Choose . After substituting and solving we should compute .           Choose . After substituting and solving we should compute .           Choose . After substituting and solving we should compute .        A Final Example        Recognizing that , the two real choice are either or . The choice that will work is , and should give us .     "
 },
 {
-  "id": "sec-VIII-4-2-1",
+  "id": "sec-VIII-4-sols-2-1",
   "level": "2",
-  "url": "sec-VIII-4.html#sec-VIII-4-2-1",
+  "url": "sec-VIII-4-sols.html#sec-VIII-4-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Substitution.",
-  "body": " Motivation: Substitution      "
+  "body": " Motivation: Substitution       We will continue learning methods for finding more complicated antiderivatives.   "
 },
 {
-  "id": "sec-VIII-4-2-2",
+  "id": "sec-VIII-4-sols-2-2",
   "level": "2",
-  "url": "sec-VIII-4.html#sec-VIII-4-2-2",
+  "url": "sec-VIII-4-sols.html#sec-VIII-4-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "The Chain Rule and Integration.",
-  "body": " The Chain Rule and Integration   Note that . Why?   "
+  "body": " The Chain Rule and Integration   Note that . Why?    The derivative of the right hand side requires the chain rule. In general, recall that , or equivalently . This gives us a strategy for finding antiderivatives using substitution .   "
 },
 {
-  "id": "sec-VIII-4-3-1",
+  "id": "sec-VIII-4-sols-3-1",
   "level": "2",
-  "url": "sec-VIII-4.html#sec-VIII-4-3-1",
+  "url": "sec-VIII-4-sols.html#sec-VIII-4-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "A First Example.",
-  "body": " A First Example       "
+  "body": " A First Example        Letting , our integral reduces to the integral , which is easier. We compute this integral to be , and then back-substitute to get the final answer of .   "
 },
 {
-  "id": "sec-VIII-4-3-2",
+  "id": "sec-VIII-4-sols-3-2",
   "level": "2",
-  "url": "sec-VIII-4.html#sec-VIII-4-3-2",
+  "url": "sec-VIII-4-sols.html#sec-VIII-4-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Practice: Substitution.",
-  "body": " Practice: Substitution                       "
+  "body": " Practice: Substitution         Choose . After substituting and solving we should compute .           Choose . After substituting and solving we should compute .           Choose . After substituting and solving we should compute .    "
 },
 {
-  "id": "sec-VIII-4-4-1",
+  "id": "sec-VIII-4-sols-4-1",
   "level": "2",
-  "url": "sec-VIII-4.html#sec-VIII-4-4-1",
+  "url": "sec-VIII-4-sols.html#sec-VIII-4-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "A Final Example.",
-  "body": " A Final Example       "
+  "body": " A Final Example        Recognizing that , the two real choice are either or . The choice that will work is , and should give us .   "
 },
 {
   "id": "sec-VIII-5-1",
