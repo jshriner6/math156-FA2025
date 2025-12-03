@@ -2962,67 +2962,67 @@ var ptx_lunr_docs = [
   "body": " A Final Example        Recognizing that , the two real choice are either or . The choice that will work is , and should give us .   "
 },
 {
-  "id": "sec-VIII-5-1",
+  "id": "sec-VIII-5-1-sols",
   "level": "1",
-  "url": "sec-VIII-5-1.html",
+  "url": "sec-VIII-5-1-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VIII.5\\text{:}\\)<\/span> Riemann Sums",
-  "body": " : Riemann Sums    Motivation: Riemann Sums        Introduction: Computing Areas   If a car travels meters per second, how far has it traveled after seconds?       Approximatin Areas Using Rectangles   We can approximate areas using rectangles, and we can choose     Definition: Riemann Sums   Given on the interval ,       Example: Riemann Sums   Let on , and choose .     Positive vs. Negative Function Values        "
+  "body": " : Riemann Sums    Motivation: Riemann Sums       We'll see that computing areas between curves is useful, and in general requires calculus concepts.     Introduction: Computing Areas   If a car travels meters per second, how far has it traveled after seconds?    It travels meters, which when visualized graphically, is the area under velocity curve from to .  Computing this area was easy because it is a nice geometric shape. In general, this isn't straightforward (for example, what if your velocity curve was ?).  We'll start by trying to approximate these areas. See the Riemann sum interactive from class for the general approach.       Approximatin Areas Using Rectangles   We can approximate areas using rectangles, and we can choose       the width of each rectangle (called ), and    how the height of each rectangle is determined on each subinterval of length .        Definition: Riemann Sums   Given on the interval ,       The right Riemann sum is     The left Riemann sum is           Example: Riemann Sums   Let on , and choose .    Then , and , .     Positive vs. Negative Function Values       See course notes for a visual example. In general, it is important to remember that Riemann sums approximate the net signed area between a curve and the input axis, where area above the input axis is counted as positive, and area below the input axis is counted as negative.     "
 },
 {
-  "id": "sec-VIII-5-1-2-1",
+  "id": "sec-VIII-5-1-sols-2-1",
   "level": "2",
-  "url": "sec-VIII-5-1.html#sec-VIII-5-1-2-1",
+  "url": "sec-VIII-5-1-sols.html#sec-VIII-5-1-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: Riemann Sums.",
-  "body": " Motivation: Riemann Sums      "
+  "body": " Motivation: Riemann Sums       We'll see that computing areas between curves is useful, and in general requires calculus concepts.   "
 },
 {
-  "id": "sec-VIII-5-1-2-2",
+  "id": "sec-VIII-5-1-sols-2-2",
   "level": "2",
-  "url": "sec-VIII-5-1.html#sec-VIII-5-1-2-2",
+  "url": "sec-VIII-5-1-sols.html#sec-VIII-5-1-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Introduction: Computing Areas.",
-  "body": " Introduction: Computing Areas   If a car travels meters per second, how far has it traveled after seconds?   "
+  "body": " Introduction: Computing Areas   If a car travels meters per second, how far has it traveled after seconds?    It travels meters, which when visualized graphically, is the area under velocity curve from to .  Computing this area was easy because it is a nice geometric shape. In general, this isn't straightforward (for example, what if your velocity curve was ?).  We'll start by trying to approximate these areas. See the Riemann sum interactive from class for the general approach.   "
 },
 {
-  "id": "sec-VIII-5-1-3-1",
+  "id": "sec-VIII-5-1-sols-3-1",
   "level": "2",
-  "url": "sec-VIII-5-1.html#sec-VIII-5-1-3-1",
+  "url": "sec-VIII-5-1-sols.html#sec-VIII-5-1-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Approximatin Areas Using Rectangles.",
-  "body": " Approximatin Areas Using Rectangles   We can approximate areas using rectangles, and we can choose   "
+  "body": " Approximatin Areas Using Rectangles   We can approximate areas using rectangles, and we can choose       the width of each rectangle (called ), and    how the height of each rectangle is determined on each subinterval of length .      "
 },
 {
-  "id": "sec-VIII-5-1-3-2",
+  "id": "sec-VIII-5-1-sols-3-2",
   "level": "2",
-  "url": "sec-VIII-5-1.html#sec-VIII-5-1-3-2",
+  "url": "sec-VIII-5-1-sols.html#sec-VIII-5-1-sols-3-2",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Definition: Riemann Sums.",
-  "body": " Definition: Riemann Sums   Given on the interval ,   "
+  "body": " Definition: Riemann Sums   Given on the interval ,       The right Riemann sum is     The left Riemann sum is       "
 },
 {
-  "id": "sec-VIII-5-1-4-1",
+  "id": "sec-VIII-5-1-sols-4-1",
   "level": "2",
-  "url": "sec-VIII-5-1.html#sec-VIII-5-1-4-1",
+  "url": "sec-VIII-5-1-sols.html#sec-VIII-5-1-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Riemann Sums.",
-  "body": " Example: Riemann Sums   Let on , and choose .   "
+  "body": " Example: Riemann Sums   Let on , and choose .    Then , and , .   "
 },
 {
-  "id": "sec-VIII-5-1-4-2",
+  "id": "sec-VIII-5-1-sols-4-2",
   "level": "2",
-  "url": "sec-VIII-5-1.html#sec-VIII-5-1-4-2",
+  "url": "sec-VIII-5-1-sols.html#sec-VIII-5-1-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "Positive vs. Negative Function Values.",
-  "body": " Positive vs. Negative Function Values      "
+  "body": " Positive vs. Negative Function Values       See course notes for a visual example. In general, it is important to remember that Riemann sums approximate the net signed area between a curve and the input axis, where area above the input axis is counted as positive, and area below the input axis is counted as negative.   "
 },
 {
   "id": "sec-VIII-5-2",
