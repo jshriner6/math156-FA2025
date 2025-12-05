@@ -3025,58 +3025,58 @@ var ptx_lunr_docs = [
   "body": " Positive vs. Negative Function Values       See course notes for a visual example. In general, it is important to remember that Riemann sums approximate the net signed area between a curve and the input axis, where area above the input axis is counted as positive, and area below the input axis is counted as negative.   "
 },
 {
-  "id": "sec-VIII-5-2",
+  "id": "sec-VIII-5-2-sols",
   "level": "1",
-  "url": "sec-VIII-5-2.html",
+  "url": "sec-VIII-5-2-sols.html",
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S VIII.5\\text{:}\\)<\/span> The Definite Integral",
-  "body": " : The Definite Integral    Motivation: The Definite Integral        Definition: Definite Integral   The definite integral of a continuous function on an interval is the number                                Properties of Definite Integrals        Practice: Properties of Definite Integrals   Compute .  Graph of a piecwise function g.       "
+  "body": " : The Definite Integral    Motivation: The Definite Integral       Riemann sums give us a way to estimate the net signed area between a curve and the input axis. We can combine this with calculus tools to compute area exactly.     Definition: Definite Integral   The definite integral of a continuous function on an interval is the number     .              We recognize this as the area of a triangle with base and height , so .           We recognize this as the area of a triangle with base and height minus the area of a triangle with base and height , so .           We recognize this as the area of a semi-circle with radius , so .        Properties of Definite Integrals                                       Practice: Properties of Definite Integrals   Compute .  Graph of a piecwise function g.            "
 },
 {
-  "id": "sec-VIII-5-2-2-1",
+  "id": "sec-VIII-5-2-sols-2-1",
   "level": "2",
-  "url": "sec-VIII-5-2.html#sec-VIII-5-2-2-1",
+  "url": "sec-VIII-5-2-sols.html#sec-VIII-5-2-sols-2-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Motivation: The Definite Integral.",
-  "body": " Motivation: The Definite Integral      "
+  "body": " Motivation: The Definite Integral       Riemann sums give us a way to estimate the net signed area between a curve and the input axis. We can combine this with calculus tools to compute area exactly.   "
 },
 {
-  "id": "sec-VIII-5-2-2-2",
+  "id": "sec-VIII-5-2-sols-2-2",
   "level": "2",
-  "url": "sec-VIII-5-2.html#sec-VIII-5-2-2-2",
+  "url": "sec-VIII-5-2-sols.html#sec-VIII-5-2-sols-2-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Definition: Definite Integral.",
-  "body": " Definition: Definite Integral   The definite integral of a continuous function on an interval is the number   "
+  "body": " Definition: Definite Integral   The definite integral of a continuous function on an interval is the number     .   "
 },
 {
-  "id": "sec-VIII-5-2-3-1",
+  "id": "sec-VIII-5-2-sols-3-1",
   "level": "2",
-  "url": "sec-VIII-5-2.html#sec-VIII-5-2-3-1",
+  "url": "sec-VIII-5-2-sols.html#sec-VIII-5-2-sols-3-1",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "                      "
+  "body": "        We recognize this as the area of a triangle with base and height , so .           We recognize this as the area of a triangle with base and height minus the area of a triangle with base and height , so .           We recognize this as the area of a semi-circle with radius , so .    "
 },
 {
-  "id": "sec-VIII-5-2-4-1",
+  "id": "sec-VIII-5-2-sols-4-1",
   "level": "2",
-  "url": "sec-VIII-5-2.html#sec-VIII-5-2-4-1",
+  "url": "sec-VIII-5-2-sols.html#sec-VIII-5-2-sols-4-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Properties of Definite Integrals.",
-  "body": " Properties of Definite Integrals      "
+  "body": " Properties of Definite Integrals                                     "
 },
 {
-  "id": "sec-VIII-5-2-4-2",
+  "id": "sec-VIII-5-2-sols-4-2",
   "level": "2",
-  "url": "sec-VIII-5-2.html#sec-VIII-5-2-4-2",
+  "url": "sec-VIII-5-2-sols.html#sec-VIII-5-2-sols-4-2",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Practice: Properties of Definite Integrals.",
-  "body": " Practice: Properties of Definite Integrals   Compute .  Graph of a piecwise function g.     "
+  "body": " Practice: Properties of Definite Integrals   Compute .  Graph of a piecwise function g.          "
 },
 {
   "id": "sec-VIII-6",
